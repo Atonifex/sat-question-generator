@@ -188,7 +188,7 @@ class QuestionReviser:
                 messages=[
                     {"role": "system","content": 
                         """You are an expert SAT question writer and reviser. Revise the following question based on the provided feedback"""},
-                    {"role": "user", "content": """Follow the feedback to revise the question. """ + json.dumps({"feedback": feedback,"question": question})}
+                    {"role": "user", "content": """Follow the feedback to revise the question. """ + json.dumps(question)}
                 ]
                 #If the feedback is 'Previous input perfect; don't change anything', then the output should equal the input.
             )
@@ -267,7 +267,7 @@ class QuestionReviser:
                     {
                         "role": "user",
                         "content": (
-                            f"""First, simulate solving the question from the perspective of two students' perspectives, showing the students' thoughts, observations, problem solving steps, strategies employed, possible mistakes made, as they answer the questions step by step. """
+                            f"""First, simulate solving the question from the perspective of two students' perspectives, using specific details from the question. This should show the students' thoughts, observations, problem solving steps, strategies employed, possible mistakes made, as they answer the question step by step. """
                             """1) A high-performing student aiming for 1550 out of 1600 who excels on Easy/Medium/Hard questions but struggles a little on very challenging questions. """
                             """2) A very below average student aiming for 900 out of 1600 who makes frequent mistakes and errors in grammar, math concepts, and reading comprehension."""
                             """Second, consider the students' sense making and problem solving, and assess the question rating and explanation rating, being very critical because you are the final reviewer before this question is released publicly to millions of students. Use the criteria below:\n"""
@@ -283,7 +283,7 @@ class QuestionReviser:
                             """   - 10: The explanation is perfect and is ready to be published to high school students to practice on our website.\n"""
                             """Last, summarize your thoughts and give specific constructive feedback, explaining reasoning for giving the question_rating and explanation_rating scores and includes suggestions for improving them..
                             
-                            \nQuestion to evaluate: {json.dumps(question)}"""
+                            \nQuestion to evaluate:""" + json.dumps(question)
                         ),
                     },
                 ],

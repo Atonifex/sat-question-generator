@@ -9,7 +9,7 @@ from datetime import datetime
 import time
 from typing import Dict, List
 from openai import OpenAI
-from src.config import OPENAI_API_KEY, DEFAULT_NUM_QUESTIONS, RESPONSE_FORMAT, SKILL_PROMPTS, REASONING_EFFORT, REQUEST_DELAY, OPENAI_MODEL, DIFFICULTY_GUIDELINES
+from src.config import OPENAI_API_KEY, DEFAULT_NUM_QUESTIONS, RESPONSE_FORMAT, SKILL_PROMPTS, REASONING_EFFORT, REQUEST_DELAY, OPENAI_MODEL, DIFFICULTY_GUIDELINES, OVERUSED_TOPICS
 from pathlib import Path
 import random
 
@@ -27,6 +27,7 @@ class QuestionGenerator:
         #self.max_completion_tokens = MAX_COMPLETION_TOKENS
         self.model = OPENAI_MODEL
         self.difficulty_guidelines = DIFFICULTY_GUIDELINES
+        self.overused_topics = OVERUSED_TOPICS
 
     
     def generate_batch(self, skill: str, difficulty: str, num_questions: int = 3) -> list:
@@ -80,15 +81,16 @@ class QuestionGenerator:
                     {"role": "developer", #use "developer" when using o3 and o1 models and "system" when using gpt-4o-2024-11-20
                     "content": 
                         """You are an expert Digital SAT question writer. Create an original, high-quality question that follows proper formatting specified:
-                        - Provide one correct answer choice and three plausible but incorrect answer choices. The correct answer choice should be random between A-D, meaning 25 percent D, 25 percent B, 25 percent C, and 25 percent A.
+                        - Provide one correct answer choice and three plausible but incorrect answer choices. The correct answer choice should equally likely to be A, B, C, or D.
                         - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
                         - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
                         - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
-                        - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question")"""},
+                        - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)"""},
                     {"role": "user", 
                     "content": 
                         """Generate a {skill} Digital SAT question at ***{difficulty}*** difficulty (very important) in the specified JSON format, following this checklist:
                         1. Include diverse real-world context in questions such as literature, history, social studies, science, technology, business context to create a valid question testing the {skill} skill. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
+                        2. The topic of the question should not be one of the overused topics: {OVERUSED_TOPICS}
                         2. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question and learn underlying concepts.
                         3. Design the question and answer choices to align with the {difficulty} description in these skill and difficulty guidelines; if there is no explicit description for {difficulty}, reason for how a high school student would consider to be {difficulty}. 
                         4. Use the {skill} skill guidelines: {skill_guidelines}. 

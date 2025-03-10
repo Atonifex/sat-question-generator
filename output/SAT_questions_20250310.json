@@ -116,6 +116,71 @@
       ],
       "answer": "C",
       "explanation": "To analyze the role of the underlined sentence in the passage, start by considering its connection to the rest of the text. The sentence provides specific information about funds Rita managed to secure for renovations, representing objective evidence that supports her campaign to preserve historical landmarks. This example demonstrates the success and impact of her efforts. \n\nA few common errors to avoid include: \n\n1. Misinterpreting the sentence as opposing Rita's mission (it supports her goals, not contrasts them).\n2. Assuming it's an unconnected anecdote or restatement (it's closely tied to the context and offers new, concrete evidence). \n\nThus, the correct answer is C: It shows tangible evidence supporting Rita’s mission, as this is the primary function of the sentence in the text's broader narrative."
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Easy",
+      "question": "Marine biologist Dr. Nina Chan led a multi-year study of humpback whales migrating through the southwestern Pacific. Over a five-year span, her team documented increasingly early arrivals each season, closely monitored regional water temperatures, and recorded changing prey availability at primary feeding sites.\n\nWhich inference is best supported by Dr. Chan’s findings?",
+      "choices": [
+        "A) The whales are responding exclusively to abundant prey, with no regard for temperature changes.",
+        "B) The research team’s methods are likely flawed because early arrivals conflict with standard migration predictions.",
+        "C) The whales’ migration timings may be influenced by environmental cues such as shifting ocean temperatures.",
+        "D) The whales’ earlier arrivals indicate a preference for nesting along warmer coastlines instead of open waters."
+      ],
+      "answer": "C",
+      "explanation": "To answer this question, examine the data suggesting that humpback whales arrive earlier and correlate arrival times with changing ocean temperatures. These details support the inference that the whales’ migratory behaviors are linked to environmental conditions. The study does not indicate errors in methodology, nor does it offer evidence that food availability or nesting preferences are the primary cause. Therefore, the most reasonable conclusion is that the whales’ earlier arrivals may be prompted by shifting ocean temperatures."
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Easy",
+      "question": "During the early 17th century, the Italian astronomer Galileo Galilei conducted precise experiments investigating how objects fall. Among these experiments, historical accounts suggest that Galileo dropped different objects from the Leaning Tower of Pisa to observe their motion. He measured the constant acceleration due to gravity as $9.8\\,m/s^2$, challenging the widely held belief that heavier objects fall faster. His detailed records documented times and distances for each experiment, illustrating a rigorous process of systematic testing. Galileo's work highlighted the significance of observation and experiment in deriving scientific conclusions rather than relying on untested assumptions or inherited tradition.\n\nWhich statement is best supported by the passage regarding Galileo’s approach to scientific research?",
+      "choices": [
+        "A. He believed philosophical teachings were sufficient for scientific truth.",
+        "B. He advocated discarding experimental records to avoid confusion.",
+        "C. He prioritized empirical observation over commonly held beliefs.",
+        "D. He concluded that the rate of acceleration depends heavily on mass."
+      ],
+      "answer": "C",
+      "explanation": "Galileo’s experiments and detailed documentation demonstrate his emphasis on empirical observation rather than adherence to traditional beliefs or assumptions. Choice C is correct as it captures Galileo's reliance on observable evidence in contrast to commonly held but untested ideas. Choices A, B, and D either misrepresent his methods or offer conclusions that contradict historical accounts of his findings."
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Easy",
+      "question": "While analyzing a series of letters from the early 15th century, historian Dr. Moran discovered that King Henry V consistently acknowledged the strategic advice of his council members, particularly regarding foreign alliances. The letters reflect *the king's unwavering trust* in their expertise and reveal _the monarchy's underlying reliance_ on collaborative governance. \n\nBased on the evidence in the passage, what is a reasonable inference about the governance style of King Henry V as presented by Dr. Moran?",
+      "choices": [
+        "A) King Henry V used advice from his council only as a formality and did not rely on it heavily.",
+        "B) King Henry V valued and often implemented the advice given by his council.",
+        "C) King Henry V maintained autonomy and seldom consulted his council for significant decisions.",
+        "D) King Henry V viewed council advice as secondary to his own judgment."
+      ],
+      "answer": "B",
+      "explanation": "The passage highlights that King Henry V consistently acknowledged the advice of his council members and revealed an underlying reliance on collaborative governance, showing a preference for implementing advice when making significant decisions. Option B aligns with this analysis. Choices A, C, and D contradict Dr. Moran's depiction of Henry V's governance style as cooperative rather than unilateral."
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Easy",
+      "question": "Renowned environmental economist Dr. Gupta recently unveiled a new framework to gauge a country's ecological resilience. She suggests measuring annual $CO_2$ output while taking into account factors such as total forest coverage and water consumption. According to Dr. Gupta, implementing these criteria will help nations pinpoint priorities for preserving natural resources.\n\nWhat can be reasonably inferred from Dr. Gupta's approach?",
+      "choices": [
+        "A. Dr. Gupta's framework eliminates the need for any foreign investment in environmental programs",
+        "B. Dr. Gupta suggests halting industrial production until $CO_2$ emissions become negligible",
+        "C. Dr. Gupta incorporates multiple environmental indicators to guide countries toward smarter sustainability goals",
+        "D. Dr. Gupta calls for relocating populations to areas where forest space is more abundant"
+      ],
+      "answer": "C",
+      "explanation": "Dr. Gupta's framework integrates various factors, such as $CO_2$ emissions, forest coverage, and water consumption, to assess ecological resilience. This indicates a comprehensive approach aimed at guiding countries toward better sustainability strategies. Here's a breakdown of why the correct inference is Choice C:\n\nChoice A incorrectly assumes the framework negates the need for foreign investment, which is neither implied nor mentioned in the text.\nChoice B is speculative and overly radical, suggesting an extreme measure not associated with Dr. Gupta's proposal.\nChoice C reflects Dr. Gupta's stated method of using multiple indicators to inform and refine ecological decision-making processes.\nChoice D introduces a concept of population relocation based on forest space, which is neither addressed nor supported by the given information."
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Easy",
+      "question": "In a recent editorial published in *The Earth Chronicle*, environmental researcher Dr. Morales described how **commitment** to drastically reducing plastic waste is essential for mitigating the harmful effects on wildlife. Dr. Morales cited _extensive data_ showing that microplastics can contaminate food supplies, harm marine life, and increase public health risks.\n\nWhich conclusion is best supported by Dr. Morales’ remarks in the editorial?",
+      "choices": [
+        "A. Dr. Morales believes that most plastic pollution arises solely from manufacturing facilities located in coastal areas.",
+        "B. Dr. Morales infers that decreasing excessive consumer usage of plastics is necessary to protect both marine ecosystems and human health.",
+        "C. Dr. Morales recommends focusing efforts primarily on recycling campaigns rather than investing in pollution research.",
+        "D. Dr. Morales suggests that strict bans on plastic imports are the only proven way to prevent environmental damage."
+      ],
+      "answer": "B",
+      "explanation": "Dr. Morales explains that microplastics cause harm to both marine life and human populations and contends that reducing plastic use can help mitigate these issues. Specifically, the editorial highlights that microplastics affect food supplies and pose a danger to marine and public health, strongly suggesting the necessity of reducing excessive consumer reliance on plastics. \n\n Option A is unsupported because the text makes no reference to coastal manufacturing. \n Option C is incorrect since no preference for recycling campaigns is given. \n Option D is overly restrictive, and no evidence in the text implies such a stance."
     }
   ]
 }

@@ -34,6 +34,10 @@ VALID_SKILLS = [
     #'Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 'Exponential Word Problems', 'Geometry', 'Interpreting Graphs', 'Linear Equations', 'Linear Word Problems', 'Inequality Word Problems', 'Percent', 'Polynomial Expressions', 'Probability', 'Quadratic Equations', 'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
 ]
 
+OVERUSED_TOPICS = [ #These are generated way too frequently. Harriet Tubman was literally 20% of all questions initially lol.
+    'Harriet Tubman'
+]
+
 DIFFICULTY_GUIDELINES = {
     "Easy": (
         'Easy-difficulty questions should be straightforward and easy to understand for a high school student. This means there is straightforward evidence, problem solving, hints, or other information that can be used to solve the question.'),
