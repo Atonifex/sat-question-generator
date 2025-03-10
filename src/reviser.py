@@ -115,8 +115,8 @@ class QuestionReviser:
         # Load and filter questions from JSON file
         with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
-            filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty]
-        
+            #filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty]
+            filtered_questions = [q for q in data['questions'] if q['skill'] == skill]
         # Load skill-specific formatting and difficulty guidelines
         skill_guidelines = self.skill_prompts.get(skill)
         difficulty_guidelines = self.difficulty_guidelines.get(difficulty)
@@ -151,7 +151,7 @@ class QuestionReviser:
                      2. Is there sufficient information given to determine the correct answer?
                      3. Is there exactly one correct answer with 3 plausible but clearly incorrect choices?
                      4. Does the explanation align with the correct answer, and would it be actually educational and insightful to a high school student? If not, what would improve it? Consider SAT tips, strategies, or core knowledge to impart quickly. Generally the first sentence should be succinct in explaining the core reasoning, with the next 1-2 sentences expanding on it or modeling steps in logical thinking or Math. Finally, 1-2 sentences can explain why the incorrect answers are wrong.
-                     5. Is the formatting correct? For example, the spacing between paragraphs should be \\n\\n, but there should be no \\n between sentences in a continuous paragraph; confirm that Math expressions use LaTeX with "$" before and after math expressions?
+                     5. Is the formatting correct? For example, the spacing between paragraphs should be \\n\\n, but there should be no \\n between sentences in a continuous paragraph; confirm that Math expressions use LaTeX with "$" before and after math expressions.
                      6. Does the question align with the {difficulty} difficulty specified in the guidelines? IF not, change the 'difficulty' in the JSON output to {difficulty}, and adjust complexity of language and reasoning to match. Reference the skill guidelines here: {skill_guidelines}. Now also reference the difficulty guidelines here to ensure the perceived difficulty of the question is indeed {difficulty}:{difficulty_guidelines}
                     
                     For reference, here are a few example {skill} questions at varying difficulties:

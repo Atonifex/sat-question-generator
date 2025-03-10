@@ -26,11 +26,11 @@ OUTPUT_DIR = BASE_DIR / 'output'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Question Generation Settings
-DEFAULT_NUM_QUESTIONS = 5
+DEFAULT_NUM_QUESTIONS = 3
 VALID_DIFFICULTIES = ["Easy", "Medium", "Hard"]
 VALID_SKILLS = [
-    'Function of Sentence'
-    #, 'Inferences', 'Main Idea', 'Pronouns and Modifiers', 'Punctuation', 'Referencing Data', 'Supporting Claims', "Synthesizing Notes", 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice',
+    'Function of Sentence', 'Inferences', 'Main Idea',
+    #,  'Pronouns and Modifiers', 'Punctuation', 'Referencing Data', 'Supporting Claims', "Synthesizing Notes", 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice',
     #'Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 'Exponential Word Problems', 'Geometry', 'Interpreting Graphs', 'Linear Equations', 'Linear Word Problems', 'Inequality Word Problems', 'Percent', 'Polynomial Expressions', 'Probability', 'Quadratic Equations', 'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
 ]
 
