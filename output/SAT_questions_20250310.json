@@ -1,0 +1,121 @@
+{
+  "questions": [
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "Rachel Carson’s book *Silent Spring* introduced the public to harsh environmental consequences of pesticide use. She examined the chemical compound with formula $C_{14}H_9Cl_5$ (DDT), demonstrating how it accumulated in food chains. Because of the extensive data she compiled from $n$ separate field experiments, policymakers started recognizing a link between chemical usage and declining wildlife populations. _By drawing on multiple studies, Carson emphasized how seemingly small amounts of pesticides could cause wide-reaching harm across entire ecosystems._ Carson’s argument significantly influenced environmental lawmaking, showcasing how scientific research can shape public policy.\\n\\nIn the context of the paragraph, what is the primary function of the underlined sentence?",
+      "choices": [
+        "A) To highlight Carson’s personal experiences using pesticides",
+        "B) To provide explicit support for Carson’s broader claim about environmental harm",
+        "C) To refute an alternative scientific viewpoint on pesticide safety",
+        "D) To illustrate how government officials immediately enacted new regulations"
+      ],
+      "answer": "B",
+      "explanation": "The underlined sentence serves to substantiate Rachel Carson’s broader assertion about the environmental damage caused by pesticides. By referring to the general mechanism of harm (how small amounts of pesticides can have extensive repercussions throughout ecosystems), it provides further evidence to the initial claim in the paragraph regarding pesticides’ pervasive consequences.\\n\\n**Explanation for incorrect choices:**\\n\\n- Choice A is incorrect because the sentence does not discuss Carson's personal experiences but rather her analysis and findings from multiple studies.\\n- Choice C is incorrect, as there is no alternative viewpoint presented or refuted in this part of the text.\\n- Choice D misrepresents the context; the underlined sentence does not discuss immediate governmental action but focuses on Carson's analysis of ecosystem-wide pesticide harm."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "In her research on the nature of energy, a physicist describes how the equation $E = mc^2$ revolutionized the study of subatomic particles by linking mass and energy into a single concept that ignited numerous breakthroughs in the mid-20th century. _This relationship clarified that even small amounts of mass could be transformed into tremendous amounts of energy, revealing new opportunities for scientific exploration._ In subsequent experiments, scientists used this principle to develop novel technologies and deepen our understanding of the atom. \n\nWhich choice best describes the function of the underlined sentence in the context of the paragraph?",
+      "choices": [
+        "A. It contrasts the scientist’s findings with an alternate theory.",
+        "B. It anticipates and dismisses a potential counterargument about the validity of $E = mc^2$.",
+        "C. It introduces a historical anecdote about the discovery of subatomic particles.",
+        "D. It emphasizes how a modest insight can lead to major advancements in scientific thought."
+      ],
+      "answer": "D",
+      "explanation": "The underlined sentence emphasizes the broad implications of the equation $E = mc^2$, particularly how even a small amount of mass can transmute into a significantly large amount of energy. This underscores the extraordinary impact of scientific principles like $E = mc^2$ on shaping modern scientific exploration. By demonstrating the scalability of the principle, the underlined sentence functions to showcase how concepts initially perceived as subtle can catalyze substantial advancements in human knowledge and application.\n\nChoice A is incorrect because there is no contrasting theory presented in the paragraph. Choice B is incorrect because the underlined sentence does not work to dismiss potential counterarguments or validate $E = mc^2$ against opposition. Choice C conflates the contextual purpose with narration; the underlined sentence is factual and explanatory, not anecdotal."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "While researching the invention of the printing press, historian Mary Brown discovered a series of letters that documented the personal struggles Johannes Gutenberg faced during his early attempts to gain financial backing. _One letter, dated August 12, 1439, revealed how Gutenberg's inability to secure a stable investment delayed the entire printing press project._ The letter also mentioned that local merchants were hesitant to invest in a venture they considered too risky, reflecting broader societal skepticism toward untested technologies.\n\nWhich statement best describes the function of the underlined sentence in the passage?",
+      "choices": [
+        "A) It demonstrates that Mary Brown directly funded Gutenberg's project.",
+        "B) It highlights Gutenberg's success in overcoming public doubts.",
+        "C) It provides concrete evidence about the financial difficulties Gutenberg faced.",
+        "D) It corrects a misconception about the date of Gutenberg's invention."
+      ],
+      "answer": "C",
+      "explanation": "The underlined sentence serves to provide concrete evidence of a specific challenge faced by Johannes Gutenberg—his difficulty securing stable financial backing, which delayed the progress of the printing press project. This directly aligns with the idea of documenting financial struggles. It does not suggest external funding (choice A), highlight overcoming skepticism (choice B), or address historical misconceptions about dates (choice D). The key is to identify how the underlined sentence functions within the passage, with a focus on the described obstacles."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "Marie Curie (1867–1934) was a pioneering scientist known for her groundbreaking research on radioactivity. She conducted experiments that led to the discovery of the elements polonium and radium. _Her achievements paved the way for later developments in nuclear physics._ She also established practical applications of her work, including the use of X-rays in battlefield hospitals. \n\nWhich choice best describes the function of the underlined sentence in the overall text?",
+      "choices": [
+        "A) It emphasizes the unexpected challenges Curie encountered in her experiments.",
+        "B) It highlights the immediate practical benefits of Curie's discoveries.",
+        "C) It clarifies how Curie's findings differ from those of other scientists.",
+        "D) It shows the broader influence of Curie's accomplishments on scientific progress."
+      ],
+      "answer": "D",
+      "explanation": "The underlined sentence highlights the long-term importance of Marie Curie's research, detailing how her achievements influenced the progress of nuclear physics. It contextualizes her work within the broader scope of scientific advancements, demonstrating her impact on the field. The statement does not reference personal challenges (Choice A), directly discuss immediate applications (Choice B), or compare her work with others' (Choice C). Thus, the correct answer is Choice D."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Medium",
+      "question": "The following excerpt is from a historical text describing the efforts of an influential suffragist in the early 20th century:\n\n\"Susan B. Anthony spent decades traveling across the country, delivering passionate speeches on women’s rights. _She believed that by uniting a diverse coalition of supporters, the movement could gain unstoppable momentum._ Her tireless dedication and leadership laid a foundation for future generations to build upon.\"\n\nIn the context of the passage, what function does the underlined sentence primarily serve?",
+      "choices": [
+        "A) It emphasizes how Anthony’s background inspired her ideas.",
+        "B) It highlights a significant obstacle Anthony had to overcome.",
+        "C) It explains the strategic rationale behind Anthony’s approach.",
+        "D) It provides a critique of Anthony’s effectiveness as a speaker."
+      ],
+      "answer": "C",
+      "explanation": "The underlined sentence points to Susan B. Anthony’s strategy for advancing the suffrage cause. By describing her belief in forming a broad alliance, the sentence shows why she worked tirelessly to bring people from different backgrounds together. High school students can see that this sentence serves as a rationale for how she intended to achieve her goals: if supporters rallied behind a common purpose, the movement would gain momentum. Thus, the best answer highlights the strategic explanation provided by that sentence."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Hard",
+      "question": "Read the following excerpt from a recent interview with archaeologist Margaret Collins about her excavation work:\n\n\"In the newly uncovered site, my team and I discovered a range of stone tools fashioned for both everyday use and ceremonial practices. _However, the most intriguing artifacts were small carvings depicting the region’s abundant wildlife, each rendered with remarkable accuracy._ These artifacts suggest that the people who lived here not only depended on local fauna for subsistence, but also revered them through artistic expression.\"\n\nWhich best describes the primary function of the underlined sentence in the context of the excerpt?",
+      "choices": [
+        "A) To criticize the researchers’ methods in recovering fragile carvings",
+        "B) To introduce a contrasting viewpoint about the significance of the tools",
+        "C) To summarize the previous sentence by elaborating on the variety of artifacts",
+        "D) To emphasize the profound cultural and artistic value associated with certain finds"
+      ],
+      "answer": "D",
+      "explanation": "The underlined sentence draws attention to the detailed and accurate carvings depicting wildlife, shifting the focus towards the artistic significance of these objects rather than their utilitarian purpose. This supports the idea that the carvings provide insight into the cultural values of the people, emphasizing their artistic and cultural connections."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Hard",
+      "question": "During the early 1900s, Marie Curie pioneered the study of radioactivity. _She discovered polonium and radium and was the first woman to win a Nobel Prize._  In describing her success, some historians highlight her unwavering determination, while others focus on her collaborative spirit.  \n  \nWhich choice best describes the function of the underlined sentence in the overall text?",
+      "choices": [
+        "A) It juxtaposes Curie’s groundbreaking discoveries with later interpretations of her scientific legacy, thereby setting up a nuanced discussion of her impact.",
+        "B) It enumerates her major accomplishments to substantiate her pioneering status, providing evidence for her role as a trailblazer in science.",
+        "C) It shifts the focus from technical achievements to a broader historical narrative, thereby implicitly critiquing other scientists’ contributions.",
+        "D) It introduces an unrelated biographical detail that serves to divert attention away from the central theme of scientific innovation."
+      ],
+      "answer": "B",
+      "explanation": "The underlined sentence enumerates Marie Curie’s major scientific accomplishments, which include her discoveries of polonium and radium and being the first woman to win a Nobel Prize. These details are provided to substantiate her role as a pioneering figure in the scientific community. This supports choice B. Option A inaccurately implies a comparative discussion that is absent from the text, C discusses broader narratives or critiques which are not offered in the passage, and D suggests the sentence details are irrelevant, which misrepresents its purposeful inclusion in underscoring Curie's contributions to science."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "Read the following excerpt from a passage describing the obstacles faced by environmental scientists:\n\nHigh levels of pesticide usage on farmland have raised concerns about long-term ecological damage. Dr. Martinez, a renowned environmental scientist, conducted numerous field experiments and concluded that reducing chemical applications can protect helpful soil microbes without significantly lowering crop yields. _Yet many government agencies remain hesitant to revise existing regulations, citing the need for more extensive trials before implementing new guidelines._\n\nWhich choice best describes the function of the underlined sentence in the context of the passage?",
+      "choices": [
+        "A) It summarizes the evidence Dr. Martinez gathered to support her findings.",
+        "B) It points out a potential obstacle to acting on Dr. Martinez’s recommendations.",
+        "C) It highlights how pesticide usage eliminates all harmful pests across farmland.",
+        "D) It introduces a specific counterargument that directly disproves Dr. Martinez’s work."
+      ],
+      "answer": "B",
+      "explanation": "The underlined sentence explains that government agencies are reluctant to change pesticide regulations without additional trials, presenting a real-world challenge to implementing Dr. Martinez's recommendations. The function of the sentence is to reveal a key obstacle, providing depth to the narrative of difficulties faced by environmental scientists. Students should analyze how sentences contribute to the development of the passage and identify how challenges or constraints are presented within the text."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Hard",
+      "question": "Rita founded an organization that helps restore the historical landmarks in her hometown. She noticed that many old buildings were being torn down to make room for new developments and wanted to preserve each site’s unique place in the community’s story. She fervently believed that these structures were more than just walls and wood; they carried cultural and educational value for future generations. _By rallying her neighbors and working collaboratively with the local government, she managed to secure grants totaling \\$2,000,000 to renovate key landmarks._\n\nWhich best describes the function of the underlined sentence in the overall text?",
+      "choices": [
+        "A. It illustrates a contrasting viewpoint that opposes Rita’s plan.",
+        "B. It frames a personal anecdote unconnected to the passage's main idea.",
+        "C. It shows tangible evidence supporting Rita’s mission.",
+        "D. It restates the community’s emotional ties to the landmarks."
+      ],
+      "answer": "C",
+      "explanation": "To analyze the role of the underlined sentence in the passage, start by considering its connection to the rest of the text. The sentence provides specific information about funds Rita managed to secure for renovations, representing objective evidence that supports her campaign to preserve historical landmarks. This example demonstrates the success and impact of her efforts. \n\nA few common errors to avoid include: \n\n1. Misinterpreting the sentence as opposing Rita's mission (it supports her goals, not contrasts them).\n2. Assuming it's an unconnected anecdote or restatement (it's closely tied to the context and offers new, concrete evidence). \n\nThus, the correct answer is C: It shows tangible evidence supporting Rita’s mission, as this is the primary function of the sentence in the text's broader narrative."
+    }
+  ]
+}

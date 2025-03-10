@@ -1,0 +1,59 @@
+
+
+--- Parse Error Entry ---
+Error code: 404 - {'error': {'message': 'The model `gpt-4o-11-20` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+
+
+--- Parse Error Entry ---
+Error code: 404 - {'error': {'message': 'The model `gpt-4o-11-20` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+
+
+--- Parse Error Entry ---
+Error code: 404 - {'error': {'message': 'The model `gpt-4o-11-20` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+
+
+--- Parse Error Entry ---
+Error code: 404 - {'error': {'message': 'The model `gpt-4o-11-20` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+
+
+--- Parse Error Entry ---
+Error code: 404 - {'error': {'message': 'The model `gpt-4o-11-20` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+
+
+--- Parse Error Entry ---
+Invalid response format: The table shows the amount of money, $m$, in dollars, that a food truck earns after selling $n$ crepes:
+
+\[
+\begin{array}{|c|c|}
+\hline
+\text{Number of Crepes Sold (n)} & \text{Money Earned (m)} \\
+\hline
+10 & 120 \\
+\hline
+15 & 165 \\
+\hline
+\end{array}
+\]
+
+The relationship between the number of crepes sold and the money earned is linear, which can be expressed as $m = an + b$, where $a$ and $b$ are constants. 
+
+What is the value of $a$?
+
+
+--- Parse Error Entry ---
+Invalid response format: {
+    "test": "4",
+    "module": "Math Module 1",
+    "question_number": "15",
+    "skill": "Linear Equations",
+    "difficulty": "Medium",
+    "question": "A coffee shop charges $\$1.50$ for a bagel and $\$2.00$ for a cup of coffee. One morning, the shop sold a total of 110 items and made $\$215$. If $b$ represents the number of bagels and $c$ represents the number of cups of coffee, which system of equations could be used to determine how many of each item were sold?",
+    "choices": [
+      "A) $1.5b + 2c = 215$ and $b + c = 110$",
+      "B) $1.5b + 2c = 110$ and $b + c = 215$",
+      "C) $1.5c + 2b = 215$ and $c + b = 110$",
+      "D) $1.5c + 2b = 110$ and $c + b = 215$"
+    ],
+    "answer": "",
+    "explanation": ""
+  }

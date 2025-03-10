@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "Lavender fields provide a fertile pollination ground for honeybees. _These vibrant flowers bloom seasonally, offering ample nectar for the insects to gather and thereby supporting hive growth._ Local farmers are particularly reliant on healthy honeybee populations, since they significantly influence the yield of essential oils derived from lavender.\n\nWhich choice best describes the function of the underlined sentence in the overall text?",
+      "choices": [
+        "A. To emphasize the aesthetic appeal of lavender fields and their effect on tourism",
+        "B. To suggest that lavender flowers are more important than healthy soil for growing crops",
+        "C. To provide evidence of how lavender fields nurture strong honeybee colonies",
+        "D. To argue that local farmers should immediately switch to alternative pollinators"
+      ],
+      "answer": "C",
+      "explanation": "Choice C is correct because the underlined sentence provides concrete evidence of how lavender fields support honeybee colonies. Specifically, it explains that the nectar available from lavender flowers during their seasonal bloom aids in the growth of hives. This detail substantiates the broader claim about the importance of lavender fields to pollination in the first sentence. Choice A is incorrect because the text does not discuss tourism or aesthetics. Choice B is irrelevant, as the passage does not compare the relative importance of soil and flowers. Choice D is also incorrect, as there is no suggestion that local farmers should replace pollinators. By understanding the main claim of the passage and considering how the underlined sentence supports it, one can eliminate incorrect alternatives and identify the best answer."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Medium",
+      "question": "Harriet Tubman (1822–1913) is widely remembered for her courage and unwavering commitment to freedom. During the tumultuous mid-1800s, defying both danger and convention, she repeatedly risked her life by venturing south — not solely to rescue enslaved individuals but to forge a legacy of resistance. She also served as a spy and scout for the Union Army, gathering valuable information behind enemy lines. Her real-life deeds highlight the power of individual determination.\n\nWhat is the primary rhetorical function of the second sentence of the passage?",
+      "choices": [
+        "A. To provide a direct quotation about Harriet Tubman’s role in the Union army",
+        "B. To present additional context regarding Tubman’s extensive efforts and their significance",
+        "C. To assert a personal viewpoint about Tubman’s historical achievements",
+        "D. To draw a comparison between Tubman's methods and those of her contemporaries"
+      ],
+      "answer": "B",
+      "explanation": "The second sentence elaborates on Harriet Tubman’s actions to reinforce the concept of her bravery and commitment. By detailing her repeated missions to the South despite substantial risks, the sentence adds depth to the reader’s understanding of her legacy. \n\nExplanation of choices: \n- (A) is incorrect because the sentence does not include any dialogue or direct quote. \n- (B) is correct as it conveys details that add nuanced context about Tubman’s extensive and courageous actions. 'Additional context' in rhetorical terms refers to providing details that enhance understanding without changing the text's primary tone or message.\n- (C) is incorrect because the sentence does not exhibit any evaluative stance or subjective endorsement of Tubman’s actions—it remains descriptive. \n- (D) is incorrect as no explicit comparison between Tubman’s efforts and her contemporaries is provided; the focus remains on her deeds."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "Read the following passage:\n\nDr. Lopez spent years studying efficient energy transfer methods. In her calculations, she used the equation $F=ma$ to measure the force required for the project’s apparatus and collected extensive data on energy consumption. She published her initial results in a brief report. _Then she wrote a letter to her colleagues urging them to replicate the experiment on a larger scale._ Over time, the scientific community recognized her findings, which led to **significant** progress in sustainable technology.\n\nWhich best describes the function of the underlined sentence in the passage?\n",
+      "choices": [
+        "A) It provides a counterargument that questions her previous findings.",
+        "B) It calls for collaboration by encouraging others to conduct further tests.",
+        "C) It summarizes the data that Dr. Lopez assembled over the years.",
+        "D) It highlights a direct comparison between alternative research approaches."
+      ],
+      "answer": "B",
+      "explanation": "The underlined sentence requests that colleagues repeat Dr. Lopez’s experiment, indicating her desire for confirmation and broader testing of her claims.\n\n• Dr. Lopez’s use of $F=ma$ to measure force sets the scientific context.\n• The sentence in question does not challenge or summarize her findings; it reaches out for additional collaboration.\n• Replicating an experiment is a standard step in verifying results, which aligns with Dr. Lopez’s plan for further validation and acceptance in the scientific community."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Medium",
+      "question": "In the following excerpt from *Ecological Horizons*, a researcher discusses a new reforestation project:\n\nStriving to address the region’s severe deforestation, Dr. Morales and her team planted thousands of native saplings in 1980. Their early data indicated a survival rate of $71\\%$ for newly planted trees, suggesting that these saplings adapted well to the unique climate. _If successful, this initiative could serve as a model that other deforested regions worldwide may follow._ Encouraged by these promising results, the team applied for additional funding to expand the project and rejuvenate deforested areas.\n\nWhich choice best describes the main function of the underlined sentence in the context of the paragraph?",
+      "choices": [
+        "A. It emphasizes the historical causes of the area’s environmental challenges.",
+        "B. It contradicts the earlier reference to a positive outcome for the region.",
+        "C. It directly challenges the premise that local efforts cannot become widespread interventions.",
+        "D. It positions the potential success of the project as a guide for similar efforts in other locations."
+      ],
+      "answer": "D",
+      "explanation": "The underlined sentence highlights that, if the reforestation program proves effective, it might pave the way for similar efforts around the globe. It does not merely discuss historical causes, nor does it contradict the previous positive findings. Rather, it points to the future global impact by presenting this project as an example that others could follow. Therefore, the correct choice is the one that best summarizes how the sentence positions the project’s potential benefits for broader application."
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Hard",
+      "question": "Scientists studying ancient artifacts have recently uncovered fascinating inscriptions that shed light on the societal structure of a previously lesser-known civilization. These inscriptions detail various aspects of daily life, such as food preparation and pottery craftsmanship. \n\nHowever, one particular inscription stands out: \"The communal gathering sites show evidence of carefully orchestrated ceremonies,\" providing researchers with evidence of the civilization's use of collective rituals. The researchers propose that these ceremonies were essential for maintaining societal cohesion, establishing shared traditions and collective identity.\n\nWhich choice best describes the function of the quoted sentence (\"The communal gathering sites...\") within the paragraph?",
+      "choices": [
+        "A) It offers an isolated observation that contrasts with other mundane details in the passage.",
+        "B) It compares ceremonial practices indirectly with everyday activities, thereby underscoring their atypical significance.",
+        "C) It introduces an apparent anomaly in the description of the society that is later resolved by the researchers’ interpretation.",
+        "D) It provides support for the idea that a sense of unity was central to the society’s culture."
+      ],
+      "answer": "D",
+      "explanation": "The sentence highlights evidence of organized ceremonies held at communal gathering sites, supporting the researchers' claim that such rituals were integral to maintaining cohesion in the civilization. The detail serves to illustrate the significance of these cultural practices in fostering unity. Option A is incorrect because the sentence aligns with the researchers' conclusions rather than serving as a mere contrast. Option B is not appropriate as no direct comparison is made. Option C misrepresents the sentence as presenting a contradiction, which is not the case."
+    }
+  ]
+}
