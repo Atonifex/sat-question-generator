@@ -51,8 +51,10 @@ class QuestionGenerator:
             # Load and filter questions from JSON file
             with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only
-                #filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty] #skill and difficulty
+                filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty] #skill and difficulty
+                if len(filtered_questions) < 4:
+                    filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only - expand the pool
+                
 
             #Load skill-specific formatting and difficulty guidelines
             skill_guidelines = self.skill_prompts.get(skill)
@@ -89,7 +91,16 @@ class QuestionGenerator:
                     {"role": "user", 
                     "content": 
                         """Generate a {skill} Digital SAT question at ***{difficulty}*** difficulty (very important) in the specified JSON format, following this checklist:
-                        1. Include diverse real-world context in questions such as literature, history, social studies, science, technology, business context to create a valid question testing the {skill} skill. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
+                        1. Include diverse real-world context in questions to create a valid question testing the {skill} skill. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n). Reference real context in one of these categories:
+                        - real excerpts from classic literature (i.e. a poem, a short story, a novel which is in the public domain, including anything from works of Homer, Shakespeare, Austen, Dickens, Dostoevsky, Tolstoy, as well as lesser known authors)
+                        - historical events, leaders, and movements (i.e. excerpts from historical documents, speeches, or books about real historical figures and events in American, European, or world history)
+                        - real studies or experiments in social studies (economics, psychology, sociology, anthropology, etc.) 
+                        - real studies or experiments in hard sciences (physics, chemistry, biology, etc.)
+                        - real technology, business, or finance (i.e. excerpts from business magazines, articles, or books about real startups, companies, or industries)
+                        - art, music, film, fashion, or sports (i.e. descriptions of pieces created or events/movements in famous artworks, movies, songs, athletes, or fashion designers)
+                        - philosophy, ethics, or political science (i.e. excerpts from Federalist Papers, iconic Supreme Court cases, famous philosophers' works like Plato, Aristotle, Kant, Kierkegaard, Hume, Camus, and other cultures' philosophers, etc.)
+                        - current events and pop culture (i.e. excerpts from popular news sources, social media, or cultural references)
+                        
                         2. The topic of the question should not be one of the overused topics: {OVERUSED_TOPICS}
                         2. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question and learn underlying concepts.
                         3. Design the question and answer choices to align with the {difficulty} description in these skill and difficulty guidelines; if there is no explicit description for {difficulty}, reason for how a high school student would consider to be {difficulty}. 

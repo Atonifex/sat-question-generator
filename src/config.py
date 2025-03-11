@@ -26,8 +26,8 @@ OUTPUT_DIR = BASE_DIR / 'output'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Question Generation Settings
-DEFAULT_NUM_QUESTIONS = 3
-VALID_DIFFICULTIES = ["Easy", "Medium", "Hard"]
+DEFAULT_NUM_QUESTIONS = 5
+VALID_DIFFICULTIES = ["Medium", "Hard"] #"Easy", 
 VALID_SKILLS = [
     'Function of Sentence', 'Inferences', 'Main Idea',
     #,  'Pronouns and Modifiers', 'Punctuation', 'Referencing Data', 'Supporting Claims', "Synthesizing Notes", 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice',
@@ -43,13 +43,27 @@ DIFFICULTY_GUIDELINES = {
         'Easy-difficulty questions should be straightforward and easy to understand for a high school student. This means there is straightforward evidence, problem solving, hints, or other information that can be used to solve the question.'),
     "Medium": (
         'Medium-difficulty questions can include traps such as:'
-        'Tempting incorrect answers that may be partially correct but have an incorrect portion (i.e. correct conclusion but for the wrong reason; shows evidence of some correct Math steps but a misunderstanding or mistake in other Math steps).'
+        'Tempting incorrect answers that are partially correct but have an incorrect portion (i.e. correct conclusion but for the wrong reason; shows evidence of some correct Math steps but a misunderstanding or mistake in other Math steps).'
         'Misleading statements (like oversimplifications, overgeneralizations, conclusions without specific evidence, incorrect conclusions based on evidence, etc.) that tempt students to answer too quickly without fully reading the question.'
     ),
     "Hard": (
-        'Hard-difficulty questions should include complex answer choice traps and nuanced reasoning. Here are additional guidelines for answer choices'
-        'Incorrect answers that seem correct due to plausible reasoning but are subtly flawed (i.e. correct conclusion but for the wrong reason; shows evidence of some correct Math steps but a misunderstanding or mistake in other Math steps).'
-        'Over-complication traps: Use precise, challenging academic, scientific, literary, or historic language but avoid needlessly convoluted phrasing.'
+        'Hard-difficulty questions MUST include ALL of the following elements:\n'
+        '1. Complex vocabulary and advanced language usage appropriate for college-bound students (SAT 75th-90th percentile)\n'
+        '2. Multi-step reasoning processes requiring synthesis of multiple concepts or pieces of information\n'
+        '3. Sophisticated distractors that appear correct through partial analysis but contain subtle flaws\n'
+        '4. At least one of these advanced elements:\n'
+        '   - Requires identifying unstated assumptions or implications in text\n'
+        '   - Demands evaluation of competing perspectives or theories\n'
+        '   - Necessitates distinguishing between correlation and causation\n'
+        '   - Involves recognizing subtle rhetorical strategies or logical fallacies\n'
+        '   - Requires application of concepts to novel or abstract scenarios\n'
+        '   - For math: combines multiple mathematical concepts or requires insight beyond formula application\n'
+        '5. Answer choices should include sophisticated traps such as:\n'
+        '   - Options that would be correct if the question were asking something slightly different\n'
+        '   - Options that match surface-level details but miss deeper meaning\n'
+        '   - Options that represent common misconceptions or oversimplifications\n'
+        '   - Options that seem plausible based on partial information but fail when all information is considered\n'
+        'Hard questions should challenge even high-performing students (1400+ SAT scorers) and require careful, thorough analysis.'
     )    
 }
 SKILL_PROMPTS = {

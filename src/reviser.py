@@ -115,8 +115,10 @@ class QuestionReviser:
         # Load and filter questions from JSON file
         with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
-            #filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty]
-            filtered_questions = [q for q in data['questions'] if q['skill'] == skill]
+            filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty] #skill and difficulty
+            if len(filtered_questions) < 4:
+                filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only - expand the pool
+
         # Load skill-specific formatting and difficulty guidelines
         skill_guidelines = self.skill_prompts.get(skill)
         difficulty_guidelines = self.difficulty_guidelines.get(difficulty)
@@ -147,9 +149,9 @@ class QuestionReviser:
                         succinctly explaining the purpose and justification for the improvement, and including exact wording or syntax changes you suggest 
                         (i.e. 'Math formatting isn't following the skill prompts guidelines, so change "\\[y = 1/2x\\]" to "$y = \\frac{1}{2}x$")
                      If the question satisfies ALL system prompts's checklist and there's nothing to improve, then write 'Previous input perfect; don't change anything'.
-                     1. Does the question have a clear context, objective, and question?
+                     1. Does the question have a clear context, objective, and question? (For example, if the question references 'based on the passage or excerpt or equation' - is there actually a passage, excerpt, or equation in the question? If not, change the question to have an appropriate one.)
                      2. Is there sufficient information given to determine the correct answer?
-                     3. Is there exactly one correct answer with 3 plausible but clearly incorrect choices?
+                     3. Is there exactly one correct answer with 3 plausible but incorrect choices?
                      4. Does the explanation align with the correct answer, and would it be actually educational and insightful to a high school student? If not, what would improve it? Consider SAT tips, strategies, or core knowledge to impart quickly. Generally the first sentence should be succinct in explaining the core reasoning, with the next 1-2 sentences expanding on it or modeling steps in logical thinking or Math. Finally, 1-2 sentences can explain why the incorrect answers are wrong.
                      5. Is the formatting correct? For example, the spacing between paragraphs should be \\n\\n, but there should be no \\n between sentences in a continuous paragraph; confirm that Math expressions use LaTeX with "$" before and after math expressions.
                      6. Does the question align with the {difficulty} difficulty specified in the guidelines? IF not, change the 'difficulty' in the JSON output to {difficulty}, and adjust complexity of language and reasoning to match. Reference the skill guidelines here: {skill_guidelines}. Now also reference the difficulty guidelines here to ensure the perceived difficulty of the question is indeed {difficulty}:{difficulty_guidelines}
@@ -253,6 +255,30 @@ class QuestionReviser:
         }
 
         try:
+            #Load up other examples of {skill} and {difficulty} to review - specifically for formatting examples
+            with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                filtered_questions = [q for q in data['questions'] if q['skill'] == question.get("skill") and q['difficulty'] == question.get("difficulty")] #skill and difficulty
+                # Select up to 3 random examples
+                examples = random.sample(filtered_questions, min(4, len(filtered_questions)))
+                
+                if len(examples) == 3: #plenty of examples in the difficulty
+                    examples_combined = "\n\n".join(
+                        f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex['explanation']}"
+                        for i, ex in enumerate(examples)
+                    )
+                    example_text = f"""\n\nFor reference, here are some examples of {question.get("skill")} questions at {question.get("difficulty")} difficulties:\n{examples_combined} to compare for formatting, difficulty, and language use."""
+                elif len(examples) > 0:
+                    filtered_questions = [q for q in data['questions'] if q['skill'] == question.get("skill")] #skill only - expand the pool
+                    examples = random.sample(filtered_questions, min(4, len(filtered_questions)))
+                    examples_combined = "\n\n".join(
+                        f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex['explanation']}"
+                        for i, ex in enumerate(examples)
+                    )
+                    example_text = f"""\n\nFor reference, here are some examples of {question.get("skill")} questions at varying difficulties:\n{examples_combined}"""
+                else:
+                    example_text = ""
+
             response = self.client.chat.completions.create(
                 model=self.model,  # Use the model from config. Previously gpt-4o-2024-11-20
                 reasoning_effort=self.reasoning_effort,
@@ -267,23 +293,20 @@ class QuestionReviser:
                     {
                         "role": "user",
                         "content": (
-                            f"""First, simulate solving the question from the perspective of two students' perspectives, using specific details from the question. This should show the students' thoughts, observations, problem solving steps, strategies employed, possible mistakes made, as they answer the question step by step. """
-                            """1) A high-performing student aiming for 1550 out of 1600 who excels on Easy/Medium/Hard questions but struggles a little on very challenging questions. """
-                            """2) A very below average student aiming for 900 out of 1600 who makes frequent mistakes and errors in grammar, math concepts, and reading comprehension."""
-                            """Second, consider the students' sense making and problem solving, and assess the question rating and explanation rating, being very critical because you are the final reviewer before this question is released publicly to millions of students. Use the criteria below:\n"""
+                            f"""First, evaluate the quality of the question and its answer choices and explanation, then give ratings from 1-10 on how good the question is (and whether it should be released publicly to millions of students to use as SAT practice, if so, should it be improved, or should it be discarded). Be objective but very critical because you are the final reviewer. Use the criteria below:\n"""
                             """- **Question Rating (1-10)**: Logical design, clarity, and alignment with SAT standards. Consider whether the amount of struggle by the low level student is applicable for the difficulty (high difficulty should be hard and induce mistakes, but low difficulty shoudl be doable); the high level student should do great on all but the most challenging questions. Be very critical in evaluating if the question actually provides the context it says it does, and whether the question is actually solvable by the student. Propose specific changes if it isn't, or if there's a way to make it better. Example scores:\n"""
-                            """   - 1-4: Question has critical issues (e.g., multiple correct answers, unclear phrasing).\n"""
-                            """   - 5-7: Question has a clear objective but minor flaws (e.g., slightly ambiguous wording, minor alignment issues).\n"""
-                            """   - 8-9: Question is clear, logically sound, and SAT-aligned but could be improved.
+                            """   - 1-4: Question has critical issues (e.g., multiple correct answers; a excerpt is referenced but not included in the question; the question is not clear or does not logically link with the answer choices; the answer choices are not plausible; the explanation is not helpful; the question doesn't feel like an SAT question).\n"""
+                            """   - 5-7: Question has a clear objective but minor flaws (e.g., there are inappropriate underlines, line breaks or HTML tags;the question is not aligned with the difficulty level; the answer is way too obvious; the context is not real or is generic (i.e. bad example: "an economist wrote..." vs good example: "Milton Friedman, a famous economist, wrote in his 1970 essay, "The Social Responsibility of Business Is to Increase Its Profits," ...)).\n"""
+                            """   - 8-9: Question is clear, logically sound, and SAT-aligned but could be improved to be more challenging or to match the proper syntax and formatting (i.e. mistakenly italicizing when text should be underlined, or underlining when no underlining is necessary like in an Inference question).
                                   - 10: The question is perfect and is ready to be published to high school students to practice on our website.\n"""
                             """- **Explanation Rating (1-10)**: Insightfulness, conciseness, and clarity in helping the students reflect and learn. Considser effective strategies that the high level student uses, and consider areas where the low level student is confused or struggles. Be critical and identify both what is good about the explanation, easy to understand, but also critically evaluatae if the explanation is actually applicable to the question and correct answer and if it could be used by the student. Be specific in what should be changed and why. Example scores:\n"""
                             """   - 1-4: Explanation is off-topic or fails to clarify the reasoning.\n"""
                             """   - 5-7: Explanation is relevant but lacks depth or includes minor errors.\n"""
                             """   - 8-9: Explanation models reasoning, application of relevant core knowledge, and test-taking strategies effectively (10 = excellent).\n"""
                             """   - 10: The explanation is perfect and is ready to be published to high school students to practice on our website.\n"""
-                            """Last, summarize your thoughts and give specific constructive feedback, explaining reasoning for giving the question_rating and explanation_rating scores and includes suggestions for improving them..
-                            
-                            \nQuestion to evaluate:""" + json.dumps(question)
+                            """Last, summarize your thoughts and give specific constructive feedback and reasoning for it. Also, explain your reasoning for giving the question_rating and explanation_rating scores, consider how the question compares to the examples, and includes suggestions to improve the question."""
+                            f"""***Here is the SAT Question you need to evaluate:""" + json.dumps(question)
+                            f"""{example_text}"""
                         ),
                     },
                 ],
@@ -310,15 +333,14 @@ class QuestionReviser:
                         "role": "system",  # Use system role for gpt-4o
                         "content": (
                             """You are an expert SAT question reviser and are the last step before this question is publicly released to high school students to practice on our website - 
-                            so make sure it's perfect. Use the provided feedback to refine the question, including referencing the students' perspectives to double check if the explanation is clear and helpful - if not, please adjust the explanation.
-                            Ensure the revised question meets all quality criteria, aligns with SAT standards, and is formatted correctly.
+                            we want the highest quality questions possible. Ensure the revised question meets all quality criteria, aligns with SAT standards, and is formatted correctly.
                             """
                         ),
                     },
                     {
                         "role": "user",
                         "content": (
-                            "Revise the question based on this feedback:"
+                            "Consider the provided feedback, and if the reasoning is sound, refine the question, answer choices, and explanation."
                             f"\nFeedback: {evaluation_feedback}"
                             f"\nQuestion: {json.dumps(question)}"
                         ),
