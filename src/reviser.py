@@ -116,7 +116,7 @@ class QuestionReviser:
 
         # Format examples for inclusion in the prompt
         examples_text = "\n\n".join(
-            f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex['explanation']}"
+            f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex.get('explanation', 'No explanation provided')}"
             for i, ex in enumerate(examples)
         )
         
@@ -273,7 +273,7 @@ class QuestionReviser:
                 
                 if len(examples) == 3: #plenty of examples in the difficulty
                     examples_combined = "\n\n".join(
-                        f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex['explanation']}"
+                        f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex.get('explanation', 'No explanation provided')}"
                         for i, ex in enumerate(examples)
                     )
                     example_text = f"""\n\nFor reference, here are some examples of {question.get("skill")} questions at {question.get("difficulty")} difficulties:\n{examples_combined} to compare for formatting, difficulty, and language use."""
@@ -281,7 +281,7 @@ class QuestionReviser:
                     filtered_questions = [q for q in data['questions'] if q['skill'] == question.get("skill")] #skill only - expand the pool
                     examples = random.sample(filtered_questions, min(4, len(filtered_questions)))
                     examples_combined = "\n\n".join(
-                        f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex['explanation']}"
+                        f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex.get('explanation', 'No explanation provided')}"
                         for i, ex in enumerate(examples)
                     )
                     example_text = f"""\n\nFor reference, here are some examples of {question.get("skill")} questions at varying difficulties:\n{examples_combined}"""

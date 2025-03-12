@@ -33,6 +33,120 @@
       "total_score": 26,
       "topic_list_name": "historyTopics",
       "topic_index": 7
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Easy",
+      "question": "A local newspaper editorial endorses the Broken Windows Theory, arguing that quickly repairing vandalized property and removing graffiti can help reduce more severe crimes.\n\nWhich sentence, if added to the editorial, would best support its claim that immediate corrective measures deter serious offenses in neighborhoods?\n\n",
+      "choices": [
+        "A. Municipal spending on public infrastructure projects often outweighs funding allocated to law enforcement.",
+        "B. Research indicates that addressing smaller offenses may unintentionally target lower-income residents disproportionately.",
+        "C. Statistical analysis reveals that neighborhoods consistently repairing vandalism and graffiti experienced a 15% drop in burglary rates.",
+        "D. Community watch programs emphasize standards for neighborhood safety, including protocols for calling authorities."
+      ],
+      "answer": "C",
+      "explanation": "The correct answer, C, connects immediate actions like repairing vandalism to verified reductions in crime rate, directly supporting the Broken Windows Theory. While other options discuss aspects of crime prevention, they do not provide clear evidence backing the editorial’s specific claim.",
+      "topic": "The Broken Windows Theory and crime prevention strategies",
+      "total_score": 27,
+      "constructive_feedback": "The question is clearly written, logically sound, and well-aligned with SAT standards. It presents a real-world scenario (the editorial endorsing the Broken Windows Theory) and asks students to identify an evidence-based sentence that supports the claim. The answer choices are plausible, with one clearly standing out. The explanation effectively clarifies why choice C is the best answer, using the evidence provided in the study. To improve further, consider slight refinements to ensure all answer choices are uniformly challenging and perhaps emphasize the connection between immediate corrective actions and crime reduction to leave no ambiguity.",
+      "difficulty_feedback": "The question matches the labeled 'Easy' difficulty. It requires a single-step reasoning process, as students only need to identify which sentence directly supports the claim with relevant statistical evidence. The context is familiar and the task straightforward. To fine-tune, ensure that the distractors are as clearly unrelated to the 'immediate corrective actions' as the correct option is linked, which would maintain the integrity of the easy difficulty categorization.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 7
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Easy",
+      "question": "An essay discussing how digital advertising transformed modern marketing includes the following statements:\n\n(1) \"Brands can instantly track how audiences interact with online promotions.\"\n(2) \"Print campaigns usually require significant setup time before results can be assessed.\"\n(3) \"Television advertisements often focus on a broad audience with limited targeting options.\"\n(4) \"The use of digital tools allows businesses to tailor campaigns for niche markets.\"\n\nWhich statement from the essay best supports the conclusion that digital advertising fosters immediate consumer engagement?",
+      "choices": [
+        "Statement (1)",
+        "Statement (2)",
+        "Statement (3)",
+        "Statement (4)"
+      ],
+      "answer": "Statement (1)",
+      "explanation": "To determine which statement best supports the conclusion about immediate consumer engagement, we analyze the content of each statement:\n\n- **Statement (1):** \"Brands can instantly track how audiences interact with online promotions.\" This directly supports the idea of immediacy, as it mentions the ability to track reactions instantly.\n- **Statement (2):** Refers to print campaigns, which usually involve delays in obtaining results, and thus does not support immediacy.\n- **Statement (3):** Discusses broad targeting in television advertisements, which is unrelated to immediate engagement.\n- **Statement (4):** Highlights the use of digital tools for tailoring campaigns, which pertains to customization rather than immediacy.\n\nTherefore, the correct answer is \"Statement (1),\" as it explicitly mentions the instant tracking of audience interactions, crucial for fostering immediate consumer engagement.",
+      "topic": "How digital advertising transformed modern marketing",
+      "total_score": 25,
+      "constructive_feedback": "The question is clearly written, logically structured, and aligns well with SAT reading comprehension tasks, especially for supporting claims. The statements are distinct and the correct answer is justified by the direct reference to immediacy in tracking, which is central to the conclusion. However, the explanation could be improved by explicitly eliminating each of the other answer choices in more detail, which would help students understand why they are less relevant. Additionally, consider unifying the format of the answer (using either the letter 'A' or 'Statement (1)') for consistency.",
+      "difficulty_feedback": "For an easy-level question, the prompt requires a single-step reasoning process using familiar concepts (digital advertising versus traditional media). The scenario is relatable, and the reasoning needed is straightforward. To maintain its suitability, ensure that the language remains simple and that the distractors clearly do not support immediate engagement. This keeps the question accessible to students scoring in the 400–600 range on the SAT.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 7
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Medium",
+      "question": "Coco Chanel is widely regarded as an influential figure in early 20th-century women’s fashion. Prior to her emergence, women’s clothing was characterized by elaborate designs, restrictive fabrics, and tight corseting that limited movement and reinforced traditional social roles. Chanel revolutionized the industry by introducing comfortable jersey garments, more relaxed silhouettes, raised hemlines, and sleek, simple designs. These innovations not only offered women greater freedom of movement but also subtly challenged the era’s rigid social norms by encouraging practicality and confidence in everyday dress.\n\nWhich choice best supports the statement that Coco Chanel’s designs marked a significant transformation in women’s fashion?",
+      "choices": [
+        "A. Chanel’s designs for travel clothes, featuring jersey fabric, offered stylish practicality and a departure from unnecessary opulence.",
+        "B. Chanel’s relaxed silhouettes and jersey garments liberated women from tight corseting, allowing for greater comfort and challenging traditional norms.",
+        "C. Chanel’s early career involved creating hats and accessories that catered to both aristocrats and actresses.",
+        "D. Chanel’s fragrance line became a worldwide success, often paired with her minimalist clothing designs."
+      ],
+      "answer": "B",
+      "explanation": "Chanel’s major impact on women’s fashion lies in her emphasis on casual elegance and design innovations that prioritized freedom and practicality. Answer B effectively explains this by highlighting how her jersey garments and relaxed silhouettes replaced restrictive corsets, symbolizing both a social and practical shift. The other options, while related to Chanel’s achievements, do not directly and fully exemplify the transformative nature of her contributions to women’s fashion norms.",
+      "topic": "The fashion revolution of Coco Chanel",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly written, aligns well with SAT standards, and effectively asks students to identify text evidence supporting a specific claim about Chanel’s innovations. The answer choices are generally well structured, with one choice clearly supported by the passage. However, the distractors (choices A, C, and D) could be made slightly more plausible to increase the challenge for medium-level students. In addition, refining wording in a couple of choices to reflect subtler aspects of fashion innovation might strengthen the critical reasoning aspect.",
+      "difficulty_feedback": "The question meets the medium difficulty criteria by requiring students to synthesize information from a longer passage and evaluate evidence. It involves multi-step reasoning and includes several distractors. To further align with the medium difficulty level, consider enhancing the plausibility of at least one incorrect answer so that students must work a bit harder to dismiss it, rather than immediately recognizing the correct support.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 7
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Medium",
+      "question": "Throughout his extensive expeditions across Asia, Marco Polo not only encountered a multitude of diverse communities but also took careful notes on their customs, traditions, and daily life. His detailed travel writings offered Europe an unprecedented window into cultures that had been little known until then. By blending factual observation with thoughtful description, his accounts helped bridge cultural gaps and fostered a more nuanced understanding of distant societies. \n\nIn doing so, Marco Polo carefully ______ the lifestyles and practices he encountered, providing his readers with insights into these diverse ways of life.\n\nWhich choice best completes the sentence with precise and appropriate diction?",
+      "choices": [
+        "A. exaggerated",
+        "B. documented",
+        "C. popularized",
+        "D. misrepresented"
+      ],
+      "answer": "B",
+      "explanation": "Choice B is correct because \"documented\" accurately describes the act of recording and describing the customs and practices in a detailed and neutral manner, which aligns with Marco Polo's role as a traveler and chronicler. \"Exaggerated\" and \"misrepresented\" imply inaccuracies not suggested by his travel writings, while \"popularized\" suggests promotion beyond observing and describing. Thus, \"documented\" best fits the context.",
+      "topic": "The exploration and expeditions of Marco Polo",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-crafted with clear historical context and a logical structure that mirrors SAT word-choice questions. The answer choices are plausible, and the explanation does a good job of comparing each option with reference to the passage. To further polish the item, consider slightly extending the passage to reach or exceed the 90-word guideline for medium-difficulty questions. Additionally, you might introduce a bit more nuance in the distractors so that the incorrect choices seem even more tempting, which would require students to engage in more layered reasoning.",
+      "difficulty_feedback": "The question fits the medium difficulty label as it requires students to carefully read and interpret the passage, then eliminate choices that do not precisely match the context. However, increasing the text length and adding subtler traps in the choices would reinforce the multi-step reasoning expected of Medium-difficulty SAT items.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 7
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Easy",
+      "question": "Solomon Asch’s renowned experiment examining group dynamics discovered that individuals often felt ____ to align their responses with those of the majority, even when the group’s answers were clearly incorrect.\n\nWhich choice best completes the sentence with the most precise language reflecting the subtle pressure exerted by social influences?",
+      "choices": [
+        "A. convinced",
+        "B. compelled",
+        "C. constrained",
+        "D. confounded"
+      ],
+      "answer": "B",
+      "explanation": "\"Compelled\" accurately reflects the idea that participants in Asch’s experiment felt a strong, though not forceful, pressure to conform to the group’s consensus. \"Convinced\" would imply belief rather than external pressure, \"constrained\" suggests a limitation or restriction rather than influence, and \"confounded\" suggests confusion, which doesn't fit the context of peer pressure.",
+      "topic": "The Asch Conformity Experiment and peer pressure",
+      "total_score": 27,
+      "constructive_feedback": "The question is well-crafted and clearly aligned with SAT word-choice standards. It provides a precise context by referencing Solomon Asch’s conformity experiment and uses answer choices that test the nuanced differences between similar vocabulary words. One minor improvement could be to consider slightly more challenging distractors or adding a note in the introduction to reinforce the connotation of pressure versus belief, though overall the design is solid.",
+      "difficulty_feedback": "The question matches its labeled 'Easy' difficulty. It requires a single-step reasoning process by selecting the word that best fits the context. The alternatives include one that is nearly plausible (convinced) along with others that are clearly off-target, which aligns with the guidelines for easy-difficulty SAT questions. No significant changes are needed for appropriateness at this level.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 8
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "When a company raises money by offering shares to the public for the first time, it gains funds to grow and develop. ___ this influx of capital can help open new markets and support large-scale growth.\n\nWhich choice best completes the text with the transition that logically connects the preceding statement to the idea of significant corporate growth?",
+      "choices": [
+        "A) Nevertheless",
+        "B) Consequently",
+        "C) Namely",
+        "D) Otherwise"
+      ],
+      "answer": "B",
+      "explanation": "The sentence is about how obtaining public funding enables a company to open new markets and expand significantly. As such, a transition showing a result is appropriate. \"Consequently\" (B) rightly indicates that the growth is a consequence of obtaining funds. \"Nevertheless\" (A) suggests contradiction, which isn't relevant. \"Namely\" (C) introduces further detail or examples, not results. \"Otherwise\" (D) indicates an alternate scenario, which is not the case here.",
+      "topic": "Discussing the effects of public funding on company growth",
+      "total_score": 25,
+      "constructive_feedback": "The question is well-designed and clear, with a logical transition requirement that fits the SAT style. The context of an IPO and corporate expansion is relevant and the distractors are plausible. However, since it's an 'Easy' level question, the use of relatively technical business terminology (like IPO) might slightly challenge some students. Consider simplifying or clarifying the context so that all students aiming for the target score feel comfortable with the vocabulary.",
+      "difficulty_feedback": "The question is generally aligned with an Easy difficulty level as it requires a straightforward, single-step reasoning to choose the correct transition. To further ensure appropriateness, you might consider using slightly more familiar or everyday language when referencing financial concepts, ensuring students at the lower end of the SAT scale are not hindered by unfamiliar terminology.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 8
     }
   ]
 }

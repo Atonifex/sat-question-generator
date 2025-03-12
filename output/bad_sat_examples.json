@@ -396,6 +396,120 @@
       "total_score": 21,
       "topic_list_name": "socialScienceTopics",
       "topic_index": 7
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Easy",
+      "question": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) has rapidly transformed the field of genetic engineering by enabling scientists’ targeted approaches to gene sequences. This revolutionary tool excels at making modifications with remarkable ______ or changes to DNA.\n\nWhich choice best completes the sentence with the most effective word?",
+      "choices": [
+        "A) hesitancy",
+        "B) unpredictability",
+        "C) precision",
+        "D) imagination"
+      ],
+      "answer": "C",
+      "explanation": "Because CRISPR technology is best known for allowing accurate and targeted changes to DNA, “precision” is the most suitable choice. The other answer choices do not convey the same level of exactness that scientists rely on in gene editing.",
+      "topic": "The development of CRISPR and its role in gene editing",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-designed, clear, and aligns with SAT Word Choice expectations. It uses a relevant scientific context by introducing CRISPR, and the distractors are clearly less appropriate than the correct answer. However, a slight improvement could be to streamline the sentence structure—for example, by rephrasing it to remove any redundancy (e.g., “...making targeted changes to DNA with remarkable _____”) to make it even more accessible. Additionally, the explanation, while accurate, could be expanded to more clearly discuss why each incorrect option fails, helping students better understand the nuances between the choices.",
+      "difficulty_feedback": "The question meets the requirements for an easy-level SAT question by involving a single-step reasoning process and familiarizing students with a brief definition of CRISPR. It could be enhanced by using slightly more everyday language or clarifying the sentence structure, ensuring that less advanced students are not intimidated by the scientific context.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 7
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Medium",
+      "question": "John Locke’s political philosophy argues that a government’s legitimacy comes solely from its duty to protect its citizens’ natural rights to life, liberty, and property. In his writings, Locke maintained that when a government persistently fails to secure these rights, it loses its right to govern, thereby justifying the citizens in overthrowing it. Historical examples illustrate that governments which neglect this duty often face popular rebellion or revolution, as people demand a system that truly safeguards their freedoms. \n\nWhich choice, if added to the discussion, would best support Locke’s claim that government authority must rest on safeguarding these rights?",
+      "choices": [
+        "A) Several nations levy taxes to fund social programs, often leading to debates about how governments should handle public finances.",
+        "B) Some political theorists question whether any government can protect every right in all circumstances.",
+        "C) Historical accounts show that citizens have ousted rulers who ignored or violated the basic rights of the people.",
+        "D) Certain philosophers hold that freedom of religion is more crucial to stability than security of property."
+      ],
+      "answer": "C",
+      "explanation": "Option C specifically illustrates an example of people acting on Locke’s principle by removing authorities who failed to protect their rights. This directly supports Locke’s argument that a government’s legitimacy depends on upholding individuals’ natural rights. The other choices do not offer clear evidence that supports Locke’s claim about the right to remove a government if it does not fulfill its fundamental duty.",
+      "topic": "Locke’s theories on natural rights and government legitimacy",
+      "total_score": 19,
+      "constructive_feedback": "The question is clearly written, follows a logical structure, and is in line with the usual SAT supporting claims style. However, the reading passage is a bit short and straightforward, which limits the level of multi-step reasoning expected of a medium-difficulty question. Additionally, while the answer choices are mostly well formulated, the correct answer (Choice C) is relatively obvious because the other options lack sufficient nuance. The explanation is clear but could benefit from a deeper analysis of why each incorrect option fails. Improving these aspects would strengthen the question and its educational value.",
+      "difficulty_feedback": "Although the question is labeled 'Medium,' the passage only contains about 78 words, falling short of the typical complexity and length (90+ words) expected at this level. To better match medium difficulty, consider expanding the passage with more complex ideas or additional context and introducing subtly more plausible distractors that require more careful reasoning.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 7
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Hard",
+      "question": "Influencer marketing has become extremely popular in recent years ______ brands that collaborate with influencers often see an increase in both consumer engagement and loyalty, a phenomenon that many experts, including those who have conducted extensive research, attribute to the genuine connection influencers can create.\n\nWhich punctuation mark best fills in the blank?",
+      "choices": [
+        "A) , (comma)",
+        "B) : (colon)",
+        "C) ; (semicolon)",
+        "D) . (period)"
+      ],
+      "answer": "C",
+      "explanation": "The sentence contains two independent clauses ('Influencer marketing has become extremely popular in recent years' and 'brands that collaborate with influencers often see an increase in both consumer engagement and loyalty, a phenomenon that...'). These clauses are closely related, and the proper punctuation to separate them while maintaining this relationship is a semicolon. A comma would create a run-on sentence, a colon could work only if the second independent clause directly explains or illustrates the first clause in a specific way that it does not do here, and a period would be less effective at showing the close connection between the two ideas, making the semicolon the most appropriate choice.",
+      "topic": "The effect of influencer culture on brand loyalty and marketing strategies",
+      "total_score": 23,
+      "constructive_feedback": "The question is well constructed and presents a clear, contemporary context that is engaging for students. It tests the essential punctuation rule of separating two independent clauses, and the distractors are plausible enough to challenge test-takers. However, the sentence structure could be slightly refined to more explicitly signal the existence of two independent clauses without ambiguity. Additionally, the explanation, while clear, could further benefit from a brief comparison between why a colon might seem tempting yet is less appropriate than a semicolon in this particular context.",
+      "difficulty_feedback": "Although the use of modern language and a somewhat lengthy sentence fits a Hard-level prompt, the multi-step reasoning required is moderate rather than extremely advanced. To fully align with the Hard difficulty label, consider enhancing the sentence’s complexity (for example, by incorporating an additional modifier or clause that requires students to sift through more subtle punctuation cues).",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 7
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "In 1848, amid a burgeoning period of social reform, the Seneca Falls Convention emerged as a watershed moment in the struggle for gender equality. Far from being merely one of many gatherings, this event catalyzed a transformation in women's rights discourse, establishing a robust framework that would influence not only subsequent legal reforms but also nascent feminist movements. In light of its enduring impact on the trajectory of social, legal, and political progress, the Convention became a ______ event that continues to inspire contemporary discussions on equality.  \\[\\text{Which choice best completes the sentence in a way that emphasizes the crucial role of this gathering in gender equality history?}\\]",
+      "choices": [
+        "A. obscure",
+        "B. optional",
+        "C. intermittent",
+        "D. pivotal"
+      ],
+      "answer": "D",
+      "explanation": "The question asks for a word that emphasizes the central importance of the Seneca Falls Convention in the history of gender equality. 'Pivotal' conveys an essential or crucial role, which matches the context of the passage describing the event as transformative and foundational. The other options do not fit as well: 'obscure' implies the opposite of well-known and critical, 'optional' suggests a lack of necessity or impact, and 'intermittent' inaccurately describes the nature of a singular historic moment.",
+      "topic": "The significance of the Seneca Falls Convention in women's rights history",
+      "total_score": 23,
+      "constructive_feedback": "The question successfully integrates a rich historical context with advanced language, making it align well with SAT Word Choice items. The narrative establishes a clear emphasis on the significance of the Seneca Falls Convention. However, the distractors (obscure, optional, intermittent) are too obviously mismatched with the context, making the correct answer (pivotal) somewhat transparent. To elevate the difficulty in line with the ‘Hard’ label, consider including answer choices that are more subtly flawed, thereby requiring students to engage in deeper analysis of nuanced meanings.",
+      "difficulty_feedback": "Although the context uses sophisticated language, the overall reasoning required is relatively straightforward. The question would better match a 'Hard' difficulty level if the answer choices presented subtler traps – for example, incorporating options that might seem plausible on a superficial reading but reveal inconsistencies upon closer examination. Enhancing the complexity of the distractors or extending the passage slightly could help achieve this.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 8
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "One major scientific milestone at the Large Hadron Collider came in 2012, when researchers discovered the Higgs boson and solidified the Standard Model of particle physics. ______, this discovery opened new possibilities for exploring phenomena beyond the Standard Model.\n\nWhich choice best connects the description of the researchers’ discovery to the discussion of potential future studies?",
+      "choices": [
+        "A) Meanwhile",
+        "B) As a result",
+        "C) In contrast",
+        "D) Moreover"
+      ],
+      "answer": "D",
+      "explanation": "The second sentence adds an additional point about how the discovery fosters future research beyond the Standard Model. \"Meanwhile\" focuses on time rather than a new idea; \"As a result\" can imply a direct cause, which is not as seamless of a connection here; and \"In contrast\" implies opposing ideas. \"Moreover\" is the best choice because it shows how the initial discovery leads naturally to further, related research.",
+      "topic": "The Large Hadron Collider and the search for the Higgs boson",
+      "total_score": 0,
+      "constructive_feedback": "",
+      "difficulty_feedback": "",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 8
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Medium",
+      "question": "Michael Jordan's achievements on the court and his iconic brand image galvanized basketball fans around the world. Through his high-profile endorsements and expansive marketing campaigns, Jordan not only captivated new audiences but also transformed the public’s engagement with basketball. His international advertisements and global TV appearances spurred cross-cultural marketing ventures and attracted sponsorships from companies worldwide. Consequently, these efforts broadened the NBA’s visibility and contributed significantly to its expansion into diverse international markets.\n\nWhich choice most effectively supports the claim that Jordan's global popularity served as a major catalyst for the NBA's expansion internationally?",
+      "choices": [
+        "A) Jordan won numerous MVP awards during his career, showing his dedication to improving his individual performance.",
+        "B) The Chicago Bulls recorded one of the NBA's best regular-season records under Jordan's leadership.",
+        "C) Television broadcasts of NBA games featuring Jordan reached millions of homes in over 200 countries, driving global interest in basketball.",
+        "D) Jordan became a culturally revered figure in the United States due to his impressive scoring averages and championship titles."
+      ],
+      "answer": "C",
+      "explanation": "The correct answer is C because it clearly illustrates that Michael Jordan's international broadcasts propelled the NBA's reach to a global audience. While the other choices reflect Jordan's personal successes and influence on his team, only choice C provides direct evidence of worldwide engagement. In SAT questions about supporting claims, look for the answer that connects the idea in the prompt to a measurable or observable effect. Here, the measurable outcome is the increase in televised broadcasts and viewership abroad, strongly supporting the claim about Jordan’s impact on the NBA’s worldwide expansion.",
+      "topic": "The significance of Michael Jordan’s career in globalizing the NBA",
+      "total_score": 22,
+      "constructive_feedback": "The question is clearly written, logically sound, and well aligned with SAT supporting claims questions. The passage and answer choices successfully focus on linking Michael Jordan’s global appeal to the NBA’s international expansion. One area for improvement is the depth of the passage – it is slightly shorter than the recommended 90-word minimum, which would allow for more multi-step reasoning. Adding more contextual detail or subtle distractors could heighten the complexity so that mid-level students must integrate more elements before choosing the right answer.",
+      "difficulty_feedback": "While the question is labeled Medium, its brevity and the clear connection between global exposure and NBA expansion make it somewhat easier than expected. To better fit a Medium difficulty level, consider extending the passage so that it requires combining multiple pieces of evidence or eliminating several tempting but partially correct choices. This would enforce a more multi-step thought process and align the question more closely with the Medium difficulty guidelines.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 8
     }
   ]
 }
