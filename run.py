@@ -41,7 +41,7 @@ def main():
                   "businessTechnologyTopics", "philosophyPoliticalTopics", "artMusicFilmSportsTopics", 
                   "famousBiographies", "modernTopicsAndFun"]
     
-    topicChoice = 0  # Index for which topic list to use 
+    topicChoice = 2  # Index for which topic list to use 
     topicIndex = 7   # Index within the chosen topic list - went up to line 1375 in CONSOLIDATED "In Mary Shelley's \"Frankenstein,\" by 3:00 am on 3/12.
 
     for skill in VALID_SKILLS:
