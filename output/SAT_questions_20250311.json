@@ -103,6 +103,51 @@
       ],
       "answer": "A",
       "explanation": "In the excerpt, Elizabeth is described as feeling 'embarrassment and amusement,' indicating that while she finds the situation awkward, she is not overly upset. Furthermore, her observation of Mr. Collins's 'grandiose' and 'faintly comical' self-praises aligns more with detached humor than serious disdain or anxiety. This supports the conclusion that her reaction is one of mild amusement rather than genuine annoyance, admiration, resentment, or overwhelming anxiety."
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "In the early 20th century, baseball was introduced to East Asia by foreign educators, who demonstrated the game’s rules and strategies to local communities.\n\nOver time, small local clubs formed, and then professional leagues emerged, gradually intertwining with the cultural fabric of several countries in the region. In places like Japan and South Korea, baseball became a mainstay, eventually eclipsing many older sports in popularity due to international tournaments and robust fan engagement.\n\nAs the sport took root, more players from East Asia gained global recognition. Revenue from broadcasting deals helped establish training academies equipped with advanced facilities and coaching, further propelling the game’s popularity among young athletes.\n\nBased on the passage, which factor most significantly contributed to the growing appeal of baseball among young athletes in East Asia?",
+      "choices": [
+        "A) The continuation of older sports traditions alongside baseball.",
+        "B) The introduction of baseball by foreign educators in the early 20th century.",
+        "C) The establishment of professional training academies supported by broadcasting revenue.",
+        "D) The limited global recognition of East Asian players."
+      ],
+      "answer": "C",
+      "explanation": "The passage highlights that revenue from broadcasting deals was instrumental in funding training academies equipped with advanced facilities. These academies provided the infrastructure and opportunities for skill development essential for motivating young athletes to pursue baseball. While other options provide context about baseball's emergence in East Asia, they are not cited as the significant factor for its appeal among the youth.",
+      "topic": "The expansion of baseball in East Asia",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Medium",
+      "question": "Factories during the early part of the Industrial Revolution often relied on entire families, including children, to manage newly developed machines. Although this arrangement allowed for increased production, working conditions were frequently unsafe, and wages varied widely.\n\nWhich choice best states the main idea conveyed by the passage?",
+      "choices": [
+        "A. Larger families were typically able to earn higher wages than smaller families because they provided more workers to operate machinery.",
+        "B. The Industrial Revolution introduced machines that were too complex for most families to run without formal training.",
+        "C. Industrial facilities enforced strict safety standards to protect children from potential hazards in the workplace.",
+        "D. Early factories depended on the labor of entire families to drive production while providing insufficient workplace protections."
+      ],
+      "answer": "D",
+      "explanation": "The passage describes how early Industrial Revolution factories leveraged the labor of entire families, including children, to manage machinery. However, these factories often provided unsafe working conditions and inconsistent wages, which emphasizes the reliance on families and the inadequate protections provided.",
+      "topic": "The Industrial Revolution",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Medium",
+      "question": "Read the following paragraph and answer the question:\n\nIn recent years, the proliferation of social media platforms has revolutionized the way businesses engage with potential customers. By leveraging insights from vast amounts of user data, companies are not only able to target their marketing campaigns to align with personal interests and past purchasing behavior but also to measure their engagements in real-time. This dual strategy not only shapes how individuals perceive brands but also positions social media as a cornerstone of modern business strategies in shaping global market trends.\n\nWhich choice best expresses the main idea of the paragraph?",
+      "choices": [
+        "A. Social media platforms have significantly shifted how businesses reach and influence consumers.",
+        "B. Real-time engagement metrics have become the primary advantage for companies operating on social media.",
+        "C. Businesses use social media to better understand and respond to consumer data and interests.",
+        "D. Social media serves as a crucial modern strategy for global market impact."
+      ],
+      "answer": "A",
+      "explanation": "The paragraph broadly discusses how social media tools have transformed business strategies by enabling targeted marketing and real-time engagement, thus influencing consumer perception on a large scale. Choice A encompasses the paragraph's comprehensive theme. Choices B and C overly focus on specific components, such as metrics or data. Choice D is also relevant but misses the breadth of transformation that social media entails. Only A captures the essence of the revolutionary impact social media has had on business outreach and influence.",
+      "topic": "The influence of social media on consumer behavior",
+      "topicIndex": 1
     }
   ]
 }

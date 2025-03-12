@@ -53,7 +53,7 @@ DIFFICULTY_GUIDELINES = {
         '3. Moderate traps such as:\n'
         '   - Oversimplified or overly specific positions that sound correct at first\n'
         '   - Minor incorrect leaps in math or logic\n'
-        '4. Longer questions (at least 100 words) that require more reading and thinking.\n'
+        '4. Longer questions (at least 90 words) that require more reading and thinking.\n'
         'Medium questions should target students aiming for around 600–700 on the SAT, requiring advanced analysis.\n'
     ),
     "Hard": (
@@ -73,7 +73,7 @@ DIFFICULTY_GUIDELINES = {
         '   - Options that match surface-level details but miss deeper meaning\n'
         '   - Options that represent common misconceptions or oversimplifications\n'
         '   - Options that seem plausible based on partial information but fail when all information is considered\n'
-        '6. Longer or more sophisticated questions (at least 130 words on Reading and Writing) that require more reading and thinking.\n'
+        '6. Longer or more sophisticated questions (at least 110 words on Reading and Writing) that require more reading and thinking.\n'
         'Hard questions should challenge even high-performing students (1400+ SAT scorers) and require careful, thorough analysis.'
     )    
 }

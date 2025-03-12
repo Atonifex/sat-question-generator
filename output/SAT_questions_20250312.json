@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "skill": "Inferences",
+      "difficulty": "Hard",
+      "question": "Scientists continue to debate the feasibility of establishing a permanent settlement on Mars, focusing on the planet's thin atmosphere and extreme temperature fluctuations. While some researchers emphasize the advancements in engineering solutions for oxygen production and radiation shielding, several experts underline the psychological challenges posed by prolonged isolation and limited social interaction in a confined habitat.\n\nBased on the passage, which is identified as a critical factor affecting the sustainability of a Mars colony?",
+      "choices": [
+        "A) Engineering solutions for oxygen production are considered feasible but do not address psychological issues.",
+        "B) Psychological challenges are emphasized as crucial in determining the feasibility of a Mars settlement.",
+        "C) The Martian environment's weather and distance from Earth are the primary obstacles to colonization.",
+        "D) Experts agree technical challenges are manageable but not psychological aspects."
+      ],
+      "answer": "B",
+      "explanation": "The passage highlights that while scientists discuss both engineering and environmental requirements for a Mars settlement, psychological difficulties such as coping with isolation are emphasized as crucial to the sustainability of such a colony. The correct inference from the text is (B), as it focuses on psychological aspects as being critical rather than technology or distance.",
+      "topic": "Colonizing Mars",
+      "topicIndex": 4
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "Dr. Khalid's research centers on a *precision irrigation system* designed to optimize the growth of leafy greens. In a recent trial, he deployed monitors that track local humidity, rainfall patterns, and soil composition. According to Dr. Khalid, these inventions can help farmers conserve water by up to 50% while maintaining robust crop yields.\n\n“This system,” he says, “empowers rural communities and promotes more *sustainable agriculture*. Farmers can improve production without significantly expanding their land base, opening the door to resilient food supplies even under challenging climate conditions.”\n\nWhich statement can most reasonably be inferred about Dr. Khalid’s perspective on innovations in agriculture?",
+      "choices": [
+        "A) He sees technology as a means to increase efficiency in resources use for farming.",
+        "B) He emphasizes the importance of scaling up farmland to meet agricultural challenges.",
+        "C) He is skeptical about the role of science in solving agricultural sustainability issues.",
+        "D) He prioritizes research into new crops over improving irrigation systems or resource management."
+      ],
+      "answer": "A",
+      "explanation": "Dr. Khalid discusses how innovations like precision irrigation systems help conserve resources while maintaining productivity, highlighting an appreciation for efficient resource use and technology's role in sustainable practices. The ideas about scaling farmland, criticism of scientific roles, or a sole focus on crop research are not supported by the passage.",
+      "topic": "Sustainable Agriculture",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "In this excerpt from a novel known for exploring themes of wealth and authenticity, the narrator reflects on the internal conflict between the allure of opulence and the yearning for meaningful human connections. \n\nWhich choice best states the main idea of the passage?",
+      "choices": [
+        "A. High society illuminates the contrast between its captivating charm and the narrator's search for deeper meaning.",
+        "B. Social hierarchies inherently lead to conflicts of identity and desire.",
+        "C. The narrator describes the impossibility of finding genuine connection in a materialistic milieu.",
+        "D. Opulence distracts and prevents individuals from forming authentic relationships."
+      ],
+      "answer": "A",
+      "explanation": "Option A effectively encapsulates the dual perspective presented in the passage, acknowledging both the seductive allure of high society and the narrator's internal pull toward values of authenticity and deeper personal connections. The other choices, while close in theme, either misstate the passage's main focus or overly generalize its nuanced depiction of the narrator's internal conflict.",
+      "topic": "The Great Gatsby",
+      "topicIndex": 7
+    }
+  ]
+}

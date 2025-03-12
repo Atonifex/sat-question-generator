@@ -56,11 +56,6 @@ class QuestionGenerator:
                 if len(filtered_questions) < 4:
                     filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only - expand the pool
                     print(f"Not enough questions for {difficulty} {skill}. Expanded to all skills and got{len(filtered_questions)} questions.")
-                
-
-            #Load skill-specific formatting and difficulty guidelines
-            skill_guidelines = self.skill_prompts.get(skill)
-            difficulty_guidelines = self.difficulty_guidelines.get(difficulty)
 
             # Select up to 5 random examples
             examples = random.sample(filtered_questions, min(6, len(filtered_questions)))
@@ -70,6 +65,13 @@ class QuestionGenerator:
                 f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex['explanation']}"
                 for i, ex in enumerate(examples)
             )
+                
+
+            #Load skill-specific formatting and difficulty guidelines
+            skill_guidelines = self.skill_prompts.get(skill)
+            difficulty_guidelines = self.difficulty_guidelines.get(difficulty)
+
+            
             #print(f"Examples included in prompt: {examples_text}")
 
             # Dynamic structured output with enforced difficulty - CONSIDER THIS at 5:55 pm on 3/7 if manually changing didn't work below. This is slightly more hardcore.

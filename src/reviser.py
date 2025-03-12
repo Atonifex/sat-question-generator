@@ -78,7 +78,7 @@ class QuestionReviser:
                     print(f"Score: {total_rating}. Sending for improved content and formatting.")
                     final_question = self.improve_question_content(revised_question, evaluation)
                     time.sleep(REQUEST_DELAY)  # Rate limiting
-                    print(f"Final question after improvement: {final_question.get('question')}")
+                    print(f"Final question after improvement: {final_question.get('question')}\n {final_question.get('choices')}"#\n {final_question.get('answer')}\n {final_question.get('explanation')}")
                 else:
                     print(f"Fail Score: {total_rating}. Reason: {evaluation.get('constructive_feedback', 'No feedback given.')}")
                     final_question = revised_question #Fall back to OG
@@ -189,7 +189,9 @@ class QuestionReviser:
                 messages=[
                     {"role": "system","content": 
                         """You are an expert SAT question writer and reviser. Revise the following question based on the provided feedback"""},
-                    {"role": "user", "content": """Follow the feedback to revise the question. """ + json.dumps(question)}
+                    {"role": "user", "content": f"""You MUST follow the feedback EXACTLY and revise the question. 
+                    Here is the question to revise: {json.dumps(question)}
+                    Here is the feedback: {feedback}"""}
                 ]
                 #If the feedback is 'Previous input perfect; don't change anything', then the output should equal the input.
             )
@@ -205,6 +207,7 @@ class QuestionReviser:
                     if len(revised_question) > 0:
                         return revised_question[0]  # Return the first item if it's a list
                     else:
+                        print("No questions found in apply_revisionresponse, returning original.")
                         return question  # Return original if empty list
                 else:
                     return revised_question
@@ -249,12 +252,20 @@ class QuestionReviser:
                             "type": "number",
                             "description": "Rating from 1-10 for the quality of the explanation.",
                         },
+                        "difficulty_appropriateness_rating": {
+                            "type": "number",
+                            "description": "Rating from 1-10 for the appropriateness of the question to its labeled difficulty.",
+                        },
                         "constructive_feedback": {
                             "type": "string",
                             "description": "Explains reasoning for the question_rating and explanation_rating scores, including observations of what is good and bad, and includes suggestions for improving them towards making the question a 10 for both categories.",
+                        },
+                        "difficulty_feedback": {
+                            "type": "string",
+                            "description": "Provides specific feedback on how well the question matches its labeled difficulty.",
                         }
                     },
-                    "required": ["question_rating", "explanation_rating", "constructive_feedback"],
+                    "required": ["question_rating", "explanation_rating", "difficulty_appropriateness_rating", "constructive_feedback", "difficulty_feedback"],
                     "additionalProperties": False  # Prevents unexpected keys in feedback objects
                 }
             }
@@ -292,8 +303,10 @@ class QuestionReviser:
                 messages=[
                     {
                         "role": "developer",  # Use developer for o1/o3 models, but system for gpt-4o...
+                        #Removed the student simulations because they were not helpful and made the model more confused.
+                        #Previous developer content prompt in case I want to add it back: simulating two students' perspectives (one very high level, and one very low). Then you consider their perspectives, problem solving strategies, sense making, and struggles, and 
                         "content": (
-                            """You are an expert SAT question evaluator simulating two students' perspectives (one very high level, and one very low). Then you consider their perspectives, problem solving strategies, sense making, and struggles, and rate the questions based on the below categories, then ultimately provide feedback to finalize revisions of the SAT question."""
+                            """You are an expert SAT question evaluator whose job is to evaluate the generated question based on the below categories, and then to recommend whether the question be published to high school students to practice on our website, or if it should be discarded (if the sum of the ratings is below 20, it will be discarded). If it should be kept but you see opportunities for improvement based on your evaluation, provide specific feedback to improve the SAT question."""
                         ),
                     },
                     {
@@ -313,7 +326,14 @@ class QuestionReviser:
                                - 5-7: Explanation is relevant but lacks depth or includes minor errors.\n
                                - 8-9: Explanation models reasoning, application of relevant core knowledge, and test-taking strategies effectively (10 = excellent).\n
                                - 10: The explanation is perfect and is ready to be published to high school students to practice on our website.\n
-                            Last, summarize your thoughts and give specific constructive feedback and reasoning for it. Also, explain your reasoning for giving the question_rating and explanation_rating scores, consider how the question compares to the examples, and includes suggestions to improve the question.
+                            - **Difficulty Appropriateness Rating (1-10)**: How well does the question match its labeled {question.get('difficulty')} difficulty? Consider the difficulty guidelines for {question.get('difficulty')} questions: {self.difficulty_guidelines.get(question.get('difficulty'))} as well as the relative difficulty in the example questions.
+                               - 1-3: Question is significantly easier or harder than labeled
+                               - 4-7: Question is somewhat misaligned with labeled difficulty
+                               - 8-10: Question appropriately matches labeled difficulty
+                            
+                            Last, summarize your thoughts and give specific constructive feedback and reasoning for it. Also, explain your reasoning for giving the evaluation scores, consider how the question compares to the examples, and confidently give specific directions to improve the question.
+
+                            Provide specific difficulty feedback explaining why the question does or doesn't match its labeled difficulty, and what changes would make it more appropriate.
                             ***Here is the SAT Question you need to evaluate:{json.dumps(question)}{example_text}"""
                         ),
                     },
@@ -331,26 +351,40 @@ class QuestionReviser:
         try:
             # Get evaluation feedback
             evaluation_feedback = evaluation.get("constructive_feedback", "")
+            difficulty_feedback = evaluation.get("difficulty_feedback", "")
+            difficulty_rating = evaluation.get("difficulty_appropriateness_rating", 5)
             
-            # Create input payload for the OpenAI revision process
+            # Create input payload with emphasis on difficulty correction if needed
+            difficulty_instruction = ""
+            if difficulty_rating < 7:
+                difficulty_instruction = f"""
+                This question has been rated {difficulty_rating}/10 for difficulty appropriateness.
+                It does not properly match its labeled {question.get('difficulty')} difficulty level.
+                
+                Specific difficulty feedback: {difficulty_feedback}
+                
+                When revising this question, prioritize adjusting its difficulty to properly match {question.get('difficulty')} level
+                by implementing the specific changes mentioned in the feedback.
+                """
+            
             response = self.client.chat.completions.create(
-                model="gpt-4o-2024-11-20",  # Use gpt-4o as requested
+                model="gpt-4o-2024-11-20",
                 response_format=self.response_format,
                 messages=[
                     {
                         "role": "system",  # Use system role for gpt-4o
                         "content": (
-                            """You are an expert SAT question reviser and are the last step before this question is publicly released to high school students to practice on our website - 
-                            we want the highest quality questions possible. Ensure the revised question meets all quality criteria, aligns with SAT standards, and is formatted correctly.
-                            """
+                            """You are an expert SAT question reviser specializing in difficulty calibration and quality improvement."""
                         ),
                     },
                     {
                         "role": "user",
                         "content": (
-                            "Consider the provided feedback, and if the reasoning is sound, refine the question, answer choices, and explanation."
-                            f"\nFeedback: {evaluation_feedback}"
-                            f"\nQuestion: {json.dumps(question)}"
+                            f"""Revise this question based on the provided feedback, with special attention to the formatting suggestions, content changes, and matching the appropriate difficulty level. You MUST follow the feedback and make the changes.
+                            
+                            \nFeedback: {evaluation_feedback}
+                            \nDifficulty Feedback:{difficulty_instruction}
+                            \nQuestion: {json.dumps(question)}"""
                         ),
                     },
                 ],
