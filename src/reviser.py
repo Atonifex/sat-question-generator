@@ -67,6 +67,7 @@ class QuestionReviser:
                     print(f"Fail Score: {total_rating}. Reason: {evaluation.get('constructive_feedback', 'No feedback given.')}")
                     final_question = revised_question #Fall back to OG
 
+                final_question["total_score"] = total_rating
                 revised_questions.append(final_question)
                 self.save_revised_question(
                     question,

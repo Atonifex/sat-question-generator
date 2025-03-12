@@ -857,6 +857,533 @@
         ],
         "answer": "A",
         "explanation": "In the excerpt, Elizabeth is described as feeling 'embarrassment and amusement,' indicating that while she finds the situation awkward, she is not overly upset. Furthermore, her observation of Mr. Collins's 'grandiose' and 'faintly comical' self-praises aligns more with detached humor than serious disdain or anxiety. This supports the conclusion that her reaction is one of mild amusement rather than genuine annoyance, admiration, resentment, or overwhelming anxiety."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "In the following excerpt from Harriet Jacobs’s *Incidents in the Life of a Slave Girl* (1861), Jacobs describes her reason for discussing her hardships:\n\n\"Reader, it is not to awaken sympathy for myself that I am telling you truthfully what I suffered in slavery.\"\n\nWhich inference is best supported by the passage?",
+        "choices": [
+          "A. Jacobs seeks to highlight the suffering of individuals with similar experiences.",
+          "B. Jacobs intends to truthfully document her experiences without influencing readers' emotions.",
+          "C. Jacobs does not hold her audience accountable for her suffering.",
+          "D. Jacobs aims to convey the depth of her trials factually, without arousing pity."
+        ],
+        "answer": "D",
+        "explanation": "Jacobs explicitly states that her purpose is not to awaken sympathy but to truthfully recount her experiences, as noted in the text. Thus, the inference that her goal is to present the facts of her experiences without expecting personal pity aligns best with choice D. While option A is tempting, it is important to rely on specific evidence, and that is not provided in this excerpt. Other options, while plausible at a glance, do not fully capture the nuance of her stated intent; for example, A implies a broader focus on others rather than her personal narrative, B and C don't emphasize the observance of truth coupled with the avoidance of pity, both of which are key to Jacobs's aim in the excerpt."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "The following excerpt is adapted from Fyodor Dostoevsky's public-domain novel, \"Crime and Punishment.\" In this scene, the character Raskolnikov is walking among a crowd after experiencing a tense and disorienting moment:\n\n\"He was so immersed in his own feelings that he scarcely saw or heard anything around him. This solitude in the midst of the throng still further excited him; he walked on like one pursued, unwillingly drawn into the bustle, yet incapable of escaping it altogether.\"\n\nBased on this excerpt, what can be inferred about Raskolnikov's state of mind?",
+        "choices": [
+          "A) He finds solace in being surrounded by others, despite his internal turmoil.",
+          "B) He deliberately surrounds himself with noise and activity to distract himself.",
+          "C) He feels indifferent to the commotion of the crowd around him.",
+          "D) He is deeply preoccupied with his internal struggles, which dominate his consciousness."
+        ],
+        "answer": "D",
+        "explanation": "The correct answer is D. The text describes how Raskolnikov is deeply engrossed in his own thoughts and feelings, nearly oblivious to his surroundings. The description of him as being in 'solitude in the midst of the throng' emphasizes his internal preoccupation and isolation. Option B is incorrect because there is no evidence to suggest that he actively seeks out the crowd. Option C is incorrect as it misinterprets his immersion and inattentiveness as indifference. Option A is incorrect since the crowd seems to add to his anxiety rather than provide comfort."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In Fyodor Dostoevsky's novel 'Crime and Punishment,' the protagonist Raskolnikov experiences deep moral conflict after committing a grave transgression. His inner turmoil is evident as he is plagued by relentless self-accusations and an inability to convince himself of the righteousness of his actions. In particular, he is depicted pacing anxiously in his small room, showing the extent of his psychological torment. \n\nWhich statement is best supported by this depiction of Raskolnikov's emotional state?",
+        "choices": [
+          "A) He believes that wrongdoing inevitably leads to self-punishment.",
+          "B) He primarily worries about being caught by others.",
+          "C) He feels justified in his actions due to his external circumstances.",
+          "D) He manages to suppress his sense of guilt entirely."
+        ],
+        "answer": "A",
+        "explanation": "Raskolnikov's pacing and self-accusations highlight his inability to dismiss the moral implications of his crime. This suggests an acknowledgment, at least subconsciously, that wrongdoing carries inherent self-inflicted punishment. Choice A captures this understanding accurately. Choice B is incorrect because his emotional state primarily reflects internal, rather than external, fears. Choice C doesn't align with the text, as his turmoil contradicts any justification he might claim. Choice D is clearly shown to be wrong by his inability to suppress guilt, as evidenced by the description of his conduct and thoughts."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Harriet Tubman, born into slavery around 1822, escaped to freedom and subsequently conducted numerous rescue missions through the Underground Railroad. Many accounts portray her displaying unwavering courage, traveling mostly under the cover of night to avoid detection, and encouraging those in her group to persist despite danger or exhaustion. Tubman is credited with guiding dozens of enslaved individuals to freedom, earning the admiration and gratitude of those who followed her.\n\nWhich inference about Tubman is most strongly supported by the passage?",
+        "choices": [
+          "A. She gained respect from those she guided because of her relentless determination.",
+          "B. She carefully planned her missions to coincide with weather patterns favorable to travel.",
+          "C. Fear of pursuit by bounty hunters gave Tubman a stoic demeanor when guiding groups.",
+          "D. She believed most enslaved individuals lacked the will to try escaping on their own."
+        ],
+        "answer": "A",
+        "explanation": "By describing Harriet Tubman’s continual efforts, particularly traveling under the cover of night and encouraging her group to persist despite danger, the passage suggests that her determination earned her the admiration of those she guided. The other choices introduce ideas that are either unmentioned in the passage (Choice B), conflict with what is described (Choice C), or imply a negativity not supported by the tone of the text (Choice D)."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In an excerpt from Charles Dickens’s novel *Hard Times*, Mr. Gradgrind insists that students should focus exclusively on observable facts and avoid imaginative thinking. By doing so, he argues, children will be better prepared for practical occupations in the city’s growing industrial economy.\n\nWhich inference about Mr. Gradgrind’s perspective on education is best supported by the description?",
+        "choices": [
+          "A) He believes that encouraging creativity in the classroom has little practical benefit.",
+          "B) He expects scientifically proven methods to replace all other avenues of learning.",
+          "C) He wants students to pursue artistic careers instead of business or technical fields.",
+          "D) He fears that an overreliance on facts will stifle industrial growth in the region."
+        ],
+        "answer": "A",
+        "explanation": "Mr. Gradgrind's insistence on avoiding imaginative thinking and focusing solely on observable facts implies that he does not see practical value in fostering creativity in education. This directly supports option A as the most valid inference. Option B is incorrect as the excerpt does not indicate that only scientifically proven methods are emphasized, but rather facts in general. Option C is inconsistent because Mr. Gradgrind supports practical occupations suitable for the industrial economy, not artistic careers. Option D is also not supported, as Mr. Gradgrind does not express any fear about reliance on facts but rather supports it as a tool for industrial development."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Easy",
+        "question": "Michael Faraday, a prominent 19th-century scientist, delivered a famous series of public lectures at the Royal Institution titled _The Chemical History of a Candle_. In these lectures, he used the common candle flame to break down scientific concepts related to combustion, energy, and matter into simpler terms that were accessible to audiences of all backgrounds. Through engaging demonstrations, Faraday emphasized the importance of observation and experimentation, establishing a connection between the small flame before his listeners and fundamental scientific principles. His aim was to ignite curiosity and make science understandable to the layperson, thereby demonstrating the universal nature of scientific inquiry.\n\nWhich choice best states the main idea of the passage?",
+        "choices": [
+          "A. Faraday compared chemical principles to those in other fields such as botany and zoology.",
+          "B. Faraday believed that chemistry should be practiced without any specialized equipment.",
+          "C. Faraday claimed that one could not comprehend a candle flame without mastering advanced mathematics.",
+          "D. Faraday used a simple object, a candle, to engage people with complex scientific concepts."
+        ],
+        "answer": "D",
+        "explanation": "The passage highlights Michael Faraday's approach of using a simple, familiar object—a candle—to communicate complex scientific ideas to a broad audience. By breaking down scientific concepts and making them accessible, Faraday aimed to foster a curiosity for science among laypeople. While the other options touch on ideas unrelated or tangential to the passage's primary focus, Option D directly encapsulates the main idea that is emphasized in the text."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "Catherine Morland, a character in Jane Austen’s *Northanger Abbey*, observes: \"I do not pretend to set people right, but I do see that they are often wrong.\" This remark highlights her introspection about others and shows how she avoids direct criticism while still perceiving their errors.\n\nWhich choice best captures the main idea of the statement by Catherine?",
+        "choices": [
+          "A. Catherine believes that it is unnecessary to correct people because they are free of errors.",
+          "B. Catherine considers it her obligation to point out and rectify others' mistakes.",
+          "C. Catherine vacillates between ignoring faults in others and formally rectifying them.",
+          "D. Catherine refrains from confronting others' errors directly but internally notes their mistakes."
+        ],
+        "answer": "D",
+        "explanation": "The main idea of Catherine's remark is that she does not engage in correcting others openly—indicated by \"I do not pretend to set people right\"—but she does perceive their mistakes, shown by \"they are often wrong.\" Option D correctly captures this nuanced stance. Option A misunderstands her claim, as she does acknowledge that others are often wrong. Option B misrepresents her approach, as she explicitly states she does not correct others. Option C implies an inconsistent behavior which is not supported by the text. Thus, D is the best answer."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "In the following excerpt from Jane Austen's \"Pride and Prejudice\" (1813), Elizabeth Bennet quietly observes her mother's energetic conversation with Mr. Collins, an overconfident distant cousin who hopes to marry one of the Bennet daughters. Mr. Collins boasts about his advantageous connections and especially praises Lady Catherine de Bourgh, seeking to impress his hosts:\n\n\"Mrs. Bennet, with an enthusiastic smile, endeavored to reflect Mr. Collins’s eagerness, hoping he might soon propose to one of her girls. Elizabeth, meanwhile, listened with a mixture of embarrassment and amusement. She noted her mother’s attempts to secure the family’s future, yet found Mr. Collins’s self-important praises both grandiose and faintly comical.\"\n\nBased on the passage, what can be inferred about Elizabeth Bennet's view of Mr. Collins?",
+        "choices": [
+          "A) She regards Mr. Collins’s remarks with mild amusement rather than genuine annoyance.",
+          "B) She admires Mr. Collins’s social ambition and wishes to emulate his behavior.",
+          "C) She is deeply resentful of her mother’s interference in her personal affairs.",
+          "D) She is overwhelmed with anxiety at the possibility of Mr. Collins’s proposal."
+        ],
+        "answer": "A",
+        "explanation": "In the excerpt, Elizabeth is described as feeling 'embarrassment and amusement,' indicating that while she finds the situation awkward, she is not overly upset. Furthermore, her observation of Mr. Collins's 'grandiose' and 'faintly comical' self-praises aligns more with detached humor than serious disdain or anxiety. This supports the conclusion that her reaction is one of mild amusement rather than genuine annoyance, admiration, resentment, or overwhelming anxiety."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In the early 20th century, baseball was introduced to East Asia by foreign educators, who demonstrated the game’s rules and strategies to local communities.\n\nOver time, small local clubs formed, and then professional leagues emerged, gradually intertwining with the cultural fabric of several countries in the region. In places like Japan and South Korea, baseball became a mainstay, eventually eclipsing many older sports in popularity due to international tournaments and robust fan engagement.\n\nAs the sport took root, more players from East Asia gained global recognition. Revenue from broadcasting deals helped establish training academies equipped with advanced facilities and coaching, further propelling the game’s popularity among young athletes.\n\nBased on the passage, which factor most significantly contributed to the growing appeal of baseball among young athletes in East Asia?",
+        "choices": [
+          "A) The continuation of older sports traditions alongside baseball.",
+          "B) The introduction of baseball by foreign educators in the early 20th century.",
+          "C) The establishment of professional training academies supported by broadcasting revenue.",
+          "D) The limited global recognition of East Asian players."
+        ],
+        "answer": "C",
+        "explanation": "The passage highlights that revenue from broadcasting deals was instrumental in funding training academies equipped with advanced facilities. These academies provided the infrastructure and opportunities for skill development essential for motivating young athletes to pursue baseball. While other options provide context about baseball's emergence in East Asia, they are not cited as the significant factor for its appeal among the youth.",
+        "topic": "The expansion of baseball in East Asia",
+        "topicIndex": 1
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "Factories during the early part of the Industrial Revolution often relied on entire families, including children, to manage newly developed machines. Although this arrangement allowed for increased production, working conditions were frequently unsafe, and wages varied widely.\n\nWhich choice best states the main idea conveyed by the passage?",
+        "choices": [
+          "A. Larger families were typically able to earn higher wages than smaller families because they provided more workers to operate machinery.",
+          "B. The Industrial Revolution introduced machines that were too complex for most families to run without formal training.",
+          "C. Industrial facilities enforced strict safety standards to protect children from potential hazards in the workplace.",
+          "D. Early factories depended on the labor of entire families to drive production while providing insufficient workplace protections."
+        ],
+        "answer": "D",
+        "explanation": "The passage describes how early Industrial Revolution factories leveraged the labor of entire families, including children, to manage machinery. However, these factories often provided unsafe working conditions and inconsistent wages, which emphasizes the reliance on families and the inadequate protections provided.",
+        "topic": "The Industrial Revolution",
+        "topicIndex": 1
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "Read the following paragraph and answer the question:\n\nIn recent years, the proliferation of social media platforms has revolutionized the way businesses engage with potential customers. By leveraging insights from vast amounts of user data, companies are not only able to target their marketing campaigns to align with personal interests and past purchasing behavior but also to measure their engagements in real-time. This dual strategy not only shapes how individuals perceive brands but also positions social media as a cornerstone of modern business strategies in shaping global market trends.\n\nWhich choice best expresses the main idea of the paragraph?",
+        "choices": [
+          "A. Social media platforms have significantly shifted how businesses reach and influence consumers.",
+          "B. Real-time engagement metrics have become the primary advantage for companies operating on social media.",
+          "C. Businesses use social media to better understand and respond to consumer data and interests.",
+          "D. Social media serves as a crucial modern strategy for global market impact."
+        ],
+        "answer": "A",
+        "explanation": "The paragraph broadly discusses how social media tools have transformed business strategies by enabling targeted marketing and real-time engagement, thus influencing consumer perception on a large scale. Choice A encompasses the paragraph's comprehensive theme. Choices B and C overly focus on specific components, such as metrics or data. Choice D is also relevant but misses the breadth of transformation that social media entails. Only A captures the essence of the revolutionary impact social media has had on business outreach and influence.",
+        "topic": "The influence of social media on consumer behavior",
+        "topicIndex": 1
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "Scientists continue to debate the feasibility of establishing a permanent settlement on Mars, focusing on the planet's thin atmosphere and extreme temperature fluctuations. While some researchers emphasize the advancements in engineering solutions for oxygen production and radiation shielding, several experts underline the psychological challenges posed by prolonged isolation and limited social interaction in a confined habitat.\n\nBased on the passage, which is identified as a critical factor affecting the sustainability of a Mars colony?",
+        "choices": [
+          "A) Engineering solutions for oxygen production are considered feasible but do not address psychological issues.",
+          "B) Psychological challenges are emphasized as crucial in determining the feasibility of a Mars settlement.",
+          "C) The Martian environment's weather and distance from Earth are the primary obstacles to colonization.",
+          "D) Experts agree technical challenges are manageable but not psychological aspects."
+        ],
+        "answer": "B",
+        "explanation": "The passage highlights that while scientists discuss both engineering and environmental requirements for a Mars settlement, psychological difficulties such as coping with isolation are emphasized as crucial to the sustainability of such a colony. The correct inference from the text is (B), as it focuses on psychological aspects as being critical rather than technology or distance.",
+        "topic": "Colonizing Mars" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Dr. Khalid's research centers on a *precision irrigation system* designed to optimize the growth of leafy greens. In a recent trial, he deployed monitors that track local humidity, rainfall patterns, and soil composition. According to Dr. Khalid, these inventions can help farmers conserve water by up to 50% while maintaining robust crop yields.\n\n“This system,” he says, “empowers rural communities and promotes more *sustainable agriculture*. Farmers can improve production without significantly expanding their land base, opening the door to resilient food supplies even under challenging climate conditions.”\n\nWhich statement can most reasonably be inferred about Dr. Khalid’s perspective on innovations in agriculture?",
+        "choices": [
+          "A) He sees technology as a means to increase efficiency in resources use for farming.",
+          "B) He emphasizes the importance of scaling up farmland to meet agricultural challenges.",
+          "C) He is skeptical about the role of science in solving agricultural sustainability issues.",
+          "D) He prioritizes research into new crops over improving irrigation systems or resource management."
+        ],
+        "answer": "A",
+        "explanation": "Dr. Khalid discusses how innovations like precision irrigation systems help conserve resources while maintaining productivity, highlighting an appreciation for efficient resource use and technology's role in sustainable practices. The ideas about scaling farmland, criticism of scientific roles, or a sole focus on crop research are not supported by the passage.",
+        "topic": "Sustainable Agriculture" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "In this excerpt from a novel known for exploring themes of wealth and authenticity, the narrator reflects on the internal conflict between the allure of opulence and the yearning for meaningful human connections. \n\nWhich choice best states the main idea of the passage?",
+        "choices": [
+          "A. High society illuminates the contrast between its captivating charm and the narrator's search for deeper meaning.",
+          "B. Social hierarchies inherently lead to conflicts of identity and desire.",
+          "C. The narrator describes the impossibility of finding genuine connection in a materialistic milieu.",
+          "D. Opulence distracts and prevents individuals from forming authentic relationships."
+        ],
+        "answer": "A",
+        "explanation": "Option A effectively encapsulates the dual perspective presented in the passage, acknowledging both the seductive allure of high society and the narrator's internal pull toward values of authenticity and deeper personal connections. The other choices, while close in theme, either misstate the passage's main focus or overly generalize its nuanced depiction of the narrator's internal conflict.",
+        "topic": "The Great Gatsby" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Passage:\n\nInnovation forms the foundation of scientific progress, with many researchers highlighting its critical role. Studies indicate that scientists who diverge from traditional methodologies often achieve breakthrough results. For example, a controlled study reported a $15\\%$ increase in innovative outcomes among researchers dedicating time to personal, exploratory projects. Some experts, however, caution that without proper guidelines, such time may yield limited or unfocused benefits. Interestingly, a growing body of evidence reveals a synergistic effect when creative exploration is paired with well-defined goals, underscoring the value of structured freedom.\n\nWhich inference can best be supported by the passage?",
+        "choices": [
+          "Scientists produce identical outputs whether under strict guidelines or none.",
+          "Overly rigid structures enhance improvisation within scientific experiments.",
+          "A balanced approach combining direction and creativity stimulates more innovation.",
+          "Without any structure, exploratory projects tend to become stagnated or unproductive."
+        ],
+        "answer": "C",
+        "explanation": "The passage presents the concept that innovation flourishes not in extremes but in balance—a regulated environment fostering an interplay between uninhibited creativity and guided focus. Option C encapsulates this supported blend. Disqualifying Options: A and B misrepresent the suggested interplay and discourage interpretative evidence cited. Option D overgeneralizes the detriments inferred tying lack-of-systems factor results as inherently absolute unyielding phrases don't align with implied descriptives of synergy discussed.",
+        "topic": "The role of creativity in scientific research" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Many city officials are striving to encourage environmentally friendly habits, such as walking, bicycling, and carpooling, to lessen congestion and reduce carbon emissions. The city of Eastbridge, for instance, recently introduced an electric bicycle-share program for commuters, providing convenient docking stations throughout various business districts. In the first six months, usage of these bicycles exceeded initial predictions by nearly 40\\%, prompting officials to consider expanding the service beyond the central metropolitan area. This initiative is part of a broader urban strategy aimed at enhancing community health and environmental sustainability.\n\nWhich choice most strongly suggests that the new program has benefited a wider audience than just daily commuters?",
+        "choices": [
+          "A. Doctors at a nearby hospital observed that some patients use the bikes for gentle exercise during recommended rehabilitation routines.",
+          "B. A survey indicates most users find the docking stations along business corridors more reliable than the ones near residential zones.",
+          "C. Newspaper articles highlight many office workers who gave up their personal vehicles to ride the electric bicycles instead.",
+          "D. A popular technology magazine features a review of several new bicycle-sharing programs in the region, ranking Eastbridge’s as the best."
+        ],
+        "answer": "A",
+        "explanation": "To solve this question, identify which option goes beyond day-to-day commuting to show another advantage for citizens. Since choice A shows patients using the bicycles for rehabilitation, it suggests that the bicycles serve a wider audience than just commuters. Choices B, C, and D address commuter preferences, commuting alternatives, or general reputation, but they do not clearly illustrate a benefit extending to a different group.\n\nRemember: *Inferences* questions often ask you to look beyond what is directly stated. Seek details or implications that suggest a broader impact.\n\nAdditionally, the rephrased question explicitly specifies 'a wider audience than just daily commuters,' helping clarify the targeted distinction for this inference.",
+        "topic": "Encouraging environmentally friendly habits" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Scientists’ observations of forest ecosystems indicate that older woodlands—characterized by complex layers of vegetation, extensive root networks, symbiotic fungi, and rich topsoil—support an especially wide range of plants and animals. Recent studies show that actively managed reforestation programs, which emphasize the careful selection of native species and periodic maintenance, can help ecosystems recover from deforestation. Over successive seasons, reforested areas gradually develop improved soil structure, more intricate microhabitats, and increased biodiversity that together foster recovery. This indicates that newly reforested areas, although initially less complex, may eventually exhibit conditions similar to those found in mature forests.  \n  \nWhich statement about reforested areas is best supported by the passage?",
+        "choices": [
+          "A. Over time, newly reforested areas can develop conditions similar to those of mature forests.",
+          "B. Actively managed reforestation programs that focus on native species encourage ecological complexity.",
+          "C. Reforested ecosystems fail to sustain biodiversity over long periods of time.",
+          "D. Native species alone are not sufficient to rebuild mature forest conditions."
+        ],
+        "answer": "A",
+        "explanation": "The passage discusses how well-managed reforestation programs with an emphasis on native species lead to gradual recovery of forest ecosystems, including improvements in biodiversity, soil structure, and microhabitats. Choice A directly reflects the passage's main conclusion that reforested areas can develop conditions like those of mature forests. Choice B is partially correct but does not fully capture the claim supported by the passage. Choices C and D are not supported, as the passage does not state biodiversity declines in reforested areas or that native species are insufficient for recovery.",
+        "topic": "Forest Restoration" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "In the $19^\\text{th}$ century, labor organizations emerged as representatives of workers’ grievances amidst a rapidly industrializing society. Among these groups were the Knights of Labor, who founded themselves in 1869. The Knights promoted an ambitious reform platform, advocating for an eight-hour workday, safer factory conditions, and the abolition of child labor. Their ideology went beyond incremental reforms, as they envisioned a transformed labor ecosystem where economic structures would prioritize communal fairness over individual profits. Despite their expansive vision, they faced challenges related to internal disagreements and external competition from groups like the *American Federation of Labor (AFL)*, which narrowly focused on specific trade concerns. \n\nWhat can be inferred from the passage about the ideological differences between the Knights of Labor and the AFL?",
+        "choices": [
+          "A) The AFL pursued immediate, tangible objectives, while the Knights envisioned broader societal changes.",
+          "B) The Knights of Labor aimed solely at ending child labor, contrasting the AFL’s trade-specific goals.",
+          "C) Internal differences in the Knights’ coalition arose due to pressure from the AFL's targeted strategies.",
+          "D) The AFL and the Knights of Labor both opposed reforming broader economic structures."
+        ],
+        "answer": "A",
+        "explanation": "The passage suggests that while the Knights of Labor supported wide-scale societal changes and an equitable labor system, the AFL concentrated more narrowly on unionizing specific trades and achieving concrete, short-term outcomes. The ideological differences are captured in (A), making it the correct answer. Options B and D mischaracterize the relationships and priorities of the two organizations, and C focuses on competition but does not align with the passage’s depiction of the Knights' internal challenges.",
+        "topic": "19th-Century Labor Movements" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "Many researchers believe that hydrogen fuel has the potential to reduce greenhouse gas emissions, though the challenges are substantial. For instance, some estimate that developing the necessary infrastructure for hydrogen production could cost around $5$ times more than current methods of energy production, requiring significant investment in new technologies and systems. Despite concerns about storage, transportation, and the lack of existing infrastructure, hydrogen is seen as a widely available resource that could ultimately reshape how industries power their operations.\n\nHowever, critics highlight two key issues. First, the process of producing hydrogen fuel, particularly through electrolysis, still heavily depends on nonrenewable energy sources, which undermines its supposed environmental advantages. Second, they note that even with advancements, the infrastructure costs and technological hurdles might make widescale adoption less viable unless governments and industries commit significant resources. Without addressing these concerns, critics argue that the shift to hydrogen might fail to deliver its promised benefits.\n\nWhich claim is best supported by the information in the passage?",
+        "choices": [
+          "A) Hydrogen adoption will predominantly reduce greenhouse emissions without requiring significant investments.",
+          "B) Nonrenewable energy dependence in hydrogen production must be minimized to achieve significant environmental benefits.",
+          "C) Widescale hydrogen use will remain infeasible unless infrastructure and production costs dramatically decrease.",
+          "D) Hydrogen fuel is currently unable to outperform other renewable sources like solar and wind in environmental efficacy."
+        ],
+        "answer": "B",
+        "explanation": "The passage emphasizes that hydrogen's environmental benefits depend heavily on how it is produced. Specifically, the reliance on nonrenewable energy sources is presented as an obstacle to achieving those benefits, which aligns directly with option B. Option A is incorrect because the passage notes infrastructure costs as a challenge. Option C, though plausible, goes beyond the scope of the passage’s argument about feasibility relative to production and environmental benefits. Option D introduces a comparison to other renewables, which the passage does not directly make.",
+        "topic": "Hydrogen Fuel Usage" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "Researchers examining the impact of digital communication have identified its ability to sustain relationships across distances, thanks to rapid and continuous exchanges. However, critics highlight that virtual interactions often lack the authentic spontaneity and emotional resonance found in face-to-face communication. They emphasize that the absence of nonverbal cues and rich, contextual empathy often limits the depth and quality of these interactions.\n\nWhich inference is most supported by the passage about the comparison between virtual and in-person communication?",
+        "choices": [
+          "A. Virtual interactions often fail to create any emotional connection.",
+          "B. The strengths of digital interactions do not completely compensate for their weaknesses.",
+          "C. In-person interactions are irreplaceable for building all types of relationships.",
+          "D. Nonverbal cues are unnecessary in fostering meaningful communication."
+        ],
+        "answer": "B",
+        "explanation": "The passage acknowledges the benefits of digital communication, such as sustaining relationships over distances, but also critiques its lack of emotional depth and spontaneity present in in-person interactions. This suggests a nuanced view where the strengths of virtual communication cannot entirely compensate for its shortcomings. Answer choice B captures this balance. In contrast, choice A is too extreme, failing to acknowledge any utility of digital interactions; choice C overstates the importance of in-person interaction for all types of relationships, without considering any benefits of virtual communication; and choice D erroneously dismisses the passage's emphasis on the importance of nonverbal cues in meaningful communication.",
+        "topic": "Effects of social media on interpersonal communication" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Architect Maria Davis highlights that increasing the implementation of green roofs and solar panels in urban areas can lead to a long-term citywide temperature reduction of $2\\!^{\\circ}\\!C$. She concedes that the upfront costs for these installations are typically $25\\%$ higher than conventional options, but asserts that they are justifiable due to the considerable environmental and societal benefits, such as lower energy consumption, improved air quality, and enhanced public health. Recent municipal findings reinforce her assertion, showing that sustainability efforts can result in both accumulative financial savings over the years and elevated quality-of-life metrics for residents.\n\nBased on the passage, which inference is most consistent with future urban sustainability plans?",
+        "choices": [
+          "A) Urban planners will likely resist costly green roof initiatives due to near-term barriers.",
+          "B) The financial benefits of sustainable practices are largely theoretical and might not materialize.",
+          "C) Cities adopting green strategies might prioritize environmental and long-term human benefits over initial expense concerns.",
+          "D) Planners may altogether avoid measures like green roofs and solar panels due to their perceived high complexity."
+        ],
+        "answer": "C",
+        "explanation": "The passage underscores the dichotomy between initial expense and long-term gains. Sustainable urban measures are highlighted for their prospective impact on reducing costs and improving public health via better air quality and energy efficiency. Option C encapsulates this forward-thinking, benefits-oriented planning approach most effectively, as opposed to the other choices, which downplay these integral aspects.",
+        "topic": "Sustainable architecture in city design" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "President Abraham Lincoln issued the Emancipation Proclamation in January 1863, declaring the freedom of enslaved people in Confederate-held territories. This transformative measure redefined the moral purpose of the Civil War by linking it explicitly to the abolition of slavery. Beyond its effect on internal and military dynamics, the Proclamation also sent a strong signal to the international community. By emphasizing a commitment to human rights, Lincoln sought to curtail potential foreign support for the Confederacy. Countries such as Britain and France, which had growing abolitionist sentiments, found it increasingly untenable to back a regime predicated on slavery.\n\nBased on this information, which inference about the Proclamation is best supported?",
+        "choices": [
+          "A. It discouraged foreign allies from supporting the Confederacy and bolstered the Union's moral stance",
+          "B. It immediately granted full equality to all formerly enslaved persons in the United States",
+          "C. It led to swift surrender negotiations by the Confederate leadership",
+          "D. It prompted the Union to expand its territorial claims"
+        ],
+        "answer": "A",
+        "explanation": "The passage outlines how the Emancipation Proclamation aimed to erode external, especially European, support for the Confederacy by casting the Union's cause in a moral framework centered on abolitionism. This aligns directly with choice A. However, the other options are not supported by the text: option B exaggerates the immediate effects on equality; option C introduces a nonexistent outcome of the Proclamation; and option D suggests an unwarranted link between the Proclamation and territorial ambitions.",
+        "topic": "The impact of the Emancipation Proclamation" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In the original setup of the Stanford Prison Experiment, participants were randomly assigned to be either guards or prisoners in a simulated prison environment. Although the instructions given to the guards were intentionally vague, many quickly adopted strict and sometimes harsh methods of enforcing rules. At the same time, several prisoners, faced with the growing intensity of the situation, gradually fell into passive compliance, even when the guards’ demands appeared punitive. These evolving behaviors suggest that the situational context influenced how each group acted, even in the absence of explicit orders dictating abusive conduct.\n\nWhich statement is most strongly supported by the description above?",
+        "choices": [
+          "A. Individuals placed in authoritative roles may adopt harsh behaviors even without explicit orders",
+          "B. The roles of prisoner and guard can influence individual behaviors regardless of their personalities",
+          "C. Prisoners in controlled settings are frequently unable to challenge the decisions of the guards",
+          "D. Every person who takes on a prison guard role will engage in harsh treatment of prisoners"
+        ],
+        "answer": "A",
+        "explanation": "The passage outlines that the guards in the experiment adopted harsh tactics without explicit instructions, suggesting that authority roles can lead to such behavior situationally, which supports A. Choice B describes the influence of roles generally but doesn't address the question's emphasis on harsh behaviors. C is plausible but implies inevitability, which is not explicitly supported. D is overly absolute, as not all guards behaved harshly.",
+        "topic": "The Stanford Prison Experiment and its implications on authority and power" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "The following passage describes the Michelson-Morley experiment and its impact on modern physics:\n\nThe Michelson-Morley experiment was designed to detect variations in the speed of light caused by Earth's movement through the proposed \"aether,\" a hypothetical medium thought to permeate space and support the propagation of light waves. Michelson and Morley used an interferometer to measure differences in the speed of light along different directions of Earth's motion, expecting changes consistent with Earth's movement relative to the aether. However, their results showed no such variations: the speed of light appeared constant in all directions. This unexpected result not only challenged the concept of the aether but laid the groundwork for Einstein's theory of special relativity, which posits that the speed of light is constant for all observers in inertial frames of reference.\n\nWhich statement best describes the main idea of the Michelson-Morley experiment's influence on the development of special relativity?",
+        "choices": [
+          "A) By showing that the speed of light remained constant, it challenged the idea of an aether and contributed to Einstein's theory of special relativity.",
+          "B) Its data confirmed that light traveled slower in the direction of Earth's motion, thereby proving the existence of an aether.",
+          "C) The findings indicated that light could only maintain its speed in a vacuum if Earth's velocity was precisely measured.",
+          "D) It demonstrated that light's speed varied based on the observer's vantage point, supporting strictly Newtonian perspectives."
+        ],
+        "answer": "A",
+        "explanation": "The Michelson-Morley experiment found no changes in the speed of light due to Earth's movement through an aether, suggesting invariance in light's speed. This null result contradicted the aether hypothesis, challenging long-standing beliefs in physics. Einstein later built on this principle of constant light speed, formulated within inertial frames, to develop his special theory of relativity. The alternatives do not adequately reflect the experimental findings or their implications: B assumes the existence of the aether, which the experiment refuted; C misrepresents the need for measuring Earth's velocity for light to be constant; and D incorrectly aligns the findings with Newtonian rather than relativistic principles.",
+        "topic": "Michelson-Morley Experiment and the discovery of special relativity" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "The following passage is excerpted from a contemporary analysis of corporate financial practices:\n\n\"In the late 1990s, Enron rapidly expanded its energy business through innovative trading strategies and ventured into diverse sectors. However, these aggressive strategies masked an ever-growing mountain of debt and a web of complex financial manipulations. This obfuscation, once uncovered, not only led to Enron's quick collapse but also eroded public trust, prompting significant corporate and regulatory reforms aimed at preventing such practices in the future.\"\n\nWhich choice best captures the central idea of the passage?",
+        "choices": [
+          "A. Enron’s aggressive pursuit of market dominance overshadowed the need for ethical financial management.",
+          "B. Regulatory reforms following Enron’s collapse focused primarily on restricting certain types of market expansions.",
+          "C. Enron’s diversification into various markets proved unsustainable due to international financial pressures.",
+          "D. Enron’s swift growth and concealed financial practices culminated in a dramatic downfall and systemic reforms."
+        ],
+        "answer": "D",
+        "explanation": "The passage outlines how Enron's rapid and ambitious growth efforts, coupled with hidden financial liabilities, led to its downfall and spurred significant regulatory changes. Choice D encapsulates this central idea effectively. On the other hand, choice A is incorrect as it overemphasizes the ethical aspect without focusing on the reforms. Choice B inaccurately suggests the reforms were targeted only at market expansion strategies, which is not stated. Choice C shifts focus to international markets, which is not mentioned in the passage.",
+        "topic": "The rise and fall of Enron and corporate fraud" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "Read the passage below.\n\nDuring the Harlem Renaissance, poets and jazz composers engaged in a dynamic dialogue that transcended simple artistic inspiration. Poets, while drawing on the syncopated rhythms of jazz, often infused their verse with a tension between historical tradition and innovative experimentation. Simultaneously, jazz composers, influenced by the poetic imagery and subtle nuances of contemporary literature, experimented with unconventional melody and tempo, challenging established musical conventions. This interplay not only fostered a vibrant exchange of ideas but also raised critical questions about the evolving nature of African American cultural expression.\n\nWhich choice best states the main idea of the passage?",
+        "choices": [
+          "A. The Harlem Renaissance was a period characterized by stability in the arts, favoring traditional influences over innovation.",
+          "B. Artists during the Harlem Renaissance focused primarily on their individual crafts, avoiding cross-disciplinary influences.",
+          "C. The interplay between jazz and poetry during the Harlem Renaissance reflected and drove evolving cultural narratives and innovations.",
+          "D. Jazz and poetry during the Harlem Renaissance struggled to find a common ground, leading to a division in artistic communities."
+        ],
+        "answer": "C",
+        "explanation": "The passage discusses the mutual influence between poets and jazz composers during the Harlem Renaissance, emphasizing their dynamic interaction and ideological exploration, which reflects evolving cultural narratives. Choices A and B incorrectly present the era as either traditionalist or siloed, neither of which align with the described artistic dialogue. Choice D suggests disunity rather than collaboration, which contradicts the passage's themes.",
+        "topic": "The influence of the Harlem Renaissance on jazz and poetry" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Albert Einstein’s research on the photoelectric effect, recognized with the Nobel Prize in Physics in 1921, paved the way for quantum mechanics. Despite playing an influential role in shaping this emerging field, he frequently challenged the theory’s completeness. Similarly, his 1915 general theory of relativity redefined our understanding of gravity and sparked debate among scientists at the time. Moreover, his continuous exploration of the limits of existing scientific models suggested that he valued empirical evidence and was skeptical of theories that seemed to offer only partial explanations.\\n\\nWhich inference is best supported by the information provided?",
+        "choices": [
+          "Einstein recognized the importance of new theories but never accepted them uncritically.",
+          "Einstein fully agreed with every aspect of quantum mechanics from its earliest stages.",
+          "Einstein’s findings in relativity displaced his research on quantum theory into obscurity.",
+          "Einstein was awarded his Nobel Prize exclusively for his work on general relativity."
+        ],
+        "answer": "A",
+        "explanation": "From the details about Einstein’s Nobel recognition for the photoelectric effect and his reservations about quantum mechanics, we see that he appreciated the importance of modern theories but questioned their completeness. He also revolutionized our understanding of gravity with relativity, showing he was open to scientific progress while still challenging prevailing assumptions. Additionally, the mention of his consistent curiosity to refine models demonstrates his critical yet empirical approach. Thus, the best inference is that Einstein accepted new ideas cautiously rather than unconditionally.",
+        "topic": "The life and scientific achievements of Albert Einstein" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "The following passage discusses the impact of AI on the music industry.\n\nMany music producers are turning to AI-generated compositions to streamline their songwriting process. They say that machine-created melodies not only offer new forms of experimentation but also reduce production costs by providing musicians with fast, on-demand options. However, some industry professionals are concerned about losing the human touch that has traditionally shaped popular music. They argue that while AI can handle much of the technical work, it lacks the emotional depth and originality that come from lived experience. This debate not only reflects shifting industry practices but also illustrates a broader tension between technological innovation and traditional artistry.\n\nWhich choice best states the main idea of the text?",
+        "choices": [
+          "A. AI-generated music offers significant benefits to musicians but raises questions about creativity",
+          "B. AI-generated melodies are bound to surpass all conventional music methods in popularity",
+          "C. Producers rely on AI to perform only the simplest tasks, preferring to work manually on complex pieces",
+          "D. Musicians generally believe AI systems replicate human emotions more accurately than traditional methods"
+        ],
+        "answer": "A",
+        "explanation": "The revised passage includes an additional sentence to meet the medium-length requirement and better reflects the complexity of the discussion. The correct answer (Choice A) clearly captures the balanced view presented in the text, discussing both the advantages of AI in music production and the concerns about its impact on creativity.",
+        "topic": "The influence of AI-generated music on the future of the music industry" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In F. Scott Fitzgerald’s The Great Gatsby, Jay Gatsby spends lavishly on extravagant parties and opulent displays of wealth. He is determined to capture Daisy’s attention, convinced that his newfound material success will not only win her admiration but also somehow restore the unattainable ideal of their past romance. His actions suggest a belief that wealth holds the power to rewrite history and bridge the gap between his current life and the lost promise of love.\n\nWhich inference about Gatsby’s pursuit of the American Dream is best supported by the passage?",
+        "choices": [
+          "He believes that financial status will allow him to revive an idealized relationship.",
+          "He intends to give his fortune away to show Daisy he is sincere in his intentions.",
+          "He rejects social norms entirely, preferring to live a life of isolation.",
+          "He uses public attention from society’s elite to overshadow his personal doubts."
+        ],
+        "answer": "A",
+        "explanation": "The passage describes Gatsby’s belief that wealth has the power to bridge the gap between his current life and the lost promise of love, demonstrating that he thinks financial status can revive an idealized relationship.",
+        "topic": "Jay Gatsby’s pursuit of the American Dream in The Great Gatsby" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "The following passage is excerpted from a historical analysis of American territorial expansion.  \n\nIn 1803, the United States completed the Louisiana Purchase—a deal that doubled the nation’s territory by acquiring roughly $828{,}000$ square miles of land replete with lucrative rivers, trade routes, and vast farmland. Although this vast acquisition promised enormous potential for economic growth, it also sparked fierce debates over national identity, indigenous land rights, and the balance of power between emerging states.\n\nWhich choice best describes the overall significance of this land acquisition for U.S. expansion?",
+        "choices": [
+          "A. It redefined U.S. boundaries while also prompting significant debates over regional and state policies.",
+          "B. It was primarily focused on securing geographic control over key waterways.",
+          "C. It symbolized the emerging U.S. ambition of territorial and political superiority in the Americas.",
+          "D. It enabled significant growth by vastly increasing available land and resources."
+        ],
+        "answer": "D",
+        "explanation": "The Louisiana Purchase greatly enlarged the nation, providing access to new farmland, important waterways, and vast resources, which were critical for economic and territorial growth. While answer A mentions debates, and C discusses symbolic ambitions, neither captures the primary, practical significance of this acquisition: enabling the United States to expand its land and resource base.",
+        "topic": "The significance of the Louisiana Purchase in U.S. expansion" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "The following passage discusses research on the Marshmallow Test, a study examining children’s ability to delay gratification and its links to later outcomes:\n\nThe Marshmallow Test is a well-known study focusing on children’s ability to delay gratification. Some researchers have linked the capacity to wait for a reward with better developmental outcomes in areas such as academic achievement and social skills. Others point out that situational factors, including parenting style and home environment, also play a role in shaping children’s lives.\n\nWhich statement best expresses the main idea of this discussion of the Marshmallow Test?",
+        "choices": [
+          "A. Children’s willingness to wait for a reward proves that environment has no effect on their future achievements.",
+          "B. Delaying gratification is the sole factor that explains why some children work harder in school and beyond.",
+          "C. The results of the Marshmallow Test do not apply to any understanding of long-term personal development.",
+          "D. The capacity to delay gratification may support long-term success, but additional influences are also important."
+        ],
+        "answer": "D",
+        "explanation": "This question requires identifying the central argument regarding the Marshmallow Test. Although the test highlights a connection between waiting for a reward and later success, it also acknowledges that factors such as parenting style or home life can play meaningful roles. Answer D states both elements of the main idea: the positive effects of delayed gratification and the significance of other influences. Answer A is incorrect because it denies any impact of external factors, contrary to the passage. Answer B is flawed in suggesting that only delayed gratification affects success. Answer C dismisses any long-term relevance of the test's findings, which the passage does not support.",
+        "topic": "The Marshmallow Test and delayed gratification in childhood development" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "Scientists have refined the double-slit experiment to explore the dual nature of electrons. In this experiment, individual electrons are emitted in isolation towards a barrier with two narrowly spaced slits. Despite being fired one at a time, the electrons collectively form an interference pattern over time on a detection screen. This phenomenon illustrates behavior that resembles overlapping waves. To gain additional insight, researchers placed detectors at the slits to observe which slit each electron passed through. Remarkably, under this setup, the interference pattern disappeared, and the resulting detection indicated behavior akin to classical particles. These observations challenge classical notions and provoke reevaluation of the fundamental nature of matter.\n\nWhich conclusion about the dual behavior of electrons is best supported by the experimental results described?",
+        "choices": [
+          "A. The observations explicitly prove that electrons behave either as waves or particles depending on the experimental setup.",
+          "B. The results demonstrate the sole existence of an unexplained external force influencing the trajectory of the electrons.",
+          "C. The phenomena observed align completely with classical wave theories.",
+          "D. The findings support the interpretation that electrons can exhibit both wave-like and particle-like behaviors, depending on the measurement conditions."
+        ],
+        "answer": "D",
+        "explanation": "The double-slit experiment demonstrates the principle of wave-particle duality. When electrons pass through the slits without the presence of detectors, they form an interference pattern indicative of wave-like behavior. However, when detectors are used to determine the path through a slit, this wave-like interference disappears, and the behavior observed aligns with that of particles. This dual behavior reveals that electrons cannot be categorized fully as classical particles or waves but embody both characteristics under different observation conditions, leading to choice D as the best-supported conclusion.\\n\\nIncorrect choices:\\n- A: While this choice appears partially correct, it oversimplifies the interpretation by claiming an explicit dichotomy, which obscures the nuanced nature of wave-particle duality.\\n- B: There is no evidence in the experimental setup or observations suggesting an external force specifically affecting the electrons' behavior.\\n- C: This contradicts the quantum mechanical interpretation entirely, as classical wave theories do not account for the particle detections or discrete impacts.",
+        "topic": "The double-slit experiment and quantum mechanics" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "The following passage discusses recent developments in supply chain innovation:\n\nOver the last decade, Amazon’s investments in advanced robotics, automated warehouses, and sophisticated data-driven strategies have not only lowered operational costs and accelerated deliveries, but they have also redefined the entire landscape of customer expectations. These innovations have forced competitors to adapt to a faster-paced market and have led consumers to anticipate shorter shipping times as a new standard. In this rapidly evolving environment, logistics and supply chain operations remain at the forefront of retail innovation.\n\nWhich choice best states the main idea of the text?",
+        "choices": [
+          "A. Amazon’s innovations have made the global marketplace more competitive for smaller firms.",
+          "B. Amazon’s use of robotics has caused warehouse employees to spend more time on customer service.",
+          "C. Amazon’s focus on short-term savings has discouraged long-term technological research.",
+          "D. Amazon’s supply chain innovations have transformed customer expectations regarding speed and efficiency."
+        ],
+        "answer": "D",
+        "explanation": "Choice D is the best answer because it accurately summarizes the text, which emphasizes how Amazon’s innovations have changed customer expectations regarding speed and efficiency. Choice A is incorrect because the passage does not mention competitive pressure on smaller firms. Choice B is unsupported since there is no discussion of employee roles, and Choice C is incorrect due to the absence of any mention of short-term versus long-term priorities.",
+        "topic": "The impact of Amazon’s supply chain innovation" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Aristotle argues in his Nicomachean Ethics that moral virtues—such as courage and generosity—are not innate qualities but are acquired through habitual and deliberate practice. He claims that simply receiving instruction is insufficient; instead, individuals must consistently perform virtuous actions in real-life challenges to develop a steadfast moral character. By repeatedly choosing to act with integrity, even in difficult circumstances, a person gradually internalizes these virtues until they become part of his or her nature. \n\nWhich claim is most strongly supported by Aristotle’s view?",
+        "choices": [
+          "A. Individuals can demonstrate virtue through a single heroic act.",
+          "B. Innate talent for virtue is sufficient for moral development.",
+          "C. Moral character improves only when external rewards are given.",
+          "D. Repeated virtuous behavior helps cultivate a person’s ethical character."
+        ],
+        "answer": "D",
+        "explanation": "The expanded passage highlights Aristotle's view that virtues are developed through consistent practice and intentional behaviors, rather than being innate or reliant on rewards. This aligns with choice D, while conflicting with the other options, which suggest singular acts, inherent talent, or external incentives.",
+        "topic": "Aristotle’s concept of virtue ethics and moral character" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In 1937, Pablo Picasso's Guernica garnered international attention for its vivid portrayal of the civilian toll of war. Commissioned for the Spanish Pavilion at the Paris International Exposition, the painting employed dramatic imagery of chaos and anguish to express the suffering inflicted by the Spanish Civil War. Exhibited in various international venues, Guernica transcended its original context by symbolically addressing the horrors of conflict in any nation. Consequently, it emerged as a defining piece of political art that not only chronicled a historical event, but also offered a resonant message against the universal brutality of war.\n\nWhich inference about the painting's significance is best supported by this information?",
+        "choices": [
+          "A. It discouraged later artists from creating politically charged artwork.",
+          "B. It pictured a conflict that was primarily allegorical and not based on any specific historical events.",
+          "C. Its emotional impact stemmed purely from depictions of historical references, rather than symbolic imagery.",
+          "D. It conveyed a universal statement against violence that resonated with people in nations beyond Spain."
+        ],
+        "answer": "D",
+        "explanation": "The passage illustrates that Guernica's message went beyond just the Spanish Civil War by resonating with international audiences and symbolizing the universal horrors of war. Therefore, option D correctly captures its broader significance. Option A is not supported because there’s no mention of discouraging artists, Option B incorrectly suggests the event was purely fictional, and Option C misinterprets the painting's use of emotional and symbolic imagery.",
+        "topic": "The significance of Picasso's Guernica in political art" 
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Hard",
+        "question": "In a short excerpt on Gandhi’s leadership, the first sentence emphasizes how his moral convictions inspired many to question their preconceptions about protest and power. To this, the excerpt adds: _By highlighting self-discipline and peaceful methods of resistance, Gandhi encouraged individuals to transform personal ethics into potent political tools._ Later, it underscores how such an approach resonated during India’s movement for independence, as followers saw nonviolence as both a feasible and profound method.\n\nWhich choice best describes the function of the second sentence within the overall discussion?\n\n",
+        "choices": [
+          "A) It challenges the traditional view that political change must begin with government leaders rather than individual citizens.",
+          "B) It presents a historical example of how mass movements were influenced by spontaneous uprisings, rather than by organized strategies.",
+          "C) It summarizes the effects of colonial governance on local economies in India during Gandhi’s era of leadership.",
+          "D) It clarifies how Gandhi’s focus on individual conduct advanced the broader purpose of nonviolent action in political movements."
+        ],
+        "answer": "D",
+        "explanation": "The second sentence elaborates the bridge Gandhi created between individual action and systemic change, solidifying nonviolence through ethical duty. It clarifies his technique in political transformation, corroborating the central theme of nonviolent progress. The other choices, however nuanced, deviate from the direct impact on discussion about moral personal praxis into politics, which is why answer D prevails.",
+        "topic": "The political philosophy and leadership of Mahatma Gandhi" 
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "The following passage is from a recent analysis of digital storytelling trends and discusses the impact of TikTok on modern entertainment.\n\nTikTok’s short videos have profoundly influenced how people consume content by emphasizing brief, engaging story arcs that hook viewers almost instantly. Many creators deliver entire narratives within seconds, relying on interactive tools and visual effects to maintain interest. However, this rapid style of content raises questions about its depth and whether it might oversimplify complex narratives. As a result, these quick, dynamic clips have reshaped entertainment trends, leading to innovative storytelling techniques and fueling the continued rise of bite-sized media.\n\nWhich choice best expresses the main idea of the passage?",
+        "choices": [
+          "A. While enabling dynamic storytelling, TikTok's short format ultimately constrains creators from delivering sustained narratives.",
+          "B. TikTok users often fail to produce content that resonates with a diverse and broad audience.",
+          "C. Traditional methods of storytelling and media consumption remain unaffected by TikTok's influence.",
+          "D. TikTok's brief yet engaging videos have revolutionized how content is created and shared, ushering in new entertainment trends and techniques."
+        ],
+        "answer": "D",
+        "explanation": "The passage discusses the impact TikTok's short-form content has on entertainment, emphasizing its innovation in storytelling and its substantial influence on trends. While option A acknowledges a possible limitation of TikTok, it does not capture the overarching positive transformation attributed to it in the passage. Options B and C include false or irrelevant statements about the platform's users or traditional media. Only option D appropriately reflects the main idea of the passage.",
+        "topic": "The impact of TikTok on reshaping short-form storytelling and entertainment." 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "In Mary Shelley's \"Frankenstein,\" the creature narrates how it persistently sought to connect with others despite experiencing repeated rejection. It recounts being spurned by a kind family it secretly helped, facing hostility from villagers it had aided, and witnessing panic or aggression at every attempt to approach humans.\n\nBased on this context, which of the following inferences is best supported by the creature's reactions to rejection?",
+        "choices": [
+          "A. Although the creature values companionship, its actions suggest a desire to be appreciated for its deeds rather than for itself.",
+          "B. The repeated failures at forming connections decreased the creature's resolve to approach humans.",
+          "C. The creature deeply desires to find acceptance and belonging despite the rejection it faces.",
+          "D. The responses the creature receives cause it to abandon the hope of gaining empathy or human interaction."
+        ],
+        "answer": "C",
+        "explanation": "The creature's persistent attempts to connect with humanity, despite being continually rebuffed, reflect its deep longing for acceptance and companionship. Though its experiences with rejection could have discouraged it, the fact that it tries repeatedly indicates an unwavering desire to find belonging.",
+        "topic": "The creature’s yearning for human connection and resilience in \"Frankenstein\"" 
       }
     ]
   }

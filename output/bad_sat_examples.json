@@ -140,81 +140,7 @@
       "explanation": "The officials’ reaction reveals their belief that failing to punish Oliver’s request for more food would encourage similar defiance among others in the workhouse, threatening their authority. Their primary concern lies in maintaining strict control, as evidenced by their fear of setting a precedent that could lead to insubordination. For instance, referring to Oliver's plea as 'ingratitude' and convening to punish him underscores their focus on authority and discipline over empathy or fairness.",
       "disqualification_reason": "This has bad formatting with the '\\emph{Oliver Twist}' rather than using *Oliver Twist*, and it also has too many excape slashes for the line breaks '\\\\\\n'"
     },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Architect Maria Davis highlights that increasing the implementation of green roofs and solar panels in urban areas can lead to a long-term citywide temperature reduction of $2\\!^{\\circ}\\!C$. She concedes that the upfront costs for these installations are typically $25\\%$ higher than conventional options, but asserts that they are justifiable due to the considerable environmental and societal benefits, such as lower energy consumption, improved air quality, and enhanced public health. Recent municipal findings reinforce her assertion, showing that sustainability efforts can result in both accumulative financial savings over the years and elevated quality-of-life metrics for residents.\n\nBased on the passage, which inference is most consistent with future urban sustainability plans?",
-      "choices": [
-        "A) Urban planners will likely resist costly green roof initiatives due to near-term barriers.",
-        "B) The financial benefits of sustainable practices are largely theoretical and might not materialize.",
-        "C) Cities adopting green strategies might prioritize environmental and long-term human benefits over initial expense concerns.",
-        "D) Planners may altogether avoid measures like green roofs and solar panels due to their perceived high complexity."
-      ],
-      "answer": "C",
-      "explanation": "The passage underscores the dichotomy between initial expense and long-term gains. Sustainable urban measures are highlighted for their prospective impact on reducing costs and improving public health via better air quality and energy efficiency. Option C encapsulates this forward-thinking, benefits-oriented planning approach most effectively, as opposed to the other choices, which downplay these integral aspects.",
-      "topic": "Sustainable architecture in city design",
-      "topicIndex": 1
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "President Abraham Lincoln issued the Emancipation Proclamation in January 1863, declaring the freedom of enslaved people in Confederate-held territories. This transformative measure redefined the moral purpose of the Civil War by linking it explicitly to the abolition of slavery. Beyond its effect on internal and military dynamics, the Proclamation also sent a strong signal to the international community. By emphasizing a commitment to human rights, Lincoln sought to curtail potential foreign support for the Confederacy. Countries such as Britain and France, which had growing abolitionist sentiments, found it increasingly untenable to back a regime predicated on slavery.\n\nBased on this information, which inference about the Proclamation is best supported?",
-      "choices": [
-        "A. It discouraged foreign allies from supporting the Confederacy and bolstered the Union's moral stance",
-        "B. It immediately granted full equality to all formerly enslaved persons in the United States",
-        "C. It led to swift surrender negotiations by the Confederate leadership",
-        "D. It prompted the Union to expand its territorial claims"
-      ],
-      "answer": "A",
-      "explanation": "The passage outlines how the Emancipation Proclamation aimed to erode external, especially European, support for the Confederacy by casting the Union's cause in a moral framework centered on abolitionism. This aligns directly with choice A. However, the other options are not supported by the text: option B exaggerates the immediate effects on equality; option C introduces a nonexistent outcome of the Proclamation; and option D suggests an unwarranted link between the Proclamation and territorial ambitions.",
-      "topic": "The impact of the Emancipation Proclamation",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In the original setup of the Stanford Prison Experiment, participants were randomly assigned to be either guards or prisoners in a simulated prison environment. Although the instructions given to the guards were intentionally vague, many quickly adopted strict and sometimes harsh methods of enforcing rules. At the same time, several prisoners, faced with the growing intensity of the situation, gradually fell into passive compliance, even when the guards’ demands appeared punitive. These evolving behaviors suggest that the situational context influenced how each group acted, even in the absence of explicit orders dictating abusive conduct.\n\nWhich statement is most strongly supported by the description above?",
-      "choices": [
-        "A. Individuals placed in authoritative roles may adopt harsh behaviors even without explicit orders",
-        "B. The roles of prisoner and guard can influence individual behaviors regardless of their personalities",
-        "C. Prisoners in controlled settings are frequently unable to challenge the decisions of the guards",
-        "D. Every person who takes on a prison guard role will engage in harsh treatment of prisoners"
-      ],
-      "answer": "A",
-      "explanation": "The passage outlines that the guards in the experiment adopted harsh tactics without explicit instructions, suggesting that authority roles can lead to such behavior situationally, which supports A. Choice B describes the influence of roles generally but doesn't address the question's emphasis on harsh behaviors. C is plausible but implies inevitability, which is not explicitly supported. D is overly absolute, as not all guards behaved harshly.",
-      "topic": "The Stanford Prison Experiment and its implications on authority and power",
-      "topicIndex": 1
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "The following passage describes the Michelson-Morley experiment and its impact on modern physics:\n\nThe Michelson-Morley experiment was designed to detect variations in the speed of light caused by Earth's movement through the proposed \"aether,\" a hypothetical medium thought to permeate space and support the propagation of light waves. Michelson and Morley used an interferometer to measure differences in the speed of light along different directions of Earth's motion, expecting changes consistent with Earth's movement relative to the aether. However, their results showed no such variations: the speed of light appeared constant in all directions. This unexpected result not only challenged the concept of the aether but laid the groundwork for Einstein's theory of special relativity, which posits that the speed of light is constant for all observers in inertial frames of reference.\n\nWhich statement best describes the main idea of the Michelson-Morley experiment's influence on the development of special relativity?",
-      "choices": [
-        "A) By showing that the speed of light remained constant, it challenged the idea of an aether and contributed to Einstein's theory of special relativity.",
-        "B) Its data confirmed that light traveled slower in the direction of Earth's motion, thereby proving the existence of an aether.",
-        "C) The findings indicated that light could only maintain its speed in a vacuum if Earth's velocity was precisely measured.",
-        "D) It demonstrated that light's speed varied based on the observer's vantage point, supporting strictly Newtonian perspectives."
-      ],
-      "answer": "A",
-      "explanation": "The Michelson-Morley experiment found no changes in the speed of light due to Earth's movement through an aether, suggesting invariance in light's speed. This null result contradicted the aether hypothesis, challenging long-standing beliefs in physics. Einstein later built on this principle of constant light speed, formulated within inertial frames, to develop his special theory of relativity. The alternatives do not adequately reflect the experimental findings or their implications: B assumes the existence of the aether, which the experiment refuted; C misrepresents the need for measuring Earth's velocity for light to be constant; and D incorrectly aligns the findings with Newtonian rather than relativistic principles.",
-      "topic": "Michelson-Morley Experiment and the discovery of special relativity",
-      "topicIndex": 1
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Hard",
-      "question": "The following passage is excerpted from a contemporary analysis of corporate financial practices:\n\n\"In the late 1990s, Enron rapidly expanded its energy business through innovative trading strategies and ventured into diverse sectors. However, these aggressive strategies masked an ever-growing mountain of debt and a web of complex financial manipulations. This obfuscation, once uncovered, not only led to Enron's quick collapse but also eroded public trust, prompting significant corporate and regulatory reforms aimed at preventing such practices in the future.\"\n\nWhich choice best captures the central idea of the passage?",
-      "choices": [
-        "A. Enron’s aggressive pursuit of market dominance overshadowed the need for ethical financial management.",
-        "B. Regulatory reforms following Enron’s collapse focused primarily on restricting certain types of market expansions.",
-        "C. Enron’s diversification into various markets proved unsustainable due to international financial pressures.",
-        "D. Enron’s swift growth and concealed financial practices culminated in a dramatic downfall and systemic reforms."
-      ],
-      "answer": "D",
-      "explanation": "The passage outlines how Enron's rapid and ambitious growth efforts, coupled with hidden financial liabilities, led to its downfall and spurred significant regulatory changes. Choice D encapsulates this central idea effectively. On the other hand, choice A is incorrect as it overemphasizes the ethical aspect without focusing on the reforms. Choice B inaccurately suggests the reforms were targeted only at market expansion strategies, which is not stated. Choice C shifts focus to international markets, which is not mentioned in the passage.",
-      "topic": "The rise and fall of Enron and corporate fraud",
-      "topicIndex": 1
-    },
+    
     {
       "skill": "Main Idea",
       "difficulty": "Hard",
@@ -232,17 +158,13 @@
     },
     {
       "skill": "Main Idea",
-      "difficulty": "Hard",
+      "difficulty": "Medium",
       "question": "Read the passage below.\n\nDuring the Harlem Renaissance, poets and jazz composers engaged in a dynamic dialogue that transcended simple artistic inspiration. Poets, while drawing on the syncopated rhythms of jazz, often infused their verse with a tension between historical tradition and innovative experimentation. Simultaneously, jazz composers, influenced by the poetic imagery and subtle nuances of contemporary literature, experimented with unconventional melody and tempo, challenging established musical conventions. This interplay not only fostered a vibrant exchange of ideas but also raised critical questions about the evolving nature of African American cultural expression.\n\nWhich choice best states the main idea of the passage?",
       "choices": [
-        "A.",
-        "The Harlem Renaissance was a period characterized by stability in the arts, favoring traditional influences over innovation.",
-        "B.",
-        "Artists during the Harlem Renaissance focused primarily on their individual crafts, avoiding cross-disciplinary influences.",
-        "C.",
-        "The interplay between jazz and poetry during the Harlem Renaissance reflected and drove evolving cultural narratives and innovations.",
-        "D.",
-        "Jazz and poetry during the Harlem Renaissance struggled to find a common ground, leading to a division in artistic communities."
+        "A. The Harlem Renaissance was a period characterized by stability in the arts, favoring traditional influences over innovation.",
+        "B. Artists during the Harlem Renaissance focused primarily on their individual crafts, avoiding cross-disciplinary influences.",
+        "C. The interplay between jazz and poetry during the Harlem Renaissance reflected and drove evolving cultural narratives and innovations.",
+        "D. Jazz and poetry during the Harlem Renaissance struggled to find a common ground, leading to a division in artistic communities."
       ],
       "answer": "C",
       "explanation": "The passage discusses the mutual influence between poets and jazz composers during the Harlem Renaissance, emphasizing their dynamic interaction and ideological exploration, which reflects evolving cultural narratives. Choices A and B incorrectly present the era as either traditionalist or siloed, neither of which align with the described artistic dialogue. Choice D suggests disunity rather than collaboration, which contradicts the passage's themes.",

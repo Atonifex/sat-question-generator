@@ -26,7 +26,7 @@ OUTPUT_DIR = BASE_DIR / 'output'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Question Generation Settings
-DEFAULT_NUM_QUESTIONS = 3
+DEFAULT_NUM_QUESTIONS = 1
 VALID_DIFFICULTIES = ["Medium", "Hard"] #"Easy", 
 VALID_SKILLS = [
     'Function of Sentence', 'Inferences', 'Main Idea',
