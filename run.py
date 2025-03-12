@@ -42,7 +42,7 @@ def main():
                     current_topic_list = topics[topicChoice]
                     current_topic = current_topic_list[topicIndex % len(current_topic_list)]
                     
-                    print(f"Generating {difficulty} {skill} question on topic: {current_topic}")
+                    print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)}: {current_topic}")
                     questions = generator.generate_batch(skill, difficulty, 1, current_topic)
                     
                     revised_questions = reviser.revise_batch(questions)
