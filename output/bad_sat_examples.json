@@ -140,7 +140,6 @@
       "explanation": "The officials’ reaction reveals their belief that failing to punish Oliver’s request for more food would encourage similar defiance among others in the workhouse, threatening their authority. Their primary concern lies in maintaining strict control, as evidenced by their fear of setting a precedent that could lead to insubordination. For instance, referring to Oliver's plea as 'ingratitude' and convening to punish him underscores their focus on authority and discipline over empathy or fairness.",
       "disqualification_reason": "This has bad formatting with the '\\emph{Oliver Twist}' rather than using *Oliver Twist*, and it also has too many excape slashes for the line breaks '\\\\\\n'"
     },
-    
     {
       "skill": "Main Idea",
       "difficulty": "Hard",
@@ -351,7 +350,6 @@
       "topic": "The creature’s yearning for human connection and resilience in \"Frankenstein\"",
       "topicIndex": 7
     },
-    
     {
       "skill": "Main Idea",
       "difficulty": "Medium",
@@ -367,7 +365,6 @@
       "topic": "The disruptive impact of fintech on traditional banking",
       "total_score": 23
     },
-    
     {
       "skill": "Main Idea",
       "difficulty": "Easy",
@@ -382,6 +379,23 @@
       "explanation": "The text highlights how penicillin revolutionized the treatment of bacterial infections, leading to significant improvements in health outcomes. It also introduces the associated challenge of antibiotic resistance. Option A effectively encompasses both these aspects, making it the best choice. Choice B exaggerates the impact of penicillin’s discovery by implying total eradication of bacterial diseases. Choice C contradicts the passage which mentions its role in tackling severe diseases. Choice D downplays penicillin’s significance while disregarding the implications discussed in the text.",
       "topic": "The discovery of penicillin and its impact on medicine",
       "total_score": 22
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "According to the Broken Windows Theory, a community that quickly addresses minor signs of disorder, such as broken windows and graffiti, can help discourage more serious crimes. ____ these strategies rely on consistent effort and resources, they can significantly improve neighborhood well-being.\n\nWhich choice provides the most logical transition to complete the sentence?",
+      "choices": [
+        "A. Although",
+        "B. Meanwhile",
+        "C. As a result",
+        "D. In contrast"
+      ],
+      "answer": "A",
+      "explanation": "Answer choice A is correct because it emphasizes a contrast between the challenges of consistent effort and the positive outcome of improved well-being. Choice B suggests a simultaneous event rather than a contrast, choice C suggests a direct cause-and-effect relationship, and choice D signals opposition that does not fit the context of improvement. Recognizing how transitions link sentences logically helps pinpoint where contradictions, causes, or continuations are appropriate.",
+      "topic": "The Broken Windows Theory and crime prevention strategies",
+      "total_score": 21,
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 7
     }
   ]
 }

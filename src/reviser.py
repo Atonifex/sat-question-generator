@@ -68,6 +68,9 @@ class QuestionReviser:
                     final_question = revised_question #Fall back to OG
 
                 final_question["total_score"] = total_rating
+                final_question["constructive_feedback"] = evaluation.get("constructive_feedback", "")
+                final_question["difficulty_feedback"] = evaluation.get("difficulty_feedback", "")
+
                 revised_questions.append(final_question)
                 self.save_revised_question(
                     question,

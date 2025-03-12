@@ -69,10 +69,8 @@ def main():
                     output_to_json(revised_questions)
                     print(f"FINISHED generating and revising {len(revised_questions)} questions for {difficulty} {skill}")
                     
-                    # Update topic indices
+                    # Update topic indices - Only increment topicIndex when we've gone through all topic lists
                     topicChoice = (topicChoice + 1) % len(topics)
-
-                    # Only increment topicIndex when we've gone through all topic lists
                     if topicChoice == 0:  # We've wrapped around to the first topic list
                         topicIndex += 1   # Move to next index within all topic lists
 

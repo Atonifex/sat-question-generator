@@ -1,0 +1,38 @@
+{
+  "questions": [
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Easy",
+      "question": "Celie develops from a timid presence to a more assured individual in Alice Walker's *The Color Purple*, largely by forging supportive connections and discovering her own sense of value.\n\nWhich choice best supports the claim that Celie's personal letters reflect her growing self-confidence over time?",
+      "choices": [
+        "A) In several letters, Celie admits her fear of expressing her true opinions to her husband and hides her thoughts to keep peace in the household.",
+        "B) Early in the novel, Celie writes about her concern that sharing her troubles with Nettie will reveal too many painful secrets.",
+        "C) Throughout the story, Celie mentions how Shug Avery's encouragement and influence help her gain confidence.",
+        "D) Near the end of the novel, Celie's letters reveal a forthright and unwavering tone, making clear that she will no longer keep her thoughts to herself."
+      ],
+      "answer": "D",
+      "explanation": "Choice D offers the strongest evidence that Celie is claiming her own voice and no longer concealing her thoughts. The other choices reference Celie's circumstances or the influence of others but do not highlight her personal shift to a more assured and outspoken tone. Her letters near the end of the novel plainly reveal her rising sense of self-worth and determination to assert herself.",
+      "topic": "Celie’s journey to self-empowerment in *The Color Purple*",
+      "total_score": 25,
+      "topic_list_name": "literatureTopics",
+      "topic_index": 7
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Easy",
+      "question": "During the Industrial Revolution, the swift adoption of innovative manufacturing technologies, which led to significant reorganization and expansion of urban areas, ___ thousands of people to migrate from rural regions to bustling industrial cities.\n\nWhich choice best completes the sentence in a way that supports the idea of how the Industrial Revolution influenced urbanization and labor?",
+      "choices": [
+        "A) limited",
+        "B) prompted",
+        "C) diverted",
+        "D) discouraged"
+      ],
+      "answer": "B",
+      "explanation": "Choice B, \"prompted,\" is the correct answer as it captures the causal relationship between the advent of new technologies and the substantial movement of rural populations to cities. The word 'prompted' conveys that these technological innovations encouraged or caused such migration, in accordance with historical trends of increased urbanization during the Industrial Revolution. Option A, \"limited,\" incorrectly implies a restriction on movement, which contradicts the mass migration observed. Option C, \"diverted,\" suggests a redirection away from urban centers, which is not supported by historical context. Option D, \"discouraged,\" implies a reduction or restraint in migration, which is also inconsistent with the documented rural-to-urban shift. Analysis of each choice helps rule out the distractors, affirming that 'prompted' aligns with the context.",
+      "topic": "The impact of the Industrial Revolution on urbanization and labor",
+      "total_score": 26,
+      "topic_list_name": "historyTopics",
+      "topic_index": 7
+    }
+  ]
+}
