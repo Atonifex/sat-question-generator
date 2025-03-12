@@ -87,23 +87,25 @@ class QuestionGenerator:
                 messages=[
                     {"role": "developer", #use "developer" when using o3 and o1 models and "system" when using gpt-4o-2024-11-20
                     "content": 
-                        """You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
+                        f"""You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
                         - Provide one correct answer choice and three plausible but incorrect answer choices. The correct answer choice should equally likely to be A, B, C, or D; you have a bad tendency of making B and C always the correct answers, so make A and D also be correct sometimes.
                         - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
                         - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
                         - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
-                        - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)"""},
+                        - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)
+                        - VERY IMPORTANT REQUIREMENT: The question MUST be about the exact topic provided: {topic}. Do not substitute a different topic."""},
                     {"role": "user", 
                     "content": 
                         """Generate a Digital SAT question testing the ***{skill}*** skill at ***{difficulty}*** difficulty in the specified JSON format.
-                        1. Write the question and answer choices based on this topic: {topic}.     
-                        2. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
-                        3. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question, learn underlying concepts, and apply SAT test-taking strategies.
-                        4. Don't use unnecessary underlining, italics, or bold.
-                        5. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
-                        5. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
-                        6. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***
-                        7. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
+                        1. THE QUESTION MUST BE ABOUT THIS EXACT TOPIC: "{topic}". Do not substitute a different topic.
+                        2. Write the question and answer choices based on this topic: {topic}.     
+                        3. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
+                        4. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question, learn underlying concepts, and apply SAT test-taking strategies.
+                        5. Don't use unnecessary underlining, italics, or bold.
+                        6. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
+                        7. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
+                        8. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***
+                        9. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
                     }
                         #*********************IN THE FUTURE, try without #9 (providing any questions) because reasoning models are supposed to be better at this****************
                         # --> I tried without it, but it was obsessed with writing about Harriet Tubman, literally 50% of questions were about her despite no examples provided about harriet tubman. So weird.
