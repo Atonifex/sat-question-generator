@@ -110,7 +110,7 @@ SKILL_PROMPTS = {
 }
 
 # Rate Limiting
-REQUEST_DELAY = 7  # seconds between requests
+REQUEST_DELAY = 2  # seconds between requests
 MAX_RETRIES = 3
 
 

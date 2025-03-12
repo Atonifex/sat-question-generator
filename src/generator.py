@@ -45,6 +45,7 @@ class QuestionGenerator:
     
     def generate_question(self, skill: str, difficulty: str, topic: str = None) -> Dict:
         """Generate a single SAT question using OpenAI."""
+        print(f"Inside generate_question, using topic: {topic}")
         try:
             #print(f"Generating {difficulty} {skill} question...")
 

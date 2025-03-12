@@ -19,7 +19,7 @@ def main():
     csv_file_path = Path(OUTPUT_DIR) / f"questions_{timestamp}.csv"
     columns = ["timestamp", "raw_json", "skill", "difficulty", "question", "choices", "answer", "explanation",
             "Initial Feedback", "P2-Revised JSON", "Revised Question", "Revised Choices", "Revised Answer", "Revised Explanation",
-            "Low Level Student Simulation", "High Level Student Simulation", "Question Rating", "Explanation Rating", "Constructive Feedback", "Final JSON SAT Question"]
+            "Low Level Student Simulation", "High Level Student Simulation", "Question Rating", "Explanation Rating", "Constructive Feedback", "Difficulty Rating", "Total Score", "Final JSON SAT Question"]
 
     with open(csv_file_path, 'w', newline='', encoding='utf-8') as f:
        writer = csv.DictWriter(f, fieldnames=columns)
