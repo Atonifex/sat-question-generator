@@ -41,7 +41,7 @@ def main():
                   "businessTechnologyTopics", "philosophyPoliticalTopics", "artMusicFilmSportsTopics", 
                   "famousBiographies", "modernTopicsAndFun"]
     
-    topicChoice = 3  # Index for which topic list to use
+    topicChoice = 5  # Index for which topic list to use
     topicIndex = 0   # Index within the chosen topic list
 
     for skill in VALID_SKILLS:
