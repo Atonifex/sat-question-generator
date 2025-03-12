@@ -31,7 +31,7 @@ def main():
     reviser = QuestionReviser(csv_file_path)
 
     topics = [literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, famousBiographies, modernTopicsAndFun]
-    topicChoice = 0  # Index for which topic list to use
+    topicChoice = 1  # Index for which topic list to use
     topicIndex = 0   # Index within the chosen topic list
 
     for skill in VALID_SKILLS:
@@ -42,7 +42,7 @@ def main():
                     current_topic_list = topics[topicChoice]
                     current_topic = current_topic_list[topicIndex % len(current_topic_list)]
                     
-                    print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)}: {current_topic}")
+                    print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)} in list {topicChoice}: {current_topic}")
                     questions = generator.generate_batch(skill, difficulty, 1, current_topic)
                     
                     revised_questions = reviser.revise_batch(questions)
@@ -52,11 +52,12 @@ def main():
                     print(f"FINISHED generating and revising {len(revised_questions)} questions for {difficulty} {skill}")
                     
                     # Update topic indices
-                    topicIndex += 1
-                    if topicIndex >= len(current_topic_list):
-                        topicIndex = 0
-                        topicChoice = (topicChoice + 1) % len(topics)
-                        
+                    topicChoice = (topicChoice + 1) % len(topics)
+
+                    # Only increment topicIndex when we've gone through all topic lists
+                    if topicChoice == 0:  # We've wrapped around to the first topic list
+                        topicIndex += 1   # Move to next index within all topic lists
+
                 except Exception as e:
                     print(f"Error during generation or revision of {difficulty} {skill} on topic: {current_topic}: {e}")
                     # Still update topic indices even on error

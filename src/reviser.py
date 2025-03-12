@@ -25,11 +25,11 @@ class QuestionReviser:
     def revise_batch(self, questions: List[Dict]) -> List[Dict]:
         revised_questions = []
         for i, question in enumerate(questions):
-            #print(f"Revising question {i+1} of {len(questions)}")
+            #STEP 1: print(f"Revising question {i+1} of {len(questions)}")
             feedback = self.perform_quality_checks(question)
             print(f"Feedback in reviser.py's revise_batch: {feedback}")
 
-            #Apply revisions to the question
+            #STEP 2:Apply revisions to the question
             revised_question = self.apply_revisions(question, feedback)
             if revised_question:
                 print(f"Revised Question {i+1} of {len(questions)}") #Use this to show teh quetsion itself. {revised_question}
@@ -38,19 +38,7 @@ class QuestionReviser:
                 print("Error: No revisions applied")
             time.sleep(REQUEST_DELAY)  # Rate limiting
 
-            """# TEMPORARILY BYPASSING EVALUATION AND FORMATTING CHECKS
-            # Just add the revised question to the list and save it
-            final_question = revised_question
-            revised_questions.append(final_question)
-            
-            # Simplified saving with minimal data
-            self.save_revised_question_simple(
-                question,
-                feedback,
-                revised_question
-            )# COMMENTED OUT FOR TEMPORARY SIMPLIFICATION
-            """
-            #Rates question 1-10 on internal logic and explanation qualilty, providing suggestions for improvement
+            #STEP 3:Rates question 1-10 on internal logic and explanation qualilty, providing suggestions for improvement
             evaluation = self.evaluate_question(revised_question)
             if evaluation:
                 print(f"Evaluation Results: {evaluation}")
@@ -59,23 +47,19 @@ class QuestionReviser:
             # Compute total score and categorize question
             question_rating = evaluation.get("question_rating", 0)
             explanation_rating = evaluation.get("explanation_rating", 0)
+            difficulty_rating = evaluation.get("difficulty_appropriateness_rating", 0)
 
-            """#Checks for final formatting with gpt-4o-mini
-            syntax_feedback = self.check_formatting_and_syntax(question)
-            if syntax_feedback:
-                print(f"Syntax Feedback: {syntax_feedback}")
-            time.sleep(REQUEST_DELAY)  # Rate limiting
-            """
-
-            #Check if evaluation is 17/20 or higher and put into revised_questions; otherwise output to a different directory.
+            #STEP 4:Check if evaluation is 17/20 or higher and put into revised_questions; otherwise output to a different directory.
             if isinstance(question_rating, int) and isinstance(explanation_rating, int):
-                total_rating = question_rating + explanation_rating
-                if total_rating > 18:
+                total_rating = question_rating + explanation_rating + difficulty_rating
+                if total_rating > 27:
                     final_question = revised_question
                     print(f"Yay! Score: {total_rating} - added to revised_questions and csv with only 1st round changes")
 
-                elif total_rating > 12:
+                elif total_rating > 23:
                     print(f"Score: {total_rating}. Sending for improved content and formatting.")
+                    
+                    #STEP 5:FINAL IMPROVE QUESTION CONTENT AND FORMATTING
                     final_question = self.improve_question_content(revised_question, evaluation)
                     time.sleep(REQUEST_DELAY)  # Rate limiting
                     print(f"Final question after improvement: {final_question.get('question')}\n {final_question.get('choices')}")#\n {final_question.get('answer')}\n {final_question.get('explanation')}")
@@ -264,8 +248,12 @@ class QuestionReviser:
                             "type": "string",
                             "description": "Provides specific feedback on how well the question matches its labeled difficulty.",
                         }
+                        "total_score": {
+                            "type": "number",
+                            "description": "The sum of the question_rating, explanation_rating, and difficulty_appropriateness_rating.",
+                        }
                     },
-                    "required": ["question_rating", "explanation_rating", "difficulty_appropriateness_rating", "constructive_feedback", "difficulty_feedback"],
+                    "required": ["question_rating", "explanation_rating", "difficulty_appropriateness_rating", "constructive_feedback", "difficulty_feedback", "total_score"],
                     "additionalProperties": False  # Prevents unexpected keys in feedback objects
                 }
             }
@@ -330,10 +318,12 @@ class QuestionReviser:
                                - 1-3: Question is significantly easier or harder than labeled
                                - 4-7: Question is somewhat misaligned with labeled difficulty
                                - 8-10: Question appropriately matches labeled difficulty
-                            
-                            Last, summarize your thoughts and give specific constructive feedback and reasoning for it. Also, explain your reasoning for giving the evaluation scores, consider how the question compares to the examples, and confidently give specific directions to improve the question.
 
-                            Provide specific difficulty feedback explaining why the question does or doesn't match its labeled difficulty, and what changes would make it more appropriate.
+                            Add your three ratings together to get the total_score.
+                            
+                            Last, summarize your thoughts and give specific constructive_feedback with reasoning. Also, explain your reasoning for giving the evaluation scores, consider how the question compares to the examples, and confidently give specific directions to improve the question.
+
+                            For difficulty_feedback, provide specific difficulty feedback explaining why the question does or doesn't match its labeled difficulty, and what changes would make it more appropriate.
                             ***Here is the SAT Question you need to evaluate:{json.dumps(question)}{example_text}"""
                         ),
                     },
@@ -441,6 +431,8 @@ class QuestionReviser:
                     "Question Rating": evaluation.get("question_rating", ""),
                     "Explanation Rating": evaluation.get("explanation_rating", ""),
                     "Constructive Feedback": evaluation.get("constructive_feedback", ""),
+                    "Difficulty Rating": evaluation.get("difficulty_appropriateness_rating", ""),
+                    "Total Score": evaluation.get("total_score", ""),
                     "Final JSON SAT Question": json.dumps(final_question, ensure_ascii=False)
                 }
                 writer.writerow(row)

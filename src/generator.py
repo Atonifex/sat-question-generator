@@ -98,7 +98,8 @@ class QuestionGenerator:
                         1. Write the question and answer choices based on this topic: {topic}.     
                         2. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
                         3. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question, learn underlying concepts, and apply SAT test-taking strategies.
-                        4. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
+                        4. Don't use unnecessary underlining, italics, or bold.
+                        5. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
                         5. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
                         6. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***
                         7. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""

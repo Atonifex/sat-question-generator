@@ -44,6 +44,96 @@
       "explanation": "Option A effectively encapsulates the dual perspective presented in the passage, acknowledging both the seductive allure of high society and the narrator's internal pull toward values of authenticity and deeper personal connections. The other choices, while close in theme, either misstate the passage's main focus or overly generalize its nuanced depiction of the narrator's internal conflict.",
       "topic": "The Great Gatsby",
       "topicIndex": 7
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "Passage:\n\nInnovation forms the foundation of scientific progress, with many researchers highlighting its critical role. Studies indicate that scientists who diverge from traditional methodologies often achieve breakthrough results. For example, a controlled study reported a $15\\%$ increase in innovative outcomes among researchers dedicating time to personal, exploratory projects. Some experts, however, caution that without proper guidelines, such time may yield limited or unfocused benefits. Interestingly, a growing body of evidence reveals a synergistic effect when creative exploration is paired with well-defined goals, underscoring the value of structured freedom.\n\nWhich inference can best be supported by the passage?",
+      "choices": [
+        "Scientists produce identical outputs whether under strict guidelines or none.",
+        "Overly rigid structures enhance improvisation within scientific experiments.",
+        "A balanced approach combining direction and creativity stimulates more innovation.",
+        "Without any structure, exploratory projects tend to become stagnated or unproductive."
+      ],
+      "answer": "C",
+      "explanation": "The passage presents the concept that innovation flourishes not in extremes but in balance—a regulated environment fostering an interplay between uninhibited creativity and guided focus. Option C encapsulates this supported blend. Disqualifying Options: A and B misrepresent the suggested interplay and discourage interpretative evidence cited. Option D overgeneralizes the detriments inferred tying lack-of-systems factor results as inherently absolute unyielding phrases don't align with implied descriptives of synergy discussed.",
+      "topic": "The role of creativity in scientific research",
+      "topicIndex": 2
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "Many city officials are striving to encourage environmentally friendly habits, such as walking, bicycling, and carpooling, to lessen congestion and reduce carbon emissions. The city of Eastbridge, for instance, recently introduced an electric bicycle-share program for commuters, providing convenient docking stations throughout various business districts. In the first six months, usage of these bicycles exceeded initial predictions by nearly 40\\%, prompting officials to consider expanding the service beyond the central metropolitan area. This initiative is part of a broader urban strategy aimed at enhancing community health and environmental sustainability.\n\nWhich choice most strongly suggests that the new program has benefited a wider audience than just daily commuters?",
+      "choices": [
+        "A. Doctors at a nearby hospital observed that some patients use the bikes for gentle exercise during recommended rehabilitation routines.",
+        "B. A survey indicates most users find the docking stations along business corridors more reliable than the ones near residential zones.",
+        "C. Newspaper articles highlight many office workers who gave up their personal vehicles to ride the electric bicycles instead.",
+        "D. A popular technology magazine features a review of several new bicycle-sharing programs in the region, ranking Eastbridge’s as the best."
+      ],
+      "answer": "A",
+      "explanation": "To solve this question, identify which option goes beyond day-to-day commuting to show another advantage for citizens. Since choice A shows patients using the bicycles for rehabilitation, it suggests that the bicycles serve a wider audience than just commuters. Choices B, C, and D address commuter preferences, commuting alternatives, or general reputation, but they do not clearly illustrate a benefit extending to a different group.\n\nRemember: *Inferences* questions often ask you to look beyond what is directly stated. Seek details or implications that suggest a broader impact.\n\nAdditionally, the rephrased question explicitly specifies 'a wider audience than just daily commuters,' helping clarify the targeted distinction for this inference.",
+      "topic": "Encouraging environmentally friendly habits",
+      "topicIndex": 3
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "Scientists’ observations of forest ecosystems indicate that older woodlands—characterized by complex layers of vegetation, extensive root networks, symbiotic fungi, and rich topsoil—support an especially wide range of plants and animals. Recent studies show that actively managed reforestation programs, which emphasize the careful selection of native species and periodic maintenance, can help ecosystems recover from deforestation. Over successive seasons, reforested areas gradually develop improved soil structure, more intricate microhabitats, and increased biodiversity that together foster recovery. This indicates that newly reforested areas, although initially less complex, may eventually exhibit conditions similar to those found in mature forests.  \n  \nWhich statement about reforested areas is best supported by the passage?",
+      "choices": [
+        "A. Over time, newly reforested areas can develop conditions similar to those of mature forests.",
+        "B. Actively managed reforestation programs that focus on native species encourage ecological complexity.",
+        "C. Reforested ecosystems fail to sustain biodiversity over long periods of time.",
+        "D. Native species alone are not sufficient to rebuild mature forest conditions."
+      ],
+      "answer": "A",
+      "explanation": "The passage discusses how well-managed reforestation programs with an emphasis on native species lead to gradual recovery of forest ecosystems, including improvements in biodiversity, soil structure, and microhabitats. Choice A directly reflects the passage's main conclusion that reforested areas can develop conditions like those of mature forests. Choice B is partially correct but does not fully capture the claim supported by the passage. Choices C and D are not supported, as the passage does not state biodiversity declines in reforested areas or that native species are insufficient for recovery.",
+      "topic": "Forest Restoration",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Hard",
+      "question": "In the $19^\\text{th}$ century, labor organizations emerged as representatives of workers’ grievances amidst a rapidly industrializing society. Among these groups were the Knights of Labor, who founded themselves in 1869. The Knights promoted an ambitious reform platform, advocating for an eight-hour workday, safer factory conditions, and the abolition of child labor. Their ideology went beyond incremental reforms, as they envisioned a transformed labor ecosystem where economic structures would prioritize communal fairness over individual profits. Despite their expansive vision, they faced challenges related to internal disagreements and external competition from groups like the *American Federation of Labor (AFL)*, which narrowly focused on specific trade concerns. \n\nWhat can be inferred from the passage about the ideological differences between the Knights of Labor and the AFL?",
+      "choices": [
+        "A) The AFL pursued immediate, tangible objectives, while the Knights envisioned broader societal changes.",
+        "B) The Knights of Labor aimed solely at ending child labor, contrasting the AFL’s trade-specific goals.",
+        "C) Internal differences in the Knights’ coalition arose due to pressure from the AFL's targeted strategies.",
+        "D) The AFL and the Knights of Labor both opposed reforming broader economic structures."
+      ],
+      "answer": "A",
+      "explanation": "The passage suggests that while the Knights of Labor supported wide-scale societal changes and an equitable labor system, the AFL concentrated more narrowly on unionizing specific trades and achieving concrete, short-term outcomes. The ideological differences are captured in (A), making it the correct answer. Options B and D mischaracterize the relationships and priorities of the two organizations, and C focuses on competition but does not align with the passage’s depiction of the Knights' internal challenges.",
+      "topic": "19th-Century Labor Movements",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Hard",
+      "question": "Many researchers believe that hydrogen fuel has the potential to reduce greenhouse gas emissions, though the challenges are substantial. For instance, some estimate that developing the necessary infrastructure for hydrogen production could cost around $5$ times more than current methods of energy production, requiring significant investment in new technologies and systems. Despite concerns about storage, transportation, and the lack of existing infrastructure, hydrogen is seen as a widely available resource that could ultimately reshape how industries power their operations.\n\nHowever, critics highlight two key issues. First, the process of producing hydrogen fuel, particularly through electrolysis, still heavily depends on nonrenewable energy sources, which undermines its supposed environmental advantages. Second, they note that even with advancements, the infrastructure costs and technological hurdles might make widescale adoption less viable unless governments and industries commit significant resources. Without addressing these concerns, critics argue that the shift to hydrogen might fail to deliver its promised benefits.\n\nWhich claim is best supported by the information in the passage?",
+      "choices": [
+        "A) Hydrogen adoption will predominantly reduce greenhouse emissions without requiring significant investments.",
+        "B) Nonrenewable energy dependence in hydrogen production must be minimized to achieve significant environmental benefits.",
+        "C) Widescale hydrogen use will remain infeasible unless infrastructure and production costs dramatically decrease.",
+        "D) Hydrogen fuel is currently unable to outperform other renewable sources like solar and wind in environmental efficacy."
+      ],
+      "answer": "B",
+      "explanation": "The passage emphasizes that hydrogen's environmental benefits depend heavily on how it is produced. Specifically, the reliance on nonrenewable energy sources is presented as an obstacle to achieving those benefits, which aligns directly with option B. Option A is incorrect because the passage notes infrastructure costs as a challenge. Option C, though plausible, goes beyond the scope of the passage’s argument about feasibility relative to production and environmental benefits. Option D introduces a comparison to other renewables, which the passage does not directly make.",
+      "topic": "Hydrogen Fuel Usage",
+      "topicIndex": 2
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Hard",
+      "question": "Researchers examining the impact of digital communication have identified its ability to sustain relationships across distances, thanks to rapid and continuous exchanges. However, critics highlight that virtual interactions often lack the authentic spontaneity and emotional resonance found in face-to-face communication. They emphasize that the absence of nonverbal cues and rich, contextual empathy often limits the depth and quality of these interactions.\n\nWhich inference is most supported by the passage about the comparison between virtual and in-person communication?",
+      "choices": [
+        "A. Virtual interactions often fail to create any emotional connection.",
+        "B. The strengths of digital interactions do not completely compensate for their weaknesses.",
+        "C. In-person interactions are irreplaceable for building all types of relationships.",
+        "D. Nonverbal cues are unnecessary in fostering meaningful communication."
+      ],
+      "answer": "B",
+      "explanation": "The passage acknowledges the benefits of digital communication, such as sustaining relationships over distances, but also critiques its lack of emotional depth and spontaneity present in in-person interactions. This suggests a nuanced view where the strengths of virtual communication cannot entirely compensate for its shortcomings. Answer choice B captures this balance. In contrast, choice A is too extreme, failing to acknowledge any utility of digital interactions; choice C overstates the importance of in-person interaction for all types of relationships, without considering any benefits of virtual communication; and choice D erroneously dismisses the passage's emphasis on the importance of nonverbal cues in meaningful communication.",
+      "topic": "Effects of social media on interpersonal communication",
+      "topicIndex": 3
     }
   ]
 }
