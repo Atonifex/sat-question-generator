@@ -8,14 +8,12 @@ from pathlib import Path
 from datetime import datetime
 from src.config import OUTPUT_DIR
 
-def output_to_json(revised_questions: List[Dict], skill: str = None, difficulty: str = None) -> str:
+def output_to_json(revised_questions: List[Dict]) -> str:
     """
     Save the revised questions to a formatted JSON file, appending to an existing file if it exists.
     
     Args:
         revised_questions: List of question dictionaries
-        skill: Optional skill name to include in filename
-        difficulty: Optional difficulty level to include in filename
         
     Returns:
         Path to the created/updated JSON file

@@ -1,0 +1,151 @@
+{
+    "questions": [
+        {
+            "skill": "Inferences",
+            "difficulty": "Medium",
+            "question": "In *The Federalist No. 51*, James Madison writes: \n\n\"If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary.\" \n\nBased on this excerpt, which inference is best supported about Madison's view on government?",
+            "choices": [
+            "A) Governments should be designed to encourage citizens to act as angels.",
+            "B) Governments must have checks and balances because human nature is imperfect.",
+            "C) Governments serve no significant purpose when citizens remain virtuous.",
+            "D) Governments can be led only by citizens with perfect moral character."
+            ],
+            "answer": "B",
+            "explanation": "Madison's statement emphasizes the imperfection of human nature and the corresponding necessity for systems of governance to include mechanisms that prevent misuse of power. Since human beings are not inherently flawless ('not angels'), checks and balances are justified as a precaution. The correct choice recognizes the essence of the excerpt by referencing human imperfection and the need for structural safeguards. Dismissed choices: A) misconstrues the purpose of government design; C) incorrectly implies government's purpose is obsolete with virtuous citizenship; D) assumes a requirement for perfect leaders, which the excerpt does not support.",
+            "disqualification_reason": "Reference to Federalist Paper No. 51 was already the subject of a previous question."
+            
+        },
+        {
+            "skill": "Main Idea",
+            "difficulty": "Medium",
+            "question": "In Nathaniel Hawthorne’s 1851 novel *The House of the Seven Gables,* how does the description of the Pyncheon mansion contribute to the overarching themes of the narrative? The mansion is described in extensive detail, with an emphasis on its worn-out exterior, gloomy interiors, and the pervasive sense of foreboding it elicits. This conveys its symbolic significance within the story.",
+            "choices": [
+            "A. The mansion’s deteriorated state highlights the decaying status of the family and its history.",
+            "B. The Pyncheon mansion remains a resilient emblem of the family’s unwavering influence.",
+            "C. The haunting description of the mansion serves as commentary on the human spirit’s perpetual endurance.",
+            "D. The narrative uses the description of the house to emphasize its separation from human affairs."
+            ],
+            "answer": "A",
+            "explanation": "The correct answer is A. The mansion’s worn and gloomy state symbolizes the declining fortunes and troubled history of the Pyncheon family. Hawthorne’s description aligns the physical condition of the mansion with the moral and social decay of the family. Alternatives B, C, and D incorrectly interpret the described symbolism, as the mansion is explicitly tied to decay and familial burdens, not resilience or separation from humanity.",
+            "disqualification_reason": "This question is out of order and doesn't provide the direct reference. It asks about the 'description of the Pyncheon mansion' but then doesn't provide the actual text description of the mansion; instead, it merely summarizes a description. However, the point of this question is to assess the students' ability to read complex text and summarize its main idea, so this cirucmvents the core purpose."
+        },
+        {
+          "skill": "Inferences",
+          "difficulty": "Easy",
+          "question": "Alexander Graham Bell’s earliest public demonstrations of the telephone in the 1870s drew curious onlookers eager to witness a device that allowed the human voice to travel through wires. Merchants imagined new opportunities in faster ordering processes, while newspaper publishers discussed the potential impact on how information would be gathered and delivered. Although at first met with skepticism by some who believed the device too impractical, Bell’s demonstrations convinced many observers of the telephone’s promise to connect people in ways previously unthinkable.\n\nBased on this description, which statement about the telephone’s early reception is best supported by the passage?",
+          "choices": [
+            "A. Merchants were the only group that immediately understood the telephone's practical uses.",
+            "B. Bell's invention was initially doubted by some but eventually recognized for its transformative potential.",
+            "C. Observers were indifferent about Bell's invention due to its complexity.",
+            "D. The demonstrations proved practically no one believed in the telephone's usefulness."
+          ],
+          "answer": "B",
+          "explanation": "Answer choice B is correct: the text describes that while there was skepticism regarding the telephone's practicality, Bell's demonstrations led many to appreciate its transformative potential. Answer choice A is incorrect because it overlooks the other groups, such as newspaper publishers, who also envisioned uses for the invention. Answer choice C is incorrect because the passage describes observers as curious and interested, not indifferent. Answer choice D directly contradicts the text, which states that many were convinced of the telephone's promise after its demonstrations.",
+          "disqualification_reason": "Uses the exact same format as previous questions: introduces new technology, then says 'although at first met with skepticism, Bell's demonstration convinced many observers about the promise of to connect people in new ways' (or paraphrasing that - while it wasn't accepted, it would later be influential to other things. This exact structure has been too commonly used in my questions already."
+        },
+        {
+            "skill": "Main Idea",
+            "difficulty": "Easy",
+            "question": "Many mathematicians of the early 20th century overcame significant social hurdles to make lasting contributions to their fields. In 1905, mathematician Emma Strömberg published a pioneering paper that introduced a new framework for understanding prime distributions in large sets of data. Her approach was initially met with skepticism by peers who questioned the reliability of her methods. However, her findings were soon validated by other researchers, and her work became a foundation for modern statistical analysis. Strömberg’s dedication prompted more inclusive research opportunities for underrepresented groups, sparking broader interest in advanced mathematics.\n\nWhich statement best expresses the main idea of the passage?",
+            "choices": [
+            "A. Strömberg’s theories were criticized and are mostly considered outdated today.",
+            "B. The discovery of prime distributions in large data sets proved unhelpful for future research.",
+            "C. Strömberg’s groundbreaking work advanced statistical methods and helped foster inclusivity in mathematics.",
+            "D. Mathematicians of the early 20th century rarely supported one another’s efforts."
+            ],
+            "answer": "C",
+            "explanation": "The main idea of the passage is that Emma Strömberg made a significant contribution to mathematics through her innovative research, which not only affected mathematical practices but also promoted inclusivity. Key points leading to this conclusion include:\n- Mentions of her pioneering study on prime distributions.\n- The eventual validation of her work and its foundational status in statistical analysis.\n- Her influence on inclusivity within the field of mathematics.\nAfter analyzing each choice: A is inaccurate because her work is not described as outdated; B is incorrect because her discovery is clearly presented as influential; D misrepresents the collaborative landscape of the time. Therefore, the correct answer is C, which appropriately summarizes her dual impact on mathematics and inclusivity.",
+            "disqualification_reason": "This has the exact same structure as the Alexander Graham Bell and other questions. The paragraph structure shoudl be more varied and answer choices should be more believable."
+        },
+            
+        {
+            "skill": "Inferences",
+            "difficulty": "Easy",
+            "question": "In the early 20th century, business leader Harriet Wilkins established the **Wilkins Trust**, supporting:\n\n• Low-income students pursuing *engineering* degrees  \n• Women-owned businesses in manufacturing  \n\nDuring her lifetime, she contributed over $2 million to the trust and partnered with local universities to develop _innovative_ programs that encouraged hands-on research. Many historians credit her efforts with helping create more inclusive professional fields, where graduates from diverse backgrounds could thrive. Wilkins’s goal, according to her personal letters, was to ensure that financial constraints did not prevent **high-potential** individuals from exploring new technologies.\n\nBased on the information given, infer the purpose of Wilkins’s initiatives.",
+            "choices": [
+            "A. Wilkins envisioned the trust benefiting only engineering graduates.",
+            "B. Wilkins's initiatives were driven primarily by personal financial gain.",
+            "C. Wilkins aimed to lessen obstacles for talented yet underprivileged groups.",
+            "D. Wilkins chose areas of study that were inexpensive to support."
+            ],
+            "answer": "C",
+            "explanation": "Harriet Wilkins's establishment of the Wilkins Trust is described in the passage as an effort to address financial barriers that hinder high-potential individuals from advancing in technical and innovative fields. Her focus on supporting low-income students and women entrepreneurs reflects her dedication to fostering inclusivity and accessibility in professional domains. Option C best captures this goal of dismantling obstacles for capable yet financially constrained individuals. The other response choices either misinterpret her intentions or assert unsupported claims.",
+            "disqualification_reason": "This adds bullet points in a style of question that shouldn't have bullet points. It's also too straightofrward because the question basically answers itself by directly stating what her goal was, then asking what her goal was for the question."
+        },
+        
+        {
+            "skill": "Inferences",
+            "difficulty": "Medium",
+            "question": "In **1864**, the _biologist Carla Reyes_ traveled to a remote wetland region in Southeast Asia to study a *newly discovered amphibian species*. She noted that the creatures had unusually flexible hind legs, which appeared to help them leap across thick aquatic vegetation. Reyes also observed a series of distinctive stripes along the amphibians' spines, suggesting that these markings might provide camouflage in murky waters. \n\nWhich inference is best supported by the passage?",
+            "choices": [
+            "A) The amphibian species described by Reyes thrives only in saltwater environments.",
+            "B) The amphibian species' physical features likely enhance its survival in its habitat.",
+            "C) Reyes wrote her field notes primarily to document migratory birds of the region.",
+            "D) Reyes believed the amphibian population would risk extinction due to its rarity."
+            ],
+            "answer": "B",
+            "explanation": "The passage provides evidence for the inference that the amphibian's physical traits, such as flexible hind legs and distinctive stripes, are advantageous for its adaptation to its habitat. These features suggest functional roles like improved movement through vegetation and camouflage. Option B is correct because it connects these adaptations to the amphibian's survival. Options A, C, and D are not directly supported by the passage: there is no mention of saltwater environments (ruling out A), no focus on migratory birds in the observation (ruling out C), and no indication of concern about extinction (ruling out D).",
+            "disqualification_reason": "This question is WAY TOO EASY because the A, C, and D are ridiculously far off topic. They need to be way more plausible to be appropriate for even Easy difficulty, let alone Medium."
+        },
+        {
+          "skill": "Inferences",
+          "difficulty": "Medium",
+          "question": "Dorothy Gifford, an 18th-century naturalist, recorded her observations on a newly discovered insect in her field journal. She noted that while the insect shared certain traits with well-known species, its unique *wing structure* and feeding behavior made it challenging to place within existing classifications. Gifford described both her enthusiasm for the insect and the difficulties encountered while categorizing its features for her forthcoming scientific study.\n\nBased on this information, what can we infer about Gifford's attitude towards the insect and her research?",
+          "choices": [
+            "A) She doubted that the insect would captivate other researchers' interest.",
+            "B) She admired the insect's distinctive characteristics, finding them intriguing yet challenging to categorize.",
+            "C) She criticized established taxonomic methods for being deficient.",
+            "D) She feared the insect could have negative environmental impacts."
+          ],
+          "answer": "B",
+          "explanation": "The passage shows that Dorothy Gifford was captivated by the insect and dedicated significant effort to studying its unique characteristics such as its wing structure and feeding behavior, which posed a challenge to classification. This implies she found the insect's traits fascinating and appreciated the complexity involved in categorizing it. Answer choice B correctly reflects this inference. Answer choice A is incorrect because there is no indication of Gifford doubting others' interest. Choice C is incorrect as there is no evidence that she criticized taxonomic methods. Choice D is also incorrect as the passage does not mention concern about environmental impacts.",
+          "disqualification_reason": "This doesn't require any critical thinking, and instead it just is about matching the paraphrased answer choice to the question. Instead, Inference questions should require the student to critically think, consolidating their understanding of the information given in the question, then making conclusions or assumptions that apply that knowledge in a new way; if the question merely requires paraphrasing the main idea, then it should be discarded or reworked."
+        },
+        {
+            "skill": "Main Idea",
+            "difficulty": "Medium",
+            "question": "In the context of the passage, the children in the workhouse face significant hardships. Despite these challenges, they exhibit resilience, particularly through their curiosity about the outside world. What is the primary purpose of this excerpt?",
+            "choices": [
+              "A. It describes the architectural details and features of the workhouse.",
+              "B. It illustrates the impact of harsh conditions on fostering the boys’ yearning for knowledge and exploration.",
+              "C. It analyzes the disparities between the privileges of the wealthy and the destitute.",
+              "D. It portrays the outright neglect and abuse within the institution of the workhouse."
+            ],
+            "answer": "B",
+            "explanation": "The passage focuses on how the boys' inquisitive nature perseveres despite the adversities they face within the workhouse—a testament to their resilience. Choice 'B' accurately captures this central theme, while other options, like 'A' and 'C', touch on peripheral aspects or misinterpret the main idea altogether.",
+            "disqualification_reason": "No passage was provided. It's not okay to merely summarize what a passage is about (i.e. 'In the context of the passage, the children...')."
+          },
+          
+        {
+            "skill": "Inferences",
+            "difficulty": "Hard",
+            "question": "The following passage is adapted from the novel *A Tale of Two Cities* by Charles Dickens (1859), portraying a scene leading up to the French Revolution.\n\nA carriage driven by an aristocrat races past a group of destitute peasants on the roadside. Based on the details provided in this scene, what inference can most reasonably be drawn about the aristocrat’s attitude?",
+            "choices": [
+            "A. He believes the peasants' struggles are insignificant compared to his own priorities.",
+            "B. He regards the peasants with a mindset of inherent superiority, expressing a dismissive view.",
+            "C. He demonstrates apathy toward the peasants' plight, as shown by his uninterested passage by them.",
+            "D. He avoids engaging with the peasants out of fear of their potential agitation."
+            ],
+            "answer": "C",
+            "explanation": "The aristocrat's rapid crossing past the peasants indicates a lack of interest or concern for their poor state, suggesting his indifference. Choice A implies a comparison not directly stated in the text, while B suggests a dismissiveness that is beyond what's explicitly inferred. D posits a motivation of fear, which again is unsupported by the description in the excerpt. Therefore, C is the most justified answer since it directly reflects the inference drawn about apathy from the provided scene.",
+            "disqualification_reason": "Only one sentence was provided, but a passage should be at least 100 words."
+        },
+        
+    {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In Charles Dickens’s novel \\emph{Oliver Twist} (1838), young Oliver, an orphan living in a workhouse, shocks the officials by requesting an extra portion of food. These officials, outraged by Oliver’s plea, convene to discuss whether this act of \"ingratitude\" warrants punishment, fearing it may inspire others to behave similarly.\\\n\\\nWhat can be inferred about the officials’ perspective based on their reaction to Oliver’s request?",
+        "choices": [
+          "A. They believe leniency towards Oliver would undermine their authority.",
+          "B. They are concerned about the financial implications of increased food portions.",
+          "C. They interpret Oliver’s request as a misunderstanding of the system’s rules.",
+          "D. They aim to minimize public embarrassment by addressing the matter immediately."
+        ],
+        "answer": "A",
+        "explanation": "The officials’ reaction reveals their belief that failing to punish Oliver’s request for more food would encourage similar defiance among others in the workhouse, threatening their authority. Their primary concern lies in maintaining strict control, as evidenced by their fear of setting a precedent that could lead to insubordination. For instance, referring to Oliver's plea as 'ingratitude' and convening to punish him underscores their focus on authority and discipline over empathy or fairness.",
+        "disqualification_reason": "This has bad formatting with the '\\emph{Oliver Twist}' rather than using *Oliver Twist*, and it also has too many excape slashes for the line breaks '\\\\\\n'"
+      }
+
+
+    ]
+}

@@ -1,0 +1,862 @@
+{
+    "questions": [
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Early attempts to commercialize the printing press were complicated by local guilds. Johannes Gutenberg, known for popularizing movable type in Europe, had to navigate uncertain finances and strict oversight to produce his famed Bible. His eventual success was partly attributed to partnerships with wealthy patrons, who recognized the potential for making books more widely accessible. \n\nWhich statement is best supported by the passage?",
+        "choices": [
+          "A. Government agencies contributed the primary financial backing for Gutenberg’s printing endeavors.",
+          "B. Wealthy individuals played an essential role in bringing early print materials to a broader audience.",
+          "C. Local guilds funded and oversaw the entire production of Gutenberg’s Bible.",
+          "D. Gutenberg’s first printed works became immediately profitable without any outside investment."
+        ],
+        "answer": "B",
+        "explanation": "From the passage, we learn that Gutenberg partnered with wealthy patrons, emphasizing that private individuals significantly supported the realization and proliferation of the printing press. Choice B correctly summarizes this idea. Choice A is incorrect because there is no mention of government agencies offering financial backing. Choice C misrepresents the role of local guilds; they provided oversight rather than funding. Choice D is incorrect as it contradicts the passage's mention of Gutenberg's financial struggles and reliance on partnerships."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "In the late 1940s, a graduate student developed a system that used patterns of thick and thin lines to store inventory data. While his design initially went unnoticed, businesses seeking faster checkout and product tracking later recognized its value. By the early 1970s, major retail chains began installing scanners that read these coded lines, allowing them to streamline checkout, reduce errors, and manage stock levels more efficiently. Despite some initial skepticism from store owners, the technology's success in supermarkets soon encouraged adoption in other sectors, including healthcare and manufacturing.\n\nWhich inference about the adoption of line-scanning technology by businesses is best supported by the text?",
+        "choices": [
+          "A) The technology was immediately embraced by retailers without challenges.",
+          "B) Global adoption of the technology preceded its regional use.",
+          "C) The recognition and adoption of the technology followed an initial period of neglect.",
+          "D) Its initial adoption was predominant in the healthcare industry."
+        ],
+        "answer": "C",
+        "explanation": "To determine the correct answer, we analyze the passage:\n\n- The passage indicates that the system invented by the graduate student went unnoticed at first, showing an initial period of neglect. Later, as businesses saw its potential in faster checkout and inventory tracking, the technology gained recognition and commenced adoption in supermarkets and other sectors. This sequencing supports option (C).\n- Option (A) is incorrect since the text describes initial skepticism among store owners, contrary to the idea of immediate embrace.\n- Option (B) is not supported, as the passage does not mention global adoption or compare it to regional practices.\n- Option (D) is ruled out because the text specifies that supermarkets, not healthcare, were the first sector to widely adopt the technology.\n\nThe correct answer is (C)."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Between 1950 and 1960, Redwood City’s planners tested an experimental traffic regulation system that used newly invented sensors to monitor the flow of vehicles. Despite concerns about cost, the city council allocated funds for the project. Urban development experts traveled to Redwood City to study this pioneering effort. As a result of these measures, local newspapers reported a reduction in traffic congestion within the first two years. However, critics claimed the system might not be scalable to larger cities.\n\nWhat can be inferred from the passage about the city council's perspective on experimental projects for traffic management?",
+        "choices": [
+          "A. They were hesitant about adopting changes to the traffic system.",
+          "B. They demonstrated willingness to invest in innovative traffic management solutions.",
+          "C. They prioritized traffic management over other city concerns.",
+          "D. They viewed the system as scalable and suitable for all city sizes."
+        ],
+        "answer": "B",
+        "explanation": "The passage states that the Redwood City council allocated funds for an experimental traffic regulation system despite concerns about cost. This decision indicates their willingness to invest in innovative solutions for traffic management, focusing on experimental approaches to address congestion. As there is no evidence in the passage to suggest hesitation about implementing changes (Choice A), prioritization over other issues (Choice C), or confidence in the system's scalability to larger cities (Choice D), the best inference based on their actions is Choice B."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Easy",
+        "question": "In her memoir, entrepreneur Carla Jiménez reflects on how starting as an assistant at a small tech startup shaped her development as a future CEO. She recalls the near-constant demand for innovative solutions, emphasizing the pivotal role of genuine trust-building when intersecting technology with people. One sentence in her account reads: **\"It was this determination to foster transparent communication with every client that ultimately helped me establish a foundation of mutual respect and long-term partnerships.\"**\n\nWhich best describes the main function of the quoted sentence in the passage?",
+        "choices": [
+          "A. To propose a novel technological method that redefines how businesses handle data",
+          "B. To present an opposing point of view regarding corporate partnerships",
+          "C. To illustrate a key factor contributing to the author’s eventual success in leadership",
+          "D. To critique the early markets that failed to trust in innovative entrepreneurs"
+        ],
+        "answer": "C",
+        "explanation": "The quoted sentence underscores the importance of the author’s dedication to fostering transparent communication, which is described as establishing a foundation of mutual respect and partnerships. This directly supports the main reflection about trust-building as a core principle in her development as a leader, aligning with choice C.\\n\\n- Choice A suggests a focus on a novel technological method, which is not mentioned or implied in the sentence.\\n- Choice B implies an opposing viewpoint is presented, but there is no contrasting argument or differing stance in the sentence.\\n- Choice D talks about critique of early markets, but the sentence neither discusses nor criticizes markets in any way.\\n\\nThus, the most accurate description is provided in choice C."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Gigacharge Incorporated, a small technology startup, recently revealed a new battery that can fully charge in under 10 minutes. According to the company’s lead engineer, the battery uses a combination of graphene sheets and nickel-metal hydride components, allowing for improved durability and potentially up to $50\\%$ faster charging speeds. Despite the promising performance in preliminary tests, some industry specialists are cautious. They argue that manufacturing methods for these new materials could be prohibitively expensive, and that more extensive trials are necessary before the battery is widely adopted.\n\nWhich inference about Gigacharge Incorporated is best supported by the passage?",
+        "choices": [
+          "A) The battery’s manufacturing costs are already demonstrably lower than current market prices.",
+          "B) The battery requires further testing before it can be implemented in commercial fleets.",
+          "C) The company will likely need additional financial and research support to bring its battery to the consumer market.",
+          "D) The company has received only supportive feedback from experts regarding its innovative design."
+        ],
+        "answer": "C",
+        "explanation": "The passage outlines cautious feedback from industry specialists about the battery's manufacturing costs and the necessity of further trials. This indicates that Gigacharge Incorporated will likely need to address these challenges—such as securing financial support and conducting significant research—prior to commercial implementation. Choices A, B, and D are inconsistent with these indications; they either provide unsupported assumptions or conflict with the industry specialists’ concerns."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "In an early 20th-century interview, a pioneering reporter discussed the unexpected impact of her articles on public opinion. She explained how exposing hidden workplace practices prompted a larger shift in readers' attitudes toward corporate accountability. The reporter noted that while she had initially concentrated on a single industry, her findings soon sparked widespread calls for business reforms, and other journalists joined her efforts to encourage consumer advocacy. \n\nWhich inference about the reporter is best supported by the interview?",
+        "choices": [
+          "A. She had reservations about inviting other journalists to share her investigative techniques",
+          "B. She intended for her articles to focus solely on consumer responses rather than corporate change",
+          "C. She did not fully anticipate how significant the influence of her original research would become",
+          "D. She believed most companies at the time were already being transparent and required minimal oversight"
+        ],
+        "answer": "C",
+        "explanation": "The passage describes how the reporter's articles led to unexpected, wide-reaching changes in public awareness and action. Her initial focus on a single industry, as mentioned, grew into a larger movement, which she didn't foresee. Thus, the best inference is that she underestimated the ultimate scope of her articles' impact. Answer choices A and B don’t have textual support—the reporter's reservations or exact intentions about emphasis weren't discussed. D conflicts with the reporter's critique of workplace practices, which implies a lack of transparency on the companies' side. Consequently, C stands as the inference most aligned with the interview's information."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Easy",
+        "question": "During the mid-2010s, a philanthropic organization initiated a project to improve water quality in underserved regions by providing high-efficiency water filtration systems. To ensure sustainability, the organization collaborated with local leaders and conducted on-site training programs. They simplified the system's design, ensuring it could be maintained locally with minimal external help. The initiative significantly reduced water-related illnesses and saved resources, fostering self-reliance in remote areas.\n\nWhich statement best captures the main idea of the passage?",
+        "choices": [
+          "A. The program mainly focused on donating scientific equipment without offering additional support.",
+          "B. The organization used innovative tools and community training to establish a lasting solution to water safety concerns.",
+          "C. The group's most critical goal was replacing all existing water outlets with state-of-the-art chemical systems.",
+          "D. The local communities received only limited technical guidance, requiring frequent external assistance."
+        ],
+        "answer": "B",
+        "explanation": "The main idea of the passage reflects the organization's effort to combine innovative technology and community engagement to achieve a sustainable impact on water safety. As per the passage, option B accurately summarizes this effort by highlighting the use of tools and community training to address water safety long-term. Options A, C, and D misrepresent the nature of the project, either oversimplifying or distorting the approach used. A focused solely on equipment without support, C introduces a chemical system angle not mentioned, and D incorrectly implies lack of sustainability due to insufficient training."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "During the 14th century, mechanical clocks began appearing in European town squares, chiming the hour and aiding daily schedules. Over time, the clocks were refined by craftsmen, resulting in accurate gear-driven systems that improved timekeeping precision. This advancement transformed societies by enabling standardized work shifts, organized travel, and structured education schedules.\n\nWhich statement most accurately captures the main idea of the passage?",
+        "choices": [
+          "A. Mechanical clocks were adopted mainly for their aesthetic appeal in city squares.",
+          "B. The improvement of mechanical clocks led to better individual productivity without affecting societal structures.",
+          "C. The refinement and widespread use of mechanical clocks significantly advanced societal organization by enabling precise time coordination.",
+          "D. Clockmakers primarily engaged in creating ornate rather than functional timekeeping devices."
+        ],
+        "answer": "C",
+        "explanation": "The passage highlights how the development and widespread implementation of mechanical clocks brought about significant advancements in societal organization through precise timekeeping. This impact is best captured by option C, which addresses the transformation in societal structures such as work shifts, travel, and education schedules. Other choices can be excluded as they emphasize either aesthetic purposes (A), overlook societal implications (B), or inaccurately focus on the motives of clockmakers (D). Through the process of elimination and understanding of the passage, option C is shown to be the most accurate summary."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "A small business cooperative in a remote town recently adopted 3D printing technology, which enabled local craft makers to improve their design and production capabilities. This innovation led to a streamlined process for managing supplies, from design to delivery, allowing for the localized production of various components. However, the system also faced challenges, specifically operational slowdowns due to maintenance requirements. \n\nExperts analyzing the cooperative's performance noted that while productivity had increased overall, the new processes had some drawbacks that needed addressing. Which conclusion is best supported by the information given in the passage?",
+        "choices": [
+          "A) Local artisans completely stopped relying on the cooperative due to inefficiencies.",
+          "B) The cooperative benefited from the new technology overall, but got hindered by some trade-offs.",
+          "C) High demand on the new process overburdened the cooperative, resulting in lost clients.",
+          "D) Other businesses in the area adopted the technology after observing its success at the cooperative."
+        ],
+        "answer": "B",
+        "explanation": "The passage outlines that the 3D printing technology improved various aspects of the cooperative's operations, but also introduced some challenges, specifically maintenance-induced slowdowns. This aligns with choice B, which states there were overall benefits accompanied by trade-offs. There is no support in the passage for the ideas that the artisans abandoned the cooperative completely (A), that client loss occurred directly due to high demand (C), or that similar practices were adopted by others in the community following the cooperative's example (D)."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Medium",
+        "question": "During the mid-20th century, a groundbreaking invention revolutionized modern electronics: the transistor. First developed at Bell Labs in 1947, this component replaced the bulky and unreliable vacuum tube with a smaller, more efficient solution. By the 1960s, global production scaled, bringing costs down to below $1 per unit, making transistors broadly accessible. Pivotal to the evolution of computers and digital technologies, the adaptability and efficiency of the transistor spurred innovations in areas ranging from communication devices to space technology.\n\nWhat is the main idea conveyed in the passage?",
+        "choices": [
+          "A) The transistor was more efficient than vacuum tubes for use in modern electronics.",
+          "B) Transistors replaced vacuum tubes but did not significantly influence modern electronics.",
+          "C) Affordable and efficient, the transistor played a key role in advancing numerous digital technologies.",
+          "D) The transistor's invention had limited applications in practical technologies."
+        ],
+        "answer": "C",
+        "explanation": "To determine the main idea, focus on key points and repeated emphasis in the passage. It highlights the transistor's development, emphasizing its efficiency, affordability, and its transformative impact on technology. The passage positively discusses how the transistor advanced various technologies, indicating its pivotal role in digital and space innovations. Hence, choice C correctly encapsulates the essence of the passage's main idea. A helpful elimination strategy: Choice A is wrong because it is too specicfic - the main idea is not about comparing to vacuum tubes but rather about the transistors' impact in the development of electronics. Choices B and D conflict with the passage's main idea that the transistor had a positive impact in the electronics industry, spurring 'innovations in areas ranging from communication devices to space technology'."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "During a 1952 demonstration, **Rear Admiral Grace Hopper** used a piece of wire to explain how $1\\times10^{-9}$ seconds — a nanosecond — represents the time it takes for an electrical signal to traverse the wire. She frequently utilized real-world analogies to demystify abstract concepts in computing.\n\nWhich inference is best supported by the passage?",
+        "choices": [
+          "A) She popularized the term nanosecond.",
+          "B) She avoided using complex technical jargon.",
+          "C) She valued physical examples to make abstract ideas more comprehensible.",
+          "D) She preferred not to promote careers in computing."
+        ],
+        "answer": "C",
+        "explanation": "The passage highlights Hopper's usage of a wire to physically demonstrate the duration of a nanosecond, showing her belief in the value of tangible examples to aid comprehension of challenging ideas. There's no indication she popularized the term 'nanosecond,' has any preference against technical language usage, or held negative views regarding careers in computing."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Easy",
+        "question": "In a small coastal town, a group of artisans has begun selling handcrafted pottery through an online platform, reaching international customers. In recent years, the group has utilized micro-credit loans, which allowed them to buy quality supplies and expand their shipping capabilities. Despite being a small-scale operation, the collective has observed consistent revenue growth and motivated other local craftspeople to join forces and explore similar avenues.\n\nWhich option best summarizes the central idea of the text?",
+        "choices": [
+          "A) The artisan group mainly profits from shipping pottery in bulk to international customers.",
+          "B) Micro-credit loans have allowed a small artisan collective to grow and inspire other local craftspeople.",
+          "C) Online marketplaces prioritize supporting artisans from coastal areas over urban producers.",
+          "D) Handcrafted pottery from coastal regions generally sells better than other regional products."
+        ],
+        "answer": "B",
+        "explanation": "The central theme of the passage is the impact of micro-credit loans on enabling an artisan collective to grow their business. The loans allowed the group to improve their operations, leading to consistent growth in revenue and serving as an inspiration for others in the community. Answer choice B best captures this overall idea. Other options are less effective: A focuses narrowly on bulk shipping, which is not the text’s emphasis; C introduces unsupported prioritization by marketplaces; and D makes an unwarranted generalization about sales trends of coastal pottery, which is not discussed in the text."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Elizabeth Cady Stanton (1815–1902) was an American reformer who played a leading role in the **women’s rights** movement. In one of her well-known speeches, she emphasized that recognizing women’s right to vote would not only benefit women individually but would also serve the entire society by encouraging people to address other social issues. She wrote, _When all citizens are given equal opportunity to participate, a nation strengthens its resolve toward justice and progress_, urging lawmakers to respond to women’s growing demand for equality. Furthermore, she implied that when suffrage is achieved, reform will not stop there but rather extend into issues of labor, education, and poverty, creating a more equitable society.\n\nWhat does the passage suggest about Stanton's view regarding the effect of giving women the right to vote?",
+        "choices": [
+          "A. She believed that parity in education was the foundational step for achieving voting rights.",
+          "B. She upheld the idea that women's suffrage would lead to a larger pursuit of societal reforms.",
+          "C. She stated that economic equality shaped major progressive reforms more than voting rights.",
+          "D. She saw suffrage as the single solution to all social problems faced by society."
+        ],
+        "answer": "B",
+        "explanation": "Stanton’s reasoning in the passage links the recognition of women’s right to vote to the realization of broader social reforms, such as addressing education, labor, and poverty. This directly supports choice B: that women’s suffrage would catalyze further societal improvements. The other options misinterpret or exaggerate the claims of the passage, with choice D particularly overstating suffrage as a solution to all social problems, which was not stated by Stanton."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Maria Telkes, a Hungarian-American scientist often called the \"Sun Queen,\" carried out groundbreaking experiments in solar energy research. She famously developed a solar-powered oven that reached temperatures exceeding $80^{\\circ}$C in her initial tests, even though she operated in notably modest laboratory settings. Telkes emphasized that with *resourceful* engineering, significant results could be achieved without large funding. Critics of her time, however, questioned whether solar technology could truly rival conventional fossil fuels, especially during colder seasons. Yet, Telkes demonstrated that the sun was a dependable source of heat, underscoring how lower-intensity sunlight, when captured effectively, could still maintain relatively high temperatures. Telkes’ work showcased how committed innovation could stem from *creativity*, unwavering *persistence*, and clever resource allocation. \n\nWhich conclusion about Maria Telkes is best supported by the passage?",
+        "choices": [
+          "A. She believed her solar-powered oven would only work effectively during the warmest months.",
+          "B. She viewed large-scale funding as an absolute requirement for thorough scientific exploration.",
+          "C. She was determined to prove that limited resources need not prevent meaningful technological progress.",
+          "D. She agreed with critics who asserted that solar energy could only supplement, rather than replace, fossil fuels."
+        ],
+        "answer": "C",
+        "explanation": "The correct answer is C because the passage emphasizes Telkes’ belief in achieving significant results through resourceful engineering. Her work, particularly the development of the solar-powered oven in modest settings, underscores her determination to prove that meaningful scientific and technological advances can be made without immense funding. Option A is incorrect because the passage does not indicate Telkes had limited confidence in the oven’s performance outside warm seasons. Option B is incorrect because Telkes explicitly emphasized resourcefulness over large-scale funding. Option D is incorrect as there is no support in the passage that she endorsed the critics’ viewpoint about solar energy’s limitations."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Easy",
+        "question": "In her keynote address at an international technology conference, software developer Sarah González revealed data on her digital trade platform, designed to simplify cross-border commerce for small import and export businesses. She stated that on average, participants who used the platform reduced overhead by nearly 30%, primarily due to automated customs documentation and real-time currency conversions. However, she acknowledged unanticipated regulatory hurdles in several countries and stated that ongoing negotiations with local authorities are necessary to ensure compliance. She concluded by emphasizing the platform’s potential to empower small businesses, while also indicating that significant effort and time will be required to navigate these legal intricacies.\n\nWhich inference about the development of González’s platform is best supported by the passage?",
+        "choices": [
+          "A) The platform can only succeed if González obtains additional funding from large corporations.",
+          "B) Navigating international regulations remains a significant challenge for ensuring widespread adoption.",
+          "C) Government officials have largely ignored any complaints from early adopters in other countries.",
+          "D) González has already concluded negotiations with every local authority in the target regions."
+        ],
+        "answer": "B",
+        "explanation": "The passage mentions that González acknowledged unanticipated regulatory hurdles and stated the need for ongoing negotiations with local authorities to ensure compliance. From this, it is clear that navigating international regulations is a major challenge for the platform, supporting answer B. Choice A is not supported because the passage does not mention funding from large corporations as a requirement for the platform's success. Choice C is incorrect because the passage provides no indication of government officials ignoring complaints. Lastly, Choice D is also incorrect because the passage explicitly mentions ongoing negotiations, implying that negotiations are not yet concluded."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "While researching a newly established artisan chocolate company, business journalist Alicia Tan documented the following observations:  \n  \n- The founders used direct-to-consumer sales via an **interactive** website and hosted tasting workshops at local cafés.  \n\n- Despite charging premium prices, the company continued to attract more buyers over time.  \n\n- Tan noted that the business emphasized _transparency_ in how the chocolate was sourced and made, aiming to engage customers in each step of the process.  \n  \nWhich statement is best supported by the text?",
+        "choices": [
+          "A. The founders plan to reduce production costs by partnering only with low-cost suppliers.",
+          "B. The company’s marketing strategy highlights building long-lasting connections with customers.",
+          "C. The tasting workshops indicate that the founders do not intend to sell their product online.",
+          "D. The emphasis on transparency leads to significantly lower product prices for consumers."
+        ],
+        "answer": "B",
+        "explanation": "The passage indicates that the company emphasizes transparency and customer engagement, as demonstrated by strategies like maintaining an **interactive** website and hosting tasting workshops. This supports option B: the company aims to build long-lasting connections with customers. The other options are unsupported by the passage: there is no evidence of a strategy to reduce production costs (A), the text explicitly mentions online sales through the website (contradicting C), and while transparency is emphasized, there is no mention of it lowering product prices (D)."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "The following is an excerpt from a biography of mathematician Ada Lovelace:\n\nAda Lovelace (1815–1852) was known for her pioneering work on Charles Babbage’s Analytical Engine. She developed a method for calculating a sequence of numbers using the machine, which many historians consider to be the first computer program. Lovelace’s unique insights into the potential of the device helped shape the future of computing, well before the concept was widely accepted. Nevertheless, it would take many years before more advanced computer systems would be built. \n\nFrom the excerpt above, which conclusion can most reasonably be inferred?",
+        "choices": [
+          "A. Ada Lovelace received significant recognition from scientific communities for her achievements.",
+          "B. Ada Lovelace envisaged applications of the Analytical Engine beyond pure calculation.",
+          "C. The technological implications of Babbage’s Analytical Engine were immediately recognized.",
+          "D. Historians credit Ada Lovelace solely for the advent of modern computing."
+        ],
+        "answer": "B",
+        "explanation": "The excerpt highlights Lovelace’s vision for the Analytical Engine’s potential, suggesting she viewed it as a device capable of more than simple arithmetic. Therefore, conclusion B is supported by the text. Choice A is incorrect because there is no evidence that the excerpt suggests Lovelace received recognition from the scientific community during her time. Choice C is incorrect because the passage states the Analytical Engine's potential was not widely accepted at the time. Finally, choice D is incorrect as the text does not state that historians credit **solely** Lovelace for modern computing, just that they 'helped shape the future of computing'."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Medium",
+        "question": "Architect David Adjaye has garnered international acclaim for his innovative structures that blend cultural inspiration with modern design. _Born in Tanzania and raised in England, Adjaye draws on diverse influences to shape public spaces that resonate with local communities._\\n\\nOne of his notable achievements is the design of the Smithsonian National Museum of African American History and Culture in Washington, D.C. In describing its conceptual origins, Adjaye emphasizes the importance of symbolism, illustrating how the building’s intricate exterior motifs pay homage to West African architectural traditions while celebrating African American heritage in the United States.\\n\\nWhich best describes the function of the second sentence (lines 2–3) in the passage?",
+        "choices": [
+          "To critique a design choice for ignoring local perspectives",
+          "To provide background context that shaped Adjaye’s aesthetic decisions",
+          "To question whether modern design can adequately represent historical narratives",
+          "To present an alternative argument for a private collection instead of a public museum"
+        ],
+        "answer": "B",
+        "explanation": "The second sentence provides important background context by describing Adjaye’s personal roots and life experiences. His upbringing in Tanzania and England offers insight into the diverse cultural inspirations that inform his architectural style. This context clarifies how he integrates varied cultural perspectives into his designs, particularly relevant for the museum. The sentence does not critique, question design adequacy, or present alternative arguments; thus, these other choices do not align with its function in the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "A software engineer, in her talk at the 2019 Tech Nexus Summit, discussed strategies corporations employ to use big data for business advantage. She emphasized that while social media metrics are instrumental for gauging consumer response, integrating these with search engine data can refine insights. Importantly, she stressed that niche data models, drawn from exceptionally specialized communities, though often deemed unrepresentative, harbor innovation potentials that general metrics fail to reveal mostly. She further critiques how corporate adoption often halts without cultural or operational readiness. \n\nWhich inference derives appropriately from the engineer's hypotheses adequately articulated in that keynote?",
+        "choices": [
+          "A. The fiscal outlays in industrial big digital-time integrations leap forward key inhibitors.",
+          "B. Foregrounding community-specific datasets unveils overlooked innovation opportunities and edges to generalizing data analyses.",
+          "C. Minor subsection learnings rarely deliver on inessential gestalt analytics for actual corporate barometers, intensifying analytical failures longitudinally.",
+          "D. All organizational alignment debates appropriately converge in weighing margins tolerance full-throttle prescriptive markets."
+        ],
+        "answer": "B",
+        "explanation": "Certainly, stressing the specialized communities as key insight unlockers influencing tools for presupposed missed opportunities affixes sensible relevance the prompt skew matters."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Hard",
+        "question": "In a speech to the local city council, business leader Alicia Sawyer describes her plan to sponsor free workshops on topics such as data analytics, robotics, and app development, with the goal of helping underrepresented communities gain skills for modern technology careers. She recounts the experience of one participant who, after completing the pilot workshop, secured an internship at a major tech firm and began mentoring peers in her neighborhood. \n\nThe speech includes the following statement: \n\n\"No one in our community should feel that innovation and advancement are reserved for just a select group.\"\n\nWhich best describes the function of this statement in the speech?",
+        "choices": [
+          "A. It challenges the audience to compare the program's outcomes with similar initiatives in other cities.",
+          "B. It emphasizes the speaker's belief in providing equal access to the benefits of technological progress.",
+          "C. It counters claims that investing in technology has created unfair barriers for local residents.",
+          "D. It acknowledges the rarity of success stories arising from philanthropic ventures led by major corporations."
+        ],
+        "answer": "B",
+        "explanation": "The statement \"No one in our community should feel that innovation and advancement are reserved for just a select group.\" serves to underscore the speaker's conviction that technological advancements and opportunities should be inclusive and accessible to all members of the community. The phrase directly aligns with the central argument of the speech, which advocates for supporting underrepresented communities through initiatives like the workshops described. Incorrect choices can be dismissed as follows: A is overly narrow in scope and diverges from the inclusivity theme; C inaccurately presents a negative framing that the speaker does not employ; and D attributes a notion—acknowledging rarity of success—that is unsupported by the speaker's text."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Dr. Jocelyn Rivera's research team recently conducted a study on innovative greenhouse designs that use reflective glass to reduce heat absorption. In areas with intense sunlight, these structures regulate internal temperatures more effectively and minimize water evaporation. They also discovered that the reflective panels encourage plant growth by distributing light more evenly, ensuring that no single area becomes overheated. During her presentation, Dr. Rivera emphasized the potential of this new technology but noted the necessity of adapting it to different climates and testing it over multiple growth cycles.\n\nWhich of the following conclusions about the reflective greenhouse design is most supported by the passage?",
+        "choices": [
+          "A. It is likely to become a universal agricultural solution as presented.",
+          "B. It requires further adjustment to be effective in diverse climatic conditions.",
+          "C. It transforms traditional agricultural methods by eliminating manual labor.",
+          "D. It is applicable only in areas with high levels of sunlight."
+        ],
+        "answer": "B",
+        "explanation": "The passage clearly describes that while the innovative greenhouse design has significant benefits, its effectiveness depends on adjustments for varying climates and additional testing. Dr. Rivera's mention of 'adapting it to different climates' informs the inference that it is not yet universally applicable and needs further refinements, making 'B' the best choice. Answer 'A' assumes universality, 'C' suggests a transformation of method not supported by the information, and 'D' incorrectly limits applicability based solely on areas with high sunlight, which is not indicated as an absolute requirement in the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Rashida noticed that her neighbors, especially older adults, frequently struggled to schedule medical appointments due to complicated online procedures. Inspired by their frustration, she created a user-friendly platform that centralized scheduling across multiple clinics, allowing patients to compare availability and book appointments more efficiently. The platform's initial success in her neighborhood convinced local healthcare providers to incorporate it into their patient outreach strategies, bridging the gap between patients and medical professionals.\n\nWhich inference about Rashida's objective is best supported by the passage?",
+        "choices": [
+          "A. She intended to eliminate all phone-based scheduling systems.",
+          "B. She hoped to make the booking process more accessible to vulnerable patients.",
+          "C. She expected to expand the platform to include international clinics immediately.",
+          "D. She anticipated that her platform would fully replace traditional healthcare services."
+        ],
+        "answer": "B",
+        "explanation": "The passage clearly highlights that Rashida identified challenges faced by her neighbors, particularly older adults, in scheduling medical appointments. In response, she developed an accessible, user-friendly platform aimed at aiding these vulnerable groups. Thus, the correct inference about Rashida's objective is found in choice B: making the booking process more accessible to vulnerable patients. \n\n- Option A incorrectly suggests an intent to entirely eliminate phone-based systems, which is not mentioned. \n- Option C implies a focus on international expansion, which is unsupported as the passage only refers to local successes. \n- Option D exaggerates Rashida's intentions to fully replace healthcare services, which is not suggested in the scenario. \n\nTherefore, option B most accurately aligns with her demonstrated goal, as supported by the information in the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Olivia Morin, a software developer at a growing technology firm, recently led a project to create an innovative payment system. The system relies on a secure database that can process thousands of transactions per second while maintaining near-instantaneous confirmation times. Despite facing limited funding and a small development team, Morin collaborated with local businesses to tailor the payment platform to their needs, resulting in a pilot launch that exceeded adoption forecasts.\n\nBased on the passage, what inference can be made about the collaboration Morin engaged in during the project?",
+        "choices": [
+          "A. Morin worked exclusively within her development team for the payment platform.",
+          "B. Feedback gathered from local businesses influenced the design of the system.",
+          "C. Every business in the area had the opportunity to test the pilot version.",
+          "D. The funding for the project was increased after the successful pilot phase."
+        ],
+        "answer": "B",
+        "explanation": "The passage explicitly states that Olivia Morin collaborated with local businesses to tailor the payment platform to their needs. This indicates that feedback or input from these businesses influenced how the system was designed and customized. Option A is clearly incorrect as the passage refutes the idea of exclusive work within the team by mentioning collaboration with external parties. Option C is unsupported, as the text does not indicate that every business in the area had a chance to test the system. Option D is also unsupported because the text does not include information about the funding being increased after the pilot phase. Hence, option B is the only inference that is strongly supported by the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Marine scientists have discovered that microscopic plastic particles, known as microplastics, are increasingly found in the digestive systems of various marine species. Even small sea creatures, such as plankton, may ingest these particles, which can then travel up the food chain to larger animals, including humans. Some researchers suspect that these microplastics could affect the animals' overall health by interfering with nutrient absorption and potentially introducing harmful chemical compounds.\n\nWhat inference about the potential impact of microplastics is best supported by the passage?",
+        "choices": [
+          "A) Microplastics give smaller creatures a competitive advantage over similar-sized ocean organisms.",
+          "B) Microplastics can enter many parts of the marine food chain, possibly carrying adverse effects.",
+          "C) Microplastics will decompose and pose no significant threat to ocean life in the long term.",
+          "D) Microplastics are primarily found in the habitats of organisms that consume coral reef debris."
+        ],
+        "answer": "B",
+        "explanation": "The passage explicitly discusses that microplastics are ingested by various marine species and can travel through the food chain. This supports the inference in option B that microplastics can enter many parts of the food chain and potentially cause negative effects. Option A lacks textual support regarding competitive advantages. Option C contradicts the potential harmful effects suggested in the passage. Option D misconstrues the widespread nature of microplastics, as described in the text. Thus, option B is the best answer, as it aligns correctly with the point mentioned in the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Sarah Chan pioneered a system in the 1970s for constructing pedestrian footbridges in remote regions. She emphasized sourcing environmentally friendly materials from nearby forests, aiming to cut costs and minimize ecological disturbance. Previously, the common practice was to use imported materials like steel or concrete, which were sometimes cheaper but also greatly increased the ecological disturbance.\n\nWhich inference about Chan's approach is best supported by the passage?",
+        "choices": [
+          "A. She believed using local resources would reduce the need for specialized repair crews.",
+          "B. She suspected that foreign materials were inferior to community-sourced options.",
+          "C. She concluded that environmentally friendly materials are always cheaper than steel.",
+          "D. She intended to discourage local communities from adopting modern engineering tools."
+        ],
+        "answer": "A",
+        "explanation": "Using local materials, which aligns with her objectives of cost-cutting and minimizing ecological disturbance, implies that these footbridges were designed to be easily repairable with the available resources, thereby reducing reliance on specialized external repair crews or materials. C is wrong because of the word *always*, whereas the passage says that imported materials were only *sometimes cheaper*."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Anya has managed a family-run bakery for the past five years. Eager to grow the business, she invests in premium equipment, designs a new marketing strategy, and introduces an expanded product line. After a few months, foot traffic increases significantly, but total profits remain nearly the same because of higher operating costs. \n\nWhich statement about the bakery's outcomes is best supported by the information provided?",
+        "choices": [
+          "A) Customer satisfaction stayed the same inspite of the bakery's expanded product line.",
+          "B) Higher operating costs negated the additional revenue from increased sales.",
+          "C) The new marketing strategy failed to attract new customers.",
+          "D) This was the first time Anya implemented a new marketing strategy."
+        ],
+        "answer": "B",
+        "explanation": "The information in the passage describes that foot traffic increased, which indicates success in attracting customers, likely through the marketing strategy and the product line expansion. However, the profits did not increase, remaining steady instead. The most plausible explanation is that the higher operating costs associated with the new measures balanced the increased revenue. Hence, the correct answer is B. \n\nDistractors: \n- Option A is unsupported as there is no information about customer satisfaction or dissatisfaction related to the product line change. \n- Option C directly contradicts the information, as foot traffic did increase. \n- Option D is irrelevant to the passage, as there is no discussion on historical promotion methods. \n\nExpanded explanation of distractors ensures students understand why they are incorrect, aiding in proper elimination techniques."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In *The Federalist No. 51*, James Madison writes: \"But what is government itself, but the greatest of all reflections on human nature? If men were angels, no government would be necessary.\" Madison underscores the importance of establishing checks and balances to restrain possible misuse of authority in government. \n\nWhich inference about Madison’s perspective on government is best supported by this passage?",
+        "choices": [
+          "A. He believes government officials naturally exhibit no self-interest.",
+          "B. He believes human imperfections require institutional limits on power.",
+          "C. He thinks government is irrelevant if society follows strict ethical codes.",
+          "D. He thinks humans can single-handedly uphold fairness without legal guidelines."
+        ],
+        "answer": "B",
+        "explanation": "Madison underscores that government arises due to human imperfection and the potential for abuse of authority. His reference to 'human nature' and the claim that 'if men were angels, no government would be necessary' emphasizes the necessity of checks and balances as safeguards against the flaws inherent in humanity. Thus, Option B correctly infers that Madison believes institutional constraints are required due to human imperfections. The other options misrepresent Madison’s views or make incorrect assumptions: Option A suggests government officials intrinsically lack self-interest, Option C misinterprets his hypothetical argument about the irrelevance of government, implying it could occur with ethical codes rather than angelic nature, and Option D inaccurately assumes he trusts humans to maintain fairness without structured governance. These interpretations do not align with the core message Madison conveys in the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In Herman Melville's short story 'Bartleby, the Scrivener' (1853), the narrator reflects on his interactions with Bartleby, an employee of his who is unusually obstinate and reserved. Despite Bartleby refusing to complete certain tasks, which frustrates the narrator and challenges his patience, the narrator finds himself intrigued by Bartleby's motivations and disposition, and ultimately draws conclusions about Bartleby with empathy.\n\nWhich of the following inferences about the narrator is best supported by the description above?",
+        "choices": [
+          "A) The narrator feels deep frustration and anger at Bartleby's defiance.",
+          "B) The narrator maintains an attitude of professional critique and detachment.",
+          "C) The narrator develops a genuine sense of empathy and intellectual curiosity regarding Bartleby's manner.",
+          "D) The narrator tolerates Bartleby's deviations from normal expectations due to indifference."
+        ],
+        "answer": "C",
+        "explanation": "The question requires inferring the narrator's emotional and intellectual stance toward Bartleby. While the text describes initial frustration, it ultimately highlights a shift towards contemplation and empathy, supporting the inference that the narrator develops both curiosity and compassion. Option C best describes this conclusion, while the other options either misrepresent the emotional direction or maintain detachment inconsistent with the evidence provided."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Medium",
+        "question": "Charles Dickens's novel *Great Expectations* (1861) begins with the narrator introducing himself as 'Pip':\n\n\"My father’s family name being Pirrip, and my Christian name Philip, my infant tongue could make of both names nothing longer or more explicit than Pip.\"\n\nWhich choice best describes the function of this sentence in the context of the narrator's self-introduction?",
+        "choices": [
+          "A. To highlight the family’s long-standing naming conventions rooted in historical customs",
+          "B. To underscore the narrator’s early linguistic challenges and formation of his personal identity",
+          "C. To illustrate the narrator's father’s deliberate selection of a confusing name",
+          "D. To foreshadow the narrator's future experiences with the use of language"
+        ],
+        "answer": "B",
+        "explanation": "The sentence explains how Pip's name originated from his inability as a child to fully articulate his given names, 'Philip Pirrip'. This detail reveals an aspect of Pip’s early self and sets up one of the key elements of his identity. Answer choice B is correct. Answer choice A is incorrect because the sentence does not discuss historical naming conventions. Answer choice C is incorrect because there is no mention of the father deliberately selecting a confusing name. Answer choice D is incorrect as the sentence does not imply future events but rather reflects on the past."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "The following excerpt is from Jane Austen's *Pride and Prejudice* (published in 1813):\n\n\\[\n\\text{It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.}\\\n\\text{However little known the feelings or views of such a man may be on his first entering a neighbourhood,}\\\n\\text{this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property}\\\n\\text{of someone or other of their daughters.}\n\\]\n\nWhich statement best expresses the main idea of the excerpt?",
+        "choices": [
+          "A) It claims that unmarried men become obligated to propose marriage due to family pressure.",
+          "B) It humorously highlights societal assumptions about the marriage prospects of wealthy single men.",
+          "C) It argues that financial stability ensures long-term happiness in relationships.",
+          "D) It suggests that resisting social expectations is key to personal independence."
+        ],
+        "answer": "B",
+        "explanation": "The excerpt parodies societal belief systems of the time, using humor to lampoon the idea that wealthy bachelors are automatically seeking wives and are seen as prospects by families with unmarried daughters. Austen's use of satire and generalization provides a clever critique of social norms, which is effectively captured by choice B. Choice A overstates the pressure aspect, choice C misinterprets the financial focus, and choice D detracts from Austen's primary satirical commentary on societal presumptions."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Easy",
+        "question": "The following passage is from Charles Darwin's *On the Origin of Species* (1859):\n\n\"It may metaphorically be said that natural selection is daily and hourly scrutinizing, throughout the world, every variation, even the slightest; rejecting that which is bad, preserving and adding up all that is good; silently and insensibly working, whenever and wherever opportunity offers, at the improvement of each organic being in relation to its organic and inorganic conditions of life.\"\n\nWhat does the passage primarily say about natural selection?",
+        "choices": [
+          "A. Natural selection examines and removes only major defects.",
+          "B. Natural selection operates constantly, evaluating all variations and favoring beneficial ones.",
+          "C. Natural selection functions intermittently and in specific regions.",
+          "D. The process of natural selection results in uniformity among species."
+        ],
+        "answer": "B",
+        "explanation": "The passage clearly emphasizes the continuous and meticulous action of natural selection across the world and over time, ensuring the improvement of species by preserving favorable traits and discarding unfavorable ones. Answer choice B best encapsulates this concept, whereas the other choices either misinterpret the scope or nature of natural selection. Choice A incorrectly suggests selectivity towards only major defects; choice C incorrectly implies an intermittent or localized process; and choice D misrepresents the outcome as uniformity, which is not supported in the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In Voltaire's *Candide* (1759), after enduring a series of misfortunes, the main character and his companions settle on a small farm. Candide, embracing a simpler life, concludes that self-improvement is gained through diligent work. He famously sums up this new perspective with the statement, 'we must cultivate our garden.' 'Cultivating our garden' here serves as a metaphor for dedicating oneself to constructive and meaningful activities, focusing on personal and communal well-being.\n\nWhich inference is best supported by the passage?",
+        "choices": [
+          "A. Candide regrets leaving his home and wishes to reverse his decisions.",
+          "B. Candide believes that consistent practical work can bring peace of mind.",
+          "C. Candide believes he has become immune to any form of hardship.",
+          "D. Candide distrusts his companions and wants to live in solitude."
+        ],
+        "answer": "B",
+        "explanation": "Candide's decision to focus on diligent work and the statement 'we must cultivate our garden' imply that he values the tranquility and fulfillment that come from engaging in meaningful labor. The use of 'cultivating our garden' metaphorically suggests personal and collective growth through effort. The other options are not directly supported: there is no evidence for regret over past decisions, immunity to hardship is not mentioned, and distrust or a preference for isolation is not indicated by the passage."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "The following excerpt is adapted from Jane Austen’s novel *Pride and Prejudice* (1813):\n\n\"Elizabeth Bennet is known for her *astute* observations, often challenging the social conventions of her time. In one memorable exchange, she pointedly questions Mr. Darcy about his previous reluctance to dance, demonstrating her readiness to question *unspoken* assumptions. With her wit and intelligence, she interprets subtle social cues that others tend to overlook.\"\n\nWhat can be inferred about Elizabeth Bennet based on the passage?",
+        "choices": [
+          "A) She generally disregards the feelings of those around her.",
+          "B) She follows every established tradition without question.",
+          "C) She notices nuances in situations and responds insightfully.",
+          "D) She thrives in settings that involves lively conversation."
+        ],
+        "answer": "C",
+        "explanation": "The passage highlights Elizabeth Bennet’s habit of making astute observations and challenging typical social norms, demonstrating her perceptive nature. Her ability to interpret subtle cues and willingness to question unspoken assumptions imply she is both observant and insightful. Option C captures these traits effectively. The other options either contradict her character traits or misinterpret her engagement in social settings."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "The following passage is adapted from Sir Walter Scott’s 1819 novel *Ivanhoe*. In this scene, a knight arrives at the tournament grounds and calmly prepares himself for the competition despite the onlookers' excitement. His visor is raised, revealing an unwavering expression, and his demeanor suggests neither fear nor arrogance.\n\nWhich inference about the knight's behavior is best supported by the passage?",
+        "choices": [
+          "A. He is eager to reveal his true identity to the onlookers.",
+          "B. He is concerned about the outcome of the tournament.",
+          "C. He is composed and focused, demonstrating steady determination.",
+          "D. He is indifferent to the tournament's proceedings."
+        ],
+        "answer": "C",
+        "explanation": "The description of the knight's calm and unwavering demeanor, along with his lack of fear or arrogance, strongly supports the inference that he is composed and focused, showing steady determination (choice C). Choices A, B, and D are not as well-supported: the passage does not suggest a desire to reveal his identity (choice A), concern about the tournament's outcome (choice B), or indifference to the tournament (choice D)."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In Charles Dickens’s novel *Great Expectations* (1861), the young narrator, Pip, describes how he learned about his parents solely by reading their tombstones. He imagines their features based on the shapes of letters on the stones, revealing more about his own imaginative tendencies than about his parents.\n\nWhich inference about Pip is best supported by this description?",
+        "choices": [
+          "A. He is deeply bitter about losing his parents.",
+          "B. He demonstrates a creative tendency by interpreting minimal clues about them.",
+          "C. He vividly recalls details about his parents from memory.",
+          "D. He refuses to discuss any aspect of his parents with others."
+        ],
+        "answer": "B",
+        "explanation": "The description suggests that Pip uses the shapes of letters on the tombstones to imagine what his parents were like. This reveals a creative and imaginative quality, as he forms ideas based on minimal clues. \n\n- Option A, indicating bitterness, is not supported, as the description doesn't convey any emotional bitterness towards the loss of his parents.\n- Option C, vivid recall, is incorrect as Pip does not have memories of his parents; his perceptions are shaped solely by his imagination applied to external clues.\n- Option D, refusal to discuss, is unsupported. There is no indication about Pip's willingness or unwillingness to discuss his parents.\n\nThus, option B is correct as it accurately reflects the imaginative approach Pip takes while interpreting the limited information available to him about his parents."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In the following excerpt from Charles Dickens' novel *Oliver Twist*, first published in 1838, the narrator details the plight of Oliver and the other children in the workhouse, focusing on their suffering due to insufficient food:\\n\\n\\\"Oliver and his companions suffered the tortures of slow starvation for three months: at last they got so voracious and wild with hunger, that one boy, who was tall for his age, and hadn’t been used to that sort of thing (for his father had kept a small cook-shop), hinted darkly to his companions, that unless he had another basin of gruel per diem, he was afraid he might some night eat the boy who slept next to him.\\\"\\n\\nWhat conclusion about the situation in the workhouse is most supported by this passage?",
+        "choices": [
+          "A. The workhouse officials demonstrate concern for the children's welfare, particularly regarding food.",
+          "B. This humorously exaggerated description illustrates the children's defiance and cunning nature.",
+          "C. The children's hunger is severe enough that it incites unsettling and desperate thoughts.",
+          "D. Only the boy who used to live in a cook-shop is unaccustomed to hunger and thus suffers the most."
+        ],
+        "answer": "C",
+        "explanation": "The excerpt clearly conveys the children's extreme hunger and its psychological toll. The vivid phrasing, such as *tortures of slow starvation* and a dark hint of cannibalism, underscores the severity of their conditions. Option C correctly identifies this desperation caused by hunger as the focal point. Options A and D are incorrect as they misconstrue the adults' (officials') lack of action and suffering being collective rather than singular. Option B mislabels the passage's tone as humorous rather than serious."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Easy",
+        "question": "The following excerpt is adapted from Leo Tolstoy's novel *War and Peace*:\n\n\"In the middle of the night, Pierre rose from his table, lit by a flickering candelabra, and felt a sudden wave of clarity about his purpose. He realized that every misfortune in his life had led him inexorably to this single, luminous moment.\"\n\nHow does the second sentence primarily function within the provided text?",
+        "choices": [
+          "A. It characterizes Pierre's need to involve others in achieving his clarity",
+          "B. It emphasizes Pierre's conclusion to break away from his past misfortunes",
+          "C. It underscores how Pierre's prior challenges culminate in his moment of insight",
+          "D. It hints that Pierre's newfound resolution may encounter future complications"
+        ],
+        "answer": "C",
+        "explanation": "The second sentence serves to highlight Pierre's reflection on how his life's adversities have collectively brought him to a defining moment of understanding. This function aligns with answer choice C as it portrays the culmination of past challenges leading to an epiphany. The sentence does not indicate reliance on others, a disregard for the past, or foreshadow future difficulties, which rules out options A, B, and D."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In this excerpt from Charles Dickens' 'Great Expectations,' the narrator, Pip, reflects on the stark contrast he perceives between his past life and his present circumstances:\n\n\"I never could have believed it without experience; but as Joe and Biddy became more at their cheerful home by the marshes, I became more at my desolate one, and I would fain not have gone back there.\"\n\nWhich statement is best supported by the excerpt?",
+        "choices": [
+          "A) Pip believes the marshes are less appealing than the city.",
+          "B) Pip cannot recall his experiences in the marshes.",
+          "C) Pip strongly wishes to return to the marshes at once.",
+          "D) Pip feels uncomfortable with the distance that now separates him from his former life."
+        ],
+        "answer": "D",
+        "explanation": "The excerpt reveals Pip's feelings of alienation and inner conflict concerning the contrast between Joe and Biddy's cheerful home in the marshes and his perception of his own desolate life. His reluctance to return to the marshes indicates a discomfort with the emotional and physical separation from his former life. Therefore, choice D accurately reflects Pip's feelings as described in the text."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In 1946, Winston Churchill gave his notable 'Iron Curtain' speech to highlight the geopolitical changes and tensions in post-World War II Europe. He remarked, 'From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent.' How does Churchill imply the role of Western nations in response to the situation described?",
+        "choices": [
+          "A. They should consider accepting Soviet influence for the sake of peace.",
+          "B. They should isolate themselves from Eastern European affairs.",
+          "C. They should foster economic partnerships without military alliances.",
+          "D. They should unite to safeguard democratic values against Soviet expansion."
+        ],
+        "answer": "D",
+        "explanation": "Analyzing Churchill’s statements in the speech reveals his emphasis that Western nations must come together ('collaboration and mutual defense') to confront the challenges posed by Soviet expansion. Options A, B, and C do not align with the proactive stance Churchill advocates in resisting the Soviet influence and protecting democratic ideals."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Charles Dickens's novel *Hard Times* was first published in 1854. The following excerpt is spoken by Mr. Gradgrind, a character in the novel:\n\n\"Now, what I want is, Facts. Teach these boys and girls nothing but Facts. Facts alone are wanted in life. You can only form the minds of reasoning animals upon Facts: nothing else will ever be of any service to them.\"\n\nWhat can be inferred about Mr. Gradgrind's perspective on education based on this excerpt?",
+        "choices": [
+          "A) He believes that students should balance factual knowledge with imagination.",
+          "B) He thinks that the emotional well-being of students should come before learning facts.",
+          "C) He views creativity as an asset when it serves practical ends.",
+          "D) He insists that factual information is the only meaningful basis for education."
+        ],
+        "answer": "D",
+        "explanation": "From the excerpt, Mr. Gradgrind clearly emphasizes the importance of facts above all else. He advocates for teaching 'nothing but Facts,' which strongly suggests he sees imaginative or emotional aspects of education as irrelevant or unproductive. Thus, the correct inference is option D: 'He insists that factual information is the only meaningful basis for education.' The other options are not supported because the excerpt does not imply any value Mr. Gradgrind places on imagination, emotional well-being, or creativity, even in a practical context."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "In 1956, Warren Buffett established his first investment partnership in Omaha, Nebraska, with the primary goal of practicing value-driven, long-term investing. Influenced by his mentor, Benjamin Graham, Buffett focused on finding undervalued companies by thoroughly analyzing their financial statements and intrinsic worth. Through the years, Buffett honed these techniques, emphasizing disciplined and calculated investment decisions over speculative ones based on fleeting market trends.\n\nWhat best conveys the main point of the passage?",
+        "choices": [
+          "A. It explains the difficulties Buffett encountered in his early partnerships.",
+          "B. It highlights the significance of speculative investments to Buffett's success.",
+          "C. It details the evolution of Buffett's long-term value-driven investment strategy.",
+          "D. It credits Benjamin Graham's methods as the cornerstone of modern investing."
+        ],
+        "answer": "C",
+        "explanation": "The passage focuses on Warren Buffett's approach to investing, specifically his development and implementation of a strategy centering on value-driven, long-term investment principles. While the influence of Benjamin Graham is notable, the passage sheds greater light on how Buffett applied and adapted these methods to refine his unique investment philosophy."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "In Fyodor Dostoevsky's novel *Crime and Punishment*, the protagonist Raskolnikov is portrayed grappling with a profound moral dilemma. He oscillates between feelings of guilt over his actions and a lurking fear about his potential punishment. At one point in the novel, as he lies uneasily in his small, sparse room, he is paralyzed by this internal conflict, unable to determine whether his urge to confess arises from his genuine remorse or merely from his fear of being exposed.\n\nWhich statement best captures the essence of Raskolnikov's internal conflict as depicted in the passage?",
+        "choices": [
+          "A. Raskolnikov sees confession as a way to escape judgment and achieve peace of mind.",
+          "B. Raskolnikov is deeply concerned about preserving a certain image of himself in front of others.",
+          "C. Raskolnikov accepts his moral responsibility for his actions, feeling no hesitation or doubt.",
+          "D. Raskolnikov is torn between the remorse of guilt and the fear of facing the consequences of his actions."
+        ],
+        "answer": "D",
+        "explanation": "The passage highlights Raskolnikov's difficulty in deciphering the root of his agitation—whether it is genuine repentance or fear. This reflects his dual battle with guilt and the fear of punishment. Choice D succinctly captures the description of this dichotomy. The other options either overgeneralize or do not align with the essence of his internal debate as explicitly expressed in the text."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "Shakespeare’s play *The Merchant of Venice* includes the famous speech by Portia, who says: \"The quality of mercy is not strain'd; It droppeth as the gentle rain from heaven.\"\n\nShe emphasizes that mercy is mightier than the earthly authority of kings and that it blesses both the giver and the receiver.\n\nWhich inference about Portia’s perspective on mercy is best supported by her words?",
+        "choices": [
+          "A. She believes that mercy only benefits the persons who extend it.",
+          "B. She sees mercy as a praiseworthy virtue that must be forced upon others.",
+          "C. She regards mercy as a divine quality that goes beyond human power.",
+          "D. She thinks that kingship is more powerful than any virtue, including mercy."
+        ],
+        "answer": "C",
+        "explanation": "Portia articulates that mercy, as described in her speech, is an unstrained and divine gift, likening it to gentle rain from the heavens. This identifies mercy as a quality of divinity that transcends human power. Thus, the correct answer is C. Choice A is incorrect because she highlights the dual benefit of mercy for giver and recipient. Choice B is not accurate because she does not propose that mercy should be imposed. Choice D is wrong because she explicitly states that mercy is higher and mightier than any royal power."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Medium",
+        "question": "During World War II, Prime Minister Winston Churchill delivered his famous speech in the House of Commons on 4 June 1940. Part of the speech read: “We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.” \n\nIn the context of Churchill's speech, the italicized sentence \"we shall fight in the fields and in the streets\" primarily serves to",
+        "choices": [
+          "A. Indicate a strategic importance placed on urban areas",
+          "B. Emphasize the wide range of locations where defenses will be mounted",
+          "C. Signal an imminent shift in the method of resistance",
+          "D. Call for international support in urban and rural environments"
+        ],
+        "answer": "B",
+        "explanation": "The sentence 'we shall fight in the fields and in the streets' is part of Churchill's rhetorical device used throughout the excerpt, which names multiple terrains to symbolically and literally emphasize the wide-ranging and unwavering commitment of the British people to resist invasion and defend their homeland. Thus, this emphasis on diverse locales underscores the breadth and inclusivity of resistance rather than signaling a singular focus or change in tactics, aligning with the purpose of bolstering morale and resolve during the speech."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Easy",
+        "question": "Rachel Carson’s book *Silent Spring* introduced the public to harsh environmental consequences of pesticide use. She examined the chemical compound with formula $C_{14}H_9Cl_5$ (DDT), demonstrating how it accumulated in food chains. Because of the extensive data she compiled from $n$ separate field experiments, policymakers started recognizing a link between chemical usage and declining wildlife populations. _By drawing on multiple studies, Carson emphasized how seemingly small amounts of pesticides could cause wide-reaching harm across entire ecosystems._ Carson’s argument significantly influenced environmental lawmaking, showcasing how scientific research can shape public policy.\\n\\nIn the context of the paragraph, what is the primary function of the underlined sentence?",
+        "choices": [
+          "A) To highlight Carson’s personal experiences using pesticides",
+          "B) To provide explicit support for Carson’s broader claim about environmental harm",
+          "C) To refute an alternative scientific viewpoint on pesticide safety",
+          "D) To illustrate how government officials immediately enacted new regulations"
+        ],
+        "answer": "B",
+        "explanation": "The underlined sentence serves to substantiate Rachel Carson’s broader assertion about the environmental damage caused by pesticides. By referring to the general mechanism of harm (how small amounts of pesticides can have extensive repercussions throughout ecosystems), it provides further evidence to the initial claim in the paragraph regarding pesticides’ pervasive consequences.\\n\\n**Explanation for incorrect choices:**\\n\\n- Choice A is incorrect because the sentence does not discuss Carson's personal experiences but rather her analysis and findings from multiple studies.\\n- Choice C is incorrect, as there is no alternative viewpoint presented or refuted in this part of the text.\\n- Choice D misrepresents the context; the underlined sentence does not discuss immediate governmental action but focuses on Carson's analysis of ecosystem-wide pesticide harm."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Easy",
+        "question": "In her research on the nature of energy, a physicist describes how the equation $E = mc^2$ revolutionized the study of subatomic particles by linking mass and energy into a single concept that ignited numerous breakthroughs in the mid-20th century. _This relationship clarified that even small amounts of mass could be transformed into tremendous amounts of energy, revealing new opportunities for scientific exploration._ In subsequent experiments, scientists used this principle to develop novel technologies and deepen our understanding of the atom. \n\nWhich choice best describes the function of the underlined sentence in the context of the paragraph?",
+        "choices": [
+          "A. It contrasts the scientist’s findings with an alternate theory.",
+          "B. It anticipates and dismisses a potential counterargument about the validity of $E = mc^2$.",
+          "C. It introduces a historical anecdote about the discovery of subatomic particles.",
+          "D. It emphasizes how a modest insight can lead to major advancements in scientific thought."
+        ],
+        "answer": "D",
+        "explanation": "The underlined sentence emphasizes the broad implications of the equation $E = mc^2$, particularly how even a small amount of mass can transmute into a significantly large amount of energy. This underscores the extraordinary impact of scientific principles like $E = mc^2$ on shaping modern scientific exploration. By demonstrating the scalability of the principle, the underlined sentence functions to showcase how concepts initially perceived as subtle can catalyze substantial advancements in human knowledge and application.\n\nChoice A is incorrect because there is no contrasting theory presented in the paragraph. Choice B is incorrect because the underlined sentence does not work to dismiss potential counterarguments or validate $E = mc^2$ against opposition. Choice C conflates the contextual purpose with narration; the underlined sentence is factual and explanatory, not anecdotal."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Easy",
+        "question": "While researching the invention of the printing press, historian Mary Brown discovered a series of letters that documented the personal struggles Johannes Gutenberg faced during his early attempts to gain financial backing. _One letter, dated August 12, 1439, revealed how Gutenberg's inability to secure a stable investment delayed the entire printing press project._ The letter also mentioned that local merchants were hesitant to invest in a venture they considered too risky, reflecting broader societal skepticism toward untested technologies.\n\nWhich statement best describes the function of the underlined sentence in the passage?",
+        "choices": [
+          "A) It demonstrates that Mary Brown directly funded Gutenberg's project.",
+          "B) It highlights Gutenberg's success in overcoming public doubts.",
+          "C) It provides concrete evidence about the financial difficulties Gutenberg faced.",
+          "D) It corrects a misconception about the date of Gutenberg's invention."
+        ],
+        "answer": "C",
+        "explanation": "The underlined sentence serves to provide concrete evidence of a specific challenge faced by Johannes Gutenberg—his difficulty securing stable financial backing, which delayed the progress of the printing press project. This directly aligns with the idea of documenting financial struggles. It does not suggest external funding (choice A), highlight overcoming skepticism (choice B), or address historical misconceptions about dates (choice D). The key is to identify how the underlined sentence functions within the passage, with a focus on the described obstacles."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Easy",
+        "question": "Marie Curie (1867–1934) was a pioneering scientist known for her groundbreaking research on radioactivity. She conducted experiments that led to the discovery of the elements polonium and radium. _Her achievements paved the way for later developments in nuclear physics._ She also established practical applications of her work, including the use of X-rays in battlefield hospitals. \n\nWhich choice best describes the function of the underlined sentence in the overall text?",
+        "choices": [
+          "A) It emphasizes the unexpected challenges Curie encountered in her experiments.",
+          "B) It highlights the immediate practical benefits of Curie's discoveries.",
+          "C) It clarifies how Curie's findings differ from those of other scientists.",
+          "D) It shows the broader influence of Curie's accomplishments on scientific progress."
+        ],
+        "answer": "D",
+        "explanation": "The underlined sentence highlights the long-term importance of Marie Curie's research, detailing how her achievements influenced the progress of nuclear physics. It contextualizes her work within the broader scope of scientific advancements, demonstrating her impact on the field. The statement does not reference personal challenges (Choice A), directly discuss immediate applications (Choice B), or compare her work with others' (Choice C). Thus, the correct answer is Choice D."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Medium",
+        "question": "The following excerpt is from a historical text describing the efforts of an influential suffragist in the early 20th century:\n\n\"Susan B. Anthony spent decades traveling across the country, delivering passionate speeches on women’s rights. _She believed that by uniting a diverse coalition of supporters, the movement could gain unstoppable momentum._ Her tireless dedication and leadership laid a foundation for future generations to build upon.\"\n\nIn the context of the passage, what function does the underlined sentence primarily serve?",
+        "choices": [
+          "A) It emphasizes how Anthony’s background inspired her ideas.",
+          "B) It highlights a significant obstacle Anthony had to overcome.",
+          "C) It explains the strategic rationale behind Anthony’s approach.",
+          "D) It provides a critique of Anthony’s effectiveness as a speaker."
+        ],
+        "answer": "C",
+        "explanation": "The underlined sentence points to Susan B. Anthony’s strategy for advancing the suffrage cause. By describing her belief in forming a broad alliance, the sentence shows why she worked tirelessly to bring people from different backgrounds together. High school students can see that this sentence serves as a rationale for how she intended to achieve her goals: if supporters rallied behind a common purpose, the movement would gain momentum. Thus, the best answer highlights the strategic explanation provided by that sentence."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Hard",
+        "question": "Read the following excerpt from a recent interview with archaeologist Margaret Collins about her excavation work:\n\n\"In the newly uncovered site, my team and I discovered a range of stone tools fashioned for both everyday use and ceremonial practices. _However, the most intriguing artifacts were small carvings depicting the region’s abundant wildlife, each rendered with remarkable accuracy._ These artifacts suggest that the people who lived here not only depended on local fauna for subsistence, but also revered them through artistic expression.\"\n\nWhich best describes the primary function of the underlined sentence in the context of the excerpt?",
+        "choices": [
+          "A) To criticize the researchers’ methods in recovering fragile carvings",
+          "B) To introduce a contrasting viewpoint about the significance of the tools",
+          "C) To summarize the previous sentence by elaborating on the variety of artifacts",
+          "D) To emphasize the profound cultural and artistic value associated with certain finds"
+        ],
+        "answer": "D",
+        "explanation": "The underlined sentence draws attention to the detailed and accurate carvings depicting wildlife, shifting the focus towards the artistic significance of these objects rather than their utilitarian purpose. This supports the idea that the carvings provide insight into the cultural values of the people, emphasizing their artistic and cultural connections."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Hard",
+        "question": "During the early 1900s, Marie Curie pioneered the study of radioactivity. _She discovered polonium and radium and was the first woman to win a Nobel Prize._  In describing her success, some historians highlight her unwavering determination, while others focus on her collaborative spirit.  \n  \nWhich choice best describes the function of the underlined sentence in the overall text?",
+        "choices": [
+          "A) It juxtaposes Curie’s groundbreaking discoveries with later interpretations of her scientific legacy, thereby setting up a nuanced discussion of her impact.",
+          "B) It enumerates her major accomplishments to substantiate her pioneering status, providing evidence for her role as a trailblazer in science.",
+          "C) It shifts the focus from technical achievements to a broader historical narrative, thereby implicitly critiquing other scientists’ contributions.",
+          "D) It introduces an unrelated biographical detail that serves to divert attention away from the central theme of scientific innovation."
+        ],
+        "answer": "B",
+        "explanation": "The underlined sentence enumerates Marie Curie’s major scientific accomplishments, which include her discoveries of polonium and radium and being the first woman to win a Nobel Prize. These details are provided to substantiate her role as a pioneering figure in the scientific community. This supports choice B. Option A inaccurately implies a comparative discussion that is absent from the text, C discusses broader narratives or critiques which are not offered in the passage, and D suggests the sentence details are irrelevant, which misrepresents its purposeful inclusion in underscoring Curie's contributions to science."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Easy",
+        "question": "Read the following excerpt from a passage describing the obstacles faced by environmental scientists:\n\nHigh levels of pesticide usage on farmland have raised concerns about long-term ecological damage. Dr. Martinez, a renowned environmental scientist, conducted numerous field experiments and concluded that reducing chemical applications can protect helpful soil microbes without significantly lowering crop yields. _Yet many government agencies remain hesitant to revise existing regulations, citing the need for more extensive trials before implementing new guidelines._\n\nWhich choice best describes the function of the underlined sentence in the context of the passage?",
+        "choices": [
+          "A) It summarizes the evidence Dr. Martinez gathered to support her findings.",
+          "B) It points out a potential obstacle to acting on Dr. Martinez’s recommendations.",
+          "C) It highlights how pesticide usage eliminates all harmful pests across farmland.",
+          "D) It introduces a specific counterargument that directly disproves Dr. Martinez’s work."
+        ],
+        "answer": "B",
+        "explanation": "The underlined sentence explains that government agencies are reluctant to change pesticide regulations without additional trials, presenting a real-world challenge to implementing Dr. Martinez's recommendations. The function of the sentence is to reveal a key obstacle, providing depth to the narrative of difficulties faced by environmental scientists. Students should analyze how sentences contribute to the development of the passage and identify how challenges or constraints are presented within the text."
+      },
+      {
+        "skill": "Function of Sentence",
+        "difficulty": "Hard",
+        "question": "Rita founded an organization that helps restore the historical landmarks in her hometown. She noticed that many old buildings were being torn down to make room for new developments and wanted to preserve each site’s unique place in the community’s story. She fervently believed that these structures were more than just walls and wood; they carried cultural and educational value for future generations. _By rallying her neighbors and working collaboratively with the local government, she managed to secure grants totaling \\$2,000,000 to renovate key landmarks._\n\nWhich best describes the function of the underlined sentence in the overall text?",
+        "choices": [
+          "A. It illustrates a contrasting viewpoint that opposes Rita’s plan.",
+          "B. It frames a personal anecdote unconnected to the passage's main idea.",
+          "C. It shows tangible evidence supporting Rita’s mission.",
+          "D. It restates the community’s emotional ties to the landmarks."
+        ],
+        "answer": "C",
+        "explanation": "To analyze the role of the underlined sentence in the passage, start by considering its connection to the rest of the text. The sentence provides specific information about funds Rita managed to secure for renovations, representing objective evidence that supports her campaign to preserve historical landmarks. This example demonstrates the success and impact of her efforts. \n\nA few common errors to avoid include: \n\n1. Misinterpreting the sentence as opposing Rita's mission (it supports her goals, not contrasts them).\n2. Assuming it's an unconnected anecdote or restatement (it's closely tied to the context and offers new, concrete evidence). \n\nThus, the correct answer is C: It shows tangible evidence supporting Rita’s mission, as this is the primary function of the sentence in the text's broader narrative."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Marine biologist Dr. Nina Chan led a multi-year study of humpback whales migrating through the southwestern Pacific. Over a five-year span, her team documented increasingly early arrivals each season, closely monitored regional water temperatures, and recorded changing prey availability at primary feeding sites.\n\nWhich inference is best supported by Dr. Chan’s findings?",
+        "choices": [
+          "A) The whales are responding exclusively to abundant prey, with no regard for temperature changes.",
+          "B) The research team’s methods are likely flawed because early arrivals conflict with standard migration predictions.",
+          "C) The whales’ migration timings may be influenced by environmental cues such as shifting ocean temperatures.",
+          "D) The whales’ earlier arrivals indicate a preference for nesting along warmer coastlines instead of open waters."
+        ],
+        "answer": "C",
+        "explanation": "To answer this question, examine the data suggesting that humpback whales arrive earlier and correlate arrival times with changing ocean temperatures. These details support the inference that the whales’ migratory behaviors are linked to environmental conditions. The study does not indicate errors in methodology, nor does it offer evidence that food availability or nesting preferences are the primary cause. Therefore, the most reasonable conclusion is that the whales’ earlier arrivals may be prompted by shifting ocean temperatures."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "During the early 17th century, the Italian astronomer Galileo Galilei conducted precise experiments investigating how objects fall. Among these experiments, historical accounts suggest that Galileo dropped different objects from the Leaning Tower of Pisa to observe their motion. He measured the constant acceleration due to gravity as $9.8\\,m/s^2$, challenging the widely held belief that heavier objects fall faster. His detailed records documented times and distances for each experiment, illustrating a rigorous process of systematic testing. Galileo's work highlighted the significance of observation and experiment in deriving scientific conclusions rather than relying on untested assumptions or inherited tradition.\n\nWhich statement is best supported by the passage regarding Galileo’s approach to scientific research?",
+        "choices": [
+          "A. He believed philosophical teachings were sufficient for scientific truth.",
+          "B. He advocated discarding experimental records to avoid confusion.",
+          "C. He prioritized empirical observation over commonly held beliefs.",
+          "D. He concluded that the rate of acceleration depends heavily on mass."
+        ],
+        "answer": "C",
+        "explanation": "Galileo’s experiments and detailed documentation demonstrate his emphasis on empirical observation rather than adherence to traditional beliefs or assumptions. Choice C is correct as it captures Galileo's reliance on observable evidence in contrast to commonly held but untested ideas. Choices A, B, and D either misrepresent his methods or offer conclusions that contradict historical accounts of his findings."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "While analyzing a series of letters from the early 15th century, historian Dr. Moran discovered that King Henry V consistently acknowledged the strategic advice of his council members, particularly regarding foreign alliances. The letters reflect *the king's unwavering trust* in their expertise and reveal _the monarchy's underlying reliance_ on collaborative governance. \n\nBased on the evidence in the passage, what is a reasonable inference about the governance style of King Henry V as presented by Dr. Moran?",
+        "choices": [
+          "A) King Henry V used advice from his council only as a formality and did not rely on it heavily.",
+          "B) King Henry V valued and often implemented the advice given by his council.",
+          "C) King Henry V maintained autonomy and seldom consulted his council for significant decisions.",
+          "D) King Henry V viewed council advice as secondary to his own judgment."
+        ],
+        "answer": "B",
+        "explanation": "The passage highlights that King Henry V consistently acknowledged the advice of his council members and revealed an underlying reliance on collaborative governance, showing a preference for implementing advice when making significant decisions. Option B aligns with this analysis. Choices A, C, and D contradict Dr. Moran's depiction of Henry V's governance style as cooperative rather than unilateral."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Renowned environmental economist Dr. Gupta recently unveiled a new framework to gauge a country's ecological resilience. She suggests measuring annual $CO_2$ output while taking into account factors such as total forest coverage and water consumption. According to Dr. Gupta, implementing these criteria will help nations pinpoint priorities for preserving natural resources.\n\nWhat can be reasonably inferred from Dr. Gupta's approach?",
+        "choices": [
+          "A. Dr. Gupta's framework eliminates the need for any foreign investment in environmental programs",
+          "B. Dr. Gupta suggests halting industrial production until $CO_2$ emissions become negligible",
+          "C. Dr. Gupta incorporates multiple environmental indicators to guide countries toward smarter sustainability goals",
+          "D. Dr. Gupta calls for relocating populations to areas where forest space is more abundant"
+        ],
+        "answer": "C",
+        "explanation": "Dr. Gupta's framework integrates various factors, such as $CO_2$ emissions, forest coverage, and water consumption, to assess ecological resilience. This indicates a comprehensive approach aimed at guiding countries toward better sustainability strategies. Here's a breakdown of why the correct inference is Choice C:\n\nChoice A incorrectly assumes the framework negates the need for foreign investment, which is neither implied nor mentioned in the text.\nChoice B is speculative and overly radical, suggesting an extreme measure not associated with Dr. Gupta's proposal.\nChoice C reflects Dr. Gupta's stated method of using multiple indicators to inform and refine ecological decision-making processes.\nChoice D introduces a concept of population relocation based on forest space, which is neither addressed nor supported by the given information."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "In a recent editorial published in *The Earth Chronicle*, environmental researcher Dr. Morales described how **commitment** to drastically reducing plastic waste is essential for mitigating the harmful effects on wildlife. Dr. Morales cited _extensive data_ showing that microplastics can contaminate food supplies, harm marine life, and increase public health risks.\n\nWhich conclusion is best supported by Dr. Morales’ remarks in the editorial?",
+        "choices": [
+          "A. Dr. Morales believes that most plastic pollution arises solely from manufacturing facilities located in coastal areas.",
+          "B. Dr. Morales infers that decreasing excessive consumer usage of plastics is necessary to protect both marine ecosystems and human health.",
+          "C. Dr. Morales recommends focusing efforts primarily on recycling campaigns rather than investing in pollution research.",
+          "D. Dr. Morales suggests that strict bans on plastic imports are the only proven way to prevent environmental damage."
+        ],
+        "answer": "B",
+        "explanation": "Dr. Morales explains that microplastics cause harm to both marine life and human populations and contends that reducing plastic use can help mitigate these issues. Specifically, the editorial highlights that microplastics affect food supplies and pose a danger to marine and public health, strongly suggesting the necessity of reducing excessive consumer reliance on plastics. \n\n Option A is unsupported because the text makes no reference to coastal manufacturing. \n Option C is incorrect since no preference for recycling campaigns is given. \n Option D is overly restrictive, and no evidence in the text implies such a stance."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "In the following excerpt from Harriet Jacobs’s *Incidents in the Life of a Slave Girl* (1861), Jacobs describes her reason for discussing her hardships:\n\n\"Reader, it is not to awaken sympathy for myself that I am telling you truthfully what I suffered in slavery.\"\n\nWhich inference is best supported by the passage?",
+        "choices": [
+          "A. Jacobs seeks to highlight the suffering of individuals with similar experiences.",
+          "B. Jacobs intends to truthfully document her experiences without influencing readers' emotions.",
+          "C. Jacobs does not hold her audience accountable for her suffering.",
+          "D. Jacobs aims to convey the depth of her trials factually, without arousing pity."
+        ],
+        "answer": "D",
+        "explanation": "Jacobs explicitly states that her purpose is not to awaken sympathy but to truthfully recount her experiences, as noted in the text. Thus, the inference that her goal is to present the facts of her experiences without expecting personal pity aligns best with choice D. While option A is tempting, it is important to rely on specific evidence, and that is not provided in this excerpt. Other options, while plausible at a glance, do not fully capture the nuance of her stated intent; for example, A implies a broader focus on others rather than her personal narrative, B and C don't emphasize the observance of truth coupled with the avoidance of pity, both of which are key to Jacobs's aim in the excerpt."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "The following excerpt is adapted from Fyodor Dostoevsky's public-domain novel, \"Crime and Punishment.\" In this scene, the character Raskolnikov is walking among a crowd after experiencing a tense and disorienting moment:\n\n\"He was so immersed in his own feelings that he scarcely saw or heard anything around him. This solitude in the midst of the throng still further excited him; he walked on like one pursued, unwillingly drawn into the bustle, yet incapable of escaping it altogether.\"\n\nBased on this excerpt, what can be inferred about Raskolnikov's state of mind?",
+        "choices": [
+          "A) He finds solace in being surrounded by others, despite his internal turmoil.",
+          "B) He deliberately surrounds himself with noise and activity to distract himself.",
+          "C) He feels indifferent to the commotion of the crowd around him.",
+          "D) He is deeply preoccupied with his internal struggles, which dominate his consciousness."
+        ],
+        "answer": "D",
+        "explanation": "The correct answer is D. The text describes how Raskolnikov is deeply engrossed in his own thoughts and feelings, nearly oblivious to his surroundings. The description of him as being in 'solitude in the midst of the throng' emphasizes his internal preoccupation and isolation. Option B is incorrect because there is no evidence to suggest that he actively seeks out the crowd. Option C is incorrect as it misinterprets his immersion and inattentiveness as indifference. Option A is incorrect since the crowd seems to add to his anxiety rather than provide comfort."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In Fyodor Dostoevsky's novel 'Crime and Punishment,' the protagonist Raskolnikov experiences deep moral conflict after committing a grave transgression. His inner turmoil is evident as he is plagued by relentless self-accusations and an inability to convince himself of the righteousness of his actions. In particular, he is depicted pacing anxiously in his small room, showing the extent of his psychological torment. \n\nWhich statement is best supported by this depiction of Raskolnikov's emotional state?",
+        "choices": [
+          "A) He believes that wrongdoing inevitably leads to self-punishment.",
+          "B) He primarily worries about being caught by others.",
+          "C) He feels justified in his actions due to his external circumstances.",
+          "D) He manages to suppress his sense of guilt entirely."
+        ],
+        "answer": "A",
+        "explanation": "Raskolnikov's pacing and self-accusations highlight his inability to dismiss the moral implications of his crime. This suggests an acknowledgment, at least subconsciously, that wrongdoing carries inherent self-inflicted punishment. Choice A captures this understanding accurately. Choice B is incorrect because his emotional state primarily reflects internal, rather than external, fears. Choice C doesn't align with the text, as his turmoil contradicts any justification he might claim. Choice D is clearly shown to be wrong by his inability to suppress guilt, as evidenced by the description of his conduct and thoughts."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "Harriet Tubman, born into slavery around 1822, escaped to freedom and subsequently conducted numerous rescue missions through the Underground Railroad. Many accounts portray her displaying unwavering courage, traveling mostly under the cover of night to avoid detection, and encouraging those in her group to persist despite danger or exhaustion. Tubman is credited with guiding dozens of enslaved individuals to freedom, earning the admiration and gratitude of those who followed her.\n\nWhich inference about Tubman is most strongly supported by the passage?",
+        "choices": [
+          "A. She gained respect from those she guided because of her relentless determination.",
+          "B. She carefully planned her missions to coincide with weather patterns favorable to travel.",
+          "C. Fear of pursuit by bounty hunters gave Tubman a stoic demeanor when guiding groups.",
+          "D. She believed most enslaved individuals lacked the will to try escaping on their own."
+        ],
+        "answer": "A",
+        "explanation": "By describing Harriet Tubman’s continual efforts, particularly traveling under the cover of night and encouraging her group to persist despite danger, the passage suggests that her determination earned her the admiration of those she guided. The other choices introduce ideas that are either unmentioned in the passage (Choice B), conflict with what is described (Choice C), or imply a negativity not supported by the tone of the text (Choice D)."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In an excerpt from Charles Dickens’s novel *Hard Times*, Mr. Gradgrind insists that students should focus exclusively on observable facts and avoid imaginative thinking. By doing so, he argues, children will be better prepared for practical occupations in the city’s growing industrial economy.\n\nWhich inference about Mr. Gradgrind’s perspective on education is best supported by the description?",
+        "choices": [
+          "A) He believes that encouraging creativity in the classroom has little practical benefit.",
+          "B) He expects scientifically proven methods to replace all other avenues of learning.",
+          "C) He wants students to pursue artistic careers instead of business or technical fields.",
+          "D) He fears that an overreliance on facts will stifle industrial growth in the region."
+        ],
+        "answer": "A",
+        "explanation": "Mr. Gradgrind's insistence on avoiding imaginative thinking and focusing solely on observable facts implies that he does not see practical value in fostering creativity in education. This directly supports option A as the most valid inference. Option B is incorrect as the excerpt does not indicate that only scientifically proven methods are emphasized, but rather facts in general. Option C is inconsistent because Mr. Gradgrind supports practical occupations suitable for the industrial economy, not artistic careers. Option D is also not supported, as Mr. Gradgrind does not express any fear about reliance on facts but rather supports it as a tool for industrial development."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Easy",
+        "question": "Michael Faraday, a prominent 19th-century scientist, delivered a famous series of public lectures at the Royal Institution titled _The Chemical History of a Candle_. In these lectures, he used the common candle flame to break down scientific concepts related to combustion, energy, and matter into simpler terms that were accessible to audiences of all backgrounds. Through engaging demonstrations, Faraday emphasized the importance of observation and experimentation, establishing a connection between the small flame before his listeners and fundamental scientific principles. His aim was to ignite curiosity and make science understandable to the layperson, thereby demonstrating the universal nature of scientific inquiry.\n\nWhich choice best states the main idea of the passage?",
+        "choices": [
+          "A. Faraday compared chemical principles to those in other fields such as botany and zoology.",
+          "B. Faraday believed that chemistry should be practiced without any specialized equipment.",
+          "C. Faraday claimed that one could not comprehend a candle flame without mastering advanced mathematics.",
+          "D. Faraday used a simple object, a candle, to engage people with complex scientific concepts."
+        ],
+        "answer": "D",
+        "explanation": "The passage highlights Michael Faraday's approach of using a simple, familiar object—a candle—to communicate complex scientific ideas to a broad audience. By breaking down scientific concepts and making them accessible, Faraday aimed to foster a curiosity for science among laypeople. While the other options touch on ideas unrelated or tangential to the passage's primary focus, Option D directly encapsulates the main idea that is emphasized in the text."
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "Catherine Morland, a character in Jane Austen’s *Northanger Abbey*, observes: \"I do not pretend to set people right, but I do see that they are often wrong.\" This remark highlights her introspection about others and shows how she avoids direct criticism while still perceiving their errors.\n\nWhich choice best captures the main idea of the statement by Catherine?",
+        "choices": [
+          "A. Catherine believes that it is unnecessary to correct people because they are free of errors.",
+          "B. Catherine considers it her obligation to point out and rectify others' mistakes.",
+          "C. Catherine vacillates between ignoring faults in others and formally rectifying them.",
+          "D. Catherine refrains from confronting others' errors directly but internally notes their mistakes."
+        ],
+        "answer": "D",
+        "explanation": "The main idea of Catherine's remark is that she does not engage in correcting others openly—indicated by \"I do not pretend to set people right\"—but she does perceive their mistakes, shown by \"they are often wrong.\" Option D correctly captures this nuanced stance. Option A misunderstands her claim, as she does acknowledge that others are often wrong. Option B misrepresents her approach, as she explicitly states she does not correct others. Option C implies an inconsistent behavior which is not supported by the text. Thus, D is the best answer."
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "In the following excerpt from Jane Austen's \"Pride and Prejudice\" (1813), Elizabeth Bennet quietly observes her mother's energetic conversation with Mr. Collins, an overconfident distant cousin who hopes to marry one of the Bennet daughters. Mr. Collins boasts about his advantageous connections and especially praises Lady Catherine de Bourgh, seeking to impress his hosts:\n\n\"Mrs. Bennet, with an enthusiastic smile, endeavored to reflect Mr. Collins’s eagerness, hoping he might soon propose to one of her girls. Elizabeth, meanwhile, listened with a mixture of embarrassment and amusement. She noted her mother’s attempts to secure the family’s future, yet found Mr. Collins’s self-important praises both grandiose and faintly comical.\"\n\nBased on the passage, what can be inferred about Elizabeth Bennet's view of Mr. Collins?",
+        "choices": [
+          "A) She regards Mr. Collins’s remarks with mild amusement rather than genuine annoyance.",
+          "B) She admires Mr. Collins’s social ambition and wishes to emulate his behavior.",
+          "C) She is deeply resentful of her mother’s interference in her personal affairs.",
+          "D) She is overwhelmed with anxiety at the possibility of Mr. Collins’s proposal."
+        ],
+        "answer": "A",
+        "explanation": "In the excerpt, Elizabeth is described as feeling 'embarrassment and amusement,' indicating that while she finds the situation awkward, she is not overly upset. Furthermore, her observation of Mr. Collins's 'grandiose' and 'faintly comical' self-praises aligns more with detached humor than serious disdain or anxiety. This supports the conclusion that her reaction is one of mild amusement rather than genuine annoyance, admiration, resentment, or overwhelming anxiety."
+      }
+    ]
+  }

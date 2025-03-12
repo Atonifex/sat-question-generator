@@ -2,484 +2,107 @@
   "questions": [
     {
       "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "Early attempts to commercialize the printing press were complicated by local guilds. Johannes Gutenberg, known for popularizing movable type in Europe, had to navigate uncertain finances and strict oversight to produce his famed Bible. His eventual success was partly attributed to partnerships with wealthy patrons, who recognized the potential for making books more widely accessible. \n\nWhich statement is best supported by the passage?",
-      "choices": [
-        "A. Government agencies contributed the primary financial backing for Gutenberg’s printing endeavors.",
-        "B. Wealthy individuals played an essential role in bringing early print materials to a broader audience.",
-        "C. Local guilds funded and oversaw the entire production of Gutenberg’s Bible.",
-        "D. Gutenberg’s first printed works became immediately profitable without any outside investment."
-      ],
-      "answer": "B",
-      "explanation": "From the passage, we learn that Gutenberg partnered with wealthy patrons, emphasizing that private individuals significantly supported the realization and proliferation of the printing press. Choice B correctly summarizes this idea. Choice A is incorrect because there is no mention of government agencies offering financial backing. Choice C misrepresents the role of local guilds; they provided oversight rather than funding. Choice D is incorrect as it contradicts the passage's mention of Gutenberg's financial struggles and reliance on partnerships."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "In the late 1940s, a graduate student developed a system that used patterns of thick and thin lines to store inventory data. While his design initially went unnoticed, businesses seeking faster checkout and product tracking later recognized its value. By the early 1970s, major retail chains began installing scanners that read these coded lines, allowing them to streamline checkout, reduce errors, and manage stock levels more efficiently. Despite some initial skepticism from store owners, the technology's success in supermarkets soon encouraged adoption in other sectors, including healthcare and manufacturing.\n\nWhich inference about the adoption of line-scanning technology by businesses is best supported by the text?",
-      "choices": [
-        "A) The technology was immediately embraced by retailers without challenges.",
-        "B) Global adoption of the technology preceded its regional use.",
-        "C) The recognition and adoption of the technology followed an initial period of neglect.",
-        "D) Its initial adoption was predominant in the healthcare industry."
-      ],
-      "answer": "C",
-      "explanation": "To determine the correct answer, we analyze the passage:\n\n- The passage indicates that the system invented by the graduate student went unnoticed at first, showing an initial period of neglect. Later, as businesses saw its potential in faster checkout and inventory tracking, the technology gained recognition and commenced adoption in supermarkets and other sectors. This sequencing supports option (C).\n- Option (A) is incorrect since the text describes initial skepticism among store owners, contrary to the idea of immediate embrace.\n- Option (B) is not supported, as the passage does not mention global adoption or compare it to regional practices.\n- Option (D) is ruled out because the text specifies that supermarkets, not healthcare, were the first sector to widely adopt the technology.\n\nThe correct answer is (C)."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "Between 1950 and 1960, Redwood City’s planners tested an experimental traffic regulation system that used newly invented sensors to monitor the flow of vehicles. Despite concerns about cost, the city council allocated funds for the project. Urban development experts traveled to Redwood City to study this pioneering effort. As a result of these measures, local newspapers reported a reduction in traffic congestion within the first two years. However, critics claimed the system might not be scalable to larger cities.\n\nWhat can be inferred from the passage about the city council's perspective on experimental projects for traffic management?",
-      "choices": [
-        "A. They were hesitant about adopting changes to the traffic system.",
-        "B. They demonstrated willingness to invest in innovative traffic management solutions.",
-        "C. They prioritized traffic management over other city concerns.",
-        "D. They viewed the system as scalable and suitable for all city sizes."
-      ],
-      "answer": "B",
-      "explanation": "The passage states that the Redwood City council allocated funds for an experimental traffic regulation system despite concerns about cost. This decision indicates their willingness to invest in innovative solutions for traffic management, focusing on experimental approaches to address congestion. As there is no evidence in the passage to suggest hesitation about implementing changes (Choice A), prioritization over other issues (Choice C), or confidence in the system's scalability to larger cities (Choice D), the best inference based on their actions is Choice B."
-    },
-    {
-      "skill": "Function of Sentence",
-      "difficulty": "Easy",
-      "question": "In her memoir, entrepreneur Carla Jiménez reflects on how starting as an assistant at a small tech startup shaped her development as a future CEO. She recalls the near-constant demand for innovative solutions, emphasizing the pivotal role of genuine trust-building when intersecting technology with people. One sentence in her account reads: **\"It was this determination to foster transparent communication with every client that ultimately helped me establish a foundation of mutual respect and long-term partnerships.\"**\n\nWhich best describes the main function of the quoted sentence in the passage?",
-      "choices": [
-        "A. To propose a novel technological method that redefines how businesses handle data",
-        "B. To present an opposing point of view regarding corporate partnerships",
-        "C. To illustrate a key factor contributing to the author’s eventual success in leadership",
-        "D. To critique the early markets that failed to trust in innovative entrepreneurs"
-      ],
-      "answer": "C",
-      "explanation": "The quoted sentence underscores the importance of the author’s dedication to fostering transparent communication, which is described as establishing a foundation of mutual respect and partnerships. This directly supports the main reflection about trust-building as a core principle in her development as a leader, aligning with choice C.\\n\\n- Choice A suggests a focus on a novel technological method, which is not mentioned or implied in the sentence.\\n- Choice B implies an opposing viewpoint is presented, but there is no contrasting argument or differing stance in the sentence.\\n- Choice D talks about critique of early markets, but the sentence neither discusses nor criticizes markets in any way.\\n\\nThus, the most accurate description is provided in choice C."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Gigacharge Incorporated, a small technology startup, recently revealed a new battery that can fully charge in under 10 minutes. According to the company’s lead engineer, the battery uses a combination of graphene sheets and nickel-metal hydride components, allowing for improved durability and potentially up to $50\\%$ faster charging speeds. Despite the promising performance in preliminary tests, some industry specialists are cautious. They argue that manufacturing methods for these new materials could be prohibitively expensive, and that more extensive trials are necessary before the battery is widely adopted.\n\nWhich inference about Gigacharge Incorporated is best supported by the passage?",
-      "choices": [
-        "A) The battery’s manufacturing costs are already demonstrably lower than current market prices.",
-        "B) The battery requires further testing before it can be implemented in commercial fleets.",
-        "C) The company will likely need additional financial and research support to bring its battery to the consumer market.",
-        "D) The company has received only supportive feedback from experts regarding its innovative design."
-      ],
-      "answer": "C",
-      "explanation": "The passage outlines cautious feedback from industry specialists about the battery's manufacturing costs and the necessity of further trials. This indicates that Gigacharge Incorporated will likely need to address these challenges—such as securing financial support and conducting significant research—prior to commercial implementation. Choices A, B, and D are inconsistent with these indications; they either provide unsupported assumptions or conflict with the industry specialists’ concerns."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "In an early 20th-century interview, a pioneering reporter discussed the unexpected impact of her articles on public opinion. She explained how exposing hidden workplace practices prompted a larger shift in readers' attitudes toward corporate accountability. The reporter noted that while she had initially concentrated on a single industry, her findings soon sparked widespread calls for business reforms, and other journalists joined her efforts to encourage consumer advocacy. \n\nWhich inference about the reporter is best supported by the interview?",
-      "choices": [
-        "A. She had reservations about inviting other journalists to share her investigative techniques",
-        "B. She intended for her articles to focus solely on consumer responses rather than corporate change",
-        "C. She did not fully anticipate how significant the influence of her original research would become",
-        "D. She believed most companies at the time were already being transparent and required minimal oversight"
-      ],
-      "answer": "C",
-      "explanation": "The passage describes how the reporter's articles led to unexpected, wide-reaching changes in public awareness and action. Her initial focus on a single industry, as mentioned, grew into a larger movement, which she didn't foresee. Thus, the best inference is that she underestimated the ultimate scope of her articles' impact. Answer choices A and B don’t have textual support—the reporter's reservations or exact intentions about emphasis weren't discussed. D conflicts with the reporter's critique of workplace practices, which implies a lack of transparency on the companies' side. Consequently, C stands as the inference most aligned with the interview's information."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Easy",
-      "question": "During the mid-2010s, a philanthropic organization initiated a project to improve water quality in underserved regions by providing high-efficiency water filtration systems. To ensure sustainability, the organization collaborated with local leaders and conducted on-site training programs. They simplified the system's design, ensuring it could be maintained locally with minimal external help. The initiative significantly reduced water-related illnesses and saved resources, fostering self-reliance in remote areas.\n\nWhich statement best captures the main idea of the passage?",
-      "choices": [
-        "A. The program mainly focused on donating scientific equipment without offering additional support.",
-        "B. The organization used innovative tools and community training to establish a lasting solution to water safety concerns.",
-        "C. The group's most critical goal was replacing all existing water outlets with state-of-the-art chemical systems.",
-        "D. The local communities received only limited technical guidance, requiring frequent external assistance."
-      ],
-      "answer": "B",
-      "explanation": "The main idea of the passage reflects the organization's effort to combine innovative technology and community engagement to achieve a sustainable impact on water safety. As per the passage, option B accurately summarizes this effort by highlighting the use of tools and community training to address water safety long-term. Options A, C, and D misrepresent the nature of the project, either oversimplifying or distorting the approach used. A focused solely on equipment without support, C introduces a chemical system angle not mentioned, and D incorrectly implies lack of sustainability due to insufficient training."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "During the 14th century, mechanical clocks began appearing in European town squares, chiming the hour and aiding daily schedules. Over time, the clocks were refined by craftsmen, resulting in accurate gear-driven systems that improved timekeeping precision. This advancement transformed societies by enabling standardized work shifts, organized travel, and structured education schedules.\n\nWhich statement most accurately captures the main idea of the passage?",
-      "choices": [
-        "A. Mechanical clocks were adopted mainly for their aesthetic appeal in city squares.",
-        "B. The improvement of mechanical clocks led to better individual productivity without affecting societal structures.",
-        "C. The refinement and widespread use of mechanical clocks significantly advanced societal organization by enabling precise time coordination.",
-        "D. Clockmakers primarily engaged in creating ornate rather than functional timekeeping devices."
-      ],
-      "answer": "C",
-      "explanation": "The passage highlights how the development and widespread implementation of mechanical clocks brought about significant advancements in societal organization through precise timekeeping. This impact is best captured by option C, which addresses the transformation in societal structures such as work shifts, travel, and education schedules. Other choices can be excluded as they emphasize either aesthetic purposes (A), overlook societal implications (B), or inaccurately focus on the motives of clockmakers (D). Through the process of elimination and understanding of the passage, option C is shown to be the most accurate summary."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "A small business cooperative in a remote town recently adopted 3D printing technology, which enabled local craft makers to improve their design and production capabilities. This innovation led to a streamlined process for managing supplies, from design to delivery, allowing for the localized production of various components. However, the system also faced challenges, specifically operational slowdowns due to maintenance requirements. \n\nExperts analyzing the cooperative's performance noted that while productivity had increased overall, the new processes had some drawbacks that needed addressing. Which conclusion is best supported by the information given in the passage?",
-      "choices": [
-        "A) Local artisans completely stopped relying on the cooperative due to inefficiencies.",
-        "B) The cooperative benefited from the new technology overall, but got hindered by some trade-offs.",
-        "C) High demand on the new process overburdened the cooperative, resulting in lost clients.",
-        "D) Other businesses in the area adopted the technology after observing its success at the cooperative."
-      ],
-      "answer": "B",
-      "explanation": "The passage outlines that the 3D printing technology improved various aspects of the cooperative's operations, but also introduced some challenges, specifically maintenance-induced slowdowns. This aligns with choice B, which states there were overall benefits accompanied by trade-offs. There is no support in the passage for the ideas that the artisans abandoned the cooperative completely (A), that client loss occurred directly due to high demand (C), or that similar practices were adopted by others in the community following the cooperative's example (D)."
-    },
-    {
-      "skill": "Inferences",
       "difficulty": "Hard",
-      "question": "In the early 1940s, actress and inventor Hedy Lamarr and composer George Antheil developed a system designed to protect torpedo signals from interference. Their work combined Lamarr’s knowledge of encryption with Antheil’s expertise in automated piano rolls, resulting in a groundbreaking patent. Although it initially received little attention from the military, their invention laid the foundation for modern wireless technologies, including Bluetooth and Wi-Fi. \n\nWhat does the passage most strongly suggest about Lamarr’s invention?",
+      "question": "In the following excerpt from Harriet Jacobs’s *Incidents in the Life of a Slave Girl* (1861), Jacobs describes her reason for discussing her hardships:\n\n\"Reader, it is not to awaken sympathy for myself that I am telling you truthfully what I suffered in slavery.\"\n\nWhich inference is best supported by the passage?",
       "choices": [
-        "A. Naval authorities immediately leveraged the invention.",
-        "B. The invention was overlooked at first but later became foundational for modern wireless communication.",
-        "C. The invention replaced existing communication protocols in military technologies.",
-        "D. Its primary recognition was for its technical ingenuity rather than its practical application."
+        "A. Jacobs seeks to highlight the suffering of individuals with similar experiences.",
+        "B. Jacobs intends to truthfully document her experiences without influencing readers' emotions.",
+        "C. Jacobs does not hold her audience accountable for her suffering.",
+        "D. Jacobs aims to convey the depth of her trials factually, without arousing pity."
       ],
-      "answer": "B",
-      "explanation": "The passage describes how the invention by Lamarr and Antheil was initially not adopted but later became significant, as evidenced by its foundation for modern technologies like Bluetooth and Wi-Fi. This information supports choice B. Choice A is incorrect because it states the military immediately used the invention, which the passage directly contradicts. Choice C suggests it replaced military protocols at that time, which is not supported by the text. Choice D emphasizes technical ingenuity but does not accurately capture the invention's eventual technological impact. Thus, choice B is the best answer."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Hard",
-      "question": "During the mid-20th century, a groundbreaking invention revolutionized modern electronics: the transistor. First developed at Bell Labs in 1947, this component replaced the bulky and unreliable vacuum tube with a smaller, more efficient solution. By the 1960s, global production scaled, bringing costs down to below $1 per unit, making transistors broadly accessible. Pivotal to the evolution of computers and digital technologies, the adaptability and efficiency of the transistor spurred innovations in areas ranging from communication devices to space technology.\n\nWhat is the main idea conveyed in the passage?",
-      "choices": [
-        "A) The transistor's invention had limited applications in practical technologies.",
-        "B) Transistors replaced vacuum tubes but did not significantly influence modern electronics.",
-        "C) Affordable and efficient, the transistor played a key role in advancing numerous digital technologies.",
-        "D) Although useful, the transistor's introduction did not contribute to the development of space technologies."
-      ],
-      "answer": "C",
-      "explanation": "To determine the main idea, focus on key points and repeated emphasis in the passage. It highlights the transistor's development, emphasizing its efficiency, affordability, and its transformative impact on technology. The passage positively discusses how the transistor advanced various technologies, indicating its pivotal role in digital and space innovations. Hence, choice C correctly encapsulates the essence of the passage's main idea. A helpful elimination strategy: Choices A, B, and D conflict with the passage's positive tone and acknowledged impact of transistors."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Hard",
-      "question": "During a 1952 demonstration, **Rear Admiral Grace Hopper** used a piece of wire to explain how $1\\times10^{-9}$ seconds — a nanosecond — represents the time it takes for an electrical signal to traverse the wire. She frequently utilized real-world analogies to demystify abstract concepts in computing.\n\nWhich inference is best supported by the passage?",
-      "choices": [
-        "A) She invented the term nanosecond.",
-        "B) She avoided using complex technical jargon.",
-        "C) She valued physical examples to make abstract ideas more comprehensible.",
-        "D) She preferred not to promote careers in computing."
-      ],
-      "answer": "C",
-      "explanation": "The passage highlights Hopper's usage of a wire to physically demonstrate the duration of a nanosecond, showing her belief in the value of tangible examples to aid comprehension of challenging ideas. There's no indication she invented the term 'nanosecond,' has any preference against technical language usage, or held negative views regarding careers in computing."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "Alexander Graham Bell’s earliest public demonstrations of the telephone in the 1870s drew curious onlookers eager to witness a device that allowed the human voice to travel through wires. Merchants imagined new opportunities in faster ordering processes, while newspaper publishers discussed the potential impact on how information would be gathered and delivered. Although at first met with skepticism by some who believed the device too impractical, Bell’s demonstrations convinced many observers of the telephone’s promise to connect people in ways previously unthinkable.\n\nBased on this description, which statement about the telephone’s early reception is best supported by the passage?",
-      "choices": [
-        "A. Merchants were the only group that immediately understood the telephone's practical uses.",
-        "B. Bell's invention was initially doubted by some but eventually recognized for its transformative potential.",
-        "C. Observers were indifferent about Bell's invention due to its complexity.",
-        "D. The demonstrations proved practically no one believed in the telephone's usefulness."
-      ],
-      "answer": "B",
-      "explanation": "Answer choice B is correct: the text describes that while there was skepticism regarding the telephone's practicality, Bell's demonstrations led many to appreciate its transformative potential. Answer choice A is incorrect because it overlooks the other groups, such as newspaper publishers, who also envisioned uses for the invention. Answer choice C is incorrect because the passage describes observers as curious and interested, not indifferent. Answer choice D directly contradicts the text, which states that many were convinced of the telephone's promise after its demonstrations."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Easy",
-      "question": "In a small coastal town, a group of artisans has begun selling handcrafted pottery through an online platform, reaching international customers. In recent years, the group has utilized micro-credit loans, which allowed them to buy quality supplies and expand their shipping capabilities. Despite being a small-scale operation, the collective has observed consistent revenue growth and motivated other local craftspeople to join forces and explore similar avenues.\n\nWhich option best summarizes the central idea of the text?",
-      "choices": [
-        "A) The artisan group mainly profits from shipping pottery in bulk to international customers.",
-        "B) Micro-credit loans have allowed a small artisan collective to grow and inspire other local craftspeople.",
-        "C) Online marketplaces prioritize supporting artisans from coastal areas over urban producers.",
-        "D) Handcrafted pottery from coastal regions generally sells better than other regional products."
-      ],
-      "answer": "B",
-      "explanation": "The central theme of the passage is the impact of micro-credit loans on enabling an artisan collective to grow their business. The loans allowed the group to improve their operations, leading to consistent growth in revenue and serving as an inspiration for others in the community. Answer choice B best captures this overall idea. Other options are less effective: A focuses narrowly on bulk shipping, which is not the text’s emphasis; C introduces unsupported prioritization by marketplaces; and D makes an unwarranted generalization about sales trends of coastal pottery, which is not discussed in the text."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "In the early 20th century, business leader Harriet Wilkins established the **Wilkins Trust**, supporting:\n\n• Low-income students pursuing *engineering* degrees  \n• Women-owned businesses in manufacturing  \n\nDuring her lifetime, she contributed over $2 million to the trust and partnered with local universities to develop _innovative_ programs that encouraged hands-on research. Many historians credit her efforts with helping create more inclusive professional fields, where graduates from diverse backgrounds could thrive. Wilkins’s goal, according to her personal letters, was to ensure that financial constraints did not prevent **high-potential** individuals from exploring new technologies.\n\nBased on the information given, infer the purpose of Wilkins’s initiatives.",
-      "choices": [
-        "A. Wilkins envisioned the trust benefiting only engineering graduates.",
-        "B. Wilkins's initiatives were driven primarily by personal financial gain.",
-        "C. Wilkins aimed to lessen obstacles for talented yet underprivileged groups.",
-        "D. Wilkins chose areas of study that were inexpensive to support."
-      ],
-      "answer": "C",
-      "explanation": "Harriet Wilkins's establishment of the Wilkins Trust is described in the passage as an effort to address financial barriers that hinder high-potential individuals from advancing in technical and innovative fields. Her focus on supporting low-income students and women entrepreneurs reflects her dedication to fostering inclusivity and accessibility in professional domains. Option C best captures this goal of dismantling obstacles for capable yet financially constrained individuals. The other response choices either misinterpret her intentions or assert unsupported claims."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Easy",
-      "question": "During the early 20th century, **Milton Hershey** not only revolutionized the chocolate industry but also embarked on significant philanthropic endeavors. *Hershey*, often remembered for founding the eponymous chocolate company, funneled much of his fortune into community development by constructing housing, schools, and public spaces for his employees. He also created the _Milton Hershey School_, which serves children in need and is supported by a sizable endowment, illustrating how his business success allowed him to contribute to broader social welfare.\n\nWhich statement best conveys the main idea of the passage?",
-      "choices": [
-        "A. Hershey’s philanthropic plans were overshadowed by his marketing strategies",
-        "B. The passage focuses solely on Hershey’s nationwide candy distribution",
-        "C. Hershey’s philanthropic mission and its impact on his community are emphasized",
-        "D. The passage questions whether Hershey actually funded any charitable institutions"
-      ],
-      "answer": "C",
-      "explanation": "To determine the main idea, you should carefully review the key points of the passage. Here, Milton Hershey's dual achievements as an innovator in the chocolate industry and as a philanthropist are detailed. Examples such as building community infrastructure and founding the Milton Hershey School provide evidence supporting this dual focus. Let's examine why the options are incorrect. **Option A** misleads by claiming emphasis on overshadowing, a concept not described in the text. **Option B** narrows the focus improperly to candy distribution, leaving out philanthropy. **Option D** introduces unfounded skepticism about Hershey's charity. Consequently, only **Option C** correctly summarizes Hershey’s philanthropic mission and its community impact as emphasized in the passage."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Easy",
-      "question": "Many mathematicians of the early 20th century overcame significant social hurdles to make lasting contributions to their fields. In 1905, mathematician Emma Strömberg published a pioneering paper that introduced a new framework for understanding prime distributions in large sets of data. Her approach was initially met with skepticism by peers who questioned the reliability of her methods. However, her findings were soon validated by other researchers, and her work became a foundation for modern statistical analysis. Strömberg’s dedication prompted more inclusive research opportunities for underrepresented groups, sparking broader interest in advanced mathematics.\n\nWhich statement best expresses the main idea of the passage?",
-      "choices": [
-        "A. Strömberg’s theories were criticized and are mostly considered outdated today.",
-        "B. The discovery of prime distributions in large data sets proved unhelpful for future research.",
-        "C. Strömberg’s groundbreaking work advanced statistical methods and helped foster inclusivity in mathematics.",
-        "D. Mathematicians of the early 20th century rarely supported one another’s efforts."
-      ],
-      "answer": "C",
-      "explanation": "The main idea of the passage is that Emma Strömberg made a significant contribution to mathematics through her innovative research, which not only affected mathematical practices but also promoted inclusivity. Key points leading to this conclusion include:\n- Mentions of her pioneering study on prime distributions.\n- The eventual validation of her work and its foundational status in statistical analysis.\n- Her influence on inclusivity within the field of mathematics.\nAfter analyzing each choice: A is inaccurate because her work is not described as outdated; B is incorrect because her discovery is clearly presented as influential; D misrepresents the collaborative landscape of the time. Therefore, the correct answer is C, which appropriately summarizes her dual impact on mathematics and inclusivity."
+      "answer": "D",
+      "explanation": "Jacobs explicitly states that her purpose is not to awaken sympathy but to truthfully recount her experiences, as noted in the text. Thus, the inference that her goal is to present the facts of her experiences without expecting personal pity aligns best with choice D. While option A is tempting, it is important to rely on specific evidence, and that is not provided in this excerpt. Other options, while plausible at a glance, do not fully capture the nuance of her stated intent; for example, A implies a broader focus on others rather than her personal narrative, B and C don't emphasize the observance of truth coupled with the avoidance of pity, both of which are key to Jacobs's aim in the excerpt."
     },
     {
       "skill": "Inferences",
       "difficulty": "Medium",
-      "question": "Adala Warner, a social entrepreneur, outlines her organization's contributions to small-scale farmers in Southeastern Europe in a business journal interview. These contributions include low-interest loans and free agricultural workshops. According to Warner, these measures increase crop yields, which bolsters local economies, and promote sustainable agricultural practices by reducing dependency on expensive chemical fertilizers. \n\nWhich conclusion can be most reasonably drawn from Warner's strategy based on the interview?",
+      "question": "The following excerpt is adapted from Fyodor Dostoevsky's public-domain novel, \"Crime and Punishment.\" In this scene, the character Raskolnikov is walking among a crowd after experiencing a tense and disorienting moment:\n\n\"He was so immersed in his own feelings that he scarcely saw or heard anything around him. This solitude in the midst of the throng still further excited him; he walked on like one pursued, unwillingly drawn into the bustle, yet incapable of escaping it altogether.\"\n\nBased on this excerpt, what can be inferred about Raskolnikov's state of mind?",
       "choices": [
-        "A) It focuses more on promoting advanced farming technology than on economic empowerment.",
-        "B) It provides direct financial assistance while limiting the role of government intervention.",
-        "C) It integrates solutions for economic development and environmental sustainability.",
-        "D) It is designed to attract large-scale investment in regional agricultural projects."
+        "A) He finds solace in being surrounded by others, despite his internal turmoil.",
+        "B) He deliberately surrounds himself with noise and activity to distract himself.",
+        "C) He feels indifferent to the commotion of the crowd around him.",
+        "D) He is deeply preoccupied with his internal struggles, which dominate his consciousness."
       ],
-      "answer": "C",
-      "explanation": "Warner's strategy, as described, achieves two significant goals: increasing crop yields to strengthen local economies, and fostering sustainable farming by reducing reliance on expensive fertilizers. This clearly integrates economic and ecological objectives. Option A is incorrect as the primary focus isn't on advanced technology. Option B misinterprets the actions as directly opposing government involvement, which isn't mentioned. Option D incorrectly assumes a goal to attract large-scale investment, which the interview does not suggest. Option C summarizes the intertwined economic and environmental goals accurately."
+      "answer": "D",
+      "explanation": "The correct answer is D. The text describes how Raskolnikov is deeply engrossed in his own thoughts and feelings, nearly oblivious to his surroundings. The description of him as being in 'solitude in the midst of the throng' emphasizes his internal preoccupation and isolation. Option B is incorrect because there is no evidence to suggest that he actively seeks out the crowd. Option C is incorrect as it misinterprets his immersion and inattentiveness as indifference. Option A is incorrect since the crowd seems to add to his anxiety rather than provide comfort."
     },
     {
       "skill": "Inferences",
       "difficulty": "Medium",
-      "question": "Elizabeth Cady Stanton (1815–1902) was an American reformer who played a leading role in the **women’s rights** movement. In one of her well-known speeches, she emphasized that recognizing women’s right to vote would not only benefit women individually but would also serve the entire society by encouraging people to address other social issues. She wrote, _When all citizens are given equal opportunity to participate, a nation strengthens its resolve toward justice and progress_, urging lawmakers to respond to women’s growing demand for equality. Furthermore, she implied that when suffrage is achieved, reform will not stop there but rather extend into issues of labor, education, and poverty, creating a more equitable society.\n\nWhat does the passage suggest about Stanton's view regarding the effect of giving women the right to vote?",
+      "question": "In Fyodor Dostoevsky's novel 'Crime and Punishment,' the protagonist Raskolnikov experiences deep moral conflict after committing a grave transgression. His inner turmoil is evident as he is plagued by relentless self-accusations and an inability to convince himself of the righteousness of his actions. In particular, he is depicted pacing anxiously in his small room, showing the extent of his psychological torment. \n\nWhich statement is best supported by this depiction of Raskolnikov's emotional state?",
       "choices": [
-        "A. She believed that parity in education was the foundational step for achieving voting rights.",
-        "B. She upheld the idea that women's suffrage would lead to a larger pursuit of societal reforms.",
-        "C. She stated that economic equality shaped major progressive reforms more than voting rights.",
-        "D. She saw suffrage as the single solution to all social problems faced by society."
-      ],
-      "answer": "B",
-      "explanation": "Stanton’s reasoning in the passage links the recognition of women’s right to vote to the realization of broader social reforms, such as addressing education, labor, and poverty. This directly supports choice B: that women’s suffrage would catalyze further societal improvements. The other options misinterpret or exaggerate the claims of the passage, with choice D particularly overstating suffrage as a solution to all social problems, which was not stated by Stanton."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Maria Telkes, a Hungarian-American scientist often called the \"Sun Queen,\" carried out groundbreaking experiments in solar energy research. She famously developed a solar-powered oven that reached temperatures exceeding $80^{\\circ}$C in her initial tests, even though she operated in notably modest laboratory settings. Telkes emphasized that with *resourceful* engineering, significant results could be achieved without large funding. Critics of her time, however, questioned whether solar technology could truly rival conventional fossil fuels, especially during colder seasons. Yet, Telkes demonstrated that the sun was a dependable source of heat, underscoring how lower-intensity sunlight, when captured effectively, could still maintain relatively high temperatures. Telkes’ work showcased how committed innovation could stem from *creativity*, unwavering *persistence*, and clever resource allocation. \n\nWhich conclusion about Maria Telkes is best supported by the passage?",
-      "choices": [
-        "A. She believed her solar-powered oven would only work effectively during the warmest months.",
-        "B. She viewed large-scale funding as an absolute requirement for thorough scientific exploration.",
-        "C. She was determined to prove that limited resources need not prevent meaningful technological progress.",
-        "D. She agreed with critics who asserted that solar energy could only supplement, rather than replace, fossil fuels."
-      ],
-      "answer": "C",
-      "explanation": "The correct answer is C because the passage emphasizes Telkes’ belief in achieving significant results through resourceful engineering. Her work, particularly the development of the solar-powered oven in modest settings, underscores her determination to prove that meaningful scientific and technological advances can be made without immense funding. Option A is incorrect because the passage does not indicate Telkes had limited confidence in the oven’s performance outside warm seasons. Option B is incorrect because Telkes explicitly emphasized resourcefulness over large-scale funding. Option D is incorrect as there is no support in the passage that she endorsed the critics’ viewpoint about solar energy’s limitations."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In her keynote address at an international technology conference, software developer Sarah González revealed data on her digital trade platform, designed to simplify cross-border commerce for small import and export businesses. She stated that on average, participants who used the platform reduced overhead by nearly 30%, primarily due to automated customs documentation and real-time currency conversions. However, she acknowledged unanticipated regulatory hurdles in several countries and stated that ongoing negotiations with local authorities are necessary to ensure compliance. She concluded by emphasizing the platform’s potential to empower small businesses, while also indicating that significant effort and time will be required to navigate these legal intricacies.\n\nWhich inference about the development of González’s platform is best supported by the passage?",
-      "choices": [
-        "A) The platform can only succeed if González obtains additional funding from large corporations.",
-        "B) Navigating international regulations remains a significant challenge for ensuring widespread adoption.",
-        "C) Government officials have largely ignored any complaints from early adopters in other countries.",
-        "D) González has already concluded negotiations with every local authority in the target regions."
-      ],
-      "answer": "B",
-      "explanation": "The passage mentions that González acknowledged unanticipated regulatory hurdles and stated the need for ongoing negotiations with local authorities to ensure compliance. From this, it is clear that navigating international regulations is a major challenge for the platform, supporting answer B. Choice A is not supported because the passage does not mention funding from large corporations as a requirement for the platform's success. Choice C is incorrect because the passage provides no indication of government officials ignoring complaints. Lastly, Choice D is also incorrect because the passage explicitly mentions ongoing negotiations, implying that negotiations are not yet concluded."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "While researching a newly established artisan chocolate company, business journalist Alicia Tan documented the following observations:  \n  \n- The founders used direct-to-consumer sales via an **interactive** website and hosted tasting workshops at local cafés.  \n- Despite charging premium prices, the company continued to attract more buyers over time.  \n- Tan noted that the business emphasized _transparency_ in how the chocolate was sourced and made, aiming to engage customers in each step of the process.  \n  \nWhich statement is best supported by the text?",
-      "choices": [
-        "A. The founders plan to reduce production costs by partnering only with low-cost suppliers.",
-        "B. The company’s marketing strategy highlights building long-lasting connections with customers.",
-        "C. The tasting workshops indicate that the founders do not intend to sell their product online.",
-        "D. The emphasis on transparency leads to significantly lower product prices for consumers."
-      ],
-      "answer": "B",
-      "explanation": "The passage indicates that the company emphasizes transparency and customer engagement, as demonstrated by strategies like maintaining an **interactive** website and hosting tasting workshops. This supports option B: the company aims to build long-lasting connections with customers. The other options are unsupported by the passage: there is no evidence of a strategy to reduce production costs (A), the text explicitly mentions online sales through the website (contradicting C), and while transparency is emphasized, there is no mention of it lowering product prices (D)."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Hard",
-      "question": "The following is an excerpt from a biography of mathematician Ada Lovelace:\n\nAda Lovelace (1815–1852) was known for her pioneering work on Charles Babbage’s Analytical Engine. She developed a method for calculating a sequence of numbers using the machine, which many historians consider to be the first computer program. Lovelace’s unique insights into the potential of the device helped shape the future of computing, well before the concept was widely accepted.\n\nFrom the excerpt above, which conclusion can most reasonably be inferred?",
-      "choices": [
-        "A. Ada Lovelace actively sought recognition from scientific communities.",
-        "B. Ada Lovelace envisaged applications of the Analytical Engine beyond pure calculation.",
-        "C. The technological implications of Babbage’s Analytical Engine were immediately recognized.",
-        "D. Historians credit Ada Lovelace solely for the advent of modern computing."
-      ],
-      "answer": "B",
-      "explanation": "The excerpt highlights Lovelace’s vision for the Analytical Engine’s potential, suggesting she viewed it as a device capable of more than simple arithmetic. Therefore, conclusion B is supported by the text. Choice A is incorrect because there is no evidence that the excerpt suggests Lovelace sought recognition. Choice C is incorrect because the passage states the Analytical Engine's potential was not widely accepted at the time. Finally, choice D is incorrect as the text does not state that historians credit Lovelace exclusively for modern computing."
-    },
-    {
-      "skill": "Function of Sentence",
-      "difficulty": "Hard",
-      "question": "Architect David Adjaye has garnered international acclaim for his innovative structures that blend cultural inspiration with modern design. Born in Tanzania and raised in England, Adjaye draws on diverse influences to shape public spaces that resonate with local communities.\\n\\nOne of his notable achievements is the design of the Smithsonian National Museum of African American History and Culture in Washington, D.C. In describing its conceptual origins, Adjaye emphasizes the importance of symbolism, illustrating how the building’s intricate exterior motifs pay homage to West African architectural traditions while celebrating African American heritage in the United States.\\n\\nWhich best describes the function of the second sentence (lines 2–3) in the passage?",
-      "choices": [
-        "To critique a design choice for ignoring local perspectives",
-        "To provide background context that shaped Adjaye’s aesthetic decisions",
-        "To question whether modern design can adequately represent historical narratives",
-        "To present an alternative argument for a private collection instead of a public museum"
-      ],
-      "answer": "B",
-      "explanation": "The second sentence provides important background context by describing Adjaye’s personal roots and life experiences. His upbringing in Tanzania and England offers insight into the diverse cultural inspirations that inform his architectural style. This context clarifies how he integrates varied cultural perspectives into his designs, particularly relevant for the museum. The sentence does not critique, question design adequacy, or present alternative arguments; thus, these other choices do not align with its function in the passage."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Hard",
-      "question": "A software engineer, in her talk at the 2019 Tech Nexus Summit, discussed strategies corporations employ to use big data for business advantage. She emphasized that while social media metrics are instrumental for gauging consumer response, integrating these with search engine data can refine insights. Importantly, she stressed that niche data models, drawn from exceptionally specialized communities, though often deemed unrepresentative, harbor innovation potentials that general metrics fail to reveal mostly. She further critiques how corporate adoption often halts without cultural or operational readiness. Which inference derives appropriately from the engineer's hypotheses adequately articulated in that keynote?",
-      "choices": [
-        "A. The fiscal outlays in industrial big digital-time integrations leap forward key inhibitors.",
-        "B. Foregrounding community-specific datasets unveils overlooked innovation corridors and edges to generalizing data analyses.",
-        "C. Minor subsection learnings rarely deliver on inessential gestalt analytics for actual corporate barometers, intensifying analytical failures longitudinally.",
-        "D. All organizational alignment debates appropriately converge in weighing margins tolerance full-throttle prescriptive markets."
-      ],
-      "answer": "B",
-      "explanation": "Certainly, stressing the specialized communities as key insight unlockers influencing tools for presupposed missed opportunities affixes sensible relevance the prompt skew matters."
-    },
-    {
-      "skill": "Function of Sentence",
-      "difficulty": "Hard",
-      "question": "In a speech to the local city council, business leader Alicia Sawyer describes her plan to sponsor free workshops on topics such as data analytics, robotics, and app development, with the goal of helping underrepresented communities gain skills for modern technology careers. She recounts the experience of one participant who, after completing the pilot workshop, secured an internship at a major tech firm and began mentoring peers in her neighborhood. \n\nThe speech includes the following statement: \n\n\"No one in our community should feel that innovation and advancement are reserved for just a select group.\"\n\nWhich best describes the function of this statement in the speech?",
-      "choices": [
-        "A. It challenges the audience to compare the program's outcomes with similar initiatives in other cities.",
-        "B. It emphasizes the speaker's belief in providing equal access to the benefits of technological progress.",
-        "C. It counters claims that investing in technology has created unfair barriers for local residents.",
-        "D. It acknowledges the rarity of success stories arising from philanthropic ventures led by major corporations."
-      ],
-      "answer": "B",
-      "explanation": "The statement \"No one in our community should feel that innovation and advancement are reserved for just a select group.\" serves to underscore the speaker's conviction that technological advancements and opportunities should be inclusive and accessible to all members of the community. The phrase directly aligns with the central argument of the speech, which advocates for supporting underrepresented communities through initiatives like the workshops described. Incorrect choices can be dismissed as follows: A is overly narrow in scope and diverges from the inclusivity theme; C inaccurately presents a negative framing that the speaker does not employ; and D attributes a notion—acknowledging rarity of success—that is unsupported by the speaker's text."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Hard",
-      "question": "In a letter to the Committee for Public Welfare in 1920, social reformer Jane Addams wrote: \"Your generous grant will fund community workshops that bring neighbors together to address local issues: lack of accessible health clinics, education disparities in the city, and the urgent need to provide safe child care options. I firmly believe we must not only identify these problems but also collaborate with residents to determine lasting solutions.\" She goes on to list key objectives:\n\n• Provide training for volunteers in areas such as nursing and tutoring.  \n• Organize neighborhood gatherings to discuss social inequities.  \n• Establish extensive outreach campaigns to sustain these efforts throughout the year.  \n\nAddams concludes by expressing gratitude for the committee's trust in her plan.  \nWhich inference about Addams's broader mission is most supported by the letter?",
-      "choices": [
-        "A) She believes government agencies should supervise all philanthropic ventures.",
-        "B) She intends to empower community members to be active players in resolving social problems.",
-        "C) She aims to assess only the most serious health threats in urban areas.",
-        "D) She suspects that child care services are unnecessary for neighborhood progress."
-      ],
-      "answer": "B",
-      "explanation": "The letter indicates that Addams values grassroots efforts and community collaboration. She emphasizes the need for neighbors to come together and take an active role in solving local issues by engaging in training, discussions, and organizing outreach efforts. Choice B, which states that she intends to empower community members to be active players in resolving social problems, aligns closely with the underlying sentiment and objectives of the letter. The other answer choices are less appropriate as: A mischaracterizes her statement by attributing supervisory roles to government agencies, which is not discussed; C narrows down her focus only to health threats, disregarding her broader approach; and D contradicts her explicit mention of the need for child care options."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "Dr. Jocelyn Rivera's research team recently conducted a study on innovative greenhouse designs that use reflective glass to reduce heat absorption. In areas with intense sunlight, these structures regulate internal temperatures more effectively and minimize water evaporation. They also discovered that the reflective panels encourage plant growth by distributing light more evenly, ensuring that no single area becomes overheated. During her presentation, Dr. Rivera emphasized the potential of this new technology but noted the necessity of adapting it to different climates and testing it over multiple growth cycles.\n\nWhich of the following conclusions about the reflective greenhouse design is most supported by the passage?",
-      "choices": [
-        "A. It is likely to become a universal agricultural solution as presented.",
-        "B. It requires further adjustment to be effective in diverse climatic conditions.",
-        "C. It transforms traditional agricultural methods by eliminating manual labor.",
-        "D. It is applicable only in areas with high levels of sunlight."
-      ],
-      "answer": "B",
-      "explanation": "The passage clearly describes that while the innovative greenhouse design has significant benefits, its effectiveness depends on adjustments for varying climates and additional testing. Dr. Rivera's mention of 'adapting it to different climates' informs the inference that it is not yet universally applicable and needs further refinements, making 'B' the best choice. Answer 'A' assumes universality, 'C' suggests a transformation of method not supported by the information, and 'D' incorrectly limits applicability based solely on areas with high sunlight, which is not indicated as an absolute requirement in the passage."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Easy",
-      "question": "Rachel Carson was a marine biologist whose groundbreaking book, *Silent Spring*, published in 1962, highlighted the adverse effects of pesticides, particularly on bird populations, which raised ecological awareness and ultimately influenced pesticide regulations to ensure environmental safety.\n\nWhat is the main idea of this passage?",
-      "choices": [
-        "A. Rachel Carson's primary scientific research was in marine biology, focusing on fish habitats.",
-        "B. Carson's book, *Silent Spring*, was central in highlighting ecological dangers of pesticides and prompting changes in environmental policies.",
-        "C. *Silent Spring* directly led to the elimination of all pesticide use in agriculture worldwide.",
-        "D. The reception of Carson’s book was negative, emphasizing its controversial perspective on chemicals."
-      ],
-      "answer": "B",
-      "explanation": "The passage emphasizes Rachel Carson's book, *Silent Spring*, and its significance in promoting awareness regarding pesticide dangers and influencing environmental policies. Choice B correctly identifies this main idea. Choice A is too narrow in focus; Choice C exaggerates the book's consequences, and Choice D misrepresents the reception described in the text."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "Rashida noticed that her neighbors, especially older adults, frequently struggled to schedule medical appointments due to complicated online procedures. Inspired by their frustration, she created a user-friendly platform that centralized scheduling across multiple clinics, allowing patients to compare availability and book appointments more efficiently. The platform's initial success in her neighborhood convinced local healthcare providers to incorporate it into their patient outreach strategies, bridging the gap between patients and medical professionals.\n\nWhich inference about Rashida's objective is best supported by the passage?",
-      "choices": [
-        "A. She intended to eliminate all phone-based scheduling systems.",
-        "B. She hoped to make the booking process more accessible to vulnerable patients.",
-        "C. She expected to expand the platform to include international clinics immediately.",
-        "D. She anticipated that her platform would fully replace traditional healthcare services."
-      ],
-      "answer": "B",
-      "explanation": "The passage clearly highlights that Rashida identified challenges faced by her neighbors, particularly older adults, in scheduling medical appointments. In response, she developed an accessible, user-friendly platform aimed at aiding these vulnerable groups. Thus, the correct inference about Rashida's objective is found in choice B: making the booking process more accessible to vulnerable patients. \n\n- Option A incorrectly suggests an intent to entirely eliminate phone-based systems, which is not mentioned. \n- Option C implies a focus on international expansion, which is unsupported as the passage only refers to local successes. \n- Option D exaggerates Rashida's intentions to fully replace healthcare services, which is not suggested in the scenario. \n\nTherefore, option B most accurately aligns with her demonstrated goal, as supported by the information in the passage."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "Olivia Morin, a software developer at a growing technology firm, recently led a project to create an innovative payment system. The system relies on a secure database that can process thousands of transactions per second while maintaining near-instantaneous confirmation times. Despite facing limited funding and a small development team, Morin collaborated with local businesses to tailor the payment platform to their needs, resulting in a pilot launch that exceeded adoption forecasts.\n\nBased on the passage, what inference can be made about the collaboration Morin engaged in during the project?",
-      "choices": [
-        "A. Morin worked exclusively within her development team for the payment platform.",
-        "B. Feedback gathered from local businesses influenced the design of the system.",
-        "C. Every business in the area had the opportunity to test the pilot version.",
-        "D. The funding for the project was increased after the successful pilot phase."
-      ],
-      "answer": "B",
-      "explanation": "The passage explicitly states that Olivia Morin collaborated with local businesses to tailor the payment platform to their needs. This indicates that feedback or input from these businesses influenced how the system was designed and customized. Option A is clearly incorrect as the passage refutes the idea of exclusive work within the team by mentioning collaboration with external parties. Option C is unsupported, as the text does not indicate that every business in the area had a chance to test the system. Option D is also unsupported because the text does not include information about the funding being increased after the pilot phase. Hence, option B is the only inference that is strongly supported by the passage."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "The passage discusses Ada Lovelace and her contributions to Charles Babbage's Analytical Engine, emphasizing her foresight into the broader applications of computing technology.\n\nWhich inference about Ada Lovelace does the passage most strongly support?",
-      "choices": [
-        "A) She believed that technology should remain purely theoretical.",
-        "B) She anticipated that computing devices could handle symbolic manipulations beyond arithmetic.",
-        "C) She considered herself to be Babbage's equal in engineering expertise.",
-        "D) She focused solely on the mathematical capabilities of the Analytical Engine."
-      ],
-      "answer": "B",
-      "explanation": "The passage identifies Ada Lovelace's foresight into the broader applications of computing technology, emphasizing her insight that computing could manage symbolic manipulations. Option B encapsulates this vision correctly. The other options diverge from her contributions: Answer A is incorrect as she did not believe in keeping technology purely theoretical; Answer C incorrectly attributes an equivalent engineering focus to her as Babbage; and Answer D is contradicted by her broader anticipation beyond mathematics, encapsulated in symbolic manipulations."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Marine scientists have discovered that microscopic plastic particles, known as microplastics, are increasingly found in the digestive systems of various marine species. Even small sea creatures, such as plankton, may ingest these particles, which can then travel up the food chain to larger animals, including humans. Some researchers suspect that these microplastics could affect the animals' overall health by interfering with nutrient absorption and potentially introducing harmful chemical compounds.\n\nWhat inference about the potential impact of microplastics is best supported by the passage?",
-      "choices": [
-        "A) Microplastics give smaller creatures a competitive advantage over similar-sized ocean organisms.",
-        "B) Microplastics can enter many parts of the marine food chain, possibly carrying adverse effects.",
-        "C) Microplastics will decompose and pose no significant threat to ocean life in the long term.",
-        "D) Microplastics are primarily found in the habitats of organisms that consume coral reef debris."
-      ],
-      "answer": "B",
-      "explanation": "The passage explicitly discusses that microplastics are ingested by various marine species and can travel through the food chain. This supports the inference in option B that microplastics can enter many parts of the food chain and potentially cause negative effects. Option A lacks textual support regarding competitive advantages. Option C contradicts the potential harmful effects suggested in the passage. Option D misconstrues the widespread nature of microplastics, as described in the text. Thus, option B is the best answer, as it aligns correctly with the point mentioned in the passage."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In **1864**, the _biologist Carla Reyes_ traveled to a remote wetland region in Southeast Asia to study a *newly discovered amphibian species*. She noted that the creatures had unusually flexible hind legs, which appeared to help them leap across thick aquatic vegetation. Reyes also observed a series of distinctive stripes along the amphibians' spines, suggesting that these markings might provide camouflage in murky waters. \n\nWhich inference is best supported by the passage?",
-      "choices": [
-        "A) The amphibian species described by Reyes thrives only in saltwater environments.",
-        "B) The amphibian species' physical features likely enhance its survival in its habitat.",
-        "C) Reyes wrote her field notes primarily to document migratory birds of the region.",
-        "D) Reyes believed the amphibian population would risk extinction due to its rarity."
-      ],
-      "answer": "B",
-      "explanation": "The passage provides evidence for the inference that the amphibian's physical traits, such as flexible hind legs and distinctive stripes, are advantageous for its adaptation to its habitat. These features suggest functional roles like improved movement through vegetation and camouflage. Option B is correct because it connects these adaptations to the amphibian's survival. Options A, C, and D are not directly supported by the passage: there is no mention of saltwater environments (ruling out A), no focus on migratory birds in the observation (ruling out C), and no indication of concern about extinction (ruling out D)."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Sarah Chan pioneered a system in the 1970s for constructing pedestrian footbridges in remote regions. She emphasized sourcing environmentally friendly materials from nearby forests, aiming to cut costs and minimize ecological disturbance, instead of using imported materials like steel or concrete.\n\nWhich inference about Chan's approach is best supported by the passage?",
-      "choices": [
-        "A. She believed that using local resources would reduce the need for specialized repair crews.",
-        "B. She suspected that foreign materials were universally superior to community-sourced options.",
-        "C. She concluded that environmentally friendly materials are always cheaper than steel.",
-        "D. She intended to discourage local communities from adopting modern engineering tools."
+        "A) He believes that wrongdoing inevitably leads to self-punishment.",
+        "B) He primarily worries about being caught by others.",
+        "C) He feels justified in his actions due to his external circumstances.",
+        "D) He manages to suppress his sense of guilt entirely."
       ],
       "answer": "A",
-      "explanation": "Chan prioritized using local and environmentally friendly materials to construct pedestrian footbridges. This choice suggests a preference for solutions that integrate well with the community's existing resources and skills. Using local materials, which align with her objectives of cost-cutting and minimizing ecological disturbance, implies that these footbridges were designed to be easily repairable with the available resources, thereby reducing reliance on specialized external repair crews or materials. The other options are not supported as they introduce assumptions not grounded in Chan's approach as described in the passage."
+      "explanation": "Raskolnikov's pacing and self-accusations highlight his inability to dismiss the moral implications of his crime. This suggests an acknowledgment, at least subconsciously, that wrongdoing carries inherent self-inflicted punishment. Choice A captures this understanding accurately. Choice B is incorrect because his emotional state primarily reflects internal, rather than external, fears. Choice C doesn't align with the text, as his turmoil contradicts any justification he might claim. Choice D is clearly shown to be wrong by his inability to suppress guilt, as evidenced by the description of his conduct and thoughts."
     },
     {
       "skill": "Inferences",
       "difficulty": "Medium",
-      "question": "Dorothy Gifford, an 18th-century naturalist, recorded her observations on a newly discovered insect in her field journal. She noted that while the insect shared certain traits with well-known species, its unique *wing structure* and feeding behavior made it challenging to place within existing classifications. Gifford described both her enthusiasm for the insect and the difficulties encountered while categorizing its features for her forthcoming scientific study.\n\nBased on this information, what can we infer about Gifford's attitude towards the insect and her research?",
+      "question": "Harriet Tubman, born into slavery around 1822, escaped to freedom and subsequently conducted numerous rescue missions through the Underground Railroad. Many accounts portray her displaying unwavering courage, traveling mostly under the cover of night to avoid detection, and encouraging those in her group to persist despite danger or exhaustion. Tubman is credited with guiding dozens of enslaved individuals to freedom, earning the admiration and gratitude of those who followed her.\n\nWhich inference about Tubman is most strongly supported by the passage?",
       "choices": [
-        "A) She doubted that the insect would captivate other researchers' interest.",
-        "B) She admired the insect's distinctive characteristics, finding them intriguing yet challenging to categorize.",
-        "C) She criticized established taxonomic methods for being deficient.",
-        "D) She feared the insect could have negative environmental impacts."
+        "A. She gained respect from those she guided because of her relentless determination.",
+        "B. She carefully planned her missions to coincide with weather patterns favorable to travel.",
+        "C. Fear of pursuit by bounty hunters gave Tubman a stoic demeanor when guiding groups.",
+        "D. She believed most enslaved individuals lacked the will to try escaping on their own."
       ],
-      "answer": "B",
-      "explanation": "The passage shows that Dorothy Gifford was captivated by the insect and dedicated significant effort to studying its unique characteristics such as its wing structure and feeding behavior, which posed a challenge to classification. This implies she found the insect's traits fascinating and appreciated the complexity involved in categorizing it. Answer choice B correctly reflects this inference. Answer choice A is incorrect because there is no indication of Gifford doubting others' interest. Choice C is incorrect as there is no evidence that she criticized taxonomic methods. Choice D is also incorrect as the passage does not mention concern about environmental impacts."
+      "answer": "A",
+      "explanation": "By describing Harriet Tubman’s continual efforts, particularly traveling under the cover of night and encouraging her group to persist despite danger, the passage suggests that her determination earned her the admiration of those she guided. The other choices introduce ideas that are either unmentioned in the passage (Choice B), conflict with what is described (Choice C), or imply a negativity not supported by the tone of the text (Choice D)."
     },
     {
       "skill": "Inferences",
       "difficulty": "Medium",
-      "question": "Anya has managed a family-run bakery for the past five years. Eager to grow the business, she invests in *premium equipment*, designs a new marketing strategy, and introduces an expanded product line. After a few months, foot traffic increases significantly, but total profits remain nearly the same because of higher operating costs. Which statement about the bakery's outcomes is best supported by the information provided?",
+      "question": "In an excerpt from Charles Dickens’s novel *Hard Times*, Mr. Gradgrind insists that students should focus exclusively on observable facts and avoid imaginative thinking. By doing so, he argues, children will be better prepared for practical occupations in the city’s growing industrial economy.\n\nWhich inference about Mr. Gradgrind’s perspective on education is best supported by the description?",
       "choices": [
-        "A) Customer satisfaction decreased due to the bakery's expanded product line.",
-        "B) Higher operating costs negated the additional revenue from increased sales.",
-        "C) The new marketing strategy failed to attract new customers.",
-        "D) The bakery's promotion methods had not changed before this initiative."
+        "A) He believes that encouraging creativity in the classroom has little practical benefit.",
+        "B) He expects scientifically proven methods to replace all other avenues of learning.",
+        "C) He wants students to pursue artistic careers instead of business or technical fields.",
+        "D) He fears that an overreliance on facts will stifle industrial growth in the region."
       ],
-      "answer": "B",
-      "explanation": "The information in the passage describes that foot traffic increased, which indicates success in attracting customers, likely through the marketing strategy and the product line expansion. However, the profits did not increase, remaining steady instead. The most plausible explanation is that the higher operating costs associated with the new measures balanced the increased revenue. Hence, the correct answer is B. \n\nDistractors: \n- Option A is unsupported as there is no information about customer satisfaction or dissatisfaction related to the product line change. \n- Option C directly contradicts the information, as foot traffic did increase. \n- Option D is irrelevant to the passage, as there is no discussion on historical promotion methods. \n\nExpanded explanation of distractors ensures students understand why they are incorrect, aiding in proper elimination techniques."
+      "answer": "A",
+      "explanation": "Mr. Gradgrind's insistence on avoiding imaginative thinking and focusing solely on observable facts implies that he does not see practical value in fostering creativity in education. This directly supports option A as the most valid inference. Option B is incorrect as the excerpt does not indicate that only scientifically proven methods are emphasized, but rather facts in general. Option C is inconsistent because Mr. Gradgrind supports practical occupations suitable for the industrial economy, not artistic careers. Option D is also not supported, as Mr. Gradgrind does not express any fear about reliance on facts but rather supports it as a tool for industrial development."
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Easy",
+      "question": "Michael Faraday, a prominent 19th-century scientist, delivered a famous series of public lectures at the Royal Institution titled _The Chemical History of a Candle_. In these lectures, he used the common candle flame to break down scientific concepts related to combustion, energy, and matter into simpler terms that were accessible to audiences of all backgrounds. Through engaging demonstrations, Faraday emphasized the importance of observation and experimentation, establishing a connection between the small flame before his listeners and fundamental scientific principles. His aim was to ignite curiosity and make science understandable to the layperson, thereby demonstrating the universal nature of scientific inquiry.\n\nWhich choice best states the main idea of the passage?",
+      "choices": [
+        "A. Faraday compared chemical principles to those in other fields such as botany and zoology.",
+        "B. Faraday believed that chemistry should be practiced without any specialized equipment.",
+        "C. Faraday claimed that one could not comprehend a candle flame without mastering advanced mathematics.",
+        "D. Faraday used a simple object, a candle, to engage people with complex scientific concepts."
+      ],
+      "answer": "D",
+      "explanation": "The passage highlights Michael Faraday's approach of using a simple, familiar object—a candle—to communicate complex scientific ideas to a broad audience. By breaking down scientific concepts and making them accessible, Faraday aimed to foster a curiosity for science among laypeople. While the other options touch on ideas unrelated or tangential to the passage's primary focus, Option D directly encapsulates the main idea that is emphasized in the text."
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "Catherine Morland, a character in Jane Austen’s *Northanger Abbey*, observes: \"I do not pretend to set people right, but I do see that they are often wrong.\" This remark highlights her introspection about others and shows how she avoids direct criticism while still perceiving their errors.\n\nWhich choice best captures the main idea of the statement by Catherine?",
+      "choices": [
+        "A. Catherine believes that it is unnecessary to correct people because they are free of errors.",
+        "B. Catherine considers it her obligation to point out and rectify others' mistakes.",
+        "C. Catherine vacillates between ignoring faults in others and formally rectifying them.",
+        "D. Catherine refrains from confronting others' errors directly but internally notes their mistakes."
+      ],
+      "answer": "D",
+      "explanation": "The main idea of Catherine's remark is that she does not engage in correcting others openly—indicated by \"I do not pretend to set people right\"—but she does perceive their mistakes, shown by \"they are often wrong.\" Option D correctly captures this nuanced stance. Option A misunderstands her claim, as she does acknowledge that others are often wrong. Option B misrepresents her approach, as she explicitly states she does not correct others. Option C implies an inconsistent behavior which is not supported by the text. Thus, D is the best answer."
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Hard",
+      "question": "In the following excerpt from Jane Austen's \"Pride and Prejudice\" (1813), Elizabeth Bennet quietly observes her mother's energetic conversation with Mr. Collins, an overconfident distant cousin who hopes to marry one of the Bennet daughters. Mr. Collins boasts about his advantageous connections and especially praises Lady Catherine de Bourgh, seeking to impress his hosts:\n\n\"Mrs. Bennet, with an enthusiastic smile, endeavored to reflect Mr. Collins’s eagerness, hoping he might soon propose to one of her girls. Elizabeth, meanwhile, listened with a mixture of embarrassment and amusement. She noted her mother’s attempts to secure the family’s future, yet found Mr. Collins’s self-important praises both grandiose and faintly comical.\"\n\nBased on the passage, what can be inferred about Elizabeth Bennet's view of Mr. Collins?",
+      "choices": [
+        "A) She regards Mr. Collins’s remarks with mild amusement rather than genuine annoyance.",
+        "B) She admires Mr. Collins’s social ambition and wishes to emulate his behavior.",
+        "C) She is deeply resentful of her mother’s interference in her personal affairs.",
+        "D) She is overwhelmed with anxiety at the possibility of Mr. Collins’s proposal."
+      ],
+      "answer": "A",
+      "explanation": "In the excerpt, Elizabeth is described as feeling 'embarrassment and amusement,' indicating that while she finds the situation awkward, she is not overly upset. Furthermore, her observation of Mr. Collins's 'grandiose' and 'faintly comical' self-praises aligns more with detached humor than serious disdain or anxiety. This supports the conclusion that her reaction is one of mild amusement rather than genuine annoyance, admiration, resentment, or overwhelming anxiety."
     }
   ]
 }

@@ -168,7 +168,6 @@ class QuestionReviser:
 
             #Extract the feedback from the response
             feedback = response.choices[0].message.content
-            print(f"Feedback: {feedback}")
 
             return feedback
         except Exception as e:
@@ -219,6 +218,21 @@ class QuestionReviser:
 
     def evaluate_question(self, question: Dict) -> Dict:
         """Evaluate the question using simulated student perspectives and structured output."""
+
+        """3/11/2025: Removed these from the response_format, underneath "properties" but could add back in later:
+                high_level_student_simulation": {
+                    "type": "string",
+                    "description": "Simulate solving the question from the role of an advanced high school student at a 1500 out of 1600 SAT score."
+                },
+                "low_level_student_simulation": {
+                    "type": "string",
+                    "description": "Simulate solving the question from the role of a very below average ability high school student at a 900 out of 1600 SAT score, who makes common mistakes in grammar, math concepts, and reading comprehension."
+                },
+                
+            Also, if adding in the above, need to add these beneath the "required" section
+            "high_level_student_simulation", "low_level_student_simulation", 
+                """
+
         evaluate_question_response_format = {
             "type": "json_schema",
             "json_schema": {
@@ -227,14 +241,6 @@ class QuestionReviser:
                 "schema": {
                     "type": "object",
                     "properties": {
-                        "high_level_student_simulation": {
-                            "type": "string",
-                            "description": "Simulate solving the question from the role of an advanced high school student at a 1500 out of 1600 SAT score."
-                        },
-                        "low_level_student_simulation": {
-                            "type": "string",
-                            "description": "Simulate solving the question from the role of a very below average ability high school student at a 900 out of 1600 SAT score, who makes common mistakes in grammar, math concepts, and reading comprehension."
-                        },
                         "question_rating": {
                             "type": "number",
                             "description": "rating from 1-10 evaluating Logical design, clarity, and alignment with SAT standards.",
@@ -248,7 +254,7 @@ class QuestionReviser:
                             "description": "Explains reasoning for the question_rating and explanation_rating scores, including observations of what is good and bad, and includes suggestions for improving them towards making the question a 10 for both categories.",
                         }
                     },
-                    "required": ["high_level_student_simulation", "low_level_student_simulation", "question_rating", "explanation_rating", "constructive_feedback"],
+                    "required": ["question_rating", "explanation_rating", "constructive_feedback"],
                     "additionalProperties": False  # Prevents unexpected keys in feedback objects
                 }
             }
@@ -291,22 +297,24 @@ class QuestionReviser:
                         ),
                     },
                     {
-                        "role": "user",
+                        "role": "user", #***Need to make sure the evaluate_question_response_format matches what is asked for here.
                         "content": (
-                            f"""First, evaluate the quality of the question and its answer choices and explanation, then give ratings from 1-10 on how good the question is (and whether it should be released publicly to millions of students to use as SAT practice, if so, should it be improved, or should it be discarded). Be objective but very critical because you are the final reviewer. Use the criteria below:\n"""
-                            """- **Question Rating (1-10)**: Logical design, clarity, and alignment with SAT standards. Consider whether the amount of struggle by the low level student is applicable for the difficulty (high difficulty should be hard and induce mistakes, but low difficulty shoudl be doable); the high level student should do great on all but the most challenging questions. Be very critical in evaluating if the question actually provides the context it says it does, and whether the question is actually solvable by the student. Propose specific changes if it isn't, or if there's a way to make it better. Example scores:\n"""
-                            """   - 1-4: Question has critical issues (e.g., multiple correct answers; a excerpt is referenced but not included in the question; the question is not clear or does not logically link with the answer choices; the answer choices are not plausible; the explanation is not helpful; the question doesn't feel like an SAT question).\n"""
-                            """   - 5-7: Question has a clear objective but minor flaws (e.g., there are inappropriate underlines, line breaks or HTML tags;the question is not aligned with the difficulty level; the answer is way too obvious; the context is not real or is generic (i.e. bad example: "an economist wrote..." vs good example: "Milton Friedman, a famous economist, wrote in his 1970 essay, "The Social Responsibility of Business Is to Increase Its Profits," ...)).\n"""
-                            """   - 8-9: Question is clear, logically sound, and SAT-aligned but could be improved to be more challenging or to match the proper syntax and formatting (i.e. mistakenly italicizing when text should be underlined, or underlining when no underlining is necessary like in an Inference question).
-                                  - 10: The question is perfect and is ready to be published to high school students to practice on our website.\n"""
-                            """- **Explanation Rating (1-10)**: Insightfulness, conciseness, and clarity in helping the students reflect and learn. Considser effective strategies that the high level student uses, and consider areas where the low level student is confused or struggles. Be critical and identify both what is good about the explanation, easy to understand, but also critically evaluatae if the explanation is actually applicable to the question and correct answer and if it could be used by the student. Be specific in what should be changed and why. Example scores:\n"""
-                            """   - 1-4: Explanation is off-topic or fails to clarify the reasoning.\n"""
-                            """   - 5-7: Explanation is relevant but lacks depth or includes minor errors.\n"""
-                            """   - 8-9: Explanation models reasoning, application of relevant core knowledge, and test-taking strategies effectively (10 = excellent).\n"""
-                            """   - 10: The explanation is perfect and is ready to be published to high school students to practice on our website.\n"""
-                            """Last, summarize your thoughts and give specific constructive feedback and reasoning for it. Also, explain your reasoning for giving the question_rating and explanation_rating scores, consider how the question compares to the examples, and includes suggestions to improve the question."""
-                            f"""***Here is the SAT Question you need to evaluate:""" + json.dumps(question)
-                            f"""{example_text}"""
+                            f"""First, evaluate the quality of the question and its answer choices and explanation, then give ratings from 1-10 on how good the question is (and whether it should be released publicly to millions of students to use as SAT practice, if so, should it be improved, or should it be discarded). Be objective but very critical because you are the final reviewer. Use the criteria below:\n
+                            - **Question Rating (1-10)**: Logical design, clarity, and alignment with SAT standards. Consider whether the amount of struggle by the low level student is applicable for the difficulty (high difficulty should be hard and induce mistakes, but low difficulty shoudl be doable); the high level student should do great on all but the most challenging questions. Be very critical in evaluating if the question actually provides the context it says it does, and whether the question is actually solvable by the student. Propose specific changes if it isn't, or if there's a way to make it better. Example scores:\n
+                               - 1-4: Question has critical issues (e.g., multiple correct answers; a excerpt is referenced but not included in the question; the question is not clear or does not logically link with the answer choices; the answer choices are not plausible; the explanation is not helpful; the question doesn't feel like an SAT question).\n
+                               - 5-7: Question has a clear objective but minor flaws (e.g., there are inappropriate underlines, line breaks or HTML tags;the question is not aligned with the difficulty level; the answer is way too obvious; the context is not real or is generic (i.e. bad example: "an economist wrote..." vs good example: "Milton Friedman, a famous economist, wrote in his 1970 essay, "The Social Responsibility of Business Is to Increase Its Profits," ...)).\n
+                               - 8-9: Question is clear, logically sound, and SAT-aligned but could be improved to be more challenging or to match the proper syntax and formatting (i.e. mistakenly italicizing when text should be underlined, or underlining when no underlining is necessary like in an Inference question).
+                               - 10: The question is perfect and is ready to be published to high school students to practice on our website.\n
+                            - **Explanation Rating (1-10)**: Insightfulness, conciseness, and clarity in helping the students reflect and learn. 
+                            Consider effective strategies that the high level student uses, and consider areas where the low level student is confused or struggles. 
+                            Be critical and identify both what is good about the explanation, easy to understand, but also critically evaluate if the explanation is actually applicable to the question and correct answer and if it could be used by the student. 
+                            Be specific in what should be changed and why. Example scores:\n
+                               - 1-4: Explanation is off-topic or fails to clarify the reasoning.\n
+                               - 5-7: Explanation is relevant but lacks depth or includes minor errors.\n
+                               - 8-9: Explanation models reasoning, application of relevant core knowledge, and test-taking strategies effectively (10 = excellent).\n
+                               - 10: The explanation is perfect and is ready to be published to high school students to practice on our website.\n
+                            Last, summarize your thoughts and give specific constructive feedback and reasoning for it. Also, explain your reasoning for giving the question_rating and explanation_rating scores, consider how the question compares to the examples, and includes suggestions to improve the question.
+                            ***Here is the SAT Question you need to evaluate:{json.dumps(question)}{example_text}"""
                         ),
                     },
                 ],

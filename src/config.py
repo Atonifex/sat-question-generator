@@ -3,7 +3,8 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-
+from question_topics import literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, famousBiographies, modernTopicsAndFun
+#import question_topics #This just takes everything, but then everything must be referenced with question_topics.literatureTopics[0], etc.
 # Load environment variables
 load_dotenv()
 
@@ -26,7 +27,7 @@ OUTPUT_DIR = BASE_DIR / 'output'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Question Generation Settings
-DEFAULT_NUM_QUESTIONS = 5
+DEFAULT_NUM_QUESTIONS = 3
 VALID_DIFFICULTIES = ["Medium", "Hard"] #"Easy", 
 VALID_SKILLS = [
     'Function of Sentence', 'Inferences', 'Main Idea',
@@ -34,17 +35,27 @@ VALID_SKILLS = [
     #'Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 'Exponential Word Problems', 'Geometry', 'Interpreting Graphs', 'Linear Equations', 'Linear Word Problems', 'Inequality Word Problems', 'Percent', 'Polynomial Expressions', 'Probability', 'Quadratic Equations', 'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
 ]
 
-OVERUSED_TOPICS = [ #These are generated way too frequently. Harriet Tubman was literally 20% of all questions initially lol.
-    'Harriet Tubman'
+VALID_TOPICS = [
+
 ]
 
 DIFFICULTY_GUIDELINES = {
     "Easy": (
-        'Easy-difficulty questions should be straightforward and easy to understand for a high school student. This means there is straightforward evidence, problem solving, hints, or other information that can be used to solve the question.'),
+        'Easy-difficulty questions MUST include ALL of the following elements:\n'
+        '1. Single-step or straightforward reasoning: students can find the answer with minimal confusion.\n'
+        '2. Two incorrect choices may have a partially correct premise (or in Math use use correct initial steps), but it should be wrong upon a closer look.\n'
+        '3. Familiar or everyday scenarios: references to common texts or real-life contexts.\n'
+        '4. Easy questions should be solvable by students aiming for around 400–600 on the SAT.\n'
+    ),
     "Medium": (
-        'Medium-difficulty questions can include traps such as:'
-        'Tempting incorrect answers that are partially correct but have an incorrect portion (i.e. correct conclusion but for the wrong reason; shows evidence of some correct Math steps but a misunderstanding or mistake in other Math steps).'
-        'Misleading statements (like oversimplifications, overgeneralizations, conclusions without specific evidence, incorrect conclusions based on evidence, etc.) that tempt students to answer too quickly without fully reading the question.'
+        'Medium-difficulty questions MUST include ALL of the following elements:\n'
+        '1. Multi-step or moderately complex reasoning: students may need to combine two or more ideas.\n'
+        '2. One or two tempting incorrect choices that appear plausible or partially correct, requiring clear logical or textual evidence to refute.\n'
+        '3. Moderate traps such as:\n'
+        '   - Oversimplified or overly specific positions that sound correct at first\n'
+        '   - Minor incorrect leaps in math or logic\n'
+        '4. Longer questions (at least 100 words) that require more reading and thinking.\n'
+        'Medium questions should target students aiming for around 600–700 on the SAT, requiring advanced analysis.\n'
     ),
     "Hard": (
         'Hard-difficulty questions MUST include ALL of the following elements:\n'
@@ -63,6 +74,7 @@ DIFFICULTY_GUIDELINES = {
         '   - Options that match surface-level details but miss deeper meaning\n'
         '   - Options that represent common misconceptions or oversimplifications\n'
         '   - Options that seem plausible based on partial information but fail when all information is considered\n'
+        '6. Longer or more sophisticated questions (at least 130 words on Reading and Writing) that require more reading and thinking.\n'
         'Hard questions should challenge even high-performing students (1400+ SAT scorers) and require careful, thorough analysis.'
     )    
 }
@@ -71,10 +83,10 @@ SKILL_PROMPTS = {
     "Algebra": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. Algebra questions test a student's ability to manipulate variables, solve equations, or analyze algebraic relationships. Easy questions should involve single-variable linear equations, such as solving for $x$ in $3x + 5 = 11$. Easy, Medium, or Hard level equations can ask the this type of question, with increasing algebraic complexity (fractions, exponents, etc.: 'The given equation $\\frac{1}{7b} = \\frac{11x}{y}$ relates the positive numbers $b$, $x$, and $y$. Which equation correctly expresses $x$ in terms of $b$ and $y$?'. Finally, these questions can also use words to describe equations, testing students' abilities to represent words: 'The product of two positive integers is 546. If the first integer is 11 greater than twice the second integer, what is the smaller of the two integers?'",
     "Circles": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. Circle questions assess understanding of properties like radius, diameter, circumference, and equations of circles and circle graph transformations vertically, horizontally, and radius size. Easy questions should involve basic formulas (e.g., find the area of a circle with radius $5$). Medium questions might involve applying the equation of a circle, $(x - h)^2 + (y - k)^2 = r^2$, to find missing values like the radius or the x or y coordinataes. Hard questions should require combining circle properties with other concepts, such as tangents or overlapping circles. \\n\\nFormatting Guidelines: Correct: 'Find the area of a circle with radius $5$.'\n- Incorrect: 'Find the area of a circle with radius five.' (Numbers should always be written as numerals in math problems.)",
     "Exponential Equations": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. Easy questions should involve straightforward calculations, such as solving $2^x = 16$. Medium questions should require understanding of logarithms or manipulation of exponential expressions, such as solving $5^{x+1} = 25$. Hard questions might combine exponents with other concepts, such as fractional or negative exponents, or require simplifying nested expressions. Additionally, you can also create questions asking a student to interpret the meaning of variables or combinations of variables in the context of a word problem. \\n\\nFormatting Guidelines: Correct: 'Solve for $x$ in $2^\\frac{x}{2} = 16$.'\n- Incorrect: 'Solve for x in $2x2 = 16$.' (Improper formatting or omission of exponent symbol.)",
-    "Function of Sentence": "This is the sentence or phrase whose function will need to be determined by the student. An Easy difficulty question will be straightforward (elaborating on a previous point, contradicting, providing an example, summarizing, explaining, etc. - there are many more purposes that I haven't listed). A Medium difficulty question will be more specific about the context of the question, with an incorrect answer potentially containing partially correct phrases, but having other phrases that are clearly incorrect. A Hard difficulty will use more complex language and might refer to aspects of the passage in the abstract (i.e. 'The sentence [refutes, exemplifies, illustrates, contrasts] the [problem/solution/conflict/theme discussed in the passage]' vs. overly simple language and directly referring to the context 'The sentence provides an example of the problem of trash piling up in our oceans.'). Formatting guidelines: Make sure there is an underlined sentence or phrase using '_' before and afterwards the sentence or phrase, not an asterisk '*'!. Additionally, make sure there is a question after the short paragraph separataed with \\n\\n that says something similar to this: \\n\\nWhich choice best describes the function of the underlined sentence in the overall text? or \\n\\nWhat is the primary function of the underlined sentence in the context of the paragraph?", 
+    "Function of Sentence": "This question contains an underlined sentence or phrase within a larger paragraph and context whose rhetorical function will need to be determined by the student. An Easy difficulty question will be straightforward (elaborating on a previous point, contradicting, providing an example, summarizing, explaining, etc. - there are many more purposes that I haven't listed). A Medium difficulty question will be more specific about the context of the question, with an incorrect answer potentially containing partially correct phrases, but having other phrases that are clearly incorrect. A Hard difficulty will use more complex language and might refer to aspects of the passage in the abstract (i.e. 'The sentence [refutes, exemplifies, illustrates, contrasts] the [problem/solution/conflict/theme discussed in the passage]' vs. overly simple language and directly referring to the context 'The sentence provides an example of the problem of trash piling up in our oceans.'). Formatting guidelines: Make sure there is an underlined sentence or phrase using '_' before and afterwards the sentence or phrase, not an asterisk '*'!. Additionally, make sure there is a question after the short paragraph separataed with \\n\\n that says something similar to this: \\n\\nWhich choice best describes the function of the underlined sentence in the overall text? or \\n\\nWhat is the primary function of the underlined sentence in the context of the paragraph?", 
     "Geometry": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. Geometry questions test knowledge of shapes, angles, and spatial reasoning. Easy questions might involve finding the area or perimeter of basic shapes (e.g., rectangles, triangles). Medium questions should involve reasoning about angles, circles, or composite shapes. Hard questions can involve proofs or applying multiple geometry principles to a complex diagram. IMPORTANT NOTE: DO NOT REFERENCE A GRAPH OR FIGURE; INSTEAD PROVIDE INSTRUCTIONS OR A DESCRIPTION OF A SHAPE OR INTERSECTION OF LINES THAT THE STUDENT CAN DRAW ON THEIR PAPER AND LABEL. \\n\\nFormatting Guidelines: Correct: 'A circle has center $O$, and points $R$ and $S$ lie on the circle's radius. In triangle $ORS$, the measure of $\\angle ROS$ is $88^\\circ$. What is the measure of $\\angle RSO$, in degrees?' Another Correct example describing the shape rather than referencing a nonexistent figure: Right triangles $PQR$ and $STU$ are similar, where $P$ corresponds to $S$, and $R$ and $U$ are both right angles. If the measure of angle $Q$ is $18^\\circ$, what is the measure of angle $S$?\\n\\n- Incorrect - avoid at all costs!: 'What is the area of a the triangle in the figure above?' (The only context is what you verbally describe for the shapes and intersecting lines; there is no figure, so don't reference one. Use unicode or LaTeX to represent angles, triangles, lines, degrees, and arcs.)",
     "Inequality Word Problems": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. These test a student's ability to interpret and solve inequalities based on word problems. Easy questions should involve a single inequality, such as 'If a number is greater than 3 but less than 7, what could the number be?' Medium questions might require solving compound inequalities or graphing solutions. Hard questions should involve inequalities embedded in real-world contexts, requiring multiple steps or translating complex descriptions into inequalities. \\n\\nFormatting Guidelines: Correct: 'Solve: $x + 5 \\leq 10$.'\n- Incorrect: 'Solve: x + 5 <= 10.' (Use proper LaTeX symbols for ≤ and ≥.)",
-    'Inferences': "Inferences test a student's ability to make connections between evidence, claims, and conclusions. They often have similar keywords or phrases in questions that provide hints to similar keywords in answer choices - but even in Easy difficulty, they should be synonyms rather than the exact words or phrases. Medium difficulty questions should requrie context from all sentences in the passage and have slightly more complex language. Hard difficulty questions should require deep understanding of the topic discussed (though no information that isn't provided) and likely require one or two logical assumptions where a student would need to think 'if the passage says X is happening and Y is related to X, then I can infer a certain truth about Y based on X'. Key reasons why a choice might be wrong is that it isn't supported by evidence or the evidence doesn't have to lead to that conclusion; the choice could be irrelevant or not discussed; the choice could contradict the main points.",
+    'Inferences': "Inferences test a student's ability to make connections between evidence, claims, and conclusions. They start by providing information about a topic, then by asking the student to make inferences or conclusions based on that information. Inference questions should require the student to critically think, consolidating their understanding of the information given in the question, then making conclusions or assumptions that apply that knowledge in a new way; if the question merely requires paraphrasing the main idea, then it should be discarded or reworked. Medium difficulty questions should requrie context from all sentences in the passage and have slightly more complex language. Hard difficulty questions should require deep understanding of the topic discussed (though no information that isn't provided) and likely require one or two logical assumptions where a student would need to think 'if the passage says X is happening and Y is related to X, then I can infer a certain truth about Y based on X'. Key reasons why a choice might be wrong is that it isn't supported by evidence or the evidence doesn't have to lead to that conclusion; that an inference is too specific or too broadly applied.",
     "Interpreting Graphs": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. These questions test a student's ability to read and analyze data from graphs or charts. Easy questions should involve directly retrieving data points from HTML tables following the format of the examples. They MUST BE WITHIN THE QUESTION because there are no other pictures, graphs, or figures outside of the question. Medium questions should involve interpreting trends or performing calculations based on the tables or require a student to draw a graph on their paper. Hard questions should involve multiple graphs or combining graph analysis with external knowledge. \\n\\nFormatting Guidelines: Almost always generate an HTML table which includes information referenced by the question, and use a table border of 1 like in the example: Correct: '    The line graph shows the estimated number of chipmunks in a state park on April 1 of each year from 1989 to 1999.\\n\\n<table border='1'><thead><tr><th>Year</th><th>Estimated number of chipmunks</th></tr></thead><tbody><tr><td>1989</td><td>40</td></tr><tr><td>1990</td><td>40</td></tr><tr><td>1991</td><td>95</td></tr><tr><td>1992</td><td>100</td></tr><tr><td>1993</td><td>50</td></tr><tr><td>1994</td><td>155</td></tr><tr><td>1995</td><td>50</td></tr><tr><td>1996</td><td>95</td></tr><tr><td>1997</td><td>90</td></tr><tr><td>1998</td><td>55</td></tr><tr><td>1999</td><td>110</td></tr></tbody></table> \\n\\nBased on the table, in which year was the estimated number of chipmunks in the state park the greatest?.'\n- Incorrect: 'What is the y value at x=3 from graph' (incorrectly references a nonexistent graph that isn't provided in the question).",
     "Linear Equations": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. Linear equations test a student's ability to interpret and solve equations of the form $y = mx + b$ or, rarely and at Medium or High difficulty, slope intercept form. Easy questions should involve straightforward graph interpretations (remember - there are no pictures, so you need to explain how the student can draw a graph on their own by creating a table from HTML like in the examples provided) or solving for $y$ or $x$. Medium questions might involve systems of linear equations or interpreting word problems. Hard questions could include real-world applications or combining linear equations with inequalities or other algebraic concepts. \\n\\nFormatting Guidelines: Correct: 'Find the $y$-intercept of the line $y = 2x + 5$.'\n- Incorrect: 'Find the y-intercept of the line y = 2x + 5.' (Variable names should always be italicized.)",
     "Linear Word Problems": "Use LaTeX for all Math expressions with two backslashes for the expressions when inside '$'. Example: $\\\\frac{...}{...}$ or $\\\\sqrt{...}$. These questions test students' ability to translate real-world scenarios into linear equations. Easy questions should involve simple scenarios, such as calculating the total cost of items, the time it takes to do something, etc.. Medium questions should require more reasoning, like solving for an unknown in a two-variable equation or describing an equation witih words that a student needs to translate to numbers and algebra. Hard questions should involve systems of linear equations or inequalities. \\n\\nFormatting Guidelines: Correct: 'A store sells apples for $2$ dollars each and bananas for $3$ dollars each. If a customer spends $20$, how many apples and bananas could they buy?'\n- Incorrect: 'Solve for x in a store sells fruits for $2x + 3y = 20$' (confusing phrasing and lack of context or real world application).",
@@ -101,6 +113,13 @@ SKILL_PROMPTS = {
 # Rate Limiting
 REQUEST_DELAY = 7  # seconds between requests
 MAX_RETRIES = 3
+
+
+#3/11 at 12:45 - instead of OVERUSED_TOPICS, write good topics and cycle through them. 
+GOOD_TOPICS = []
+
+#These are generated way too frequently. Harriet Tubman was literally 20% of all questions initially lol.
+OVERUSED_TOPICS = ['Harriet Tubman', 'Silent Spring', 'Ada Lovelance']
 
 # Define the expected structure for the API response
 RESPONSE_FORMAT = {
@@ -145,7 +164,16 @@ RESPONSE_FORMAT = {
                             "explanation": {
                                 "type": "string",
                                 "description": "Step-by-step explanation with proper spacing and LaTeX formatting"
+                            },
+                            "topic":{
+                                "type": "string",
+                                "description": "The idea to write about within question-topics"
+                            },
+                            "topicIndex": {
+                                "type": "number"
+                                "description": "Which number in question-topics.py within the topic that the SAT question idea came from."
                             }
+
                         },
                         "required": [
                             "skill",
@@ -153,7 +181,9 @@ RESPONSE_FORMAT = {
                             "question",
                             "choices",
                             "answer",
-                            "explanation"
+                            "explanation",
+                            "topic",
+                            "topicIndex"
                         ],
                         "additionalProperties": False
                     }
@@ -164,4 +194,8 @@ RESPONSE_FORMAT = {
         }
     }
 }    
+
+
+
+
         

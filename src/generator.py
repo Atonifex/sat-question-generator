@@ -30,20 +30,20 @@ class QuestionGenerator:
         self.overused_topics = OVERUSED_TOPICS
 
     
-    def generate_batch(self, skill: str, difficulty: str, num_questions: int = 3) -> list:
+    def generate_batch(self, skill: str, difficulty: str, num_questions: int = 3, topic: str = None) -> list:
         """Generate multiple questions with rate limiting."""
         questions = []
         
         for i in range(num_questions):
             #print(f"Generating question {i+1} of {num_questions}")
-            question = self.generate_question(skill, difficulty)
+            question = self.generate_question(skill, difficulty, topic)
             if question:
                 questions.append(question)
             time.sleep(REQUEST_DELAY)  # Rate limiting
             
         return questions
     
-    def generate_question(self, skill: str, difficulty: str) -> Dict:
+    def generate_question(self, skill: str, difficulty: str, topic: str = None) -> Dict:
         """Generate a single SAT question using OpenAI."""
         try:
             #print(f"Generating {difficulty} {skill} question...")
@@ -52,8 +52,10 @@ class QuestionGenerator:
             with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty] #skill and difficulty
+                print(f"Added {len(filtered_questions)} filtered questions to generate question prompt.")
                 if len(filtered_questions) < 4:
                     filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only - expand the pool
+                    print(f"Not enough questions for {difficulty} {skill}. Expanded to all skills and got{len(filtered_questions)} questions.")
                 
 
             #Load skill-specific formatting and difficulty guidelines
@@ -82,35 +84,26 @@ class QuestionGenerator:
                 messages=[
                     {"role": "developer", #use "developer" when using o3 and o1 models and "system" when using gpt-4o-2024-11-20
                     "content": 
-                        """You are an expert Digital SAT question writer. Create an original, high-quality question that follows proper formatting specified:
-                        - Provide one correct answer choice and three plausible but incorrect answer choices. The correct answer choice should equally likely to be A, B, C, or D.
+                        """You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
+                        - Provide one correct answer choice and three plausible but incorrect answer choices. The correct answer choice should equally likely to be A, B, C, or D; you have a bad tendency of making B and C always the correct answers, so make A and D also be correct sometimes.
                         - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
                         - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
                         - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
                         - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)"""},
                     {"role": "user", 
                     "content": 
-                        """Generate a {skill} Digital SAT question at ***{difficulty}*** difficulty (very important) in the specified JSON format, following this checklist:
-                        1. Include diverse real-world context in questions to create a valid question testing the {skill} skill. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n). Reference real context in one of these categories:
-                        - real excerpts from classic literature (i.e. a poem, a short story, a novel which is in the public domain, including anything from works of Homer, Shakespeare, Austen, Dickens, Dostoevsky, Tolstoy, as well as lesser known authors)
-                        - historical events, leaders, and movements (i.e. excerpts from historical documents, speeches, or books about real historical figures and events in American, European, or world history)
-                        - real studies or experiments in social studies (economics, psychology, sociology, anthropology, etc.) 
-                        - real studies or experiments in hard sciences (physics, chemistry, biology, etc.)
-                        - real technology, business, or finance (i.e. excerpts from business magazines, articles, or books about real startups, companies, or industries)
-                        - art, music, film, fashion, or sports (i.e. descriptions of pieces created or events/movements in famous artworks, movies, songs, athletes, or fashion designers)
-                        - philosophy, ethics, or political science (i.e. excerpts from Federalist Papers, iconic Supreme Court cases, famous philosophers' works like Plato, Aristotle, Kant, Kierkegaard, Hume, Camus, and other cultures' philosophers, etc.)
-                        - current events and pop culture (i.e. excerpts from popular news sources, social media, or cultural references)
-                        
-                        2. The topic of the question should not be one of the overused topics: {OVERUSED_TOPICS}
-                        2. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question and learn underlying concepts.
-                        3. Design the question and answer choices to align with the {difficulty} description in these skill and difficulty guidelines; if there is no explicit description for {difficulty}, reason for how a high school student would consider to be {difficulty}. 
-                        4. Use the {skill} skill guidelines: {skill_guidelines}. 
-                        5. Use the {difficulty} difficulty guidelines: {difficulty_guidelines}. 
-                        6. ***The output JSON's 'difficulty' value MUST BE '{difficulty}'***
-                        7. Finally, extrapolate patterns from the SAT example questions below but introduce creative variations in phrasing, challenge, and style so that the question is distinct from the examples provided: \n{examples_text}"""
+                        """Generate a Digital SAT question testing the ***{skill}*** skill at ***{difficulty}*** difficulty in the specified JSON format.
+                        1. Write the question and answer choices based on this topic: {topic}.     
+                        2. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
+                        3. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question, learn underlying concepts, and apply SAT test-taking strategies.
+                        4. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
+                        5. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
+                        6. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***
+                        7. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
                     }
                         #*********************IN THE FUTURE, try without #9 (providing any questions) because reasoning models are supposed to be better at this****************
                         # --> I tried without it, but it was obsessed with writing about Harriet Tubman, literally 50% of questions were about her despite no examples provided about harriet tubman. So weird.
+                        #3/11/2025 at 11:29 pm removed "Include diverse real-world context in questions to create a valid question testing the {skill} skill."
                 ]
             )
             
