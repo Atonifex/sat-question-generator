@@ -10,7 +10,7 @@
                         - current events and pop culture (i.e. excerpts from popular news sources, social media, or cultural references)
 """
 
-const literatureTopics = [
+literatureTopics = [
   "Hester Prynne’s public shaming in The Scarlet Letter",
   "Jay Gatsby’s pursuit of the American Dream in The Great Gatsby",
   "The creature’s longing for acceptance in Frankenstein",
@@ -169,7 +169,7 @@ const literatureTopics = [
   "The magical realism of One Hundred Shadows by Hwang Jungeun"
 ];
 
-const historyTopics = [
+historyTopics = [
   "The impact of the Emancipation Proclamation on the Civil War",
   "The significance of the Louisiana Purchase in U.S. expansion",
   "The causes and effects of the Great Depression",
@@ -244,7 +244,7 @@ const historyTopics = [
 
 
 
-const socialScienceTopics = [
+socialScienceTopics = [
   "The Stanford Prison Experiment and its implications on authority and power",
   "The Marshmallow Test and delayed gratification in childhood development",
   "The Hawthorne Effect and workplace productivity",
@@ -316,7 +316,7 @@ const socialScienceTopics = [
   "The role of emotional contagion in group behavior"
 ];
 
-const hardScienceTopics = [
+hardScienceTopics = [
   "The Michelson-Morley Experiment and the discovery of special relativity",
   "The double-slit experiment and quantum mechanics",
   "The Miller-Urey Experiment and the origins of life",
@@ -368,7 +368,7 @@ const hardScienceTopics = [
   "The genetic basis of hereditary diseases and gene therapy"
 ];
 
-const businessTechnologyTopics = [
+businessTechnologyTopics = [
   "The rise and fall of Enron and corporate fraud",
   "The impact of Amazon’s supply chain innovation",
   "The founding and growth of Tesla in the electric vehicle market",
@@ -448,7 +448,7 @@ const businessTechnologyTopics = [
 
 
 
-const philosophyPoliticalTopics = [
+philosophyPoliticalTopics = [
   "Plato’s Allegory of the Cave and its implications on reality and knowledge",
   "Aristotle’s concept of virtue ethics and moral character",
   "Kant’s categorical imperative and its role in moral decision-making",
@@ -528,7 +528,7 @@ const philosophyPoliticalTopics = [
 ];
 
 
-const artMusicFilmSportsTopics = [
+artMusicFilmSportsTopics = [
   "The influence of the Harlem Renaissance on jazz and poetry",
   "The significance of Picasso’s Guernica in political art",
   "The impact of The Beatles on popular music evolution",
@@ -604,7 +604,7 @@ const artMusicFilmSportsTopics = [
 ];
 
 
-const famousBiographies = [
+famousBiographies = [
   "The life and scientific achievements of Albert Einstein",
   "The political philosophy and leadership of Mahatma Gandhi",
   "The rise of Napoleon Bonaparte and his impact on Europe",
@@ -769,7 +769,7 @@ const famousBiographies = [
 ];
 
 
-const modernTopicsAndFun = [
+modernTopicsAndFun = [
   "The influence of AI-generated music on the future of the music industry",
   "The impact of TikTok on reshaping short-form storytelling and entertainment",
   "The ethical implications of AI-created art and its effect on human creativity",
