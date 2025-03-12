@@ -247,7 +247,7 @@ class QuestionReviser:
                         "difficulty_feedback": {
                             "type": "string",
                             "description": "Provides specific feedback on how well the question matches its labeled difficulty.",
-                        }
+                        },
                         "total_score": {
                             "type": "number",
                             "description": "The sum of the question_rating, explanation_rating, and difficulty_appropriateness_rating.",
