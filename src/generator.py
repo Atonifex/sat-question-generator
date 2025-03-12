@@ -93,7 +93,7 @@ class QuestionGenerator:
 
                     "content": 
                         f"""You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
-                        - Design the answers so that {correct_answer} is the correct answer choice, and make the other answer choices be plausible but incorrect answer choices. 
+                        - Design the answers so that {correct_answer} is the correct answer choice, and make the other three answer choices be plausible but incorrect answer choices (in total, there is A, B, C, and D as answer choices).
                         - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
                         - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
                         - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)

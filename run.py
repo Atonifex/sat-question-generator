@@ -41,7 +41,7 @@ def main():
                   "businessTechnologyTopics", "philosophyPoliticalTopics", "artMusicFilmSportsTopics", 
                   "famousBiographies", "modernTopicsAndFun"]
     
-    topicChoice = 1  # Index for which topic list to use
+    topicChoice = 3  # Index for which topic list to use
     topicIndex = 0   # Index within the chosen topic list
 
     for skill in VALID_SKILLS:
@@ -55,7 +55,7 @@ def main():
                 
                     print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)} in list {current_topic_list_name}: {current_topic}")
                     
-                    questions = generator.generate_batch(skill, difficulty, 1, current_topic, correct_answer)
+                    questions = generator.generate_batch(skill, difficulty, 1, current_topic)
                     
                     revised_questions = reviser.revise_batch(questions)
 
@@ -73,10 +73,9 @@ def main():
                 except Exception as e:
                     print(f"Error during generation or revision of {difficulty} {skill} on topic: {current_topic}: {e}")
                     # Still update topic indices even on error
-                    topicIndex += 1
-                    if topicIndex >= len(topics[topicChoice]):
-                        topicIndex = 0
-                        topicChoice = (topicChoice + 1) % len(topics)
+                    topicChoice = (topicChoice + 1) % len(topics)
+                    if topicChoice == 0:  # We've wrapped around to the first topic list
+                        topicIndex += 1   # Move to next index within all topic lists
 
 if __name__ == "__main__":
     main()
