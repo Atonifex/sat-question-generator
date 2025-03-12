@@ -78,7 +78,7 @@ class QuestionReviser:
                     print(f"Score: {total_rating}. Sending for improved content and formatting.")
                     final_question = self.improve_question_content(revised_question, evaluation)
                     time.sleep(REQUEST_DELAY)  # Rate limiting
-                    print(f"Final question after improvement: {final_question.get('question')}\n {final_question.get('choices')}"#\n {final_question.get('answer')}\n {final_question.get('explanation')}")
+                    print(f"Final question after improvement: {final_question.get('question')}\n {final_question.get('choices')}")#\n {final_question.get('answer')}\n {final_question.get('explanation')}")
                 else:
                     print(f"Fail Score: {total_rating}. Reason: {evaluation.get('constructive_feedback', 'No feedback given.')}")
                     final_question = revised_question #Fall back to OG
