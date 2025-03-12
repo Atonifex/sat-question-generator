@@ -47,7 +47,7 @@ def output_to_json(revised_questions: List[Dict]) -> str:
                 total_score += question.get("difficulty_appropriateness_rating", 0)
         
         # Categorize based on score
-        if total_score >= 25:
+        if total_score >= 21: #22 or 23 seem to be solid questions, but worth ongoing manual evaluation
             good_questions.append(question)
         else:
             bad_questions.append(question)

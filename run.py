@@ -9,6 +9,7 @@ from datetime import datetime
 from pathlib import Path
 import csv
 from src.question_topics import literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, famousBiographies, modernTopicsAndFun
+import random
 
 
 def main():
@@ -30,7 +31,16 @@ def main():
     #QuestionReviser writes the question, feedback, and revised question to same csv
     reviser = QuestionReviser(csv_file_path)
 
-    topics = [literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, famousBiographies, modernTopicsAndFun]
+    # Create a list of topic lists and their names
+    topics = [literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, 
+              businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, 
+              famousBiographies, modernTopicsAndFun]
+    
+    # Create a list of topic list names for display purposes
+    topic_names = ["literatureTopics", "historyTopics", "socialScienceTopics", "hardScienceTopics", 
+                  "businessTechnologyTopics", "philosophyPoliticalTopics", "artMusicFilmSportsTopics", 
+                  "famousBiographies", "modernTopicsAndFun"]
+    
     topicChoice = 1  # Index for which topic list to use
     topicIndex = 0   # Index within the chosen topic list
 
@@ -40,10 +50,12 @@ def main():
                 try:
                     # Get the current topic
                     current_topic_list = topics[topicChoice]
+                    current_topic_list_name = topic_names[topicChoice] #3/12: Added this to display the topic list name in console
                     current_topic = current_topic_list[topicIndex % len(current_topic_list)]
+                
+                    print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)} in list {current_topic_list_name}: {current_topic}")
                     
-                    print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)} in list {topicChoice}: {current_topic}")
-                    questions = generator.generate_batch(skill, difficulty, 1, current_topic)
+                    questions = generator.generate_batch(skill, difficulty, 1, current_topic, correct_answer)
                     
                     revised_questions = reviser.revise_batch(questions)
 

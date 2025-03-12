@@ -167,10 +167,6 @@ RESPONSE_FORMAT = {
                             "topic":{
                                 "type": "string",
                                 "description": "The idea to write about within question-topics"
-                            },
-                            "topicIndex": {
-                                "type": "number",
-                                "description": "Which number in question-topics.py within the topic that the SAT question idea came from."
                             }
                         },
                         "required": [
@@ -180,8 +176,7 @@ RESPONSE_FORMAT = {
                             "choices",
                             "answer",
                             "explanation",
-                            "topic",
-                            "topicIndex"
+                            "topic"
                         ],
                         "additionalProperties": False
                     }

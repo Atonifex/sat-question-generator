@@ -154,6 +154,280 @@
       "explanation": "The passage underscores the dichotomy between initial expense and long-term gains. Sustainable urban measures are highlighted for their prospective impact on reducing costs and improving public health via better air quality and energy efficiency. Option C encapsulates this forward-thinking, benefits-oriented planning approach most effectively, as opposed to the other choices, which downplay these integral aspects.",
       "topic": "Sustainable architecture in city design",
       "topicIndex": 1
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "President Abraham Lincoln issued the Emancipation Proclamation in January 1863, declaring the freedom of enslaved people in Confederate-held territories. This transformative measure redefined the moral purpose of the Civil War by linking it explicitly to the abolition of slavery. Beyond its effect on internal and military dynamics, the Proclamation also sent a strong signal to the international community. By emphasizing a commitment to human rights, Lincoln sought to curtail potential foreign support for the Confederacy. Countries such as Britain and France, which had growing abolitionist sentiments, found it increasingly untenable to back a regime predicated on slavery.\n\nBased on this information, which inference about the Proclamation is best supported?",
+      "choices": [
+        "A. It discouraged foreign allies from supporting the Confederacy and bolstered the Union's moral stance",
+        "B. It immediately granted full equality to all formerly enslaved persons in the United States",
+        "C. It led to swift surrender negotiations by the Confederate leadership",
+        "D. It prompted the Union to expand its territorial claims"
+      ],
+      "answer": "A",
+      "explanation": "The passage outlines how the Emancipation Proclamation aimed to erode external, especially European, support for the Confederacy by casting the Union's cause in a moral framework centered on abolitionism. This aligns directly with choice A. However, the other options are not supported by the text: option B exaggerates the immediate effects on equality; option C introduces a nonexistent outcome of the Proclamation; and option D suggests an unwarranted link between the Proclamation and territorial ambitions.",
+      "topic": "The impact of the Emancipation Proclamation",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "In the original setup of the Stanford Prison Experiment, participants were randomly assigned to be either guards or prisoners in a simulated prison environment. Although the instructions given to the guards were intentionally vague, many quickly adopted strict and sometimes harsh methods of enforcing rules. At the same time, several prisoners, faced with the growing intensity of the situation, gradually fell into passive compliance, even when the guards’ demands appeared punitive. These evolving behaviors suggest that the situational context influenced how each group acted, even in the absence of explicit orders dictating abusive conduct.\n\nWhich statement is most strongly supported by the description above?",
+      "choices": [
+        "A. Individuals placed in authoritative roles may adopt harsh behaviors even without explicit orders",
+        "B. The roles of prisoner and guard can influence individual behaviors regardless of their personalities",
+        "C. Prisoners in controlled settings are frequently unable to challenge the decisions of the guards",
+        "D. Every person who takes on a prison guard role will engage in harsh treatment of prisoners"
+      ],
+      "answer": "A",
+      "explanation": "The passage outlines that the guards in the experiment adopted harsh tactics without explicit instructions, suggesting that authority roles can lead to such behavior situationally, which supports A. Choice B describes the influence of roles generally but doesn't address the question's emphasis on harsh behaviors. C is plausible but implies inevitability, which is not explicitly supported. D is overly absolute, as not all guards behaved harshly.",
+      "topic": "The Stanford Prison Experiment and its implications on authority and power",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Medium",
+      "question": "The following passage describes the Michelson-Morley experiment and its impact on modern physics:\n\nThe Michelson-Morley experiment was designed to detect variations in the speed of light caused by Earth's movement through the proposed \"aether,\" a hypothetical medium thought to permeate space and support the propagation of light waves. Michelson and Morley used an interferometer to measure differences in the speed of light along different directions of Earth's motion, expecting changes consistent with Earth's movement relative to the aether. However, their results showed no such variations: the speed of light appeared constant in all directions. This unexpected result not only challenged the concept of the aether but laid the groundwork for Einstein's theory of special relativity, which posits that the speed of light is constant for all observers in inertial frames of reference.\n\nWhich statement best describes the main idea of the Michelson-Morley experiment's influence on the development of special relativity?",
+      "choices": [
+        "A) By showing that the speed of light remained constant, it challenged the idea of an aether and contributed to Einstein's theory of special relativity.",
+        "B) Its data confirmed that light traveled slower in the direction of Earth's motion, thereby proving the existence of an aether.",
+        "C) The findings indicated that light could only maintain its speed in a vacuum if Earth's velocity was precisely measured.",
+        "D) It demonstrated that light's speed varied based on the observer's vantage point, supporting strictly Newtonian perspectives."
+      ],
+      "answer": "A",
+      "explanation": "The Michelson-Morley experiment found no changes in the speed of light due to Earth's movement through an aether, suggesting invariance in light's speed. This null result contradicted the aether hypothesis, challenging long-standing beliefs in physics. Einstein later built on this principle of constant light speed, formulated within inertial frames, to develop his special theory of relativity. The alternatives do not adequately reflect the experimental findings or their implications: B assumes the existence of the aether, which the experiment refuted; C misrepresents the need for measuring Earth's velocity for light to be constant; and D incorrectly aligns the findings with Newtonian rather than relativistic principles.",
+      "topic": "Michelson-Morley Experiment and the discovery of special relativity",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "The following passage is excerpted from a contemporary analysis of corporate financial practices:\n\n\"In the late 1990s, Enron rapidly expanded its energy business through innovative trading strategies and ventured into diverse sectors. However, these aggressive strategies masked an ever-growing mountain of debt and a web of complex financial manipulations. This obfuscation, once uncovered, not only led to Enron's quick collapse but also eroded public trust, prompting significant corporate and regulatory reforms aimed at preventing such practices in the future.\"\n\nWhich choice best captures the central idea of the passage?",
+      "choices": [
+        "A. Enron’s aggressive pursuit of market dominance overshadowed the need for ethical financial management.",
+        "B. Regulatory reforms following Enron’s collapse focused primarily on restricting certain types of market expansions.",
+        "C. Enron’s diversification into various markets proved unsustainable due to international financial pressures.",
+        "D. Enron’s swift growth and concealed financial practices culminated in a dramatic downfall and systemic reforms."
+      ],
+      "answer": "D",
+      "explanation": "The passage outlines how Enron's rapid and ambitious growth efforts, coupled with hidden financial liabilities, led to its downfall and spurred significant regulatory changes. Choice D encapsulates this central idea effectively. On the other hand, choice A is incorrect as it overemphasizes the ethical aspect without focusing on the reforms. Choice B inaccurately suggests the reforms were targeted only at market expansion strategies, which is not stated. Choice C shifts focus to international markets, which is not mentioned in the passage.",
+      "topic": "The rise and fall of Enron and corporate fraud",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "The following excerpt is from *Plato’s Allegory of the Cave*, a passage in *Plato’s Republic*. In this allegory, prisoners confined in a cave see only shadows on the wall, until one is released and discovers the outside world.\n\nWhich statement best describes the primary insight this allegory offers about the relationship between perception and truth?",
+      "choices": [
+        "People can easily find truth without changing their surroundings",
+        "Individuals remain content with partial truths if they seem familiar",
+        "Absolute reality cannot be known once we bond with illusions",
+        "True understanding involves moving beyond appearances to grasp deeper realities"
+      ],
+      "answer": "D",
+      "explanation": "Plato’s allegory illustrates how superficial perceptions, like shadows on a wall, can limit one’s awareness of genuine reality. The freed prisoner’s journey toward the light symbolizes how individuals must transcend comfortable but illusory views in order to discover a broader understanding of truth. By highlighting this shift from shadows to real forms, Plato underscores the idea that authentic knowledge arises from challenging and moving beyond initial impressions.",
+      "topic": "Plato’s Allegory of the Cave and its implications on reality and knowledge",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "Read the passage below.\n\nDuring the Harlem Renaissance, poets and jazz composers engaged in a dynamic dialogue that transcended simple artistic inspiration. Poets, while drawing on the syncopated rhythms of jazz, often infused their verse with a tension between historical tradition and innovative experimentation. Simultaneously, jazz composers, influenced by the poetic imagery and subtle nuances of contemporary literature, experimented with unconventional melody and tempo, challenging established musical conventions. This interplay not only fostered a vibrant exchange of ideas but also raised critical questions about the evolving nature of African American cultural expression.\n\nWhich choice best states the main idea of the passage?",
+      "choices": [
+        "A.",
+        "The Harlem Renaissance was a period characterized by stability in the arts, favoring traditional influences over innovation.",
+        "B.",
+        "Artists during the Harlem Renaissance focused primarily on their individual crafts, avoiding cross-disciplinary influences.",
+        "C.",
+        "The interplay between jazz and poetry during the Harlem Renaissance reflected and drove evolving cultural narratives and innovations.",
+        "D.",
+        "Jazz and poetry during the Harlem Renaissance struggled to find a common ground, leading to a division in artistic communities."
+      ],
+      "answer": "C",
+      "explanation": "The passage discusses the mutual influence between poets and jazz composers during the Harlem Renaissance, emphasizing their dynamic interaction and ideological exploration, which reflects evolving cultural narratives. Choices A and B incorrectly present the era as either traditionalist or siloed, neither of which align with the described artistic dialogue. Choice D suggests disunity rather than collaboration, which contradicts the passage's themes.",
+      "topic": "The influence of the Harlem Renaissance on jazz and poetry",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "Albert Einstein’s research on the photoelectric effect, recognized with the Nobel Prize in Physics in 1921, paved the way for quantum mechanics. Despite playing an influential role in shaping this emerging field, he frequently challenged the theory’s completeness. Similarly, his 1915 general theory of relativity redefined our understanding of gravity and sparked debate among scientists at the time. Moreover, his continuous exploration of the limits of existing scientific models suggested that he valued empirical evidence and was skeptical of theories that seemed to offer only partial explanations.\\n\\nWhich inference is best supported by the information provided?",
+      "choices": [
+        "Einstein recognized the importance of new theories but never accepted them uncritically.",
+        "Einstein fully agreed with every aspect of quantum mechanics from its earliest stages.",
+        "Einstein’s findings in relativity displaced his research on quantum theory into obscurity.",
+        "Einstein was awarded his Nobel Prize exclusively for his work on general relativity."
+      ],
+      "answer": "A",
+      "explanation": "From the details about Einstein’s Nobel recognition for the photoelectric effect and his reservations about quantum mechanics, we see that he appreciated the importance of modern theories but questioned their completeness. He also revolutionized our understanding of gravity with relativity, showing he was open to scientific progress while still challenging prevailing assumptions. Additionally, the mention of his consistent curiosity to refine models demonstrates his critical yet empirical approach. Thus, the best inference is that Einstein accepted new ideas cautiously rather than unconditionally.",
+      "topic": "The life and scientific achievements of Albert Einstein",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Medium",
+      "question": "The following passage discusses the impact of AI on the music industry.\n\nMany music producers are turning to AI-generated compositions to streamline their songwriting process. They say that machine-created melodies not only offer new forms of experimentation but also reduce production costs by providing musicians with fast, on-demand options. However, some industry professionals are concerned about losing the human touch that has traditionally shaped popular music. They argue that while AI can handle much of the technical work, it lacks the emotional depth and originality that come from lived experience. This debate not only reflects shifting industry practices but also illustrates a broader tension between technological innovation and traditional artistry.\n\nWhich choice best states the main idea of the text?",
+      "choices": [
+        "A. AI-generated music offers significant benefits to musicians but raises questions about creativity",
+        "B. AI-generated melodies are bound to surpass all conventional music methods in popularity",
+        "C. Producers rely on AI to perform only the simplest tasks, preferring to work manually on complex pieces",
+        "D. Musicians generally believe AI systems replicate human emotions more accurately than traditional methods"
+      ],
+      "answer": "A",
+      "explanation": "The revised passage includes an additional sentence to meet the medium-length requirement and better reflects the complexity of the discussion. The correct answer (Choice A) clearly captures the balanced view presented in the text, discussing both the advantages of AI in music production and the concerns about its impact on creativity.",
+      "topic": "The influence of AI-generated music on the future of the music industry",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "In F. Scott Fitzgerald’s The Great Gatsby, Jay Gatsby spends lavishly on extravagant parties and opulent displays of wealth. He is determined to capture Daisy’s attention, convinced that his newfound material success will not only win her admiration but also somehow restore the unattainable ideal of their past romance. His actions suggest a belief that wealth holds the power to rewrite history and bridge the gap between his current life and the lost promise of love.\n\nWhich inference about Gatsby’s pursuit of the American Dream is best supported by the passage?",
+      "choices": [
+        "He believes that financial status will allow him to revive an idealized relationship.",
+        "He intends to give his fortune away to show Daisy he is sincere in his intentions.",
+        "He rejects social norms entirely, preferring to live a life of isolation.",
+        "He uses public attention from society’s elite to overshadow his personal doubts."
+      ],
+      "answer": "A",
+      "explanation": "The passage describes Gatsby’s belief that wealth has the power to bridge the gap between his current life and the lost promise of love, demonstrating that he thinks financial status can revive an idealized relationship.",
+      "topic": "Jay Gatsby’s pursuit of the American Dream in The Great Gatsby",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "The following passage is excerpted from a historical analysis of American territorial expansion.  \n\nIn 1803, the United States completed the Louisiana Purchase—a deal that doubled the nation’s territory by acquiring roughly $828{,}000$ square miles of land replete with lucrative rivers, trade routes, and vast farmland. Although this vast acquisition promised enormous potential for economic growth, it also sparked fierce debates over national identity, indigenous land rights, and the balance of power between emerging states.\n\nWhich choice best describes the overall significance of this land acquisition for U.S. expansion?",
+      "choices": [
+        "A. It redefined U.S. boundaries while also prompting significant debates over regional and state policies.",
+        "B. It was primarily focused on securing geographic control over key waterways.",
+        "C. It symbolized the emerging U.S. ambition of territorial and political superiority in the Americas.",
+        "D. It enabled significant growth by vastly increasing available land and resources."
+      ],
+      "answer": "D",
+      "explanation": "The Louisiana Purchase greatly enlarged the nation, providing access to new farmland, important waterways, and vast resources, which were critical for economic and territorial growth. While answer A mentions debates, and C discusses symbolic ambitions, neither captures the primary, practical significance of this acquisition: enabling the United States to expand its land and resource base.",
+      "topic": "The significance of the Louisiana Purchase in U.S. expansion",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "The following passage discusses research on the Marshmallow Test, a study examining children’s ability to delay gratification and its links to later outcomes:\n\nThe Marshmallow Test is a well-known study focusing on children’s ability to delay gratification. Some researchers have linked the capacity to wait for a reward with better developmental outcomes in areas such as academic achievement and social skills. Others point out that situational factors, including parenting style and home environment, also play a role in shaping children’s lives.\n\nWhich statement best expresses the main idea of this discussion of the Marshmallow Test?",
+      "choices": [
+        "A. Children’s willingness to wait for a reward proves that environment has no effect on their future achievements.",
+        "B. Delaying gratification is the sole factor that explains why some children work harder in school and beyond.",
+        "C. The results of the Marshmallow Test do not apply to any understanding of long-term personal development.",
+        "D. The capacity to delay gratification may support long-term success, but additional influences are also important."
+      ],
+      "answer": "D",
+      "explanation": "This question requires identifying the central argument regarding the Marshmallow Test. Although the test highlights a connection between waiting for a reward and later success, it also acknowledges that factors such as parenting style or home life can play meaningful roles. Answer D states both elements of the main idea: the positive effects of delayed gratification and the significance of other influences. Answer A is incorrect because it denies any impact of external factors, contrary to the passage. Answer B is flawed in suggesting that only delayed gratification affects success. Answer C dismisses any long-term relevance of the test's findings, which the passage does not support.",
+      "topic": "The Marshmallow Test and delayed gratification in childhood development",
+      "topicIndex": 2
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Hard",
+      "question": "Scientists have refined the double-slit experiment to explore the dual nature of electrons. In this experiment, individual electrons are emitted in isolation towards a barrier with two narrowly spaced slits. Despite being fired one at a time, the electrons collectively form an interference pattern over time on a detection screen. This phenomenon illustrates behavior that resembles overlapping waves. To gain additional insight, researchers placed detectors at the slits to observe which slit each electron passed through. Remarkably, under this setup, the interference pattern disappeared, and the resulting detection indicated behavior akin to classical particles. These observations challenge classical notions and provoke reevaluation of the fundamental nature of matter.\n\nWhich conclusion about the dual behavior of electrons is best supported by the experimental results described?",
+      "choices": [
+        "A. The observations explicitly prove that electrons behave either as waves or particles depending on the experimental setup.",
+        "B. The results demonstrate the sole existence of an unexplained external force influencing the trajectory of the electrons.",
+        "C. The phenomena observed align completely with classical wave theories.",
+        "D. The findings support the interpretation that electrons can exhibit both wave-like and particle-like behaviors, depending on the measurement conditions."
+      ],
+      "answer": "D",
+      "explanation": "The double-slit experiment demonstrates the principle of wave-particle duality. When electrons pass through the slits without the presence of detectors, they form an interference pattern indicative of wave-like behavior. However, when detectors are used to determine the path through a slit, this wave-like interference disappears, and the behavior observed aligns with that of particles. This dual behavior reveals that electrons cannot be categorized fully as classical particles or waves but embody both characteristics under different observation conditions, leading to choice D as the best-supported conclusion.\\n\\nIncorrect choices:\\n- A: While this choice appears partially correct, it oversimplifies the interpretation by claiming an explicit dichotomy, which obscures the nuanced nature of wave-particle duality.\\n- B: There is no evidence in the experimental setup or observations suggesting an external force specifically affecting the electrons' behavior.\\n- C: This contradicts the quantum mechanical interpretation entirely, as classical wave theories do not account for the particle detections or discrete impacts.",
+      "topic": "The double-slit experiment and quantum mechanics",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Medium",
+      "question": "The following passage discusses recent developments in supply chain innovation:\n\nOver the last decade, Amazon’s investments in advanced robotics, automated warehouses, and sophisticated data-driven strategies have not only lowered operational costs and accelerated deliveries, but they have also redefined the entire landscape of customer expectations. These innovations have forced competitors to adapt to a faster-paced market and have led consumers to anticipate shorter shipping times as a new standard. In this rapidly evolving environment, logistics and supply chain operations remain at the forefront of retail innovation.\n\nWhich choice best states the main idea of the text?",
+      "choices": [
+        "A. Amazon’s innovations have made the global marketplace more competitive for smaller firms.",
+        "B. Amazon’s use of robotics has caused warehouse employees to spend more time on customer service.",
+        "C. Amazon’s focus on short-term savings has discouraged long-term technological research.",
+        "D. Amazon’s supply chain innovations have transformed customer expectations regarding speed and efficiency."
+      ],
+      "answer": "D",
+      "explanation": "Choice D is the best answer because it accurately summarizes the text, which emphasizes how Amazon’s innovations have changed customer expectations regarding speed and efficiency. Choice A is incorrect because the passage does not mention competitive pressure on smaller firms. Choice B is unsupported since there is no discussion of employee roles, and Choice C is incorrect due to the absence of any mention of short-term versus long-term priorities.",
+      "topic": "The impact of Amazon’s supply chain innovation",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "Aristotle argues in his Nicomachean Ethics that moral virtues—such as courage and generosity—are not innate qualities but are acquired through habitual and deliberate practice. He claims that simply receiving instruction is insufficient; instead, individuals must consistently perform virtuous actions in real-life challenges to develop a steadfast moral character. By repeatedly choosing to act with integrity, even in difficult circumstances, a person gradually internalizes these virtues until they become part of his or her nature. \n\nWhich claim is most strongly supported by Aristotle’s view?",
+      "choices": [
+        "A. Individuals can demonstrate virtue through a single heroic act.",
+        "B. Innate talent for virtue is sufficient for moral development.",
+        "C. Moral character improves only when external rewards are given.",
+        "D. Repeated virtuous behavior helps cultivate a person’s ethical character."
+      ],
+      "answer": "D",
+      "explanation": "The expanded passage highlights Aristotle's view that virtues are developed through consistent practice and intentional behaviors, rather than being innate or reliant on rewards. This aligns with choice D, while conflicting with the other options, which suggest singular acts, inherent talent, or external incentives.",
+      "topic": "Aristotle’s concept of virtue ethics and moral character",
+      "topicIndex": 1
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Medium",
+      "question": "In 1937, Pablo Picasso's Guernica garnered international attention for its vivid portrayal of the civilian toll of war. Commissioned for the Spanish Pavilion at the Paris International Exposition, the painting employed dramatic imagery of chaos and anguish to express the suffering inflicted by the Spanish Civil War. Exhibited in various international venues, Guernica transcended its original context by symbolically addressing the horrors of conflict in any nation. Consequently, it emerged as a defining piece of political art that not only chronicled a historical event, but also offered a resonant message against the universal brutality of war.\n\nWhich inference about the painting's significance is best supported by this information?",
+      "choices": [
+        "A. It discouraged later artists from creating politically charged artwork.",
+        "B. It pictured a conflict that was primarily allegorical and not based on any specific historical events.",
+        "C. Its emotional impact stemmed purely from depictions of historical references, rather than symbolic imagery.",
+        "D. It conveyed a universal statement against violence that resonated with people in nations beyond Spain."
+      ],
+      "answer": "D",
+      "explanation": "The passage illustrates that Guernica's message went beyond just the Spanish Civil War by resonating with international audiences and symbolizing the universal horrors of war. Therefore, option D correctly captures its broader significance. Option A is not supported because there’s no mention of discouraging artists, Option B incorrectly suggests the event was purely fictional, and Option C misinterprets the painting's use of emotional and symbolic imagery.",
+      "topic": "The significance of Picasso's Guernica in political art",
+      "topicIndex": 2
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Hard",
+      "question": "In a short excerpt on Gandhi’s leadership, the first sentence emphasizes how his moral convictions inspired many to question their preconceptions about protest and power. To this, the excerpt adds: _By highlighting self-discipline and peaceful methods of resistance, Gandhi encouraged individuals to transform personal ethics into potent political tools._ Later, it underscores how such an approach resonated during India’s movement for independence, as followers saw nonviolence as both a feasible and profound method.\n\nWhich choice best describes the function of the second sentence within the overall discussion?\n\n",
+      "choices": [
+        "A) It challenges the traditional view that political change must begin with government leaders rather than individual citizens.",
+        "B) It presents a historical example of how mass movements were influenced by spontaneous uprisings, rather than by organized strategies.",
+        "C) It summarizes the effects of colonial governance on local economies in India during Gandhi’s era of leadership.",
+        "D) It clarifies how Gandhi’s focus on individual conduct advanced the broader purpose of nonviolent action in political movements."
+      ],
+      "answer": "D",
+      "explanation": "The second sentence elaborates the bridge Gandhi created between individual action and systemic change, solidifying nonviolence through ethical duty. It clarifies his technique in political transformation, corroborating the central theme of nonviolent progress. The other choices, however nuanced, deviate from the direct impact on discussion about moral personal praxis into politics, which is why answer D prevails.",
+      "topic": "The political philosophy and leadership of Mahatma Gandhi",
+      "topicIndex": 0
+    },
+    {
+      "skill": "Main Idea",
+      "difficulty": "Hard",
+      "question": "The following passage is from a recent analysis of digital storytelling trends and discusses the impact of TikTok on modern entertainment.\n\nTikTok’s short videos have profoundly influenced how people consume content by emphasizing brief, engaging story arcs that hook viewers almost instantly. Many creators deliver entire narratives within seconds, relying on interactive tools and visual effects to maintain interest. However, this rapid style of content raises questions about its depth and whether it might oversimplify complex narratives. As a result, these quick, dynamic clips have reshaped entertainment trends, leading to innovative storytelling techniques and fueling the continued rise of bite-sized media.\n\nWhich choice best expresses the main idea of the passage?",
+      "choices": [
+        "A. While enabling dynamic storytelling, TikTok's short format ultimately constrains creators from delivering sustained narratives.",
+        "B. TikTok users often fail to produce content that resonates with a diverse and broad audience.",
+        "C. Traditional methods of storytelling and media consumption remain unaffected by TikTok's influence.",
+        "D. TikTok's brief yet engaging videos have revolutionized how content is created and shared, ushering in new entertainment trends and techniques."
+      ],
+      "answer": "D",
+      "explanation": "The passage discusses the impact TikTok's short-form content has on entertainment, emphasizing its innovation in storytelling and its substantial influence on trends. While option A acknowledges a possible limitation of TikTok, it does not capture the overarching positive transformation attributed to it in the passage. Options B and C include false or irrelevant statements about the platform's users or traditional media. Only option D appropriately reflects the main idea of the passage.",
+      "topic": "The impact of TikTok on reshaping short-form storytelling and entertainment.",
+      "topicIndex": 3
+    },
+    {
+      "skill": "Inferences",
+      "difficulty": "Hard",
+      "question": "In Mary Shelley's \"Frankenstein,\" the creature narrates how it persistently sought to connect with others despite experiencing repeated rejection. It recounts being spurned by a kind family it secretly helped, facing hostility from villagers it had aided, and witnessing panic or aggression at every attempt to approach humans.\n\nBased on this context, which of the following inferences is best supported by the creature's reactions to rejection?",
+      "choices": [
+        "A. Although the creature values companionship, its actions suggest a desire to be appreciated for its deeds rather than for itself.",
+        "B. The repeated failures at forming connections decreased the creature's resolve to approach humans.",
+        "C. The creature deeply desires to find acceptance and belonging despite the rejection it faces.",
+        "D. The responses the creature receives cause it to abandon the hope of gaining empathy or human interaction."
+      ],
+      "answer": "C",
+      "explanation": "The creature's persistent attempts to connect with humanity, despite being continually rebuffed, reflect its deep longing for acceptance and companionship. Though its experiences with rejection could have discouraged it, the fact that it tries repeatedly indicates an unwavering desire to find belonging.",
+      "topic": "The creature’s yearning for human connection and resilience in \"Frankenstein\"",
+      "topicIndex": 7
     }
   ]
 }

@@ -72,8 +72,12 @@ class QuestionGenerator:
             skill_guidelines = self.skill_prompts.get(skill)
             difficulty_guidelines = self.difficulty_guidelines.get(difficulty)
 
-            
-            #print(f"Examples included in prompt: {examples_text}")
+            #3/12: To address the uneven distribution of correct answer choices, I'm incorporating this:
+            #Rotates the correct answer to make it more evenly distributed since the AI favors B and C most of the time.
+            correct_answer = random.choice(['A', 'B', 'C', 'D'])
+            #I imagine the AI will ignore this a decent portion of the time, but hopefully this'll be at least closer.
+
+            #Removed this because I want the AI to be creative; examples are compared in the evaluation phase for formatting and difficulty alignment. print(f"Examples included in prompt: {examples_text}")
 
             # Dynamic structured output with enforced difficulty - CONSIDER THIS at 5:55 pm on 3/7 if manually changing didn't work below. This is slightly more hardcore.
             #dynamic_response_format = json.loads(json.dumps(self.response_format).replace('"{requested_difficulty}"', f'"{difficulty}"'))
@@ -86,9 +90,10 @@ class QuestionGenerator:
                 reasoning_effort = "medium",
                 messages=[
                     {"role": "developer", #use "developer" when using o3 and o1 models and "system" when using gpt-4o-2024-11-20
+
                     "content": 
                         f"""You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
-                        - Provide one correct answer choice and three plausible but incorrect answer choices. The correct answer choice should equally likely to be A, B, C, or D; you have a bad tendency of making B and C always the correct answers, so make A and D also be correct sometimes.
+                        - Design the answers so that {correct_answer} is the correct answer choice, and make the other answer choices be plausible but incorrect answer choices. 
                         - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
                         - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
                         - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
@@ -116,7 +121,7 @@ class QuestionGenerator:
             # Parse the response, doubly ensure it's valid JSON
             response_data = json.loads(response.choices[0].message.content)
             questions = response_data.get("questions", [])
-
+            
             if not questions:
                 print("No questions found in response")
                 return None
@@ -136,7 +141,6 @@ class QuestionGenerator:
         except Exception as e:
             print(f"Error generating question: {e}")
             return None
-
     def save_to_csv(self, question: Dict):
         """Save single question to CSV file."""
         try: #a is append mode, w is write mode. 
@@ -215,3 +219,4 @@ Medium and Hard difficulty questions should have more tempting incorrect answers
                            - Over-complication trap - language shouldn't be needlessly complicated, and some questions can be straightforward (especially earlier in the test)
 
 """
+
