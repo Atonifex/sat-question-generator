@@ -41,8 +41,8 @@ def main():
                   "businessTechnologyTopics", "philosophyPoliticalTopics", "artMusicFilmSportsTopics", 
                   "famousBiographies", "modernTopicsAndFun"]
     
-    topicChoice = 5  # Index for which topic list to use
-    topicIndex = 0   # Index within the chosen topic list
+    topicChoice = 0  # Index for which topic list to use 
+    topicIndex = 6   # Index within the chosen topic list - went up to line 1375 in CONSOLIDATED "In Mary Shelley's \"Frankenstein,\" by 3:00 am on 3/12.
 
     for skill in VALID_SKILLS:
         for difficulty in VALID_DIFFICULTIES:
@@ -57,9 +57,15 @@ def main():
                     
                     questions = generator.generate_batch(skill, difficulty, 1, current_topic)
                     
+                    #Saving to CSV is handled internally in the revise_questions function
                     revised_questions = reviser.revise_batch(questions)
 
-                    #Saving to CSV is handled internally in the revise_questions function
+                    # Add topic information to each question in the batch
+                    for question in revised_questions: #there should only be 1 question, but this unpacks it.
+                        question["topic_list_name"] = current_topic_list_name
+                        question["topic_index"] = topicIndex
+
+                    # Saving to CSV is handled internally in the revise_questions function
                     output_to_json(revised_questions)
                     print(f"FINISHED generating and revising {len(revised_questions)} questions for {difficulty} {skill}")
                     

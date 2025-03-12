@@ -3,7 +3,7 @@ import csv
 import time
 from typing import Dict, List
 from openai import OpenAI
-from src.config import OPENAI_API_KEY, REQUEST_DELAY, RESPONSE_FORMAT, SKILL_PROMPTS, OPENAI_MODEL, REASONING_EFFORT, DIFFICULTY_GUIDELINES
+from src.config import OPENAI_API_KEY, REQUEST_DELAY, RESPONSE_FORMAT, SKILL_PROMPTS, OPENAI_MODEL, REASONING_EFFORT, DIFFICULTY_GUIDELINES, EVALUATION_TOTAL_SCORE_GOOD_TO_USE
 from pathlib import Path
 import random
 
@@ -52,11 +52,11 @@ class QuestionReviser:
             #STEP 4:Check if evaluation is 17/20 or higher and put into revised_questions; otherwise output to a different directory.
             if isinstance(question_rating, int) and isinstance(explanation_rating, int):
                 total_rating = question_rating + explanation_rating + difficulty_rating
-                if total_rating > 27:
+                if total_rating >= 28:
                     final_question = revised_question
                     print(f"Yay! Score: {total_rating} - added to revised_questions and csv with only 1st round changes")
 
-                elif total_rating > 23:
+                elif total_rating >= EVALUATION_TOTAL_SCORE_GOOD_TO_USE:
                     print(f"Score: {total_rating}. Sending for improved content and formatting.")
                     
                     #STEP 5:FINAL IMPROVE QUESTION CONTENT AND FORMATTING

@@ -6,7 +6,7 @@ import os
 from typing import List, Dict
 from pathlib import Path
 from datetime import datetime
-from src.config import OUTPUT_DIR
+from src.config import OUTPUT_DIR, EVALUATION_TOTAL_SCORE_GOOD_TO_USE
 
 def output_to_json(revised_questions: List[Dict]) -> str:
     """
@@ -22,8 +22,8 @@ def output_to_json(revised_questions: List[Dict]) -> str:
     timestamp = datetime.now().strftime("%Y%m%d")
     
     # Use a consistent filename that doesn't change between runs
-    good_filename = f"SAT_questions_{timestamp}.json"
-    bad_filename = "bad_sat_examples.json"
+    good_filename = f"GOOD_SAT_questions_{timestamp}_InitialTrialFor_Pronouns_Punctuation_Supporting Claims_Synthesizing_Notes_Tenses_Transition Words_Two_Passages_Word_Choice.json"
+    bad_filename = "BAD_SAT_examples.json"
     
     good_file_path = Path(OUTPUT_DIR) / good_filename
     bad_file_path = Path(OUTPUT_DIR) / bad_filename
@@ -47,7 +47,7 @@ def output_to_json(revised_questions: List[Dict]) -> str:
                 total_score += question.get("difficulty_appropriateness_rating", 0)
         
         # Categorize based on score
-        if total_score >= 21: #22 or 23 seem to be solid questions, but worth ongoing manual evaluation
+        if total_score >= EVALUATION_TOTAL_SCORE_GOOD_TO_USE: #22 or 23 seem to be solid questions, but worth ongoing manual evaluation
             good_questions.append(question)
         else:
             bad_questions.append(question)

@@ -350,6 +350,38 @@
       "explanation": "The creature's persistent attempts to connect with humanity, despite being continually rebuffed, reflect its deep longing for acceptance and companionship. Though its experiences with rejection could have discouraged it, the fact that it tries repeatedly indicates an unwavering desire to find belonging.",
       "topic": "The creature’s yearning for human connection and resilience in \"Frankenstein\"",
       "topicIndex": 7
+    },
+    
+    {
+      "skill": "Main Idea",
+      "difficulty": "Medium",
+      "question": "In the passage below, the author explores how emerging financial technology (fintech) has introduced new instruments and operating methods that threaten to change longstanding banking structures. The text explains that these innovations often bypass traditional intermediaries, attracting customers who seek faster and more flexible services. It further describes how some banks are attempting to adapt by enhancing their own digital capabilities, while others are partnering with fintech firms to retain a competitive edge. Additionally, the author notes that the rapid pace of these innovations forces banks not only to upgrade their technologies but also to rethink long-established methods of customer engagement, further complicating the traditional banking model.\n\nWhich choice best states the main idea of the passage?",
+      "choices": [
+        "A) Fintech’s rapid innovations are reshaping the banking sector’s traditional practices, leading both industry disruption and cooperative partnerships.",
+        "B) Consumers will likely reject most fintech services if large banks maintain their current technological offerings.",
+        "C) Traditional banks have completely halted all collaboration with fintech companies due to fear of competition.",
+        "D) Laws surrounding digital finance are inhibiting fintech’s growth, making its impact on banking negligible."
+      ],
+      "answer": "A",
+      "explanation": "The passage emphasizes how fintech is driving meaningful changes in conventional banking practices and prompting banks to respond with adaptations or alliances. The additional sentence adds complexity by discussing how fintech forces banks to reconsider their customer engagement strategies, further illustrating the significant impact fintech has on traditional banking models. Other choices are incorrect because they either suggest widespread consumer rejection, claim that banks have halted cooperation entirely, or state that regulatory barriers make fintech’s influence negligible—none of which is supported by the passage.",
+      "topic": "The disruptive impact of fintech on traditional banking",
+      "total_score": 23
+    },
+    
+    {
+      "skill": "Main Idea",
+      "difficulty": "Easy",
+      "question": "The following text is adapted from a historical overview of penicillin’s impact on modern medicine.\n\nPenicillin, discovered in 1928 by Alexander Fleming, revolutionized modern medicine by allowing doctors to treat bacterial infections that had previously been devastating.\nOver time, penicillin and related antibiotics drastically reduced the spread of diseases such as pneumonia and septicemia, saving many lives. However, the widespread use of these antibiotics also led to the emergence of antibiotic-resistant strains of bacteria, which have posed significant challenges for healthcare. While penicillin’s discovery fundamentally changed the treatment of bacterial infections, it also marked the beginning of a new era in medical science, wherein continuous innovation and vigilance were required to address evolving challenges.\n\nWhich choice best states the main idea of the text?",
+      "choices": [
+        "A. The development of penicillin transformed how bacterial infections are treated, greatly improving patient outcomes but also introducing new challenges.",
+        "B. Fleming’s discovery of penicillin immediately eradicated all bacterial diseases throughout the world.",
+        "C. Penicillin’s initial use was limited to treating minor infections rather than severe illnesses.",
+        "D. Other antibiotics discovered after penicillin were more important than Fleming’s original finding."
+      ],
+      "answer": "A",
+      "explanation": "The text highlights how penicillin revolutionized the treatment of bacterial infections, leading to significant improvements in health outcomes. It also introduces the associated challenge of antibiotic resistance. Option A effectively encompasses both these aspects, making it the best choice. Choice B exaggerates the impact of penicillin’s discovery by implying total eradication of bacterial diseases. Choice C contradicts the passage which mentions its role in tackling severe diseases. Choice D downplays penicillin’s significance while disregarding the implications discussed in the text.",
+      "topic": "The discovery of penicillin and its impact on medicine",
+      "total_score": 22
     }
   ]
 }

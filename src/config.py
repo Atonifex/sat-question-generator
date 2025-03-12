@@ -26,13 +26,17 @@ OUTPUT_DIR = BASE_DIR / 'output'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Question Generation Settings
-DEFAULT_NUM_QUESTIONS = 1
-VALID_DIFFICULTIES = ["Medium", "Hard"] #"Easy", 
+DEFAULT_NUM_QUESTIONS = 3
+VALID_DIFFICULTIES = ["Easy", "Medium", "Hard"] #"Easy", 
 VALID_SKILLS = [
-    'Function of Sentence', 'Inferences', 'Main Idea',
-    #,  'Pronouns and Modifiers', 'Punctuation', 'Referencing Data', 'Supporting Claims', "Synthesizing Notes", 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice',
+    #'Function of Sentence', 'Inferences', 'Main Idea', #as of 3/12 at 3:22, THIS PROGRAM FUCKING WORKS! THESE QUESTIONS ARE GREAT! GENERATE AWAY BABY!!!
+    'Pronouns and Modifiers', 'Punctuation', 'Supporting Claims', "Synthesizing Notes", 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice',
+    #'Referencing Data', #no clue how I'm going to do this one...I'll need generated tables, graphs, or pictures.
     #'Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 'Exponential Word Problems', 'Geometry', 'Interpreting Graphs', 'Linear Equations', 'Linear Word Problems', 'Inequality Word Problems', 'Percent', 'Polynomial Expressions', 'Probability', 'Quadratic Equations', 'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
 ]
+
+EVALUATION_TOTAL_SCORE_GOOD_TO_USE = 24 #affects both reviser and output_to_json, so better to change here.
+#I think 24 is pretty strict (23 is probably good, maybe even 22, but for new ones, I'd rather create more and disqualify more so I can have a higher level of quality control!)
 
 VALID_TOPICS = [
 

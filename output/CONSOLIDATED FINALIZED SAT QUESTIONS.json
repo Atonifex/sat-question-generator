@@ -1384,6 +1384,66 @@
         "answer": "C",
         "explanation": "The creature's persistent attempts to connect with humanity, despite being continually rebuffed, reflect its deep longing for acceptance and companionship. Though its experiences with rejection could have discouraged it, the fact that it tries repeatedly indicates an unwavering desire to find belonging.",
         "topic": "The creature’s yearning for human connection and resilience in \"Frankenstein\"" 
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Medium",
+        "question": "In this excerpt from *The Strange Case of Dr. Jekyll and Mr. Hyde*, Dr. Jekyll reflects on his ethical struggles:  \n\n\"I found my strength in the pursuit of scientific truth, but at the cost of the inner light that once guided my moral choices. As the experiments progressed, I felt a creeping decay of the principles I once held dear, and every step toward discovery seemed to push me further from the man I used to be.\"  \n\nBased on the excerpt and the overall narrative of the novel, which inference about Dr. Jekyll's moral conflict is best supported?",
+        "choices": [
+          "A. Dr. Jekyll carefully safeguards his moral convictions above all other pursuits.",
+          "B. Dr. Jekyll's desire for scientific achievement overshadows his moral responsibilities.",
+          "C. Dr. Jekyll's colleagues fully approve of the ethical boundaries he crosses.",
+          "D. Dr. Jekyll's experiments prove the harmony between personal ethics and scientific discovery."
+        ],
+        "answer": "B",
+        "explanation": "Dr. Jekyll's inner confession reveals that his pursuit of scientific truth leads him to abandon the moral principles that once defined him. This indicates that his ambition for discovery gradually erodes his ethical standards, supporting choice (B).\\n\\nChoice (A) is incorrect because the passage explicitly shows his moral convictions fading.\\n\\nChoice (C) is unsupported as the text makes no mention of his colleagues' opinions.\\n\\nFinally, choice (D) is ruled out because the tragic consequences and the decay of his inner light indicate a profound moral discord rather than harmony.",
+        "topic": "The conflict between science and morality in Dr. Jekyll and Mr. Hyde",
+        "total_score": 22
+      },
+      {
+        "skill": "Main Idea",
+        "difficulty": "Hard",
+        "question": "The following passage discusses an important milestone in the civil rights movement and its broader societal implications:\n\nMany historians have asserted that the Voting Rights Act of 1965 catalyzed a paradigmatic shift within the civil rights movement, fundamentally reconfiguring the sociopolitical landscape. While prior legislation predominantly sought to dismantle de jure segregation and overt discrimination, the 1965 Act specifically targeted systemic barriers, including literacy tests and poll taxes, that disproportionately disenfranchised African American voters. This legislative intervention not only facilitated a surge in voter registration and political participation among marginalized communities—it also heralded broader societal reforms by fostering more equitable representation. Nevertheless, some critics argue that new forms of subtle voter suppression emerged in subsequent decades, subtly undermining some of the progress gained during the immediate aftermath of the Act’s passage.\n\nWhich choice best states the main idea of the passage?",
+        "choices": [
+          "A) It critiques the effectiveness of subsequent federal measures addressing voting rights.",
+          "B) It outlines how the Voting Rights Act of 1965 catalyzed significant civic engagement and promoted institutional equity.",
+          "C) It emphasizes the historical challenges faced in dismantling systemic discrimination in voter access.",
+          "D) It explains how progress made by the Voting Rights Act of 1965 was later undermined by persistent societal inequities."
+        ],
+        "answer": "B",
+        "explanation": "The passage highlights the Voting Rights Act of 1965 as a transformative measure that dismantled systemic barriers to voter participation, leading to expanded civic engagement and societal reforms, which aligns with choice B. While acknowledging subsequent challenges, the passage’s focus is on the Act’s positive impacts. Choice A misplaces the emphasis on criticism of later measures, C broadly contextualizes voting rights without pinpointing the Act’s actions, and D overemphasizes later criticism at the expense of the Act’s achievements.",
+        "topic": "The civil rights movement and the impact of the Voting Rights Act of 1965",
+        "total_score": 24
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Easy",
+        "question": "Researchers exploring the Pygmalion effect in education note that when teachers hold high expectations for certain students, those students often demonstrate improvements beyond initial predictions. Additional observations from the study indicated that classrooms where teachers conveyed confidence in their students' abilities showed not only higher test scores but also increased classroom participation. These findings suggest that the positive expectations set by teachers are internalized by students, affecting both academic outcomes and social behaviors.\n\nWhich conclusion about the Pygmalion effect is most strongly supported by the information in the text?",
+        "choices": [
+          "A. Students who already perform well may sometimes experience smaller observable gains, even when teachers hold high expectations.",
+          "B. Teachers who use constructive feedback rather than strict criticism create larger improvements in their students.",
+          "C. Increased parental involvement mirrors the motivation promoted by teacher expectations.",
+          "D. When students sense teachers expect them to excel, they are more likely to improve their performance."
+        ],
+        "answer": "D",
+        "explanation": "The expanded passage provides evidence suggesting that teacher expectations influence students' internal beliefs and behaviors, resulting in improved academic and social outcomes. Thus, Option D directly connects to the text's discussion of how the Pygmalion effect operates in educational settings. Option A introduces the concept of diminishing returns or ceiling effects, which is neither directly addressed nor implied. Option B introduces feedback methods not mentioned in the study's findings. Option C diverges into parental roles, which are unrelated to the information provided.",
+        "topic": "The Pygmalion Effect and self-fulfilling prophecies in education",
+        "total_score": 21
+      },
+      {
+        "skill": "Inferences",
+        "difficulty": "Hard",
+        "question": "In an essay, a writer explores existentialist principles, particularly the paradox of personal freedom. According to the essay, existentialism posits that individuals are liberated from externally imposed meanings or predetermined destinies, but this liberation comes with the responsibility of defining one's own essence. The essay continues to discuss how this responsibility can evoke both a sense of empowerment and an overwhelming burden. Furthermore, the writer suggests that the absence of a universal moral framework inherent in existentialism may lead to feelings of profound isolation, though it also opens possibilities for authentic self-expression.\n\nWhich inference about existentialism is most strongly supported by the writer’s discussion?",
+        "choices": [
+          "A) The emphasis on freedom in existentialism alleviates individuals from dealing with life's ambiguities.",
+          "B) Existentialism challenges individuals to balance the empowering aspects of freedom with the isolation it may engender.",
+          "C) Existentialist thought assumes universal values that guide individuals towards resolutions of existential dilemmas.",
+          "D) By neglecting notions of personal freedom, existentialism focuses on collective societal behaviors."
+        ],
+        "answer": "B",
+        "explanation": "The passage elaborates on existentialism's emphasis on freedom paired with the accompanying responsibility of self-definition. While freedom is empowering, it is also linked to existential weight, such as isolation and the lack of external guidelines. Choice A misrepresents existentialism as simplifying life's uncertainties, and choice C contradicts existentialism's rejection of predefined universal values. Choice D inaccurately implies that existentialist thought dismisses personal freedom entirely. Only choice B accurately reflects the nuanced examination in the essay, portraying the interplay between freedom and isolation.",
+        "topic": "The dual nature of freedom in existentialist philosophy",
+        "total_score": 25
       }
     ]
   }
