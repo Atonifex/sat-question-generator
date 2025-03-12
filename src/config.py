@@ -29,10 +29,10 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 DEFAULT_NUM_QUESTIONS = 3
 VALID_DIFFICULTIES = ["Easy", "Medium", "Hard"] #"Easy", 
 VALID_SKILLS = [
-    #'Function of Sentence', 'Inferences', 'Main Idea', #as of 3/12 at 3:22, THIS PROGRAM FUCKING WORKS! THESE QUESTIONS ARE GREAT! GENERATE AWAY BABY!!!
-    'Pronouns and Modifiers', 'Punctuation', 'Supporting Claims', "Synthesizing Notes", 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice',
+    'Pronouns and Modifiers', 'Punctuation', 'Supporting Claims', "Synthesizing Notes", 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice'
     #'Referencing Data', #no clue how I'm going to do this one...I'll need generated tables, graphs, or pictures.
     #'Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 'Exponential Word Problems', 'Geometry', 'Interpreting Graphs', 'Linear Equations', 'Linear Word Problems', 'Inequality Word Problems', 'Percent', 'Polynomial Expressions', 'Probability', 'Quadratic Equations', 'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
+    #'Function of Sentence', 'Inferences', 'Main Idea', #as of 3/12 at 3:22, THIS PROGRAM FUCKING WORKS! THESE QUESTIONS ARE GREAT! GENERATE AWAY BABY!!!
 ]
 
 EVALUATION_TOTAL_SCORE_GOOD_TO_USE = 24 #affects both reviser and output_to_json, so better to change here.

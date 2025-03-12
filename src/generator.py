@@ -45,7 +45,7 @@ class QuestionGenerator:
     
     def generate_question(self, skill: str, difficulty: str, topic: str = None) -> Dict:
         """Generate a single SAT question using OpenAI."""
-        print(f"Inside generate_question, using topic: {topic}")
+        #print(f"Inside generate_question, using topic: {topic}")
         try:
             #print(f"Generating {difficulty} {skill} question...")
 
@@ -63,7 +63,7 @@ class QuestionGenerator:
 
             # Format examples for inclusion in the prompt
             examples_text = "\n\n".join(
-                f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex['explanation']}"
+                f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex.get('explanation', 'No explanation provided')}"
                 for i, ex in enumerate(examples)
             )
                 
@@ -118,25 +118,50 @@ class QuestionGenerator:
                 ]
             )
             
-            # Parse the response, doubly ensure it's valid JSON
-            response_data = json.loads(response.choices[0].message.content)
-            questions = response_data.get("questions", [])
+            # Debug the API response
+            print(f"API Response Content: {response.choices[0].message.content}")
             
-            if not questions:
-                print("No questions found in response")
+            try:
+                response_data = json.loads(response.choices[0].message.content)
+                print(f"Parsed Response Data: {response_data}")
+                
+                questions = response_data.get("questions", [])
+                print(f"Questions from Response: {questions}")
+                
+                if not questions:
+                    print("No questions found in response")
+                    return None
+                
+                question_data = questions[0]
+                print(f"Question Data Keys: {question_data.keys()}")
+                
+                # Force the correct difficulty level
+                if question_data.get('difficulty') != difficulty:
+                    print(f"Warning: Generated question had difficulty '{question_data.get('difficulty')}' instead of requested '{difficulty}'. Correcting.")
+                    question_data['difficulty'] = difficulty
+                
+                preview = (question_data.get('question', '') or '')[:30]
+                #print(f"Generated question: {preview}")
+                
+                # Check if required fields exist
+                required_fields = ['question', 'choices', 'answer', 'explanation']
+                for field in required_fields:
+                    if field not in question_data:
+                        print(f"Error: '{field}' missing from generated question")
+                        # Add default values for missing fields
+                        if field == 'explanation':
+                            question_data['explanation'] = "No explanation provided."
+                        elif field == 'choices':
+                            question_data['choices'] = ["A. No choices provided.", "B. No choices provided.", 
+                                                       "C. No choices provided.", "D. No choices provided."]
+                        elif field == 'answer':
+                            question_data['answer'] = "A"
+                
+                return question_data
+            except Exception as e:
+                print(f"Error parsing response: {e}")
+                print(f"Raw response: {response.choices[0].message.content}")
                 return None
-            
-            question_data = questions[0]
-            
-            # Force the correct difficulty level
-            if question_data.get('difficulty') != difficulty:
-                print(f"Warning: Generated question had difficulty '{question_data.get('difficulty')}' instead of requested '{difficulty}'. Correcting.")
-                question_data['difficulty'] = difficulty
-            
-            preview = (question_data.get('question', '') or '')[:30]
-            #print(f"Generated question: {preview}")
-            
-            return question_data
             
         except Exception as e:
             print(f"Error generating question: {e}")
