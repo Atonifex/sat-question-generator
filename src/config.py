@@ -3,7 +3,6 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from question_topics import literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, famousBiographies, modernTopicsAndFun
 #import question_topics #This just takes everything, but then everything must be referenced with question_topics.literatureTopics[0], etc.
 # Load environment variables
 load_dotenv()
@@ -170,10 +169,9 @@ RESPONSE_FORMAT = {
                                 "description": "The idea to write about within question-topics"
                             },
                             "topicIndex": {
-                                "type": "number"
+                                "type": "number",
                                 "description": "Which number in question-topics.py within the topic that the SAT question idea came from."
                             }
-
                         },
                         "required": [
                             "skill",

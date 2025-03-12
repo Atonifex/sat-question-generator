@@ -42,11 +42,13 @@ def main():
                     if topicChoice % len(topics) == 0:
                         topicChoice = 0
                         topicIndex += 1
-                    print(f"Generating {difficulty} {skill} question on topic {topicIndex}")
+                    print(f"Generating {difficulty} {skill} question on topic {topicChoice[topicIndex]}")
                     questions = generator.generate_batch(skill, difficulty, 1, topics[topicChoice][topicIndex])  # Pass the current topic
                     
                     revised_questions = reviser.revise_batch(questions)
+
                     output_to_json(revised_questions)
+
                     print(f"FINISHED generating and revising {len(revised_questions)} questions for {difficulty} {skill}")
                     topicChoice += 1
                 except Exception as e:
