@@ -35,7 +35,7 @@ VALID_SKILLS = [
     #'Function of Sentence', 'Inferences', 'Main Idea', #as of 3/12 at 3:22, THIS PROGRAM FUCKING WORKS! THESE QUESTIONS ARE GREAT! GENERATE AWAY BABY!!!
 ]
 
-EVALUATION_TOTAL_SCORE_GOOD_TO_USE = 24 #affects both reviser and output_to_json, so better to change here.
+EVALUATION_TOTAL_SCORE_GOOD_TO_USE = 23 #affects both reviser and output_to_json, so better to change here.
 #I think 24 is pretty strict (23 is probably good, maybe even 22, but for new ones, I'd rather create more and disqualify more so I can have a higher level of quality control!)
 
 VALID_TOPICS = [
