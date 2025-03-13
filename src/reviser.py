@@ -25,11 +25,9 @@ class QuestionReviser:
     def revise_batch(self, questions: List[Dict]) -> List[Dict]:
         revised_questions = []
         for i, question in enumerate(questions):
-            #STEP 1: print(f"Revising question {i+1} of {len(questions)}")
             feedback = self.perform_quality_checks(question)
             print(f"Feedback in reviser.py's revise_batch: {feedback}")
 
-            #STEP 2:Apply revisions to the question
             revised_question = self.apply_revisions(question, feedback)
             if revised_question:
                 print(f"Revised Question {i+1} of {len(questions)}") #Use this to show teh quetsion itself. {revised_question}
@@ -142,7 +140,8 @@ class QuestionReviser:
                      3. Is there exactly one correct answer with 3 plausible but incorrect choices?
                      4. Does the explanation align with the correct answer, and would it be actually educational and insightful to a high school student? If not, what would improve it? Consider SAT tips, strategies, or core knowledge to impart quickly. Generally the first sentence should be succinct in explaining the core reasoning, with the next 1-2 sentences expanding on it or modeling steps in logical thinking or Math. Finally, 1-2 sentences can explain why the incorrect answers are wrong.
                      5. Is the formatting correct? For example, the spacing between paragraphs should be \\n\\n, but there should be no \\n between sentences in a continuous paragraph; confirm that Math expressions use LaTeX with "$" before and after math expressions.
-                     6. Does the question align with the {difficulty} difficulty specified in the guidelines? IF not, change the 'difficulty' in the JSON output to {difficulty}, and adjust complexity of language and reasoning to match. Reference the skill guidelines here: {skill_guidelines}. Now also reference the difficulty guidelines here to ensure the perceived difficulty of the question is indeed {difficulty}:{difficulty_guidelines}
+                     6. Does the question align with the {difficulty} difficulty specified in the guidelines? IF not, change the 'difficulty' in the JSON output to {difficulty}, and adjust complexity of language and reasoning to match. 
+                     7. Reference the skill guidelines here: {skill_guidelines}. The question style MUST test the '{skill}' skill; if it doesn't you should adjust the format of the question and answer choices to reflect the directions in the skill guidelines and in the examples provided below.
                     
                     For reference, here are a few example {skill} questions at varying difficulties:
                     {examples_text}
