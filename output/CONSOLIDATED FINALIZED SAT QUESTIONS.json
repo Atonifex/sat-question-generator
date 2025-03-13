@@ -1444,6 +1444,268 @@
         "explanation": "The passage elaborates on existentialism's emphasis on freedom paired with the accompanying responsibility of self-definition. While freedom is empowering, it is also linked to existential weight, such as isolation and the lack of external guidelines. Choice A misrepresents existentialism as simplifying life's uncertainties, and choice C contradicts existentialism's rejection of predefined universal values. Choice D inaccurately implies that existentialist thought dismisses personal freedom entirely. Only choice B accurately reflects the nuanced examination in the essay, portraying the interplay between freedom and isolation.",
         "topic": "The dual nature of freedom in existentialist philosophy",
         "total_score": 25
+      },
+      {
+        "skill": "Supporting Claims",
+        "difficulty": "Easy",
+        "question": "Celie develops from a timid presence to a more assured individual in Alice Walker's *The Color Purple*, largely by forging supportive connections and discovering her own sense of value.\n\nWhich choice best supports the claim that Celie's personal letters reflect her growing self-confidence over time?",
+        "choices": [
+          "A) In several letters, Celie admits her fear of expressing her true opinions to her husband and hides her thoughts to keep peace in the household.",
+          "B) Early in the novel, Celie writes about her concern that sharing her troubles with Nettie will reveal too many painful secrets.",
+          "C) Throughout the story, Celie mentions how Shug Avery's encouragement and influence help her gain confidence.",
+          "D) Near the end of the novel, Celie's letters reveal a forthright and unwavering tone, making clear that she will no longer keep her thoughts to herself."
+        ],
+        "answer": "D",
+        "explanation": "Choice D offers the strongest evidence that Celie is claiming her own voice and no longer concealing her thoughts. The other choices reference Celie's circumstances or the influence of others but do not highlight her personal shift to a more assured and outspoken tone. Her letters near the end of the novel plainly reveal her rising sense of self-worth and determination to assert herself.",
+        "topic": "Celie’s journey to self-empowerment in *The Color Purple*",
+        "total_score": 25,
+        "topic_list_name": "literatureTopics",
+        "topic_index": 7
+      },
+      {
+        "skill": "Word Choice",
+        "difficulty": "Easy",
+        "question": "During the Industrial Revolution, the swift adoption of innovative manufacturing technologies, which led to significant reorganization and expansion of urban areas, ________ thousands of people to migrate from rural regions to bustling industrial cities.\n\nWhich choice best completes the sentence in a way that supports the idea of how the Industrial Revolution influenced urbanization and labor?",
+        "choices": [
+          "A) limited",
+          "B) prompted",
+          "C) diverted",
+          "D) discouraged"
+        ],
+        "answer": "B",
+        "explanation": "Choice B, \"prompted,\" is the correct answer as it captures the causal relationship between the advent of new technologies and the substantial movement of rural populations to cities. The word 'prompted' conveys that these technological innovations encouraged or caused such migration, in accordance with historical trends of increased urbanization during the Industrial Revolution. Option A, \"limited,\" incorrectly implies a restriction on movement, which contradicts the mass migration observed. Option C, \"diverted,\" suggests a redirection away from urban centers, which is not supported by historical context. Option D, \"discouraged,\" implies a reduction or restraint in migration, which is also inconsistent with the documented rural-to-urban shift. Analysis of each choice helps rule out the distractors, affirming that 'prompted' aligns with the context.",
+        "topic": "The impact of the Industrial Revolution on urbanization and labor",
+        "total_score": 26,
+        "topic_list_name": "historyTopics",
+        "topic_index": 7
+      },
+      {
+        "skill": "Supporting Claims",
+        "difficulty": "Easy",
+        "question": "A local newspaper editorial endorses the Broken Windows Theory, arguing that quickly repairing vandalized property and removing graffiti can help reduce more severe crimes.\n\nWhich sentence, if added to the editorial, would best support its claim that immediate corrective measures deter serious offenses in neighborhoods?\n\n",
+        "choices": [
+          "A. Municipal spending on public infrastructure projects often outweighs funding allocated to law enforcement.",
+          "B. Research indicates that addressing smaller offenses may unintentionally target lower-income residents disproportionately.",
+          "C. Statistical analysis reveals that neighborhoods consistently repairing vandalism and graffiti experienced a 15% drop in burglary rates.",
+          "D. Community watch programs emphasize standards for neighborhood safety, including protocols for calling authorities."
+        ],
+        "answer": "C",
+        "explanation": "The correct answer, C, connects immediate actions like repairing vandalism to verified reductions in crime rate, directly supporting the Broken Windows Theory. While other options discuss aspects of crime prevention, they do not provide clear evidence backing the editorial’s specific claim.",
+        "topic": "The Broken Windows Theory and crime prevention strategies",
+        "total_score": 27,
+        "constructive_feedback": "The question is clearly written, logically sound, and well-aligned with SAT standards. It presents a real-world scenario (the editorial endorsing the Broken Windows Theory) and asks students to identify an evidence-based sentence that supports the claim. The answer choices are plausible, with one clearly standing out. The explanation effectively clarifies why choice C is the best answer, using the evidence provided in the study. To improve further, consider slight refinements to ensure all answer choices are uniformly challenging and perhaps emphasize the connection between immediate corrective actions and crime reduction to leave no ambiguity.",
+        "difficulty_feedback": "The question matches the labeled 'Easy' difficulty. It requires a single-step reasoning process, as students only need to identify which sentence directly supports the claim with relevant statistical evidence. The context is familiar and the task straightforward. To fine-tune, ensure that the distractors are as clearly unrelated to the 'immediate corrective actions' as the correct option is linked, which would maintain the integrity of the easy difficulty categorization.",
+        "topic_list_name": "socialScienceTopics",
+        "topic_index": 7
+      },
+      {
+        "skill": "Supporting Claims",
+        "difficulty": "Easy",
+        "question": "An essay discussing how digital advertising transformed modern marketing includes the following statements:\n\n(1) \"Brands can instantly track how audiences interact with online promotions.\"\n(2) \"Print campaigns usually require significant setup time before results can be assessed.\"\n(3) \"Television advertisements often focus on a broad audience with limited targeting options.\"\n(4) \"The use of digital tools allows businesses to tailor campaigns for niche markets.\"\n\nWhich statement from the essay best supports the conclusion that digital advertising fosters immediate consumer engagement?",
+        "choices": [
+          "Statement (1)",
+          "Statement (2)",
+          "Statement (3)",
+          "Statement (4)"
+        ],
+        "answer": "Statement (1)",
+        "explanation": "To determine which statement best supports the conclusion about immediate consumer engagement, we analyze the content of each statement:\n\n- **Statement (1):** \"Brands can instantly track how audiences interact with online promotions.\" This directly supports the idea of immediacy, as it mentions the ability to track reactions instantly.\n- **Statement (2):** Refers to print campaigns, which usually involve delays in obtaining results, and thus does not support immediacy.\n- **Statement (3):** Discusses broad targeting in television advertisements, which is unrelated to immediate engagement.\n- **Statement (4):** Highlights the use of digital tools for tailoring campaigns, which pertains to customization rather than immediacy.\n\nTherefore, the correct answer is \"Statement (1),\" as it explicitly mentions the instant tracking of audience interactions, crucial for fostering immediate consumer engagement.",
+        "topic": "How digital advertising transformed modern marketing",
+        "total_score": 25,
+        "constructive_feedback": "The question is clearly written, logically structured, and aligns well with SAT reading comprehension tasks, especially for supporting claims. The statements are distinct and the correct answer is justified by the direct reference to immediacy in tracking, which is central to the conclusion. However, the explanation could be improved by explicitly eliminating each of the other answer choices in more detail, which would help students understand why they are less relevant. Additionally, consider unifying the format of the answer (using either the letter 'A' or 'Statement (1)') for consistency.",
+        "difficulty_feedback": "For an easy-level question, the prompt requires a single-step reasoning process using familiar concepts (digital advertising versus traditional media). The scenario is relatable, and the reasoning needed is straightforward. To maintain its suitability, ensure that the language remains simple and that the distractors clearly do not support immediate engagement. This keeps the question accessible to students scoring in the 400–600 range on the SAT.",
+        "topic_list_name": "businessTechnologyTopics",
+        "topic_index": 7
+      },
+      {
+        "skill": "Supporting Claims",
+        "difficulty": "Easy",
+        "question": "Coco Chanel is widely regarded as an influential figure in early 20th-century women’s fashion. Prior to her emergence, women’s clothing was characterized by elaborate designs, restrictive fabrics, and tight corseting that limited movement and reinforced traditional social roles. Chanel revolutionized the industry by introducing comfortable jersey garments, more relaxed silhouettes, raised hemlines, and sleek, simple designs. These innovations not only offered women greater freedom of movement but also subtly challenged the era’s rigid social norms by encouraging practicality and confidence in everyday dress.\n\nWhich choice best supports the statement that Coco Chanel’s designs marked a significant transformation in women’s fashion?",
+        "choices": [
+          "A. Chanel’s designs for travel clothes, featuring jersey fabric, offered stylish practicality and a departure from unnecessary opulence.",
+          "B. Chanel’s relaxed silhouettes and jersey garments liberated women from tight corseting, allowing for greater comfort and challenging traditional norms.",
+          "C. Chanel’s early career involved creating hats and accessories that catered to both aristocrats and actresses.",
+          "D. Chanel’s fragrance line became a worldwide success, often paired with her minimalist clothing designs."
+        ],
+        "answer": "B",
+        "explanation": "Chanel’s major impact on women’s fashion lies in her emphasis on casual elegance and design innovations that prioritized freedom and practicality. Answer B effectively explains this by highlighting how her jersey garments and relaxed silhouettes replaced restrictive corsets, symbolizing both a social and practical shift. The other options, while related to Chanel’s achievements, do not directly and fully exemplify the transformative nature of her contributions to women’s fashion norms.",
+        "topic": "The fashion revolution of Coco Chanel",
+        "total_score": 24,
+        "constructive_feedback": "The question is clearly written, aligns well with SAT standards, and effectively asks students to identify text evidence supporting a specific claim about Chanel’s innovations. The answer choices are generally well structured, with one choice clearly supported by the passage. However, the distractors (choices A, C, and D) could be made slightly more plausible to increase the challenge for medium-level students. In addition, refining wording in a couple of choices to reflect subtler aspects of fashion innovation might strengthen the critical reasoning aspect.",
+        "difficulty_feedback": "The question meets the medium difficulty criteria by requiring students to synthesize information from a longer passage and evaluate evidence. It involves multi-step reasoning and includes several distractors. To further align with the medium difficulty level, consider enhancing the plausibility of at least one incorrect answer so that students must work a bit harder to dismiss it, rather than immediately recognizing the correct support.",
+        "topic_list_name": "artMusicFilmSportsTopics",
+        "topic_index": 7
+      },
+      {
+        "skill": "Word Choice",
+        "difficulty": "Easy",
+        "question": "Throughout his extensive expeditions across Asia, Marco Polo not only encountered a multitude of diverse communities but also took careful notes on their customs, traditions, and daily life. His detailed travel writings offered Europe an unprecedented window into cultures that had been little known until then. By blending factual observation with thoughtful description, his accounts helped bridge cultural gaps and fostered a more nuanced understanding of distant societies. \n\nIn doing so, Marco Polo carefully ________ the lifestyles and practices he encountered, providing his readers with insights into these diverse ways of life.\n\nWhich choice best completes the sentence with precise and appropriate diction?",
+        "choices": [
+          "A. exaggerated",
+          "B. documented",
+          "C. popularized",
+          "D. misrepresented"
+        ],
+        "answer": "B",
+        "explanation": "Choice B is correct because \"documented\" accurately describes the act of recording and describing the customs and practices in a detailed and neutral manner, which aligns with Marco Polo's role as a traveler and chronicler. \"Exaggerated\" and \"misrepresented\" imply inaccuracies not suggested by his travel writings, while \"popularized\" suggests promotion beyond observing and describing. Thus, \"documented\" best fits the context.",
+        "topic": "The exploration and expeditions of Marco Polo",
+        "total_score": 24,
+        "constructive_feedback": "The question is well-crafted with clear historical context and a logical structure that mirrors SAT word-choice questions. The answer choices are plausible, and the explanation does a good job of comparing each option with reference to the passage. To further polish the item, consider slightly extending the passage to reach or exceed the 90-word guideline for medium-difficulty questions. Additionally, you might introduce a bit more nuance in the distractors so that the incorrect choices seem even more tempting, which would require students to engage in more layered reasoning.",
+        "difficulty_feedback": "The question fits the medium difficulty label as it requires students to carefully read and interpret the passage, then eliminate choices that do not precisely match the context. However, increasing the text length and adding subtler traps in the choices would reinforce the multi-step reasoning expected of Medium-difficulty SAT items.",
+        "topic_list_name": "famousBiographies",
+        "topic_index": 7
+      },
+      {
+        "skill": "Word Choice",
+        "difficulty": "Easy",
+        "question": "Solomon Asch’s renowned experiment examining group dynamics discovered that individuals often felt ________ to align their responses with those of the majority, even when the group’s answers were clearly incorrect.\n\nWhich choice best completes the sentence with the most precise language reflecting the subtle pressure exerted by social influences?",
+        "choices": [
+          "A. convinced",
+          "B. compelled",
+          "C. constrained",
+          "D. confounded"
+        ],
+        "answer": "B",
+        "explanation": "\"Compelled\" accurately reflects the idea that participants in Asch’s experiment felt a strong, though not forceful, pressure to conform to the group’s consensus. \"Convinced\" would imply belief rather than external pressure, \"constrained\" suggests a limitation or restriction rather than influence, and \"confounded\" suggests confusion, which doesn't fit the context of peer pressure.",
+        "topic": "The Asch Conformity Experiment and peer pressure",
+        "total_score": 27,
+        "constructive_feedback": "The question is well-crafted and clearly aligned with SAT word-choice standards. It provides a precise context by referencing Solomon Asch’s conformity experiment and uses answer choices that test the nuanced differences between similar vocabulary words. One minor improvement could be to consider slightly more challenging distractors or adding a note in the introduction to reinforce the connotation of pressure versus belief, though overall the design is solid.",
+        "difficulty_feedback": "The question matches its labeled 'Easy' difficulty. It requires a single-step reasoning process by selecting the word that best fits the context. The alternatives include one that is nearly plausible (convinced) along with others that are clearly off-target, which aligns with the guidelines for easy-difficulty SAT questions. No significant changes are needed for appropriateness at this level.",
+        "topic_list_name": "socialScienceTopics",
+        "topic_index": 8
+      },
+      {
+        "skill": "Transition Words",
+        "difficulty": "Easy",
+        "question": "When a company raises money by offering shares to the public for the first time, it gains funds to grow and develop. ________, this influx of capital can help open new markets and support large-scale growth.\n\nWhich choice best completes the text with the transition that logically connects the preceding statement to the idea of significant corporate growth?",
+        "choices": [
+          "A) Nevertheless",
+          "B) Consequently",
+          "C) Namely",
+          "D) Otherwise"
+        ],
+        "answer": "B",
+        "explanation": "The sentence is about how obtaining public funding enables a company to open new markets and expand significantly. As such, a transition showing a result is appropriate. \"Consequently\" (B) rightly indicates that the growth is a consequence of obtaining funds. \"Nevertheless\" (A) suggests contradiction, which isn't relevant. \"Namely\" (C) introduces further detail or examples, not results. \"Otherwise\" (D) indicates an alternate scenario, which is not the case here.",
+        "topic": "Discussing the effects of public funding on company growth",
+        "total_score": 25,
+        "constructive_feedback": "The question is well-designed and clear, with a logical transition requirement that fits the SAT style. The context of an IPO and corporate expansion is relevant and the distractors are plausible. However, since it's an 'Easy' level question, the use of relatively technical business terminology (like IPO) might slightly challenge some students. Consider simplifying or clarifying the context so that all students aiming for the target score feel comfortable with the vocabulary.",
+        "difficulty_feedback": "The question is generally aligned with an Easy difficulty level as it requires a straightforward, single-step reasoning to choose the correct transition. To further ensure appropriateness, you might consider using slightly more familiar or everyday language when referencing financial concepts, ensuring students at the lower end of the SAT scale are not hindered by unfamiliar terminology.",
+        "topic_list_name": "businessTechnologyTopics",
+        "topic_index": 8
+      },
+      {
+        "skill": "Word Choice",
+        "difficulty": "Easy",
+        "question": "Leonardo da Vinci was renowned for his exceptional ability to combine artistic creativity with scientific exploration. Whether he was analyzing the structure of the human body, imagining machines capable of flight, or enhancing painting and architectural designs, da Vinci demonstrated a(n) ________ pursuit of innovation.\\n\\nWhich choice best completes the sentence?",
+        "choices": [
+          "A) fleeting",
+          "B) misguided",
+          "C) reluctant",
+          "D) unyielding"
+        ],
+        "answer": "D",
+        "explanation": "The word 'unyielding' effectively conveys Leonardo da Vinci's persistent and determined approach toward discovering and creating new advancements. It underscores his consistent drive and refusal to give up on exploration, making it the best fit. The other options do not align with his remarkable and steadfast efforts: 'fleeting' suggests a lack of consistency, 'misguided' implies an error or misunderstanding, and 'reluctant' denotes hesitation or unwillingness—none of which describe da Vinci's innovative spirit.",
+        "topic": "The artistic and scientific ingenuity of Leonardo da Vinci",
+        "total_score": 26,
+        "constructive_feedback": "The question is clearly written, logically sound, and well-aligned with SAT Word Choice standards. The context provided by Leonardo da Vinci’s achievements makes it accessible and relatable, and the answer choices are plausible distractors. The explanation effectively highlights why 'unyielding' is correct while dismissing the other options. To improve further, consider slight refinements to the sentence flow (for example, ensuring that the phrase 'displayed a(n) unyielding search' feels as natural as possible) and perhaps adding a bit more nuance in the explanation to deepen the student’s understanding of why 'unyielding' captures persistence in context.",
+        "difficulty_feedback": "The question matches the labeled Easy difficulty well since it involves single-step reasoning and uses familiar content. The alternatives are carefully chosen, and only one step of reasoning is needed for elimination. To make it even more appropriate, ensuring that the phrasing is as natural and idiomatic as possible can help prevent any minor misinterpretation by lower-performing students.",
+        "topic_list_name": "famousBiographies",
+        "topic_index": 8
+      },
+      {
+        "skill": "Synthesizing Notes",
+        "difficulty": "Easy",
+        "question": "Below are two sets of notes about Atticus Finch’s defense of Tom Robinson in *To Kill a Mockingbird*:\n\n**Set 1:**\n\n\t- Atticus emphasizes Tom Robinson’s injured arm, suggesting he couldn’t have committed the crime as described.\n\n\t- Atticus systematically dismantles the prosecutor’s case by pointing out contradictions in their story.\n\n**Set 2:**\n\n\t- Recognizing the pervasive racial prejudice of Maycomb society, Atticus urges the jury to focus solely on evidence and discard bias.\n\n\t- He states that accurate judgment can only come from applying the law impartially regardless of societal norms.\n\nWhich conclusion best synthesizes these notes to describe Atticus Finch’s approach in defending Tom Robinson?\n\n**Choices:**\n1. He relies on reason, evidence, and an appeal to justice to illustrate Tom Robinson’s innocence while challenging the jury to rise above prejudice.\n2. He completely avoids addressing societal biases in Maycomb, focusing only on legal technicalities.\n3. He focuses on the emotional appeal of Tom Robinson's plight and prevailing injustices but avoids a direct critique of the evidence.\n4. He argues that prevailing town views are irrelevant, switching tactics frequently to confuse the jury.\n\n**Answer:** A\n\n**Explanation:** The first set of notes demonstrates that Atticus uses logical reasoning and factual evidence (such as highlighting Tom's injury and identifying inconsistencies in the prosecutor's arguments) to argue his case. The second set reveals his acknowledgment of societal biases and his attempt to guide the jury towards making a judgment based solely on evidence and justice, disregarding racial prejudice. This synthesis proves that Atticus’s overall strategy integrates logic, facts, and moral appeals to justice, aligning with answer **A**. Other options ignore or misinterpret his multifaceted strategy by over-emphasizing one aspect or neglecting the stated notes.",
+        "choices": [
+          "He relies on reason, evidence, and an appeal to justice to illustrate Tom Robinson’s innocence while challenging the jury to rise above prejudice.",
+          "He completely avoids addressing societal biases in Maycomb, focusing only on legal technicalities.",
+          "He focuses on the emotional appeal of Tom Robinson's plight and prevailing injustices but avoids a direct critique of the evidence.",
+          "He argues that prevailing town views are irrelevant, switching tactics frequently to confuse the jury."
+        ],
+        "answer": "A",
+        "explanation": "The first set of notes demonstrates that Atticus uses logical reasoning and factual evidence (such as highlighting Tom's injury and identifying inconsistencies in the prosecutor's arguments) to argue his case. The second set reveals his acknowledgment of societal biases and his attempt to guide the jury towards making a judgment based solely on evidence and justice, disregarding racial prejudice. This synthesis proves that Atticus’s overall strategy integrates logic, facts, and moral appeals to justice, aligning with answer **A**. Other options ignore or misinterpret his multifaceted strategy by over-emphasizing one aspect or neglecting the stated notes.",
+        "topic": "Atticus Finch’s defense of Tom Robinson in *To Kill a Mockingbird*",
+        "total_score": 24,
+        "constructive_feedback": "The question is well-structured and clearly aligns with the SAT 'Synthesizing Notes' format. It provides two sets of notes that students can combine to understand Atticus Finch’s approach, and the answer choices are distinct and plausible. To improve the question further, consider clarifying how each note (for example, emphasizing Tom Robinson’s injured limb) directly contributes to the reasoning behind Atticus’s defense. Also, the explanation could benefit from a brief discussion of why the other options fail to synthesize both sets of notes effectively.",
+        "difficulty_feedback": "The question appropriately matches an 'Easy' difficulty level. It requires a straightforward synthesis of information from two sets of notes, and the context (a well-known literary work) is familiar to many students. To further tailor the difficulty, ensure that the distractors are clearly off-target but still plausible, so that they guide students' attention to the precise synthesis needed for the correct answer.",
+        "topic_list_name": "literatureTopics",
+        "topic_index": 9
+      },
+      {
+        "skill": "Synthesizing Notes",
+        "difficulty": "Medium",
+        "question": "While studying the Treaty of Versailles and its role in shaping the political atmosphere leading to World War II, a student has taken the following notes:\n\n• One historian observed that the Treaty of Versailles imposed severe economic hardships on Germany, fostering national resentment and a desire to reclaim lost pride.\n\n• Another historian pointed out that the treaty placed unrealistic and humiliating demands on Germany, leading to widespread feelings of betrayal and a strong drive to overturn its provisions.\n\nThe student wants to synthesize these historical perspectives to explain the treaty's effect on Germany and its political trajectory in the interwar period. Which statement best synthesizes these views?",
+        "choices": [
+          "The treaty’s imposition of reparations caused only limited resentment because its political effects were neutralized by later agreements.",
+          "Germany was deeply affected by a combination of economic and psychological impacts from the treaty, fueling support for leaders who promised to restore national pride.",
+          "The treaty itself was not as important in the narrative as Germany’s internal policies which created sustained resentment.",
+          "Germany accepted the treaty’s terms, but regional instability heightened their negative consequences over time."
+        ],
+        "answer": "B",
+        "explanation": "Both historians emphasize the combination of economic strain and emotional humiliation inflicted by the Treaty of Versailles on Germany. By synthesizing these views, we see that these dual pressures created a climate of resentment and betrayal, leading many Germans to rally behind leaders who promised to undo the treaty and restore national pride. The correct synthesis recognizes these intertwined effects and their contribution to Germany's political trajectory during the interwar period.",
+        "topic": "The role of the Treaty of Versailles in shaping World War II",
+        "total_score": 24,
+        "constructive_feedback": "The question is clearly written and logically structured. It effectively requires students to synthesize two historical perspectives into a single coherent statement and aligns well with typical SAT synthesizing notes questions. The answer choices are mostly implausible except for option D, which is correct, though they could be refined to include one or two distractors that are slightly more tempting. The explanation successfully outlines the reasoning behind why the economic and emotional impacts combine to produce political change, but it could be improved by elaborating further on how each note contributes to that synthesis.",
+        "difficulty_feedback": "The question meets the medium-difficulty criteria by requiring multi-step reasoning and synthesis of two nuanced historical viewpoints. To further align it with the medium level, consider revising some of the distractors so they are less obviously incorrect and force test-takers to analyze the information more deeply before dismissing them.",
+        "topic_list_name": "historyTopics",
+        "topic_index": 9
+      },
+      {
+        "skill": "Transition Words",
+        "difficulty": "Medium",
+        "question": "In today’s competitive job market, many organizations are striving to eliminate personal biases in the hiring process. Some experts argue that standardized evaluation procedures not only lessen the influence of unconscious biases on hiring decisions but also foster a fairer, more objective review of candidates. By requiring reviewers to focus solely on explicit criteria rather than subjective impressions, these systems help ensure that hiring outcomes are based on measurable qualifications rather than stereotypes. ________ these procedures rigorously direct reviewers’ attention to concrete criteria, they effectively counteract the sway of implicit bias.\n\nWhich choice most effectively completes the sentence with an appropriate transition?",
+        "choices": [
+          "A) For instance,",
+          "B) Because",
+          "C) In contrast,",
+          "D) Nevertheless,"
+        ],
+        "answer": "B",
+        "explanation": "The correct transition word is 'Because' (choice B), as it accurately reflects the cause-and-effect relationship between the procedures requiring focus on concrete criteria and their ability to counteract implicit bias. Each incorrect choice misrepresents this relationship. 'For instance' (choice A) suggests an example but does not establish causation. 'In contrast' (choice C) implies a comparison that is irrelevant. 'Nevertheless' (choice D) incorrectly conveys an unexpected result, which clashes with the logical progression of the ideas discussed.",
+        "topic": "The effects of implicit bias on decision-making",
+        "total_score": 24,
+        "constructive_feedback": "The question is well constructed and clearly aligned with SAT transition word exercises. It provides a solid context and presents several plausible distractors, ensuring that students must apply their understanding of cause‐and‐effect relationships. One area to improve is the sentence structure around the blank. The current phrasing could be slightly reworded to make it even clearer how the inserted word functions grammatically (e.g., by explicitly forming a subordinate clause). Enhancing the explanation to break down why each wrong option fails in more detail would further support student learning.",
+        "difficulty_feedback": "The question matches the labeled medium difficulty well. It provides a multi-step reading task with plausible distractors and requires combining contextual clues with an understanding of transitional wording. To fine-tune the difficulty, consider introducing a subtler trap or adjusting the sentence complexity slightly, ensuring that students need to carefully analyze both meaning and structure when choosing the answer.",
+        "topic_list_name": "socialScienceTopics",
+        "topic_index": 9
+      },
+      {
+        "skill": "Supporting Claims",
+        "difficulty": "Easy",
+        "question": "Historians often cite Martin Luther King Jr.'s use of media-covered, nonviolent demonstrations to illustrate how he advanced the civil rights movement. In one analysis, a historian argues: 'By leveraging peaceful demonstrations and their media coverage, Martin Luther King Jr. successfully spotlighted racially unjust laws and galvanized public efforts for reform.'\n\nWhich choice provides the strongest support for this analysis?",
+        "choices": [
+          "A. Mentioning King's dedication to his studies at Morehouse College",
+          "B. Listing diverse religious figures who influenced King's spiritual life",
+          "C. Describing King's global travel to attend various peace conferences",
+          "D. Explaining how televised coverage of specific protests stirred widespread public outrage"
+        ],
+        "answer": "D",
+        "explanation": "The correct answer is D because it addresses the combined focus of King's peaceful methods and media exposure—specifically televised coverage of protests stirring societal outrage, fully contextualizing how nonviolent protests linked directly to calls for action. The other choices, while related to King, do not substantiate the effectiveness of his peaceful demonstrations in altering public viewpoints and policies.",
+        "topic": "The civil rights activism of Martin Luther King Jr.",
+        "total_score": 25,
+        "constructive_feedback": "The question is clearly written and follows the SAT style by presenting a historical claim and then asking for the piece of evidence that best supports it. The answer choices are plausible distractors for an easy-level question, with option D standing out as directly relevant. However, the question could be slightly enhanced by ensuring that the context is even more explicit about how televised coverage connects to the effectiveness of nonviolent protests. Adding a tiny bit more context or nuance could guard against over-simplicity and help students see the reasoning step more clearly.",
+        "difficulty_feedback": "The question matches the Easy difficulty criteria well; it requires a straightforward, single-step reasoning process and is based on a familiar real-life historical context. The distractors are clearly less relevant, making option D the obvious answer for students who have basic reading comprehension skills appropriate for an SAT Easy question. No major changes are needed for the difficulty level, though a minor tweak to add slight complexity could be considered if more challenge is desired.",
+        "topic_list_name": "famousBiographies",
+        "topic_index": 9
+      },
+      {
+        "skill": "Supporting Claims",
+        "difficulty": "Easy",
+        "question": "Consider the following summary about Macbeth's shift from a noble figure to a tyrant:\n\nIn Shakespeare's tragedy *Macbeth*, the title character's initial hesitation to commit regicide dissolves under the influence of his unchecked ambition for power. Once crowned, Macbeth becomes increasingly paranoid, orchestrating murders and resorting to cruel tactics to maintain his position as king. By the end, he has abandoned moral principles and isolated himself from allies.\n\nWhich choice best supports the claim that Macbeth's ambition leads to his tyrannical behavior?",
+        "choices": [
+          "A. Macbeth discusses his moral doubts in a soliloquy before murdering Duncan.",
+          "B. Macbeth arranges Banquo's assassination to eliminate a perceived threat to his throne.",
+          "C. Lady Macbeth encourages Macbeth to wash his hands to rid himself of guilt.",
+          "D. Macduff flees Scotland to gather allies, seeking to overthrow Macbeth's reign."
+        ],
+        "answer": "B",
+        "explanation": "Choice B underscores Macbeth's deliberate actions, specifically arranging the assassination of Banquo to eliminate a perceived threat to his reign. This act demonstrates how his ambition propels him towards tyrannical tactics. While Macbeth's internal moral doubts (Choice A) and guilt (Choice C) are part of his character development, they do not encapsulate his tyranny. Similarly, Macduff's flight (Choice D) reflects resistance against Macbeth's rule rather than providing evidence of his tyrannical behavior. Thus, Banquo's assassination showcases how Macbeth's unbridled ambition results directly in his tyrannical conduct.",
+        "topic": "Macbeth’s ambition and descent into tyranny in Macbeth",
+        "total_score": 26,
+        "constructive_feedback": "The question is clearly written and aligns well with the SAT skill of supporting claims. It provides a succinct summary of Macbeth’s transformation, which helps students directly link evidence to the claim. The answer choices are plausible and only one clearly supports the claim, which is in keeping with SAT standards. To push the question closer to perfection, you could consider slightly refining the summary to include a direct reference to Macbeth’s ambition (for example, briefly mentioning his desire for power) so that the link to his tyrannical actions is even clearer.",
+        "difficulty_feedback": "The question is appropriately labeled as Easy, featuring single-step reasoning based on a familiar literary context. The summary simplifies Shakespearean content, making the question accessible while still testing analytical reading skills. To further ensure it meets the easy-difficulty criteria, you might consider simplifying some of the language in the answer choices to mirror everyday scenarios even more closely.",
+        "topic_list_name": "literatureTopics",
+        "topic_index": 10
       }
     ]
   }

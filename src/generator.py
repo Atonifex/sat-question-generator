@@ -94,15 +94,16 @@ class QuestionGenerator:
 
                     "content": 
                         f"""You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
-                        - Design the answers so that {correct_answer} is the correct answer choice, and make the other three answer choices be plausible but incorrect answer choices (in total, there is A, B, C, and D as answer choices).
+                        - Design the answers so that {correct_answer} is the correct answer choice, and make the other three answer choices be plausible but incorrect answer choices. Write answer choices as "A. [answer]", "B. [answer]", "C. [answer]", "D. [answer]" each on their own lines.
                         - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
                         - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
                         - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
                         - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)
-                        - VERY IMPORTANT REQUIREMENT: The question MUST be about the exact topic provided: {topic}. Do not substitute a different topic."""},
+                        - VERY IMPORTANT REQUIREMENT: The question MUST be about the exact topic provided: {topic}. Do not substitute a different topic.
+                        - CRITICAL: The question MUST test the '{skill}' skill. Do not create a question for any other skill."""},
                     {"role": "user", 
                     "content": 
-                        """Generate a Digital SAT question testing the ***{skill}*** skill at ***{difficulty}*** difficulty in the specified JSON format.
+                        """Generate a Digital SAT question testing the ***{skill}*** skill at ***{difficulty}*** difficulty in the specified JSON format, with 4 answer choices: "A) [answer choice]", "B) [answer choice]", "C) [answer choice]", "D) [answer choice]".
                         1. THE QUESTION MUST BE ABOUT THIS EXACT TOPIC: "{topic}". Do not substitute a different topic.
                         2. Write the question and answer choices based on this topic: {topic}.     
                         3. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
@@ -110,8 +111,8 @@ class QuestionGenerator:
                         5. Don't use unnecessary underlining, italics, or bold.
                         6. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
                         7. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
-                        8. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***
-                        9. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
+                        8. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***, and the 'skill' value MUST BE 'skill': '{skill}'***
+                        10. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
                     }
                         #*********************IN THE FUTURE, try without #9 (providing any questions) because reasoning models are supposed to be better at this****************
                         # --> I tried without it, but it was obsessed with writing about Harriet Tubman, literally 50% of questions were about her despite no examples provided about harriet tubman. So weird.
@@ -133,6 +134,11 @@ class QuestionGenerator:
             if question_data.get('difficulty') != difficulty:
                 print(f"Warning: Generated question had difficulty '{question_data.get('difficulty')}' instead of requested '{difficulty}'. Correcting.")
                 question_data['difficulty'] = difficulty
+            
+            # Force the correct skill type
+            if question_data.get('skill') != skill:
+                print(f"Warning: Generated question had skill '{question_data.get('skill')}' instead of requested '{skill}'. Correcting.")
+                question_data['skill'] = skill
             
             preview = (question_data.get('question', '') or '')[:30]
             #print(f"Generated question: {preview}")

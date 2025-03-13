@@ -606,5 +606,24 @@
       "topic_list_name": "modernTopicsAndFun",
       "topic_index": 8
     }
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Easy",
+      "question": "Passage 1:\nMany employees who engage in 'quiet quitting' describe it as limiting work responsibilities to the exact requirements of their positions, aiming to preserve personal time and mental well-being. Some experts argue that this trend encourages individuals to maintain healthier boundaries, especially as companies adapt to hybrid or remote setups.\n\nPassage 2:\nIn other analyses, 'quiet quitting' highlights deeper organizational issues, including unclear communication and uncertainty around job expectations. During the pandemic era, these challenges became pronounced, prompting leaders to focus on improving transparency and goal clarity.\n\nWhich choice best synthesizes how these two passages characterize 'quiet quitting' in a post-pandemic workplace?",
+      "choices": [
+        "A) It consistently leads to a decline in employees' professional standards, forcing management to re-evaluate hiring practices.",
+        "B) It indicates that workers, regardless of their roles, have universally embraced minimal effort as the post-pandemic norm.",
+        "C) It symbolizes both a protective approach to work-life balance and a signal for companies to address areas needing clearer responsibilities.",
+        "D) It demonstrates that most employees are temporarily stepping back from career plans due to prevailing health and safety concerns."
+      ],
+      "answer": "C",
+      "explanation": "Passage 1 focuses on the idea of preserving personal time and work-life balance by fulfilling just the core expectations of one's job. Passage 2 discusses how 'quiet quitting' highlights organizational shortcomings like lack of transparency and clear goals. Option C synthesizes these perspectives by addressing both the personal boundaries aspect and the organizational critique. To eliminate other options: A misinterprets the themes by suggesting declining standards, B exaggerates the trend as universal, and D incorrectly cites health and safety as a reason. Thus, C is the best choice.",
+      "topic": "The impact of 'quiet quitting' and workplace culture shifts post-pandemic",
+      "total_score": 24,
+      "constructive_feedback": "This question is written in the style of Two Passages but is miscategorized as Synthesizing Notes.",
+      "difficulty_feedback": "Although the question is labeled 'Easy' and does involve synthesizing two passages, the passages are brief and the reasoning required is fairly straightforward. This matches the expectations of an easy SAT question where students should be able to identify the central ideas quickly. To ensure it remains accessible, consider slightly simplifying any complex phrasing or offering minor contextual clues for terms like 'quiet quitting' if deemed necessary.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 9
+    },
   ]
 }
