@@ -76,10 +76,8 @@ def main():
 
                 except Exception as e:
                     print(f"Error during generation or revision of {difficulty} {skill} on topic: {current_topic}: {e}")
-                    # Still update topic indices even on error
-                    topicChoice = (topicChoice + 1) % len(topics)
-                    if topicChoice == 0:  # We've wrapped around to the first topic list
-                        topicIndex += 1   # Move to next index within all topic lists
+                    #No need to update topic indices on error because they don't end up getting saved.
+
 
 if __name__ == "__main__":
     main()

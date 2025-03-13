@@ -510,6 +510,101 @@
       "difficulty_feedback": "While the question is labeled Medium, its brevity and the clear connection between global exposure and NBA expansion make it somewhat easier than expected. To better fit a Medium difficulty level, consider extending the passage so that it requires combining multiple pieces of evidence or eliminating several tempting but partially correct choices. This would enforce a more multi-step thought process and align the question more closely with the Medium difficulty guidelines.",
       "topic_list_name": "artMusicFilmSportsTopics",
       "topic_index": 8
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Medium",
+      "question": "In recent decades, scientists have observed a dramatic shift in the behavior of bacterial populations. Bacteria that once _were being_ easily suppressed by antibiotics have developed new adaptations that allow them to survive treatments that were once effective. As a result, medical professionals now face greater challenges in treating infections. \n\nWhich choice best corrects the underlined portion?",
+      "choices": [
+        "A. are once easily suppressed",
+        "B. will once be easily suppressed",
+        "C. were once easily suppressed",
+        "D. had once easily suppressed"
+      ],
+      "answer": "C",
+      "explanation": "The underlined portion needs to reflect a past state where bacteria were susceptible to antibiotics. 'Were once easily suppressed' correctly uses simple past tense, which fits the timeline described. \n- Option A ('are once') incorrectly combines present tense with a past marker.\n- Option B ('will once be') incorrectly talks about a future event with 'once.'\n- Option D ('had once easily suppressed') changes the subject's role in the sentence, implying the bacteria suppressed something else. \nOnly option C preserves the intended meaning by properly maintaining a past state of being suppressed.",
+      "topic": "The evolution of antibiotic resistance in bacteria",
+      "total_score": 20,
+      "constructive_feedback": "The question is clearly written and aligns with the SAT-style format for testing verb tense corrections. Its answer choices are logically distinct and the explanation effectively explains why option C is correct while dismissing the others. However, the passage is somewhat brief compared to typical medium-difficulty SAT questions (which are usually closer to 90 words) and the reasoning required is largely one-step. To increase the challenge and better match the medium label, consider expanding the passage with additional context or subtler grammatical traps, and making the distractors a bit more tempting.",
+      "difficulty_feedback": "Although the question tests a valid tense correction, its brevity and straightforward reasoning make it lean toward an easier level rather than medium. Enhancing the complexity—for instance, by incorporating additional nuances or a longer passage requiring multi-step analysis—would better align it with medium difficulty standards.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 9
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "Many multinational corporations meticulously analyze multifarious consumer trends across diverse regions to optimize their product portfolios and strategic outreach. By so doing, they enhance their global prestige while remaining sensitive to indigenous customs. However, to sustain competitive viability across disparate cultural milieus, these enterprises must ______ their strategies to reconcile variegated socio-economic imperatives.\n\nWhich choice best completes the sentence?",
+      "choices": [
+        "A) ossify",
+        "B) adapt",
+        "C) recalibrate",
+        "D) obfuscate"
+      ],
+      "answer": "B",
+      "explanation": "The sentence emphasizes the need for corporations to revise their strategies to align with differing global contexts. Among the options, 'adapt' precisely conveys the idea of changing approaches to suit diverse circumstances. 'Ossify' means to become rigid and inflexible, making it unsuitable in this context. 'Recalibrate,' while similar, implies precise adjustments rather than a broad, flexible response. 'Obfuscate' means to obscure or confuse, which does not align with the goal of strategic realignment. Therefore, 'adapt' is the optimal answer.",
+      "topic": "The effect of globalization on multinational corporations",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-crafted, featuring advanced vocabulary and stylistic complexity that aligns with high-level SAT Word Choice questions. The sentence’s context is clear and provides appropriate clues to determine the correct answer, and the answer choices include distractors that on the surface may seem plausible. However, the distractor 'recalibrate' is very close in meaning to 'adapt', and while the nuance is correctly explained, it might benefit from even more subtle differences to truly challenge top-scoring students. The explanation is clear and thorough, effectively discussing why each option is either suitable or flawed. To push both the question and explanation closer to perfection, consider adding a bit more context in the passage or refining the distractors so that the differences in meaning require more multi-step reasoning.",
+      "difficulty_feedback": "While the question employs sophisticated language and complex sentence construction typical of a Hard problem, it does not involve a multi-step reasoning process as required for truly high-difficulty SAT questions. Enhancing the complexity—perhaps by embedding an additional layer of nuance or requiring synthesis of multiple contextual clues—would better align the question with the Hard difficulty label for top-tier students.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 9
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Hard",
+      "question": "Rousseau argues that when individuals unite under a social contract, they form a collective governed by the general will; in this system, each person agrees to prioritize the common good over personal interests. According to Rousseau, the general will has authority precisely because it represents what benefits everyone, not just a select few. Although some critics argue that individual self-interest might fragment social unity, Rousseau maintains that the act of contributing one's personal perspective in a public forum cumulatively transforms these views into a singular, collective general will that transcends narrow interests. This unity is what Rousseau considers the foundational principle of a just society.\n\nWhich choice most effectively supports the claim that the general will arises from the collective interests of all members of society?",
+      "choices": [
+        "A. A statement asserting that when every citizen participates in expressing their views, the resulting decisions reflect community-wide benefits rather than favoring a few.",
+        "B. A statement noting that some individuals must force their personal viewpoints on the broader group for progress.",
+        "C. A statement mentioning how a small council of influential members can efficiently decide what is best.",
+        "D. A statement urging citizens to remain silent to avoid disagreements about political matters."
+      ],
+      "answer": "A",
+      "explanation": "Choice A supports the idea that the general will reflects shared interests by noting how each person's participation contributes to decisions serving the common good. Choice B is incorrect because it conflicts with the collective nature of the general will by suggesting dominance by individual viewpoints. Choice C narrows authority to a limited group, while choice D dismisses public input, neither of which align with Rousseau's idea of forming a general will through collective participation.",
+      "topic": "Rousseau’s idea of the general will and the social contract",
+      "total_score": 23,
+      "constructive_feedback": "The question is clearly written, well-aligned with SAT reading standards, and uses a solid passage with advanced vocabulary to support a claim-analysis prompt. The answer choices are logical and mostly plausible, with the correct answer clearly reflecting Rousseau’s argument about collective interests. However, to push the difficulty closer to the 'Hard' level, consider deepening the complexity of the distractors. For example, rephrase some choices to incorporate more nuanced elements or require students to synthesize multiple parts of the passage. Slightly rewording the correct support statement may also force a more careful analysis of the text.",
+      "difficulty_feedback": "While the passage includes complex language and advanced ideas, the answer choices—especially the distractors—are somewhat straightforward once the passage is carefully read. To better match a 'Hard' difficulty rating, the distractors could be made more sophisticated by introducing subtler traps or elements that require multi-step reasoning and deeper integration of the passage’s details.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 9
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "In numerous suspense films, Alfred Hitchcock strategically foregrounded mundane settings, interweaving conventional character archetypes with unforeseen narrative perturbations that cultivated an enduring atmosphere of disquiet. \n\nHe deftly juxtaposed somnolent interludes with abrupt, dramatic revelations, ensuring that audiences were rendered perpetually uneasy. \n\nWhich choice most effectively replaces \"perpetually uneasy\" in the sentence so that the idea of anxious tension remains clear?",
+      "choices": [
+        "A. utterly confused",
+        "B. slightly rattled",
+        "C. momentarily hesitant",
+        "D. perpetually uneasy"
+      ],
+      "answer": "D",
+      "explanation": "The correct answer is \"perpetually uneasy\" because it best reflects the enduring anxious tension that Hitchcock's scenes are described to evoke. The other options fail to sustain the same level of ongoing disquiet: \"utterly confused\" suggests disorientation rather than tension, \"slightly rattled\" implies a milder effect, and \"momentarily hesitant\" denotes a temporary state lacking the longevity implied by the context.",
+      "topic": "The storytelling techniques of Alfred Hitchcock in suspense films",
+      "total_score": 20,
+      "constructive_feedback": "The question is written in clear, advanced language and uses a format typical of SAT Word Choice items (including a ‘no change’ option). However, the distractors are not very subtle; they are relatively obvious in how they fail to capture the enduring quality of the anxious tension, which reduces the multi-step reasoning element expected in a hard-difficulty question. To improve, consider incorporating alternatives that are closer in nuance so that test-takers must scrutinize subtle differences in meaning, and perhaps expand the context slightly to require synthesis of more ideas.",
+      "difficulty_feedback": "While the language is suitably complex, the question falls short of the multi-step reasoning and sophisticated distractors required for a truly hard-level item. Enhancing the answer choices to include traps that could seem correct on a superficial reading and integrating clues that demand deeper analysis would align the item better with a hard difficulty rating.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 9
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Easy",
+      "question": "Increasing numbers of pioneering entrepreneurs are designing innovative spacecraft to cater to paying customers who wish to orbit the Earth. These companies must ensure that space tourists are adequately prepared to face zero-gravity conditions and to adapt to extended periods in confined quarters.\n\nIn the following sentence, select the word that most precisely and logically completes the statement.\n\n\"As space tourism becomes more prevalent, participants will need to ________ the challenges posed by microgravity.\"",
+      "choices": [
+        "withstand",
+        "embrace",
+        "anticipate",
+        "overcome"
+      ],
+      "answer": "A",
+      "explanation": "In this context, the word 'withstand' most adequately captures the necessity for participants to endure and cope with the challenges posed by microgravity. 'Embrace' may suggest a welcoming attitude, which does not address dealing with physical difficulties. 'Anticipate' means to predict, rather than to deal with, and 'overcome' could be close but implies completely defeating the challenges rather than persisting through them. Therefore, 'withstand' is the most precise and fitting choice.",
+      "topic": "The rise of space tourism and the demands it places on participants",
+      "total_score": 25,
+      "constructive_feedback": "This question is good in its context, but it doesn't list out A, B, C, and D for answer choices. Additionally, the first and last choices are too similar so that it's not a good question because they could both be correct.",
+      "difficulty_feedback": "The question matches the easy difficulty level as it requires only a single-step reasoning process. It uses a familiar scenario and straightforward reasoning, ensuring that students aiming for the lower end of the SAT scoring range can confidently approach it. For further refinement, consider crafting distractors that require a bit more careful consideration without overcomplicating the task.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 8
     }
   ]
 }

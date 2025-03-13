@@ -54,7 +54,8 @@ class QuestionGenerator:
                 data = json.load(f)
                 filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty] #skill and difficulty
                 print(f"Added {len(filtered_questions)} filtered questions to generate question prompt.")
-                if len(filtered_questions) < 4:
+                if len(filtered_questions) < 2: #Temporarily lowered because Two Passages questions don't have many examples.
+                #return to 4 examples requried after 3/13/2025. 
                     filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only - expand the pool
                     print(f"Not enough questions for {difficulty} {skill}. Expanded to all skills and got{len(filtered_questions)} questions.")
 
@@ -139,7 +140,7 @@ class QuestionGenerator:
             return question_data
             
         except Exception as e:
-            print(f"Error generating question: {e}")
+            print(f"Error generating question for skill: {skill}, difficulty: {difficulty}, topic: {topic}: {e}")
             return None
     def save_to_csv(self, question: Dict):
         """Save single question to CSV file."""
