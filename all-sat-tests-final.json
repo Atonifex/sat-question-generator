@@ -1524,7 +1524,7 @@
       "module": "Math Module 1",
       "question_number": "19",
           "skill": "Linear Equations",
-          "difficulty": "Medium",
+          "difficulty": "Hard",
           "question": "The function $h$ is defined by $h(x) = 4x + 28$. The graph of $y = h(x)$ in the xy-plane has an x-intercept at $(a, 0)$ and a y-intercept at $(0, b)$, where $a$ and $b$ are constants. What is the value of $a + b$?",
           "choices": [
               "A) 21",
@@ -1748,7 +1748,7 @@
       "test": "2",
       "module": "Math Module 2",
       "question_number": "7",
-          "skill": "Algebra",
+          "skill": "Linear Equations",
           "difficulty": "Easy",
           "question": "$x + 40 = 95$\n\nWhat value of $x$ is the solution to the given equation?",
           "choices": [],
@@ -3115,7 +3115,7 @@
         "test": "3",
         "module": "Math Module 1",
         "question_number": "1",
-        "skill": "Algebra",
+        "skill": "Linear Equations",
         "difficulty": "Easy",
         "question": "$k + 12 = 336$\n\nWhat is the solution to the given equation?",
         "choices": [
@@ -3131,7 +3131,7 @@
         "test": "3",
         "module": "Math Module 1",
         "question_number": "2",
-        "skill": "Algebra",
+        "skill": "Linear Equations",
         "difficulty": "Easy",
         "question": "The function $f$ is defined by $f(x) = x^3 + 15$. What is the value of $f(2)$?",
         "choices": [
@@ -3469,7 +3469,7 @@
         "test": "3",
         "module": "Math Module 1",
         "question_number": "25",
-        "skill": "Algebra",
+        "skill": "Polynomial Expressions",
         "difficulty": "Hard",
         "question": "Which expression is equivalent to $\\frac{y + 12}{x - 8} + \\frac{y(x - 8)}{x^2y - 8xy}$?",
         "choices": [
@@ -5195,7 +5195,7 @@
         "test": "4",
         "module": "Math Module 1",
         "question_number": "21",
-        "skill": "Polynomial Expressions    ",
+        "skill": "Polynomial Expressions",
         "difficulty": "Hard",
         "question": "The expression $6\\sqrt[5]{3} \\cdot 3x^{45} \\cdot \\sqrt[8]{2}x$ is equivalent to $ax^b$, where $a$ and $b$ are positive constants and $x > 1$. What is the value of $a + b$?",
         "choices": [],
@@ -5512,7 +5512,7 @@
         "test": "4",
         "module": "Math Module 2",
         "question_number": "15",
-        "skill": "Linear Equations",
+        "skill": "Linear Equation Word Problems",
         "difficulty": "Medium",
         "question": "A proposal for a new library was included on an election ballot. A radio show stated that 3 times as many people voted in favor of the proposal as people who voted against it. A social media post reported that 15,000 more people voted in favor of the proposal than voted against it. Based on these data, how many people voted against the proposal?",
         "choices": [

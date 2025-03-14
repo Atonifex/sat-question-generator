@@ -1,0 +1,346 @@
+{
+  "questions": [
+    {
+      "skill": "Punctuation",
+      "difficulty": "Easy",
+      "question": "Franklin D. Roosevelt ________ overcame significant challenges while implementing his political reforms during the Great Depression.\n\nWhich choice best completes the sentence so it is clear and grammatically correct? (Assume the blank replaces a full punctuation-marked phrase.)",
+      "choices": [
+        "A. who introduced the New Deal",
+        "B. who introduced the New Deal,",
+        "C. , who introduced the New Deal,",
+        "D. , who introduced the New Deal"
+      ],
+      "answer": "C",
+      "explanation": "The phrase 'who introduced the New Deal' is a nonrestrictive relative clause, providing extra information about Franklin D. Roosevelt that is not essential to the core meaning of the sentence. Nonrestrictive clauses should be set off by commas. Only choice (C) places commas correctly both before and after the phrase. \n\n**Why other answers are incorrect:**\n\n- (A) does not set off the clause with commas, disrupting the proper nonrestrictive format.\n- (B) provides a comma after the clause but omits the required leading comma, which is incorrect.\n- (D) places a comma before the clause but omits the trailing comma, which is also incorrect.",
+      "topic": "The political reforms of Franklin D. Roosevelt during the Great Depression",
+      "total_score": 23,
+      "constructive_feedback": "The question is clear and effectively targets an easy punctuation rule—using commas to offset a nonrestrictive relative clause. It follows the requirement of replacing the phrase with a blank, and the answer choices differ only in the placement of commas, which is ideal for an Easy-level SAT question. However, the explanation could be enhanced by briefly addressing why each incorrect option fails (for example, noting that missing a leading or trailing comma disrupts the nonrestrictive clause format). Also, consider emphasizing in the question that the blank is replacing the entire punctuation-marked phrase, to avoid any ambiguity.",
+      "difficulty_feedback": "The question appropriately matches its labeled Easy difficulty. It tests a basic, commonly taught rule regarding nonrestrictive clauses and comma usage. To further ensure this alignment, you might add a brief hint in the question that the blank represents both the words and their accompanying punctuation, reinforcing that students are expected to consider both leading and trailing commas.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 18
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Medium",
+      "question": "AI-generated social media influencers continue to gain traction, offering entertainment and product recommendations and sometimes even surpassing traditional online personalities in popularity. However, some critics argue that these artificial personas struggle with authenticity _______ they are not hindered from building strong audience connections.\n\nWhich punctuation mark best completes the sentence?",
+      "choices": [
+        "A. ;",
+        "B. .",
+        "C. ?",
+        "D. ,"
+      ],
+      "answer": "B",
+      "explanation": "The sentence consists of two independent clauses: (1) 'However, some critics argue that these artificial personas struggle with authenticity' and (2) 'they are not hindered from building strong audience connections.' To separate these clauses, the appropriate punctuation would be a period. A semicolon would normally work, but since the example capitalizes 'They' in answer choices B and C, the semicolon becomes incorrect. A comma or question mark would also be unsuitable: a comma cannot connect independent clauses without a conjunction, and the sentence does not pose a question. Hence, the period is the best choice.",
+      "topic": "Punctuation in sentences separating independent clauses",
+      "total_score": 23,
+      "constructive_feedback": "The question is generally well constructed and aligns with SAT punctuation standards by testing the student’s ability to choose the correct punctuation to separate two independent clauses. However, there are a few areas for improvement. The sentence context is a bit ambiguous—‘these shortcomings’ does not clearly refer back to ‘lack genuine experiences,’ which can cause some confusion. Additionally, the answer choices include more than just the punctuation mark (they repeat part of the sentence), which slightly deviates from the recommended format of testing only the specific punctuation element. The explanation, while clear in its rationale for dismissing the semicolon, comma, and question mark options, could be expanded to acknowledge that a semicolon might work in a different context if the following word were not capitalized. Tightening the sentence for clarity and ensuring that the answer choices focus solely on the punctuation mark (and the necessary adjacent clues, such as capitalization) would enhance the overall quality.",
+      "difficulty_feedback": "The question is appropriately challenging for a Medium-level SAT punctuation question because it requires careful attention to the rules of joining independent clauses, particularly the nuance about capital letters following a semicolon. To further solidify its medium difficulty rating, consider revising the clause structure so that the relationship between the two ideas is clearer and less potentially misleading.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 18
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Hard",
+      "question": "Heathcliff’s unrelenting passion fueled his destructive plans during the novel’s climax, his actions unpardonable and driven by fiery despair— ______ readers often attribute his cruel actions to an intense pursuit of revenge overshadowing any moral inclinations. Which choice completes the text so it conforms to the conventions of standard English?",
+      "choices": [
+        "A. , indeed,",
+        "B. indeed,",
+        "C. ; but indeed,",
+        "D. . Indeed,"
+      ],
+      "answer": "D",
+      "explanation": "The correct answer is choice D because it correctly separates two distinct independent clauses with a period and capitalizes the first word of the next sentence. 'Indeed,' is properly punctuated with a comma following it, as it serves as a transitional adverb. The remaining choices do not correctly separate the clauses or use punctuation appropriately: choices 'A' and 'B' attach the clauses improperly, and choice 'C' uses a semicolon incorrectly with 'but.'",
+      "topic": "Heathcliff's obsession and revenge in Wuthering Heights",
+      "total_score": 24,
+      "constructive_feedback": "The question is well structured and clearly tests the punctuation rules for joining independent clauses and properly setting off a transitional adverb. The use of Heathcliff as a contextual hook adds literary interest and aligns with SAT reading content. However, to push this toward a perfect score, consider increasing the complexity slightly—perhaps by adding another clause or mixing additional punctuation rules—to fully justify the 'Hard' label. Also, ensure that the blank placement gives sufficient contextual cues (such as surrounding punctuation) so that students must decide not just on the transitional element but also on how to correctly separate the clauses.",
+      "difficulty_feedback": "While the question correctly challenges students by requiring the separation of two independent clauses with a transitional adverb, it leans toward a medium difficulty design. To better align with a 'Hard' designation, the sentence could involve an additional punctuation nuance or combine multiple grammatical rules in one instance. Enhancing the complexity of the sentence structure would attract a higher level of precision consistent with hard-level SAT questions.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 19
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Easy",
+      "question": "During the Meiji Restoration, Japan rapidly modernized its institutions and industries by adopting ideas from Western powers, implementing new educational systems, and constructing factories under government sponsorship.\n\nWhich of the following most directly supports the claim that these reforms were crucial to Japan's modernization?",
+      "choices": [
+        "A. Japan continued to focus primarily on luxury textiles as an export commodity.",
+        "B. Many Japanese entrepreneurs preferred traditional agriculture over industrial ventures.",
+        "C. Local traditions played a dominant role in rural industrial development.",
+        "D. Government-backed industries and expanded education systems significantly boosted Japan's economic productivity."
+      ],
+      "answer": "D",
+      "explanation": "The question asks which option most directly supports the claim about the importance of Meiji reforms in Japan's modernization. Option D is correct because it clearly connects government-sponsored industries and an improved education system to positive outcomes in economic productivity, directly supporting the claim. Options A, B, and C do not provide evidence in favor of the modernization claim, as they either fail to address the reforms or suggest that traditional systems prevailed, which would contradict the stated impact of the reforms.",
+      "topic": "The impact of the Meiji Restoration on Japan's modernization",
+      "total_score": 25,
+      "constructive_feedback": "The question is clear, aligned with the SAT skill of identifying evidence to support a claim, and appropriately uses a historical context to test this ability at an easy level. The answer choices are plausible distractors, and the correct choice clearly supports the claim. However, the question could be slightly improved by explicitly framing it as 'Which of the following most directly supports...' to enhance clarity. The answer choices could also benefit from minor rephrasing for conciseness, and providing a bit more nuance on why each incorrect option fails (e.g., by pointing out their failure to connect with the modernization reforms) would further strengthen the educational value of the explanation.",
+      "difficulty_feedback": "The question matches its labeled easy difficulty level as it requires straightforward, single-step reasoning. The context provided is familiar enough for students, and the reasoning to select the correct evidence is direct. To further solidify its appropriateness, consider ensuring that all answer choices are clearly distinguishable in terms of how they support or fail to support the claim, so that only one clearly fits, which is already largely the case here.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 19
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Hard",
+      "question": "In genetics, epigenetics examines heritable changes in gene expression that occur without altering the underlying $DNA$ sequence. Mechanisms like $DNA$ methylation and histone modification regulate gene activity external to the genetic code itself. Research on model organisms after exposure to stressors has shown parents developing unique methylation patterns on specific genes. Interestingly, such chemical marks persist in their offspring across several generations despite the $DNA$ sequence remaining unchanged. Scientists suggest epigenetic marks could account for inherited changes once attributed to genetic mutations.\n\nWhich experimental finding, if true, most strongly supports the theory that epigenetic markers influence and persist through inheritance?\n\nA. Some species exhibit extended lifespans when stress exposure is minimized in experimental setups.\nB. Offspring predominantly inherit their phenotypic traits through genetic transmission mechanisms rather than epigenetic influence.\nC. Controlled studies establish that chemically-induced gene tags present in stressed parents are measurable in subsequent generations alongside unaltered $DNA$.\nD. Data indicate minimal correlations where environmental pressures predict traits in populations otherwise unaffected by family genealogy.",
+      "choices": [
+        "A. Some species exhibit extended lifespans when stress exposure is minimized in experimental setups.",
+        "B. Offspring predominantly inherit their phenotypic traits through genetic transmission mechanisms rather than epigenetic influence.",
+        "C. Controlled studies establish that chemically-induced gene tags present in stressed parents are measurable in subsequent generations alongside unaltered $DNA$.",
+        "D. Data indicate minimal correlations where environmental pressures predict traits in populations otherwise unaffected by family genealogy."
+      ],
+      "answer": "C",
+      "explanation": "The substance of ‘epigenetic inheritance’ hinges upon demonstrating lasting intergenerational influences from biochemical tags observable independently from mere sequence transcription fidelity—precisely reaffirmed uniquely through $Choice~C’s$ described methodology.",
+      "topic": "Epigenetic Factors & Traits Mediated Post-Transcription",
+      "total_score": 26,
+      "constructive_feedback": "The question is well-designed and clearly aligned with SAT standards for supporting claims. It introduces specialized vocabulary (e.g., epigenetics, methylation patterns) and requires students to synthesize information from a moderately lengthy passage, which is appropriate for a hard question. The answer choices are logically crafted with one clearly correct answer (C) and distractors that are off-target or only marginally related. The explanation is concise and effectively highlights why choice C is correct while briefly dismissing the alternatives. To improve further, consider refining the distractors to be slightly more nuanced so that they appear more plausible on a surface read, thereby challenging students to engage in deeper analysis. In addition, expanding the passage with extra details could increase the multi-step reasoning process required, making the question even more challenging for high-performing test-takers.",
+      "difficulty_feedback": "The passage and answer choices incorporate complex vocabulary and a multi-step reasoning process appropriate for a hard-difficulty question. Although the correct evidence is clear, enhancing the distractors with more subtle flaws or partially correct information would better match the labeled difficulty. Expanding the passage with additional detail or slight extraneous information could further elevate the challenge, ensuring that only careful and thorough analysis leads to the correct answer.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 19
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Easy",
+      "question": "\\n\\n• In 2009, Bitcoin emerged as the first decentralized digital currency, appealing initially to technology enthusiasts who considered it a disruptive financial innovation.\\n\\n• Current trends suggest that cryptocurrency adoption may continue to broaden, driven by business partnerships and government research into potential regulatory structures.\\n\\nThe student wants to synthesize the central ideas from the notes into a single, coherent statement that captures both the origins and evolving trajectory of cryptocurrency.",
+      "choices": [
+        "A) Cryptocurrency has become irrelevant to the financial world since its early days after Bitcoin.",
+        "B) The market for cryptocurrencies stays within the niche realm of technology enthusiasts without signs of broader appeal.",
+        "C) Cryptocurrency originated as a decentralizing force in the financial world and shows promise for further growth as businesses and governments explore its uses.",
+        "D) Governments are likely to entirely prohibit Bitcoin and other cryptocurrencies, as their acceptance wanes."
+      ],
+      "answer": "C",
+      "explanation": "The correct answer is C because it combines the information about Bitcoin's historical role in decentralizing finance with current observations that suggest potential growth through adoption by businesses and governments. Option A inaccurately suggests irrelevance, while option B fails to account for the broadening trend noted. Option D exaggerates the regulatory issue into something unsupported by the notes.",
+      "topic": "The history and future of cryptocurrency adoption",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly structured and aligns well with SAT standards for an Easy-level synthesizing task. The bullet points are correctly formatted and provide the necessary information, while the answer choices are distinct and logically derived from the notes. To improve the question, consider adding a tiny bit more context or nuance in the objective statement to make sure students recognize all critical steps needed to synthesize the ideas. Additionally, you could refine the distractors to more closely mirror common misconceptions, thereby sharpening the distinction between the correct synthesis and partially correct alternatives. Enhancing a few minor details in the explanation to explicitly connect the integration of both bullet points would also help students understand the synthesis process more deeply.",
+      "difficulty_feedback": "The question matches the Easy difficulty well by requiring a straightforward synthesis of two bullet points. The task is simple enough for students in the 400–600 score range on the SAT while still ensuring that key information is identified and integrated. If desired, you might consider introducing slightly more subtle distractors or slightly lengthening the bullet points to add layers to the synthesis, but overall the difficulty level is appropriately set.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 19
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Hard",
+      "question": "Read the expanded notes discussing the development of Method Acting:\n\n• Konstantin Stanislavski’s initial emphasis on emotional truth marked a departure from previous acting paradigms.\n• Lee Strasberg adapted Stanislavski’s techniques to center on personal emotional exploration, aiming to create more emotionally complex characters.\n• Stella Adler and Sanford Meisner further developed these approaches, highlighting the importance of imagination and interpersonal dynamics.\n• Directors and audiences began to appreciate the deeper psychological realism that emerged from these methodologies over time.\n• Later innovators expanded on these techniques by incorporating modern psychological theories and nuanced character studies, influencing contemporary acting practices.\n\nWhich statement best synthesizes and explains the progression of Method Acting from its origins in emotional truth to its contemporary psychological emphasis?\n\nA. \"Stanislavski's focus on emotional authenticity became overshadowed by later methods that prioritized improvisation above scripted performance.\"\nB. \"The evolution of Method Acting has been defined by distinct but complementary refinements, starting from emotional roots and culminating in comprehensive psychological realism.\"\nC. \"Strasberg and his successors abandoned Stanislavski's foundation in favor of unstructured explorations of character motivations.\"\nD. \"Psychological realism in modern acting owes little to Stanislavski’s early theories, which were limited to stage performances.\"",
+      "choices": [
+        "A. \"Stanislavski's focus on emotional authenticity became overshadowed by later methods that prioritized improvisation above scripted performance.\"",
+        "B. \"The evolution of Method Acting has been defined by distinct but complementary refinements, starting from emotional roots and culminating in comprehensive psychological realism.\"",
+        "C. \"Strasberg and his successors abandoned Stanislavski's foundation in favor of unstructured explorations of character motivations.\"",
+        "D. \"Psychological realism in modern acting owes little to Stanislavski’s early theories, which were limited to stage performances.\""
+      ],
+      "answer": "B",
+      "explanation": "Stanislavski's foundational theories marked a significant shift towards emotional authenticity in acting. Over time, practitioners like Strasberg, Adler, and Meisner adapted and developed these methods, integrating personal emotions, imagination, and interactions. Later innovators built upon these ideas by incorporating modern psychological perspectives, culminating in a refined emphasis on psychological realism. Option B captures this evolution comprehensively, while the other options either misrepresent the progression or conflict with the details provided.",
+      "topic": "The progression of Method Acting from emotional origins to psychological sophistication",
+      "total_score": 26,
+      "constructive_feedback": "The question is well-constructed and clearly aligned with SAT standards for a Hard difficulty level. It requires students to synthesize a series of detailed bullet points on Method Acting and choose the answer that best captures the evolution from emotional truth to psychological realism. The distractors are plausible enough to challenge students who might make partial connections to the notes. To improve further, consider tightening the connection between specific bullet points and the synthesized answer, perhaps by subtly incorporating language from the notes into the correct response. Additionally, slight enhancements in the explanation could further emphasize how each bullet point contributes to eliminating the distractors.",
+      "difficulty_feedback": "The question appropriately matches the Hard difficulty label. It includes sophisticated vocabulary, multi-step reasoning, and nuanced answer choices. The overall length meets the guidelines and the structure demands careful analysis of the notes. To make it even more challenging, you might introduce slightly more ambiguous aspects in the distractors that require deeper inference.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 19
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Easy",
+      "question": "While Isaac Newton was writing his groundbreaking work *Principia* in 1687, he ____ in an ongoing debate with other mathematicians about the foundations of calculus.\\n\\nWhich choice best completes the sentence?",
+      "choices": [
+        "A. is engaging",
+        "B. was engaging",
+        "C. will engage",
+        "D. would have engaged"
+      ],
+      "answer": "B",
+      "explanation": "The phrase 'was writing' sets up the past continuous context, indicating actions that were ongoing in the past. To maintain this tense for a simultaneous action, the correct verb form is 'was engaging', making option B the appropriate answer. Past continuous is used here to show that while Newton was focused on writing his book, he was also actively participating in a debate.\\n\\n- Option A, 'is engaging', uses the present continuous tense and suggests an action occurring in the present, contrary to the historical reference of 1687.\\n- Option C, 'will engage', incorrectly implies a future action, clashing with the past narrative.\\n- Option D, 'would have engaged', employs a conditional tense suggesting an action that could have occurred under certain circumstances, which is not applicable to the described ongoing past events.",
+      "topic": "The contributions of Isaac Newton to physics and mathematics",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly designed and aligned with SAT standards for testing verb tenses. The historical context (Newton writing Principia in 1687) effectively signals that the debate occurred in the past, and the four answer choices make it clear that only the past continuous form fits. To further enhance the question, you might add a brief note in the passage or explanation emphasizing that the past continuous is used to indicate simultaneous or ongoing past actions. This extra reinforcement can help students solidify the rule. Additionally, a slight rephrasing of the sentence to reduce any potential ambiguity in the relationship between the two actions could be considered.",
+      "difficulty_feedback": "This question is well suited for the Easy labeled level. The vocabulary and structure are straightforward, and the incorrect choices contain clear mismatches of tense, allowing students in the 400-600 scoring range to quickly recognize the error. To keep it at an easy level, ensure that additional contextual clues (such as explicit time markers) remain prominent without complicating the sentence structure.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 19
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Medium",
+      "question": "Many commentators emphasize the influence of online communities on modern discourse.\n\nOver the past decade, platforms like Reddit and Discord ________ new ways for individuals around the world to share knowledge and perspectives.\n\nWhich choice completes the sentence so that the sentence appropriately reflects the time frame and uses consistent verb tense?",
+      "choices": [
+        "A. offers",
+        "B. have offered",
+        "C. are offering",
+        "D. offered"
+      ],
+      "answer": "B",
+      "explanation": "Choice B is correct because the phrase \"Over the past decade\" indicates an action that began in the past and continues into the present, which calls for a present perfect verb form like \"have offered.\" The other choices do not fit this time frame: choice A (\"offers\") suggests a simple present action, choice C (\"are offering\") reflects an ongoing action currently happening, and choice D (\"offered\") limits the action to the past without extension into the present.",
+      "topic": "The influence of online platforms like Reddit and Discord in shaping global discourse",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly written, logically structured, and adheres to SAT standards. It effectively tests students on the use of the correct verb tense by providing a realistic context (the influence of online platforms) and a time marker ('over the past decade') that cues the present perfect. The answer choices are plausible and each distractor reflects a common error. One area to improve is slight rewording of the prompt—phrasing such as 'so that the sentence appropriately reflects the time frame' may better emphasize the test of verb tense consistency. Additionally, while the explanation is accurate, it could be enhanced by briefly elaborating on why the other tenses are unsuitable, helping students better understand subtle differences.",
+      "difficulty_feedback": "The question fits the medium difficulty criteria well. It requires students to analyze the time frame and its implication for verb tense—key elements for medium-level SAT questions. For added depth, a slightly more complex sentence structure or inclusion of additional qualifying information could further challenge students without making the problem feel out of scope.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 19
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Hard",
+      "question": "A student analyzing the psychological torment of Roderick Usher in *The Fall of the House of Usher* wrote the following:\n\n\"Roderick suffers from overwhelming anxiety; the crumbling mansion, resonant with its eerie echoes that seem to magnify every slight movement, ______ his dread by echoing every whisper of his trembling voice.\"\n\nWhich choice best maintains a consistent verb tense and correct subject–verb agreement in this sentence?",
+      "choices": [
+        "A) amplifies",
+        "B) amplify",
+        "C) amplified",
+        "D) amplifying"
+      ],
+      "answer": "A",
+      "explanation": "To maintain consistent verb tense, the verb must agree with the subject, 'the crumbling mansion,' and align with the present tense of 'suffers.' The subject 'the crumbling mansion' is singular, so the verb must be 'amplifies' (singular form in the present tense). Although phrases like 'resonant with its eerie echoes that seem to magnify every slight movement' are present, these function as modifiers and do not affect subject–verb agreement. Choices B and D incorrectly use the plural verb form 'amplify,' and choice C mistakenly shifts to the past tense.",
+      "topic": "The psychological torment of Roderick Usher in The Fall of the House of Usher",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-written and clear, effectively testing subject–verb agreement and verb tense consistency using a literary context. It aligns with SAT standards and offers a single, clearly correct answer. However, for a hard-level question, you might consider adding further complexity—for example, by incorporating additional modifiers or a slightly more convoluted sentence structure that forces students to isolate the main subject even more carefully. Additionally, the explanation, while correct, could be enhanced by explicitly discussing how the parenthetical phrase ‘along with its eerie echoes’ does not affect the verb agreement.",
+      "difficulty_feedback": "The question is mostly appropriate for a hard difficulty level, but its structure is relatively straightforward compared to other hard SAT questions that combine multiple nuances. To elevate its difficulty, include more intricate sentence constructions or additional grammar rules that interact (such as mixing subject–verb agreement with conditional tense forms). This would better challenge even high-achieving students and more closely match the intended hard difficulty.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 20
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "During the late 19th century, the transcontinental railroad stimulated a rise in agricultural and mining opportunities throughout the American West, increasing migration to new territories.\n\n_____ the transcontinental railroad also provided faster transportation routes that made western farming more lucrative.\n\nWhich choice provides the best transition to add another benefit of this rail system in the following sentence?",
+      "choices": [
+        "A. For example,",
+        "B. Moreover,",
+        "C. As a result,",
+        "D. In contrast,"
+      ],
+      "answer": "B",
+      "explanation": "The second sentence adds an additional benefit rather than an example, a consequence, or a contrast. \"Moreover,\" logically signals that the railroad stimulated growth and also made western farming more lucrative. The other options suggest a specific example, a cause-and-effect link, or a contrasting idea, which are not appropriate in this context.",
+      "topic": "The role of the transcontinental railroad in American westward expansion",
+      "total_score": 25,
+      "constructive_feedback": "The question is clear, logically structured, and adheres well to SAT standards for a transition word task, especially for an easy-level question. The context is sufficient for a student to understand that an additional benefit is being added, and the alternate answer choices are plausible distractors. One suggestion for improvement is to slightly refine the formatting – for instance, explicitly indicating a blank or a gap in the second sentence (e.g., '_____ the transcontinental railroad also provided...') to visually emphasize the task. This might further align the presentation with typical SAT formatting.",
+      "difficulty_feedback": "The difficulty level is appropriate for an easy question as it tests a basic, yet essential, grammatical skill: selecting the correct transition word for adding a benefit. The vocabulary and sentence structure are straightforward, and the correct answer (\"Moreover,\") clearly fits the function required. To ensure continued alignment with easy-level guidelines, continue to use familiar transitional phrases and maintain clear sentence structures.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 20
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Medium",
+      "question": "Scholars note that in collectivist cultures, members typically rely on mutual cooperation to achieve shared goals. ______, individualist societies also encourage collaboration in specific circumstances, even as they promote personal autonomy.\n\nWhich choice completes the sentence with the most appropriate transition?",
+      "choices": [
+        "A. By contrast",
+        "B. Similarly",
+        "C. Nonetheless",
+        "D. In conclusion"
+      ],
+      "answer": "B",
+      "explanation": "The sentence highlights that while collectivist cultures emphasize cooperative efforts, individualist societies are also capable of collaborative behavior under certain conditions. The most fitting transition word in this context is 'Similarly,' as it indicates a resemblance between collectivist and individualist collaboration. The other transitions are unsuitable for the following reasons: 'By contrast' suggests a disparity between the two ideas, which is not the case here. 'Nonetheless' implies a contradictory relationship, which doesn’t align with the parallel being drawn. 'In conclusion' suggests a summary or general closing thought, irrelevant to this specific transition. Hence, 'Similarly' is the best choice.",
+      "topic": "The differences between collectivist and individualist cultures",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly written and aligns well with SAT standards by testing the student's ability to choose a transition that properly links similar ideas—an important skill in written expression. The answer choices are plausible; specifically, they tempt students who might wrongly assume that individualist societies are fundamentally different from collectivist ones. The explanation, while clear and accurate, could benefit from a slightly deeper discussion of why each incorrect choice is unsuitable, which would enhance learning for students. Overall, it is solid but could be refined with an expanded explanation that not only states the correct answer but also explains the disqualifying factors of the alternatives in more detail.",
+      "difficulty_feedback": "This question fits the labeled Medium difficulty well. It requires a nuanced reading of the passage, as the relationship between the two sentences is not overtly obvious because of common preconceptions about collectivist versus individualist societies. To make it even more challenging, you might consider using slightly more sophisticated vocabulary or a more complex sentence structure. However, as it currently stands, the question is appropriately challenging for students scoring in the 600-700 range.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 20
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Hard",
+      "question": "Superconductors are materials that exhibit zero electrical resistance when cooled below their critical temperature. Their underlying quantum mechanical mechanism, particularly the formation of electron pairs known as Cooper pairs, forms the basis for their extraordinary properties. These properties include the expulsion of magnetic fields (the Meissner effect) and the ability to sustain electrical currents without energy losses. ____ , these features have also enabled advances in technologies such as magnetic resonance imaging (MRI), where incredibly stable and powerful magnets are needed for effective operation in medical settings.",
+      "choices": [
+        "A. Consequently",
+        "B. Therefore",
+        "C. Nevertheless",
+        "D. For instance"
+      ],
+      "answer": "A",
+      "explanation": "The logical connection being tested is the cause-effect relationship between the unique physical traits of superconductors and their practical applications. The correct word here is 'Consequently,' which conveys this cause-effect link seamlessly. 'Therefore,' while similar, lacks some of the nuance to connotate the groundbreaking reliance of technology on these properties. 'Nevertheless' implies contrast that doesn't exist in the text, and 'For instance' suggests an example but doesn't carry the appropriate cause-effect nuance.",
+      "topic": "The chemistry and physics of superconductors and their applications",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-crafted and clearly aligned with SAT standards for testing transition words, using a scientifically rich passage that necessitates careful analysis of cause-and-effect relationships. ‘Consequently’ is the best choice in context, and the distractors are plausible though not excessively deceptive. One area for improvement might be to further refine the distractors—perhaps by including one or two alternatives that are more subtly similar in meaning to the correct answer—so that the choice isn’t too obvious. Additionally, while the scientific context is engaging and authentic, consider whether it might potentially discourage students less familiar with scientific jargon; a slight rephrasing to emphasize the transition rather than the complex content might help broaden its appeal.",
+      "difficulty_feedback": "The question is labeled as ‘Hard’ and the passage’s technical language along with the nature of the transition relationship justifies this difficulty level. To further cement its hard status, you may incorporate more nuanced distractors that require a deeper understanding of subtle transition cues, thereby challenging even high-scoring students.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 20
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Easy",
+      "question": "**Passage 1: Economics Researcher’s Perspective**\n\nAn economics researcher argues that rising interest rates often discourage large-scale investments because borrowing becomes more expensive. They maintain that higher rates can cause corporations to delay or scale back major projects, including factories or advanced laboratories that may require extensive capital.\n\n**Passage 2: Investment Strategist’s Perspective**\n\nAn investment strategist suggests that while certain costly ventures may be postponed if funding is hard to secure, some projects remain viable in spite of high interest rates. If a product or service is essential and has strong growth potential, investors might still support it, even at higher borrowing costs.\n\n**Question:**\n\nBased on the two passages, which choice best describes how the authors would respond to a new startup planning to expand its research operations despite a recent interest rate hike?",
+      "choices": [
+        "A. Passage 1 would suggest that the startup’s expansion might be delayed or scaled back due to high borrowing costs, while Passage 2 would posit that vital or promising projects can still secure funding despite the rate increase.",
+        "B. Passage 1 would argue that higher rates consistently encourage investment due to increased savings, while Passage 2 would contend that businesses should avoid expansions entirely during rate hikes.",
+        "C. Passage 1 would assert that low borrowing costs inherently benefit startup expansions, while Passage 2 would emphasize the impossibility of funding projects amidst rate increases.",
+        "D. Passage 1 would suggest borrowing is irrelevant to expansion decisions due to project necessity, while Passage 2 would urge no spending beyond essential operational costs during rate hikes."
+      ],
+      "answer": "A",
+      "explanation": "Passage 1 presents the idea that rising interest rates typically discourage large-scale investments because borrowing becomes more expensive, leading to a potential delay or reduction in project scope. Meanwhile, Passage 2 suggests that some projects, especially those deemed essential or with strong growth prospects, might still receive investment despite higher borrowing costs. Thus, the startup, facing a likely increase in operational costs (Passage 1's view), might still secure investor interest if its project aligns with vital growth opportunities (Passage 2's view). Choice A best synthesizes these perspectives.",
+      "topic": "How rising interest rates affect business decision-making",
+      "total_score": 23,
+      "constructive_feedback": "The question is well structured for an SAT 'Two Passages' comparison, with clearly labeled passages and a prompt that directly tests the student's ability to synthesize and compare viewpoints. The answer choices are appropriately varied, with only one (A) aligning with the passages’ messages. However, the distractor options could be refined to ensure that they all use similar stylistic language so that the correct answer is not more obvious due to tone or phrasing. Additionally, while the passages are clear and align with an Easy difficulty, adding a tiny bit more context or nuance could further solidify the bridge between the passages and the question. Enhancing minor elements in the formatting (ensuring strict adherence to the required double line-break format) would also polish the question further.",
+      "difficulty_feedback": "For an Easy-level question, the passage and question are well aligned: they involve single-step reasoning, use familiar economic scenarios, and present an obvious comparison between viewpoints. The language is straightforward and the inferential step (synthesizing the two viewpoints) is minimal. To further solidify its placement in the Easy category, consider ensuring that the distractor options are tempting yet clearly incorrect upon closer reading, without being too obviously off-target.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 20
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Medium",
+      "question": "**Passage 1: 19th-Century Activist's Perspective on Moral Conscience**\n\nOne 19th-century activist contends that genuine freedom emerges when individuals place their moral conscience above any government decree. According to this activist, the state’s legitimacy dissolves if it undermines personal autonomy, so resistance is seen as an expression of integrity.\n\n**Passage 2: Modern Commentator on Resistance Methods**\n\nA modern commentator acknowledges the importance of moral conscience but maintains that constructive dialogue with institutions can also be a meaningful form of resistance. This commentator argues that, though civil disobedience can serve as a last resort, public commitment to negotiated reforms can occasionally achieve more lasting changes.\n\n**Which of the following best describes how the author of Passage 2 would likely critique the principle presented in Passage 1?**",
+      "choices": [
+        "A. The author of Passage 2 would partly accept the principle, recognizing the role of moral conscience, but advocate supplementing it with cooperative reform efforts.",
+        "B. The author of Passage 2 would reject the principle, claiming that it neglects the importance of institutional frameworks for shaping change.",
+        "C. The author of Passage 2 would interpret the principle as dismissive of meaningful incremental progress achieved through constructive law-abiding processes.",
+        "D. The author of Passage 2 would support the principle unconditionally, agreeing that moral autonomy should always override external authority."
+      ],
+      "answer": "A",
+      "explanation": "In Passage 1, the activist views moral conscience as taking precedence over governmental orders, advocating resistance when personal integrity is at stake. Passage 2 accepts the significance of moral conscience but emphasizes constructive engagement with institutions as a more productive approach to resistance. Answer choice A captures this nuanced viewpoint, combining moral guidance with systemic reform. The other options either misrepresent the commentator's acknowledgment of moral conscience (B, C) or fail to consider their emphasis on collaboration (D).",
+      "topic": "Diverging attitudes toward individual morality and institutional reform",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly written, logically structured, and aligns well with SAT Two-Passages standards. It requires students to compare differing viewpoints between a historical and a modern perspective, and the answer choices include plausible distractors that engage the student in multi-step reasoning. One way to improve this question further would be to enrich the passages with slightly more detail or nuance, thereby deepening the complexity without sacrificing clarity. Additionally, consider expanding the explanation to address why each distractor is less suitable, which can help guide struggling students more effectively.",
+      "difficulty_feedback": "The question is appropriately categorized as Medium difficulty. It challenges students to synthesize information from two distinct passages and distinguish between subtle differences in viewpoint, which meets the medium-level standards. To further fine-tune the difficulty level, you might consider lengthening the passage slightly or adding an extra layer of nuance that requires students to engage in more analytical reasoning.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 20
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Easy",
+      "question": "Vincent van Gogh is often recognized for the emotional intensity of his artwork, which influenced countless painters who came after him. Among his techniques, Van Gogh is especially known for his energetic and textured painting style.\n\nWhich choice best completes the sentence below?\n\nVan Gogh's ________ brushstrokes had a significant impact on modern art.",
+      "choices": [
+        "A) hesitant",
+        "B) expressive",
+        "C) reserved",
+        "D) mechanical"
+      ],
+      "answer": "B",
+      "explanation": "Adding the new information about Van Gogh's dynamic painting technique reinforces the emotional aspects of his work. The word 'expressive' is consistent with Van Gogh's influence and the energy in his artwork. The incorrect choices ('hesitant', 'reserved', 'mechanical') fail to capture the vigor and emotion that characterized his distinctive style.",
+      "topic": "The life and artistic influence of Vincent van Gogh",
+      "total_score": 25,
+      "constructive_feedback": "The question is well-constructed and clearly aligned with SAT Word Choice standards. The context appropriately cues the student to the emotional tone of van Gogh’s artwork, and the answer choices are sufficiently distinct so that 'expressive' stands out as the best fit. To improve further, consider enriching the context by adding an additional sentence that reinforces the emotional or dynamic nature of his style, which would deepen the analysis while still remaining accessible for an easy question.",
+      "difficulty_feedback": "The question matches its labeled difficulty. The vocabulary and sentence structure are straightforward, and the context provides clear clues to eliminate the distractors, making it suitable for an easy-level SAT practice question. To maintain the balance, ensure that even easy questions encourage students to carefully consider each option, perhaps by slightly varying the distractors in future iterations.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 20
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Medium",
+      "question": "In discussing the influence of cyberpunk themes on tech innovation and digital culture, some enthusiasts claim that these futuristic visions, often featuring high-tech and low-life dichotomies, have ______ mainstream discourse by urging people to question the balance between technological progress and personal freedom.\n\nWhich choice best completes the sentence?",
+      "choices": [
+        "A. diverted",
+        "B. diminished",
+        "C. galvanized",
+        "D. restrained"
+      ],
+      "answer": "C",
+      "explanation": "Cyberpunk narratives highlight futuristic landscapes and radical ideas about humanity's technological evolution, emphasizing themes of societal impact and personal freedom. Such depictions excite and provoke critical thinking, rather than reduce or redirect attention. \"Galvanized\" aptly conveys the idea of energizing or intensifying mainstream discourse. By contrast, \"diverted\" suggests a change of direction, \"diminished\" implies a reduction, and \"restrained\" denotes limitation—none of which align with the intended energizing effect of cyberpunk themes.",
+      "topic": "The influence of cyberpunk themes in tech innovation and digital culture",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-constructed and aligns with the SAT word-choice format. It provides a clear context, with a topic that is both modern (cyberpunk themes) and sufficiently detailed to allow students to use context clues. The distractors are plausible yet distinct from the correct answer, and the explanation clearly outlines why 'galvanized' is the best choice against the other options. To further improve, consider increasing the contextual detail slightly to help lower-level students connect more readily with the passage, and expand the explanation by addressing how the incorrect options fail in nuance. This would enhance the learning value for students who might struggle with subtle vocabulary differences.",
+      "difficulty_feedback": "The question appropriately matches a medium difficulty level. It uses moderately advanced vocabulary and expects a nuanced understanding of the word meanings. The distractors are plausible and require careful thought, which is characteristic of medium-level SAT vocabulary questions. To further align with this difficulty, you might ensure the context is as rich as possible without being overwhelming, possibly by integrating a secondary sentence or a more explicit hint about the nature of the cyberpunk influence.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 20
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "Janie Crawford’s determination for self-reliance in *Their Eyes Were Watching God* often drives her to make bold choices. In one early moment, she believes marriage will be the ________ that finally unlocks her path to true independence and self-expression.\n\nWhich choice best completes the sentence with a word that emphasizes how Janie views marriage as unlocking her independence?",
+      "choices": [
+        "A. linchpin",
+        "B. encumbrance",
+        "C. revelation",
+        "D. cornerstone"
+      ],
+      "answer": "A",
+      "explanation": "In this context, the sentence describes Janie’s belief that marriage is key to unlocking her independence. The word 'linchpin' suggests a central element upon which everything else depends, fitting the metaphor of a critical component unlocking potential. 'Encumbrance' signifies a burden, conflicting with Janie's hopeful outlook. 'Revelation' would imply a sudden realization rather than a functional role. 'Cornerstone' implies a more static, foundational role without the dynamic quality of unlocking, whereas 'linchpin' encompasses both centrality and the enabling function appropriate here. Thus, 'A. linchpin' is the most fitting choice.",
+      "topic": "Janie Crawford’s search for independence in *Their Eyes Were Watching God*",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-crafted in that it situates an advanced vocabulary choice within a literary context, and the sentence clearly challenges students to discern a nuanced difference between similar words. However, the similarity between 'linchpin' and 'cornerstone' might be too subtle. Consider strengthening the sentence with an additional context clue—perhaps by emphasizing a dynamic quality such as the idea of initiating or unlocking change—to more clearly differentiate the intended nuance of 'linchpin' from the more static connotation of 'cornerstone'. This would help ensure that only one answer fits perfectly in context.",
+      "difficulty_feedback": "Although the question is labeled as Hard and does involve advanced vocabulary and nuanced distinctions, the close similarity between two of the answer choices could potentially cause ambiguity. Adjusting the context to emphasize the dynamic, transformative role of marriage (rather than just its foundational quality) would better align the question with the high-level challenging criteria expected for Hard SAT word-choice questions.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 21
+    }
+  ]
+}

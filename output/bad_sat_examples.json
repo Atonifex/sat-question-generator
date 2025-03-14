@@ -1,6 +1,5 @@
 {
   "questions": [
-    
     {
       "skill": "Transition Words",
       "difficulty": "Easy",
@@ -608,6 +607,120 @@
       "difficulty_feedback": "While the prompt labels the question as Hard, it does not fully meet the criteria expected at this level. Hard-difficulty questions should involve complex vocabulary, multi-step reasoning, and sophisticated distractors. In its current form, the question is too straightforward. Enhancing the contextual complexity or integrating closer, subtler distractors would help better align the question with a Hard difficulty rating.",
       "topic_list_name": "modernTopicsAndFun",
       "topic_index": 18
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Easy",
+      "question": "Decentralized finance (DeFi) platforms use smart contracts ________ help users avoid certain traditional banking fees.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "A. by using smart contracts, which can automatically enforce transaction rules, helping users avoid certain traditional banking fees.",
+        "B. by using smart contracts that automatically enforce transaction rules, helping users avoid certain traditional banking fees.",
+        "C. which can automatically enforce transaction rules and might help users, those fees get significantly reduced.",
+        "D. that can automatically enforce transaction rules and simultaneously help users avoid certain traditional banking fees."
+      ],
+      "answer": "D",
+      "explanation": "Answer choice D correctly attaches the modifier 'that can automatically enforce transaction rules' to 'smart contracts,' ensuring clarity and precision. This formulation avoids ambiguous pronouns and unclear modifier placements, making the sentence grammatically correct and comprehensible. The other choices fail to maintain clarity: A introduces a dangling phrase ('helping users'), B creates an awkward structure with 'display many benefits,' and C uses 'those fees' ambiguously, confusing the reader.",
+      "topic": "The development and rise of decentralized finance (DeFi)",
+      "total_score": 19,
+      "constructive_feedback": "The question is mostly clear, uses an appropriate blank format, and aligns with the SAT style by testing the correct attachment of modifiers to the subject. However, some of the answer choices (especially A and B) are redundant or awkward, and the explanation is problematic. It incorrectly references a phrase (‘display many benefits’) that isn’t present in option B and lacks detailed reasoning for why the other choices are incorrect. To improve this item, revise the answer choices so that their errors are more clearly related to modifier placement, and overhaul the explanation to accurately reflect the errors in each option and why option D is superior.",
+      "difficulty_feedback": "While the sentence deals with a technical subject (DeFi), the grammatical challenge is basic relative-clause attachment, which is appropriate for an Easy level question. However, the technical jargon may distract some students. Using a more common context or simplifying the vocabulary might better align it with an Easy difficulty rating.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Medium",
+      "question": "Many philosophers who study the ethics of war and the just war theory assert that ________ is the set of guidelines providing moral constraints on how conflicts should be waged.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "A. both",
+        "B. some aspect of these concepts",
+        "C. philosophers",
+        "D. the just war theory"
+      ],
+      "answer": "D",
+      "explanation": "The pronoun \"they\" in the original sentence was incorrectly referring to \"philosophers.\" By inserting \"the just war theory\" into the sentence, it clearly identifies the actual concept being described as providing the guidelines. Option A (\"both\") is incorrect because it introduces a plural form which disagrees with the singular verb \"is.\" Option B (\"some aspect of these concepts\") is vague and fails to clearly point to the correct antecedent. Option C (\"philosophers\") is also incorrect as it shifts the responsibility for the guidelines to philosophers rather than the theory. Only option D accurately and clearly identifies the subject of the assertion as \"the just war theory,\" which fits with the rest of the sentence.",
+      "topic": "The ethics of war and the just war theory",
+      "total_score": 11,
+      "constructive_feedback": "The question’s format adheres to the SAT style—with a blank and the prompt asking which choice completes the text. However, its focus on pronoun/modifier issues is underdeveloped. The sentence lacks a clear, nuanced error that would require careful analysis, and most of the distractors are too obviously incorrect. Furthermore, the provided explanation refers to a pronoun (“they”) that does not actually appear in the sentence, making it misleading for students. For improvement, consider reworking the sentence to include a more subtle modifier or pronoun ambiguity that better challenges students and aligns with medium-level difficulty. Updating the explanation to directly address the actual subject-antecedent or modifier issue present in the revised sentence would also enhance clarity.",
+      "difficulty_feedback": "Although the question is labeled as Medium difficulty, its error is too conspicuous and the distractors are not plausible enough to truly test nuanced understanding. Medium-level questions should present more subtle grammatical challenges—such as a less obvious modifier or pronoun reference ambiguity—so that students scoring 600-700 are sufficiently challenged. Revising the sentence to include a subtle error would better align it with medium difficulty expectations.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Hard",
+      "question": "Some fans credit the improvised dance sequences of new Broadway-inspired productions for their success, arguing that ________ local traditions with well-known musical theater styles.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "A) NO CHANGE",
+        "B) these sequences connect",
+        "C) the set design connects",
+        "D) the audience connects"
+      ],
+      "answer": "B",
+      "explanation": "Answer choice B replaces the blank with 'these sequences connect,' which clearly refers to the antecedent, 'the improvised dance sequences.' This ensures the sentence explicitly identifies what connects local traditions with well-known musical theater styles, removing the ambiguity present in the original structure.",
+      "topic": "The influence of Broadway musicals on global theater trends",
+      "total_score": 16,
+      "constructive_feedback": "The question is generally clear and follows the SAT sentence-correction format, providing a coherent context and a correct answer that clearly ties back to the antecedent. However, as a 'Hard' question, it falls short in complexity. The distractors (C and D) are too obviously irrelevant, and option A is plainly ungrammatical, which makes the correct answer too easy to identify. Moreover, while the explanation correctly states why B is the best choice, it stops short of analyzing why the other options are faulty, missing an opportunity to help students learn from the common pitfalls. To improve the question, consider introducing more nuanced alternatives that require a more careful reading of the sentence. You might also revise the sentence or add an extra modifying phrase to create subtler traps regarding modifier placement. Expanding the explanation to compare each choice would also benefit students.",
+      "difficulty_feedback": "The question is labeled as 'Hard,' but its limited complexity and overly obvious distractors make it easier than intended. Hard-level SAT questions should involve multiple interacting grammatical concepts and more convincing distractors that trap even seasoned test-takers. Adjusting the sentence structure or the answer choices (or both) to introduce subtler errors would help better align the question with its Hard difficulty label.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Medium",
+      "question": "In a recent study conducted in urban cafeterias, researchers found that subtle changes in the physical layout could noticeably influence people’s choices. For example, in one experiment, placing healthy food options at eye level led to a measurable increase in nutritious selections, which over time reduced healthcare expenses for the community. The researchers argued that these minimal environmental shifts—without restricting freedom of choice—demonstrate that nudge theory can help governments save money while simultaneously encouraging individuals to adopt healthier and more financially responsible behaviors.\n\nWhich of the following best supports the claim that nudge theory offers both economic and social benefits?",
+      "choices": [
+        "A. A policy that requires employees to document daily caloric intake, monitored by health administrators",
+        "B. An awareness campaign teaching about savings but without altering how financial services are presented",
+        "C. Tax incentives for citizens who choose to recycle their household waste",
+        "D. A plan to rearrange grocery store shelves to position healthy products at eye level, leading to fewer major health expenses"
+      ],
+      "answer": "D",
+      "explanation": "The best answer aligns with the context that nudge theory uses subtle and low-cost strategies to promote positive behaviors while potentially reducing public expenses. Answer D mirrors the example provided by referring to shelf reorganization leading to health improvements, showcasing nudge theory's applicability. The other options, while promoting beneficial behaviors, do not encapsulate the economic savings or the minimal intervention characteristics essential to the concept of nudge theory.",
+      "topic": "The impact of nudge theory in public policy and economics",
+      "total_score": 22,
+      "constructive_feedback": "The question is clear, logically structured, and aligns with SAT standards for supporting claims. The passage effectively introduces nudge theory, and the answer choices are generally plausible. However, option D essentially restates the example provided, which makes it somewhat too obvious. To increase complexity and ensure the correct answer isn’t immediately apparent, consider revising the distractors to incorporate subtler distinctions or adding an extra inference step. The explanation is accurate but could be enriched by offering a deeper analysis of why the incorrect options fail to support the claim as directly.",
+      "difficulty_feedback": "While the question is labeled Medium and does require connecting evidence with the claim, its reliance on an almost verbatim example in option D makes it lean towards the easier side of medium. Enhancing the nuance in answer choices or integrating additional contextual details in the passage could better align it with medium-level difficulty expectations.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 19
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Medium",
+      "question": "Given the notes below about Machiavelli’s The Prince:\n\n• Machiavelli endorses a pragmatic approach that emphasizes maintaining political stability.  \n\n• Rulers should appear merciful but must be prepared to enforce strict measures when necessary.  \n\nThe student wants to synthesize these observations to highlight how a balanced approach to benevolence and strict action secures political power. Which choice most effectively accomplishes this goal?",
+      "choices": [
+        "A) Leaders can effectively secure their power by balancing benevolence with strategic, sometimes forceful, tactics.",
+        "B) Rulers who act only out of genuine kindness will always uphold their legitimacy.",
+        "C) Political systems thrive solely on mutual trust and can function without any fear-based regulation.",
+        "D) Governments that forgo displaying mercy will experience constant rebellions against their power."
+      ],
+      "answer": "A",
+      "explanation": "The notes emphasize that Machiavelli sees political stability as paramount, and he advises rulers to display compassion but also be willing to use stricter, more forceful actions as needed. Choice A combines these ideas by showing how an effective leader can maintain power through a combination of kindness and pragmatic, sometimes severe, decisions. The other choices overstate or oversimplify Machiavelli’s arguments, overlooking his nuanced emphasis on strategic control.",
+      "topic": "The political implications of Machiavelli’s The Prince",
+      "total_score": 16,
+      "constructive_feedback": "The question’s objective is clear and the answer choices are logically constructed, aligning with the idea of synthesizing notes. However, for a medium difficulty question, the text is too brief. With only two short bullet points and a succinct objective, it doesn’t require the multi-step reasoning or deeper analysis expected at this level. Expanding the bullet points to include additional, nuanced information from Machiavelli’s text would force students to engage in more complex synthesis. Also, ensure that bullet points are formatted exactly as required (using '\\n\\n•') and that the full prompt falls between 100 to 135 words.",
+      "difficulty_feedback": "Although labeled medium, the total word count is closer to 60 words, far below the required 100-135 words, reducing the complexity and challenge. To better match medium difficulty, include more detailed notes that require students to distinguish between subtle nuances in Machiavelli’s argument and to synthesize these into a balanced statement. This additional content would introduce the multi-step reasoning necessary for a medium-level SAT question.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 19
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Hard",
+      "question": "**Passage 1:** A historian argues that folk music forms an essential bridge to the past, helping current generations experience local customs and storytelling traditions. According to this viewpoint, melodies and lyrics passed down orally preserve cultural values that might otherwise be overlooked.\n\n**Passage 2:** An ethnomusicologist suggests that modern technology can serve as a means to expand folk music's influence without diluting its core traits. By promoting it online and integrating it into contemporary forms, this scholar believes people can safeguard the cultural roots of folk songs while making them accessible to young audiences.\n\nWhich choice best describes how Passage 2's focus builds on the argument introduced in Passage 1?",
+      "choices": [
+        "A. By positing that folk music is mostly incompatible with modern platforms",
+        "B. By arguing that innovations reduce the authenticity of original folk music",
+        "C. By claiming that folk music flourishes only when restricted to local audiences",
+        "D. By showing how technologies can sustain important traditions while broadening their reach"
+      ],
+      "answer": "D",
+      "explanation": "Passage 1 emphasizes the historical and cultural significance of folk music. Passage 2 extends this idea by explaining that modern tools can protect these traditions and share them with broader communities. The correct answer, choice D, captures this expanded perspective. Choices A and B suggest conflicts or incompatibilities with modern developments, but Passage 2 doesn't argue this. Choice C argues the opposite of what Passage 2 proposes, which encourages global exposure. Thus, choice D is the most accurate.",
+      "topic": "The importance of folk music in cultural preservation",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly written and follows the SAT Two Passages format, including distinct headers for both passages and appropriate answer choices with clear rationale in the explanation. The distractors are plausible yet distinct from the correct answer. However, since the question is labeled as Hard, the passages are relatively brief and straightforward. To elevate it, consider lengthening the passages or introducing more complex and nuanced language. Adding subtle elements that require multi-step reasoning or identification of implicit assumptions would challenge high-performing students more appropriately.",
+      "difficulty_feedback": "Although the question aligns well with SAT standards in terms of structure and clarity, its content and language are more in line with medium-level difficulty. To meet Hard difficulty guidelines, the passages could incorporate more sophisticated vocabulary, multi-layered arguments, and distractors that require deeper analysis and synthesis. This adjustment would ensure the exam challenges students in a manner consistent with the 'Hard' label.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 20
     }
   ]
 }
