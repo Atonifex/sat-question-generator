@@ -21,25 +21,6 @@
     },
     {
       "skill": "Punctuation",
-      "difficulty": "Medium",
-      "question": "AI-generated social media influencers continue to gain traction, offering entertainment and product recommendations and sometimes even surpassing traditional online personalities in popularity. However, some critics argue that these artificial personas struggle with authenticity _______ they are not hindered from building strong audience connections.\n\nWhich punctuation mark best completes the sentence?",
-      "choices": [
-        "A. ;",
-        "B. .",
-        "C. ?",
-        "D. ,"
-      ],
-      "answer": "B",
-      "explanation": "The sentence consists of two independent clauses: (1) 'However, some critics argue that these artificial personas struggle with authenticity' and (2) 'they are not hindered from building strong audience connections.' To separate these clauses, the appropriate punctuation would be a period. A semicolon would normally work, but since the example capitalizes 'They' in answer choices B and C, the semicolon becomes incorrect. A comma or question mark would also be unsuitable: a comma cannot connect independent clauses without a conjunction, and the sentence does not pose a question. Hence, the period is the best choice.",
-      "topic": "Punctuation in sentences separating independent clauses",
-      "total_score": 23,
-      "constructive_feedback": "The question is generally well constructed and aligns with SAT punctuation standards by testing the student’s ability to choose the correct punctuation to separate two independent clauses. However, there are a few areas for improvement. The sentence context is a bit ambiguous—‘these shortcomings’ does not clearly refer back to ‘lack genuine experiences,’ which can cause some confusion. Additionally, the answer choices include more than just the punctuation mark (they repeat part of the sentence), which slightly deviates from the recommended format of testing only the specific punctuation element. The explanation, while clear in its rationale for dismissing the semicolon, comma, and question mark options, could be expanded to acknowledge that a semicolon might work in a different context if the following word were not capitalized. Tightening the sentence for clarity and ensuring that the answer choices focus solely on the punctuation mark (and the necessary adjacent clues, such as capitalization) would enhance the overall quality.",
-      "difficulty_feedback": "The question is appropriately challenging for a Medium-level SAT punctuation question because it requires careful attention to the rules of joining independent clauses, particularly the nuance about capital letters following a semicolon. To further solidify its medium difficulty rating, consider revising the clause structure so that the relationship between the two ideas is clearer and less potentially misleading.",
-      "topic_list_name": "modernTopicsAndFun",
-      "topic_index": 18
-    },
-    {
-      "skill": "Punctuation",
       "difficulty": "Hard",
       "question": "Heathcliff’s unrelenting passion fueled his destructive plans during the novel’s climax, his actions unpardonable and driven by fiery despair— ______ readers often attribute his cruel actions to an intense pursuit of revenge overshadowing any moral inclinations. Which choice completes the text so it conforms to the conventions of standard English?",
       "choices": [

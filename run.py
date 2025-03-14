@@ -4,11 +4,13 @@ from dotenv import load_dotenv
 from src.generator import QuestionGenerator
 from src.reviser import QuestionReviser
 from src.output_to_json import output_to_json
-from src.config import DEFAULT_NUM_QUESTIONS, OUTPUT_DIR, VALID_SKILLS, VALID_DIFFICULTIES
+from src.config import DEFAULT_NUM_QUESTIONS, OUTPUT_DIR, VALID_SKILLS, VALID_DIFFICULTIES, MATH_SKILLS
 from datetime import datetime
 from pathlib import Path
 import csv
-from src.question_topics import literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, famousBiographies, modernTopicsAndFun
+from src.question_topics import (literatureTopics, historyTopics, socialScienceTopics, hardScienceTopics, 
+    businessTechnologyTopics, philosophyPoliticalTopics, artMusicFilmSportsTopics, famousBiographies, 
+    modernTopicsAndFun)
 import random
 
 
@@ -41,19 +43,22 @@ def main():
                   "businessTechnologyTopics", "philosophyPoliticalTopics", "artMusicFilmSportsTopics", 
                   "famousBiographies", "modernTopicsAndFun"]
     
-    topicChoice = 4  # Index for which topic list to use 
-    topicIndex = 18   # Index within the chosen topic list - went up to line 1375 in CONSOLIDATED "In Mary Shelley's \"Frankenstein,\" by 3:00 am on 3/12.
+    topicChoice = 1  # Index for which topic list to use 
+    topicIndex = 21   # Index within the chosen topic list - went up to line 1375 in CONSOLIDATED "In Mary Shelley's \"Frankenstein,\" by 3:00 am on 3/12.
 
     for skill in VALID_SKILLS:
         for difficulty in VALID_DIFFICULTIES:
             for q in range(DEFAULT_NUM_QUESTIONS):
                 try:
-                    # Get the current topic
-                    current_topic_list = topics[topicChoice]
-                    current_topic_list_name = topic_names[topicChoice] #3/12: Added this to display the topic list name in console
-                    current_topic = current_topic_list[topicIndex % len(current_topic_list)]
-                
-                    print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)} in list {current_topic_list_name}: {current_topic}")
+                    if skill not in MATH_SKILLS: #Generate topic for Reading or Writing question but not Math. Double check this works on 3/15, but I think it's conservative and safe.
+                        # Get the current topic
+                        current_topic_list = topics[topicChoice]
+                        current_topic_list_name = topic_names[topicChoice] #3/12: Added this to display the topic list name in console
+                        current_topic = current_topic_list[topicIndex % len(current_topic_list)]
+                        print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)} in list {current_topic_list_name}: {current_topic}")
+
+                    else: #math
+                        print(f"Generating {difficulty} {skill} question")
                     
                     questions = generator.generate_batch(skill, difficulty, 1, current_topic)
                     
@@ -69,10 +74,10 @@ def main():
                     output_to_json(revised_questions)
                     print(f"FINISHED generating and revising {len(revised_questions)} questions for {difficulty} {skill}")
                     
-                    # Update topic indices - Only increment topicIndex when we've gone through all topic lists
-                    topicChoice = (topicChoice + 1) % len(topics)
-                    if topicChoice == 0:  # We've wrapped around to the first topic list
-                        topicIndex += 1   # Move to next index within all topic lists
+                    if skill not in MATH_SKILLS: #Only increment topicIndex when we've gone through all topic lists
+                        topicChoice = (topicChoice + 1) % len(topics)
+                        if topicChoice == 0:  # We've wrapped around to the first topic list
+                            topicIndex += 1   # Move to next index within all topic lists
 
                 except Exception as e:
                     print(f"Error during generation or revision of {difficulty} {skill} on topic: {current_topic}: {e}")
