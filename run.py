@@ -67,9 +67,13 @@ def main():
                     revised_questions = reviser.revise_batch(questions)
 
                     # Add topic information to each question in the batch
-                    for question in revised_questions: #there should only be 1 question, but this unpacks it.
-                        question["topic_list_name"] = current_topic_list_name
-                        question["topic_index"] = topicIndex
+                    for question in revised_questions:
+                        if skill not in MATH_SKILLS:
+                            question["topic_list_name"] = current_topic_list_name
+                            question["topic_index"] = topicIndex
+                        else:
+                            question["topic_list_name"] = "N/A - Math Question"
+                            question["topic_index"] = -1
 
                     # Saving to CSV is handled internally in the revise_questions function
                     output_to_json(revised_questions)

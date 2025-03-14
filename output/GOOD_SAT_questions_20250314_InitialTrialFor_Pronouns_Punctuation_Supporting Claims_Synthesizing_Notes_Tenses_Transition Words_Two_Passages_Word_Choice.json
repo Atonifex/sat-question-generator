@@ -322,6 +322,25 @@
       "difficulty_feedback": "Although the question is labeled as Hard and does involve advanced vocabulary and nuanced distinctions, the close similarity between two of the answer choices could potentially cause ambiguity. Adjusting the context to emphasize the dynamic, transformative role of marriage (rather than just its foundational quality) would better align the question with the high-level challenging criteria expected for Hard SAT word-choice questions.",
       "topic_list_name": "literatureTopics",
       "topic_index": 21
+    },
+    {
+      "skill": "Absolute Value",
+      "difficulty": "Easy",
+      "question": "Select one correct solution to the equation $|x+5| = 3$.",
+      "choices": [
+        "A. -3",
+        "B. 2",
+        "C. -2",
+        "D. 8"
+      ],
+      "answer": "C",
+      "explanation": "The equation $|x+5| = 3$ can be solved by considering the two cases for the absolute value:\n\nStep 1: Solve the positive case: $x+5=3$  \nSubtract $5$ from both sides: $x=-2$\n\nStep 2: Solve the negative case: $x+5=-3$  \nSubtract $5$ from both sides: $x=-8$\n\nStep 3: Verify solutions: Substituting $-2$ back into $|x+5|$ gives $3$, so $-2$ is a valid solution. Substituting $-8$ back into $|x+5|$ gives $3$, so $-8$ is also a valid solution.\n\nOut of the two solutions, only $-2$ is listed in the answer choices.\n\nThus, the correct answer is option C.\n\n(Note: Options $-3$, $2$, and $8$ do not satisfy the equation.)",
+      "topic": "Absolute Value Equation",
+      "total_score": 25,
+      "constructive_feedback": "The question is clear, directly tests the absolute value property, and is well aligned with the SAT's Easy difficulty guidelines. The phrasing, ‘Which of the following is a solution to the equation $|x+5| = 3$?’, is clear, though it might be even better phrased as ‘Select one correct solution’ to reinforce that any valid solution is acceptable. Also, while the answer choices are plausible, note that the equation yields two solutions (x = -2 and x = -8) but only one appears among the options. This is acceptable for the prompt but could be briefly noted in the explanation to further clarify student thinking. The explanation does show both cases and correctly identifies the only available solution in the answer choices. Formatting improvements could include more explicit step markers with double line breaks (e.g., Step 1:, Step 2:) to further aid students in following the solution process.",
+      "difficulty_feedback": "The question appropriately matches the Easy difficulty level: it involves a direct application of the definition of absolute value and requires a very limited number of computational steps (setting up two simple equations). Enhancing the explanation by stress-testing that students should expect two cases in absolute value equations—even if only one is provided as an option—might further benefit students who are learning the concept.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
     }
   ]
 }

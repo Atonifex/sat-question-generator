@@ -26,10 +26,10 @@ OUTPUT_DIR = BASE_DIR / 'output'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Question Generation Settings
-DEFAULT_NUM_QUESTIONS = 1
+DEFAULT_NUM_QUESTIONS = 2
 VALID_DIFFICULTIES = ["Easy", "Medium", "Hard"] #"Easy", 
 VALID_SKILLS = [
-    #'Pronouns and Modifiers', 'Punctuation', 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice' #The last 3 work VERY well, though double check Punctuation & Pronouns on 3/14
+    'Pronouns and Modifiers', 'Punctuation', 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice', #The last 3 work VERY well, though double check Punctuation & Pronouns on 3/14
     #Reading ones will use READING_DIFFICULTY_GUIDELINES: 'Function of Sentence', 'Inferences', 'Main Idea', 'Supporting Claims', "Synthesizing Notes" #as of 3/12 at 3:22, THIS PROGRAM FUCKING WORKS! THESE QUESTIONS ARE GREAT! GENERATE AWAY BABY!!!
     #'Referencing Data', 'Interpreting Graphs', #no clue how I'm going to do these two...I'll need generated tables, graphs, or pictures.
     'Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 'Exponential Word Problems', 'Geometry', 'Linear Equations', 'Linear Word Problems', 'Inequality Word Problems', 'Percent', 'Polynomial Expressions', 'Probability', 'Quadratic Equations', 'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
@@ -46,7 +46,7 @@ MATH_SKILLS = ['Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 
     'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
 ]
 
-EVALUATION_TOTAL_SCORE_GOOD_TO_USE = 22 #affects both reviser and output_to_json, so better to change here.
+EVALUATION_TOTAL_SCORE_GOOD_TO_USE = 23 #affects both reviser and output_to_json, so better to change here.
 #I think 24 is pretty strict (23 is probably good, maybe even 22, but for new ones, I'd rather create more and disqualify more so I can have a higher level of quality control!)
 
 
