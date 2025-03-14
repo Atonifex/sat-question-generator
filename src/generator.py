@@ -9,7 +9,9 @@ from datetime import datetime
 import time
 from typing import Dict, List
 from openai import OpenAI
-from src.config import OPENAI_API_KEY, DEFAULT_NUM_QUESTIONS, RESPONSE_FORMAT, SKILL_PROMPTS, REASONING_EFFORT, REQUEST_DELAY, OPENAI_MODEL, DIFFICULTY_GUIDELINES, OVERUSED_TOPICS
+from src.config import (OPENAI_API_KEY, DEFAULT_NUM_QUESTIONS, RESPONSE_FORMAT, SKILL_PROMPTS, REASONING_EFFORT, REQUEST_DELAY, OPENAI_MODEL, OVERUSED_TOPICS, 
+    READING_DIFFICULTY_GUIDELINES, WRITING_DIFFICULTY_GUIDELINES, MATH_DIFFICULTY_GUIDELINES
+)
 from pathlib import Path
 import random
 
@@ -26,7 +28,9 @@ class QuestionGenerator:
         self.reasoning_effort = REASONING_EFFORT
         #self.max_completion_tokens = MAX_COMPLETION_TOKENS
         self.model = OPENAI_MODEL
-        self.difficulty_guidelines = DIFFICULTY_GUIDELINES
+        self.reading_difficulty_guidelines = READING_DIFFICULTY_GUIDELINES
+        self.writing_difficulty_guidelines = WRITING_DIFFICULTY_GUIDELINES
+        self.math_difficulty_guidelines = MATH_DIFFICULTY_GUIDELINES
         self.overused_topics = OVERUSED_TOPICS
 
     
@@ -71,7 +75,12 @@ class QuestionGenerator:
 
             #Load skill-specific formatting and difficulty guidelines
             skill_guidelines = self.skill_prompts.get(skill)
-            difficulty_guidelines = self.difficulty_guidelines.get(difficulty)
+            if skill in READING_SKILLS:
+                difficulty_guidelines = self.reading_difficulty_guidelines.get(difficulty)
+            elif skill in WRITING_SKILLS:
+                difficulty_guidelines = self.writing_difficulty_guidelines.get(difficulty)
+            else: #It's in Math - ****LATER CONSIDER IF I NEED TO BREAK UP MATH INTO SUB-SECTIONS FOR DIFFICUCLTY
+                difficulty_guidelines = self.math_difficulty_guidelines.get(difficulty) # Default to reading guidelines
 
             #3/12: To address the uneven distribution of correct answer choices, I'm incorporating this:
             #Rotates the correct answer to make it more evenly distributed since the AI favors B and C most of the time.
@@ -130,6 +139,8 @@ class QuestionGenerator:
             
             question_data = questions[0]
             
+            #TO IVAN on 3/13/2025:
+            #*****ALTERNATIVE TO SWITCHING DIFFICULTY AND SKILL WOULD BE TO RE-GENERATE THE PROMPT UNTIL BOTH DIFFICULTY AND SKILL ARE CORRECT (maximum 3 tries) *****
             # Force the correct difficulty level
             if question_data.get('difficulty') != difficulty:
                 print(f"Warning: Generated question had difficulty '{question_data.get('difficulty')}' instead of requested '{difficulty}'. Correcting.")

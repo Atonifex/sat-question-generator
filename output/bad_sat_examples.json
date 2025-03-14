@@ -1,629 +1,613 @@
 {
   "questions": [
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In *The Federalist No. 51*, James Madison writes: \n\n\"If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary.\" \n\nBased on this excerpt, which inference is best supported about Madison's view on government?",
-      "choices": [
-        "A) Governments should be designed to encourage citizens to act as angels.",
-        "B) Governments must have checks and balances because human nature is imperfect.",
-        "C) Governments serve no significant purpose when citizens remain virtuous.",
-        "D) Governments can be led only by citizens with perfect moral character."
-      ],
-      "answer": "B",
-      "explanation": "Madison's statement emphasizes the imperfection of human nature and the corresponding necessity for systems of governance to include mechanisms that prevent misuse of power. Since human beings are not inherently flawless ('not angels'), checks and balances are justified as a precaution. The correct choice recognizes the essence of the excerpt by referencing human imperfection and the need for structural safeguards. Dismissed choices: A) misconstrues the purpose of government design; C) incorrectly implies government's purpose is obsolete with virtuous citizenship; D) assumes a requirement for perfect leaders, which the excerpt does not support.",
-      "disqualification_reason": "Reference to Federalist Paper No. 51 was already the subject of a previous question."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "In Nathaniel Hawthorne’s 1851 novel *The House of the Seven Gables,* how does the description of the Pyncheon mansion contribute to the overarching themes of the narrative? The mansion is described in extensive detail, with an emphasis on its worn-out exterior, gloomy interiors, and the pervasive sense of foreboding it elicits. This conveys its symbolic significance within the story.",
-      "choices": [
-        "A. The mansion’s deteriorated state highlights the decaying status of the family and its history.",
-        "B. The Pyncheon mansion remains a resilient emblem of the family’s unwavering influence.",
-        "C. The haunting description of the mansion serves as commentary on the human spirit’s perpetual endurance.",
-        "D. The narrative uses the description of the house to emphasize its separation from human affairs."
-      ],
-      "answer": "A",
-      "explanation": "The correct answer is A. The mansion’s worn and gloomy state symbolizes the declining fortunes and troubled history of the Pyncheon family. Hawthorne’s description aligns the physical condition of the mansion with the moral and social decay of the family. Alternatives B, C, and D incorrectly interpret the described symbolism, as the mansion is explicitly tied to decay and familial burdens, not resilience or separation from humanity.",
-      "disqualification_reason": "This question is out of order and doesn't provide the direct reference. It asks about the 'description of the Pyncheon mansion' but then doesn't provide the actual text description of the mansion; instead, it merely summarizes a description. However, the point of this question is to assess the students' ability to read complex text and summarize its main idea, so this cirucmvents the core purpose."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "Alexander Graham Bell’s earliest public demonstrations of the telephone in the 1870s drew curious onlookers eager to witness a device that allowed the human voice to travel through wires. Merchants imagined new opportunities in faster ordering processes, while newspaper publishers discussed the potential impact on how information would be gathered and delivered. Although at first met with skepticism by some who believed the device too impractical, Bell’s demonstrations convinced many observers of the telephone’s promise to connect people in ways previously unthinkable.\n\nBased on this description, which statement about the telephone’s early reception is best supported by the passage?",
-      "choices": [
-        "A. Merchants were the only group that immediately understood the telephone's practical uses.",
-        "B. Bell's invention was initially doubted by some but eventually recognized for its transformative potential.",
-        "C. Observers were indifferent about Bell's invention due to its complexity.",
-        "D. The demonstrations proved practically no one believed in the telephone's usefulness."
-      ],
-      "answer": "B",
-      "explanation": "Answer choice B is correct: the text describes that while there was skepticism regarding the telephone's practicality, Bell's demonstrations led many to appreciate its transformative potential. Answer choice A is incorrect because it overlooks the other groups, such as newspaper publishers, who also envisioned uses for the invention. Answer choice C is incorrect because the passage describes observers as curious and interested, not indifferent. Answer choice D directly contradicts the text, which states that many were convinced of the telephone's promise after its demonstrations.",
-      "disqualification_reason": "Uses the exact same format as previous questions: introduces new technology, then says 'although at first met with skepticism, Bell's demonstration convinced many observers about the promise of to connect people in new ways' (or paraphrasing that - while it wasn't accepted, it would later be influential to other things. This exact structure has been too commonly used in my questions already."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Easy",
-      "question": "Many mathematicians of the early 20th century overcame significant social hurdles to make lasting contributions to their fields. In 1905, mathematician Emma Strömberg published a pioneering paper that introduced a new framework for understanding prime distributions in large sets of data. Her approach was initially met with skepticism by peers who questioned the reliability of her methods. However, her findings were soon validated by other researchers, and her work became a foundation for modern statistical analysis. Strömberg’s dedication prompted more inclusive research opportunities for underrepresented groups, sparking broader interest in advanced mathematics.\n\nWhich statement best expresses the main idea of the passage?",
-      "choices": [
-        "A. Strömberg’s theories were criticized and are mostly considered outdated today.",
-        "B. The discovery of prime distributions in large data sets proved unhelpful for future research.",
-        "C. Strömberg’s groundbreaking work advanced statistical methods and helped foster inclusivity in mathematics.",
-        "D. Mathematicians of the early 20th century rarely supported one another’s efforts."
-      ],
-      "answer": "C",
-      "explanation": "The main idea of the passage is that Emma Strömberg made a significant contribution to mathematics through her innovative research, which not only affected mathematical practices but also promoted inclusivity. Key points leading to this conclusion include:\n- Mentions of her pioneering study on prime distributions.\n- The eventual validation of her work and its foundational status in statistical analysis.\n- Her influence on inclusivity within the field of mathematics.\nAfter analyzing each choice: A is inaccurate because her work is not described as outdated; B is incorrect because her discovery is clearly presented as influential; D misrepresents the collaborative landscape of the time. Therefore, the correct answer is C, which appropriately summarizes her dual impact on mathematics and inclusivity.",
-      "disqualification_reason": "This has the exact same structure as the Alexander Graham Bell and other questions. The paragraph structure shoudl be more varied and answer choices should be more believable."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Easy",
-      "question": "In the early 20th century, business leader Harriet Wilkins established the **Wilkins Trust**, supporting:\n\n• Low-income students pursuing *engineering* degrees  \n• Women-owned businesses in manufacturing  \n\nDuring her lifetime, she contributed over $2 million to the trust and partnered with local universities to develop _innovative_ programs that encouraged hands-on research. Many historians credit her efforts with helping create more inclusive professional fields, where graduates from diverse backgrounds could thrive. Wilkins’s goal, according to her personal letters, was to ensure that financial constraints did not prevent **high-potential** individuals from exploring new technologies.\n\nBased on the information given, infer the purpose of Wilkins’s initiatives.",
-      "choices": [
-        "A. Wilkins envisioned the trust benefiting only engineering graduates.",
-        "B. Wilkins's initiatives were driven primarily by personal financial gain.",
-        "C. Wilkins aimed to lessen obstacles for talented yet underprivileged groups.",
-        "D. Wilkins chose areas of study that were inexpensive to support."
-      ],
-      "answer": "C",
-      "explanation": "Harriet Wilkins's establishment of the Wilkins Trust is described in the passage as an effort to address financial barriers that hinder high-potential individuals from advancing in technical and innovative fields. Her focus on supporting low-income students and women entrepreneurs reflects her dedication to fostering inclusivity and accessibility in professional domains. Option C best captures this goal of dismantling obstacles for capable yet financially constrained individuals. The other response choices either misinterpret her intentions or assert unsupported claims.",
-      "disqualification_reason": "This adds bullet points in a style of question that shouldn't have bullet points. It's also too straightofrward because the question basically answers itself by directly stating what her goal was, then asking what her goal was for the question."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In **1864**, the _biologist Carla Reyes_ traveled to a remote wetland region in Southeast Asia to study a *newly discovered amphibian species*. She noted that the creatures had unusually flexible hind legs, which appeared to help them leap across thick aquatic vegetation. Reyes also observed a series of distinctive stripes along the amphibians' spines, suggesting that these markings might provide camouflage in murky waters. \n\nWhich inference is best supported by the passage?",
-      "choices": [
-        "A) The amphibian species described by Reyes thrives only in saltwater environments.",
-        "B) The amphibian species' physical features likely enhance its survival in its habitat.",
-        "C) Reyes wrote her field notes primarily to document migratory birds of the region.",
-        "D) Reyes believed the amphibian population would risk extinction due to its rarity."
-      ],
-      "answer": "B",
-      "explanation": "The passage provides evidence for the inference that the amphibian's physical traits, such as flexible hind legs and distinctive stripes, are advantageous for its adaptation to its habitat. These features suggest functional roles like improved movement through vegetation and camouflage. Option B is correct because it connects these adaptations to the amphibian's survival. Options A, C, and D are not directly supported by the passage: there is no mention of saltwater environments (ruling out A), no focus on migratory birds in the observation (ruling out C), and no indication of concern about extinction (ruling out D).",
-      "disqualification_reason": "This question is WAY TOO EASY because the A, C, and D are ridiculously far off topic. They need to be way more plausible to be appropriate for even Easy difficulty, let alone Medium."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Dorothy Gifford, an 18th-century naturalist, recorded her observations on a newly discovered insect in her field journal. She noted that while the insect shared certain traits with well-known species, its unique *wing structure* and feeding behavior made it challenging to place within existing classifications. Gifford described both her enthusiasm for the insect and the difficulties encountered while categorizing its features for her forthcoming scientific study.\n\nBased on this information, what can we infer about Gifford's attitude towards the insect and her research?",
-      "choices": [
-        "A) She doubted that the insect would captivate other researchers' interest.",
-        "B) She admired the insect's distinctive characteristics, finding them intriguing yet challenging to categorize.",
-        "C) She criticized established taxonomic methods for being deficient.",
-        "D) She feared the insect could have negative environmental impacts."
-      ],
-      "answer": "B",
-      "explanation": "The passage shows that Dorothy Gifford was captivated by the insect and dedicated significant effort to studying its unique characteristics such as its wing structure and feeding behavior, which posed a challenge to classification. This implies she found the insect's traits fascinating and appreciated the complexity involved in categorizing it. Answer choice B correctly reflects this inference. Answer choice A is incorrect because there is no indication of Gifford doubting others' interest. Choice C is incorrect as there is no evidence that she criticized taxonomic methods. Choice D is also incorrect as the passage does not mention concern about environmental impacts.",
-      "disqualification_reason": "This doesn't require any critical thinking, and instead it just is about matching the paraphrased answer choice to the question. Instead, Inference questions should require the student to critically think, consolidating their understanding of the information given in the question, then making conclusions or assumptions that apply that knowledge in a new way; if the question merely requires paraphrasing the main idea, then it should be discarded or reworked."
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "In the context of the passage, the children in the workhouse face significant hardships. Despite these challenges, they exhibit resilience, particularly through their curiosity about the outside world. What is the primary purpose of this excerpt?",
-      "choices": [
-        "A. It describes the architectural details and features of the workhouse.",
-        "B. It illustrates the impact of harsh conditions on fostering the boys’ yearning for knowledge and exploration.",
-        "C. It analyzes the disparities between the privileges of the wealthy and the destitute.",
-        "D. It portrays the outright neglect and abuse within the institution of the workhouse."
-      ],
-      "answer": "B",
-      "explanation": "The passage focuses on how the boys' inquisitive nature perseveres despite the adversities they face within the workhouse—a testament to their resilience. Choice 'B' accurately captures this central theme, while other options, like 'A' and 'C', touch on peripheral aspects or misinterpret the main idea altogether.",
-      "disqualification_reason": "No passage was provided. It's not okay to merely summarize what a passage is about (i.e. 'In the context of the passage, the children...')."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Hard",
-      "question": "The following passage is adapted from the novel *A Tale of Two Cities* by Charles Dickens (1859), portraying a scene leading up to the French Revolution.\n\nA carriage driven by an aristocrat races past a group of destitute peasants on the roadside. Based on the details provided in this scene, what inference can most reasonably be drawn about the aristocrat’s attitude?",
-      "choices": [
-        "A. He believes the peasants' struggles are insignificant compared to his own priorities.",
-        "B. He regards the peasants with a mindset of inherent superiority, expressing a dismissive view.",
-        "C. He demonstrates apathy toward the peasants' plight, as shown by his uninterested passage by them.",
-        "D. He avoids engaging with the peasants out of fear of their potential agitation."
-      ],
-      "answer": "C",
-      "explanation": "The aristocrat's rapid crossing past the peasants indicates a lack of interest or concern for their poor state, suggesting his indifference. Choice A implies a comparison not directly stated in the text, while B suggests a dismissiveness that is beyond what's explicitly inferred. D posits a motivation of fear, which again is unsupported by the description in the excerpt. Therefore, C is the most justified answer since it directly reflects the inference drawn about apathy from the provided scene.",
-      "disqualification_reason": "Only one sentence was provided, but a passage should be at least 100 words."
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In Charles Dickens’s novel \\emph{Oliver Twist} (1838), young Oliver, an orphan living in a workhouse, shocks the officials by requesting an extra portion of food. These officials, outraged by Oliver’s plea, convene to discuss whether this act of \"ingratitude\" warrants punishment, fearing it may inspire others to behave similarly.\\\n\\\nWhat can be inferred about the officials’ perspective based on their reaction to Oliver’s request?",
-      "choices": [
-        "A. They believe leniency towards Oliver would undermine their authority.",
-        "B. They are concerned about the financial implications of increased food portions.",
-        "C. They interpret Oliver’s request as a misunderstanding of the system’s rules.",
-        "D. They aim to minimize public embarrassment by addressing the matter immediately."
-      ],
-      "answer": "A",
-      "explanation": "The officials’ reaction reveals their belief that failing to punish Oliver’s request for more food would encourage similar defiance among others in the workhouse, threatening their authority. Their primary concern lies in maintaining strict control, as evidenced by their fear of setting a precedent that could lead to insubordination. For instance, referring to Oliver's plea as 'ingratitude' and convening to punish him underscores their focus on authority and discipline over empathy or fairness.",
-      "disqualification_reason": "This has bad formatting with the '\\emph{Oliver Twist}' rather than using *Oliver Twist*, and it also has too many excape slashes for the line breaks '\\\\\\n'"
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Hard",
-      "question": "The following excerpt is from *Plato’s Allegory of the Cave*, a passage in *Plato’s Republic*. In this allegory, prisoners confined in a cave see only shadows on the wall, until one is released and discovers the outside world.\n\nWhich statement best describes the primary insight this allegory offers about the relationship between perception and truth?",
-      "choices": [
-        "People can easily find truth without changing their surroundings",
-        "Individuals remain content with partial truths if they seem familiar",
-        "Absolute reality cannot be known once we bond with illusions",
-        "True understanding involves moving beyond appearances to grasp deeper realities"
-      ],
-      "answer": "D",
-      "explanation": "Plato’s allegory illustrates how superficial perceptions, like shadows on a wall, can limit one’s awareness of genuine reality. The freed prisoner’s journey toward the light symbolizes how individuals must transcend comfortable but illusory views in order to discover a broader understanding of truth. By highlighting this shift from shadows to real forms, Plato underscores the idea that authentic knowledge arises from challenging and moving beyond initial impressions.",
-      "topic": "Plato’s Allegory of the Cave and its implications on reality and knowledge",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "Read the passage below.\n\nDuring the Harlem Renaissance, poets and jazz composers engaged in a dynamic dialogue that transcended simple artistic inspiration. Poets, while drawing on the syncopated rhythms of jazz, often infused their verse with a tension between historical tradition and innovative experimentation. Simultaneously, jazz composers, influenced by the poetic imagery and subtle nuances of contemporary literature, experimented with unconventional melody and tempo, challenging established musical conventions. This interplay not only fostered a vibrant exchange of ideas but also raised critical questions about the evolving nature of African American cultural expression.\n\nWhich choice best states the main idea of the passage?",
-      "choices": [
-        "A. The Harlem Renaissance was a period characterized by stability in the arts, favoring traditional influences over innovation.",
-        "B. Artists during the Harlem Renaissance focused primarily on their individual crafts, avoiding cross-disciplinary influences.",
-        "C. The interplay between jazz and poetry during the Harlem Renaissance reflected and drove evolving cultural narratives and innovations.",
-        "D. Jazz and poetry during the Harlem Renaissance struggled to find a common ground, leading to a division in artistic communities."
-      ],
-      "answer": "C",
-      "explanation": "The passage discusses the mutual influence between poets and jazz composers during the Harlem Renaissance, emphasizing their dynamic interaction and ideological exploration, which reflects evolving cultural narratives. Choices A and B incorrectly present the era as either traditionalist or siloed, neither of which align with the described artistic dialogue. Choice D suggests disunity rather than collaboration, which contradicts the passage's themes.",
-      "topic": "The influence of the Harlem Renaissance on jazz and poetry",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Albert Einstein’s research on the photoelectric effect, recognized with the Nobel Prize in Physics in 1921, paved the way for quantum mechanics. Despite playing an influential role in shaping this emerging field, he frequently challenged the theory’s completeness. Similarly, his 1915 general theory of relativity redefined our understanding of gravity and sparked debate among scientists at the time. Moreover, his continuous exploration of the limits of existing scientific models suggested that he valued empirical evidence and was skeptical of theories that seemed to offer only partial explanations.\\n\\nWhich inference is best supported by the information provided?",
-      "choices": [
-        "Einstein recognized the importance of new theories but never accepted them uncritically.",
-        "Einstein fully agreed with every aspect of quantum mechanics from its earliest stages.",
-        "Einstein’s findings in relativity displaced his research on quantum theory into obscurity.",
-        "Einstein was awarded his Nobel Prize exclusively for his work on general relativity."
-      ],
-      "answer": "A",
-      "explanation": "From the details about Einstein’s Nobel recognition for the photoelectric effect and his reservations about quantum mechanics, we see that he appreciated the importance of modern theories but questioned their completeness. He also revolutionized our understanding of gravity with relativity, showing he was open to scientific progress while still challenging prevailing assumptions. Additionally, the mention of his consistent curiosity to refine models demonstrates his critical yet empirical approach. Thus, the best inference is that Einstein accepted new ideas cautiously rather than unconditionally.",
-      "topic": "The life and scientific achievements of Albert Einstein",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "The following passage discusses the impact of AI on the music industry.\n\nMany music producers are turning to AI-generated compositions to streamline their songwriting process. They say that machine-created melodies not only offer new forms of experimentation but also reduce production costs by providing musicians with fast, on-demand options. However, some industry professionals are concerned about losing the human touch that has traditionally shaped popular music. They argue that while AI can handle much of the technical work, it lacks the emotional depth and originality that come from lived experience. This debate not only reflects shifting industry practices but also illustrates a broader tension between technological innovation and traditional artistry.\n\nWhich choice best states the main idea of the text?",
-      "choices": [
-        "A. AI-generated music offers significant benefits to musicians but raises questions about creativity",
-        "B. AI-generated melodies are bound to surpass all conventional music methods in popularity",
-        "C. Producers rely on AI to perform only the simplest tasks, preferring to work manually on complex pieces",
-        "D. Musicians generally believe AI systems replicate human emotions more accurately than traditional methods"
-      ],
-      "answer": "A",
-      "explanation": "The revised passage includes an additional sentence to meet the medium-length requirement and better reflects the complexity of the discussion. The correct answer (Choice A) clearly captures the balanced view presented in the text, discussing both the advantages of AI in music production and the concerns about its impact on creativity.",
-      "topic": "The influence of AI-generated music on the future of the music industry",
-      "topicIndex": 1
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In F. Scott Fitzgerald’s The Great Gatsby, Jay Gatsby spends lavishly on extravagant parties and opulent displays of wealth. He is determined to capture Daisy’s attention, convinced that his newfound material success will not only win her admiration but also somehow restore the unattainable ideal of their past romance. His actions suggest a belief that wealth holds the power to rewrite history and bridge the gap between his current life and the lost promise of love.\n\nWhich inference about Gatsby’s pursuit of the American Dream is best supported by the passage?",
-      "choices": [
-        "He believes that financial status will allow him to revive an idealized relationship.",
-        "He intends to give his fortune away to show Daisy he is sincere in his intentions.",
-        "He rejects social norms entirely, preferring to live a life of isolation.",
-        "He uses public attention from society’s elite to overshadow his personal doubts."
-      ],
-      "answer": "A",
-      "explanation": "The passage describes Gatsby’s belief that wealth has the power to bridge the gap between his current life and the lost promise of love, demonstrating that he thinks financial status can revive an idealized relationship.",
-      "topic": "Jay Gatsby’s pursuit of the American Dream in The Great Gatsby",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Hard",
-      "question": "The following passage is excerpted from a historical analysis of American territorial expansion.  \n\nIn 1803, the United States completed the Louisiana Purchase—a deal that doubled the nation’s territory by acquiring roughly $828{,}000$ square miles of land replete with lucrative rivers, trade routes, and vast farmland. Although this vast acquisition promised enormous potential for economic growth, it also sparked fierce debates over national identity, indigenous land rights, and the balance of power between emerging states.\n\nWhich choice best describes the overall significance of this land acquisition for U.S. expansion?",
-      "choices": [
-        "A. It redefined U.S. boundaries while also prompting significant debates over regional and state policies.",
-        "B. It was primarily focused on securing geographic control over key waterways.",
-        "C. It symbolized the emerging U.S. ambition of territorial and political superiority in the Americas.",
-        "D. It enabled significant growth by vastly increasing available land and resources."
-      ],
-      "answer": "D",
-      "explanation": "The Louisiana Purchase greatly enlarged the nation, providing access to new farmland, important waterways, and vast resources, which were critical for economic and territorial growth. While answer A mentions debates, and C discusses symbolic ambitions, neither captures the primary, practical significance of this acquisition: enabling the United States to expand its land and resource base.",
-      "topic": "The significance of the Louisiana Purchase in U.S. expansion",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Hard",
-      "question": "The following passage discusses research on the Marshmallow Test, a study examining children’s ability to delay gratification and its links to later outcomes:\n\nThe Marshmallow Test is a well-known study focusing on children’s ability to delay gratification. Some researchers have linked the capacity to wait for a reward with better developmental outcomes in areas such as academic achievement and social skills. Others point out that situational factors, including parenting style and home environment, also play a role in shaping children’s lives.\n\nWhich statement best expresses the main idea of this discussion of the Marshmallow Test?",
-      "choices": [
-        "A. Children’s willingness to wait for a reward proves that environment has no effect on their future achievements.",
-        "B. Delaying gratification is the sole factor that explains why some children work harder in school and beyond.",
-        "C. The results of the Marshmallow Test do not apply to any understanding of long-term personal development.",
-        "D. The capacity to delay gratification may support long-term success, but additional influences are also important."
-      ],
-      "answer": "D",
-      "explanation": "This question requires identifying the central argument regarding the Marshmallow Test. Although the test highlights a connection between waiting for a reward and later success, it also acknowledges that factors such as parenting style or home life can play meaningful roles. Answer D states both elements of the main idea: the positive effects of delayed gratification and the significance of other influences. Answer A is incorrect because it denies any impact of external factors, contrary to the passage. Answer B is flawed in suggesting that only delayed gratification affects success. Answer C dismisses any long-term relevance of the test's findings, which the passage does not support.",
-      "topic": "The Marshmallow Test and delayed gratification in childhood development",
-      "topicIndex": 2
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Hard",
-      "question": "Scientists have refined the double-slit experiment to explore the dual nature of electrons. In this experiment, individual electrons are emitted in isolation towards a barrier with two narrowly spaced slits. Despite being fired one at a time, the electrons collectively form an interference pattern over time on a detection screen. This phenomenon illustrates behavior that resembles overlapping waves. To gain additional insight, researchers placed detectors at the slits to observe which slit each electron passed through. Remarkably, under this setup, the interference pattern disappeared, and the resulting detection indicated behavior akin to classical particles. These observations challenge classical notions and provoke reevaluation of the fundamental nature of matter.\n\nWhich conclusion about the dual behavior of electrons is best supported by the experimental results described?",
-      "choices": [
-        "A. The observations explicitly prove that electrons behave either as waves or particles depending on the experimental setup.",
-        "B. The results demonstrate the sole existence of an unexplained external force influencing the trajectory of the electrons.",
-        "C. The phenomena observed align completely with classical wave theories.",
-        "D. The findings support the interpretation that electrons can exhibit both wave-like and particle-like behaviors, depending on the measurement conditions."
-      ],
-      "answer": "D",
-      "explanation": "The double-slit experiment demonstrates the principle of wave-particle duality. When electrons pass through the slits without the presence of detectors, they form an interference pattern indicative of wave-like behavior. However, when detectors are used to determine the path through a slit, this wave-like interference disappears, and the behavior observed aligns with that of particles. This dual behavior reveals that electrons cannot be categorized fully as classical particles or waves but embody both characteristics under different observation conditions, leading to choice D as the best-supported conclusion.\\n\\nIncorrect choices:\\n- A: While this choice appears partially correct, it oversimplifies the interpretation by claiming an explicit dichotomy, which obscures the nuanced nature of wave-particle duality.\\n- B: There is no evidence in the experimental setup or observations suggesting an external force specifically affecting the electrons' behavior.\\n- C: This contradicts the quantum mechanical interpretation entirely, as classical wave theories do not account for the particle detections or discrete impacts.",
-      "topic": "The double-slit experiment and quantum mechanics",
-      "topicIndex": 1
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "The following passage discusses recent developments in supply chain innovation:\n\nOver the last decade, Amazon’s investments in advanced robotics, automated warehouses, and sophisticated data-driven strategies have not only lowered operational costs and accelerated deliveries, but they have also redefined the entire landscape of customer expectations. These innovations have forced competitors to adapt to a faster-paced market and have led consumers to anticipate shorter shipping times as a new standard. In this rapidly evolving environment, logistics and supply chain operations remain at the forefront of retail innovation.\n\nWhich choice best states the main idea of the text?",
-      "choices": [
-        "A. Amazon’s innovations have made the global marketplace more competitive for smaller firms.",
-        "B. Amazon’s use of robotics has caused warehouse employees to spend more time on customer service.",
-        "C. Amazon’s focus on short-term savings has discouraged long-term technological research.",
-        "D. Amazon’s supply chain innovations have transformed customer expectations regarding speed and efficiency."
-      ],
-      "answer": "D",
-      "explanation": "Choice D is the best answer because it accurately summarizes the text, which emphasizes how Amazon’s innovations have changed customer expectations regarding speed and efficiency. Choice A is incorrect because the passage does not mention competitive pressure on smaller firms. Choice B is unsupported since there is no discussion of employee roles, and Choice C is incorrect due to the absence of any mention of short-term versus long-term priorities.",
-      "topic": "The impact of Amazon’s supply chain innovation",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "Aristotle argues in his Nicomachean Ethics that moral virtues—such as courage and generosity—are not innate qualities but are acquired through habitual and deliberate practice. He claims that simply receiving instruction is insufficient; instead, individuals must consistently perform virtuous actions in real-life challenges to develop a steadfast moral character. By repeatedly choosing to act with integrity, even in difficult circumstances, a person gradually internalizes these virtues until they become part of his or her nature. \n\nWhich claim is most strongly supported by Aristotle’s view?",
-      "choices": [
-        "A. Individuals can demonstrate virtue through a single heroic act.",
-        "B. Innate talent for virtue is sufficient for moral development.",
-        "C. Moral character improves only when external rewards are given.",
-        "D. Repeated virtuous behavior helps cultivate a person’s ethical character."
-      ],
-      "answer": "D",
-      "explanation": "The expanded passage highlights Aristotle's view that virtues are developed through consistent practice and intentional behaviors, rather than being innate or reliant on rewards. This aligns with choice D, while conflicting with the other options, which suggest singular acts, inherent talent, or external incentives.",
-      "topic": "Aristotle’s concept of virtue ethics and moral character",
-      "topicIndex": 1
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Medium",
-      "question": "In 1937, Pablo Picasso's Guernica garnered international attention for its vivid portrayal of the civilian toll of war. Commissioned for the Spanish Pavilion at the Paris International Exposition, the painting employed dramatic imagery of chaos and anguish to express the suffering inflicted by the Spanish Civil War. Exhibited in various international venues, Guernica transcended its original context by symbolically addressing the horrors of conflict in any nation. Consequently, it emerged as a defining piece of political art that not only chronicled a historical event, but also offered a resonant message against the universal brutality of war.\n\nWhich inference about the painting's significance is best supported by this information?",
-      "choices": [
-        "A. It discouraged later artists from creating politically charged artwork.",
-        "B. It pictured a conflict that was primarily allegorical and not based on any specific historical events.",
-        "C. Its emotional impact stemmed purely from depictions of historical references, rather than symbolic imagery.",
-        "D. It conveyed a universal statement against violence that resonated with people in nations beyond Spain."
-      ],
-      "answer": "D",
-      "explanation": "The passage illustrates that Guernica's message went beyond just the Spanish Civil War by resonating with international audiences and symbolizing the universal horrors of war. Therefore, option D correctly captures its broader significance. Option A is not supported because there’s no mention of discouraging artists, Option B incorrectly suggests the event was purely fictional, and Option C misinterprets the painting's use of emotional and symbolic imagery.",
-      "topic": "The significance of Picasso's Guernica in political art",
-      "topicIndex": 2
-    },
-    {
-      "skill": "Function of Sentence",
-      "difficulty": "Hard",
-      "question": "In a short excerpt on Gandhi’s leadership, the first sentence emphasizes how his moral convictions inspired many to question their preconceptions about protest and power. To this, the excerpt adds: _By highlighting self-discipline and peaceful methods of resistance, Gandhi encouraged individuals to transform personal ethics into potent political tools._ Later, it underscores how such an approach resonated during India’s movement for independence, as followers saw nonviolence as both a feasible and profound method.\n\nWhich choice best describes the function of the second sentence within the overall discussion?\n\n",
-      "choices": [
-        "A) It challenges the traditional view that political change must begin with government leaders rather than individual citizens.",
-        "B) It presents a historical example of how mass movements were influenced by spontaneous uprisings, rather than by organized strategies.",
-        "C) It summarizes the effects of colonial governance on local economies in India during Gandhi’s era of leadership.",
-        "D) It clarifies how Gandhi’s focus on individual conduct advanced the broader purpose of nonviolent action in political movements."
-      ],
-      "answer": "D",
-      "explanation": "The second sentence elaborates the bridge Gandhi created between individual action and systemic change, solidifying nonviolence through ethical duty. It clarifies his technique in political transformation, corroborating the central theme of nonviolent progress. The other choices, however nuanced, deviate from the direct impact on discussion about moral personal praxis into politics, which is why answer D prevails.",
-      "topic": "The political philosophy and leadership of Mahatma Gandhi",
-      "topicIndex": 0
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Hard",
-      "question": "The following passage is from a recent analysis of digital storytelling trends and discusses the impact of TikTok on modern entertainment.\n\nTikTok’s short videos have profoundly influenced how people consume content by emphasizing brief, engaging story arcs that hook viewers almost instantly. Many creators deliver entire narratives within seconds, relying on interactive tools and visual effects to maintain interest. However, this rapid style of content raises questions about its depth and whether it might oversimplify complex narratives. As a result, these quick, dynamic clips have reshaped entertainment trends, leading to innovative storytelling techniques and fueling the continued rise of bite-sized media.\n\nWhich choice best expresses the main idea of the passage?",
-      "choices": [
-        "A. While enabling dynamic storytelling, TikTok's short format ultimately constrains creators from delivering sustained narratives.",
-        "B. TikTok users often fail to produce content that resonates with a diverse and broad audience.",
-        "C. Traditional methods of storytelling and media consumption remain unaffected by TikTok's influence.",
-        "D. TikTok's brief yet engaging videos have revolutionized how content is created and shared, ushering in new entertainment trends and techniques."
-      ],
-      "answer": "D",
-      "explanation": "The passage discusses the impact TikTok's short-form content has on entertainment, emphasizing its innovation in storytelling and its substantial influence on trends. While option A acknowledges a possible limitation of TikTok, it does not capture the overarching positive transformation attributed to it in the passage. Options B and C include false or irrelevant statements about the platform's users or traditional media. Only option D appropriately reflects the main idea of the passage.",
-      "topic": "The impact of TikTok on reshaping short-form storytelling and entertainment.",
-      "topicIndex": 3
-    },
-    {
-      "skill": "Inferences",
-      "difficulty": "Hard",
-      "question": "In Mary Shelley's \"Frankenstein,\" the creature narrates how it persistently sought to connect with others despite experiencing repeated rejection. It recounts being spurned by a kind family it secretly helped, facing hostility from villagers it had aided, and witnessing panic or aggression at every attempt to approach humans.\n\nBased on this context, which of the following inferences is best supported by the creature's reactions to rejection?",
-      "choices": [
-        "A. Although the creature values companionship, its actions suggest a desire to be appreciated for its deeds rather than for itself.",
-        "B. The repeated failures at forming connections decreased the creature's resolve to approach humans.",
-        "C. The creature deeply desires to find acceptance and belonging despite the rejection it faces.",
-        "D. The responses the creature receives cause it to abandon the hope of gaining empathy or human interaction."
-      ],
-      "answer": "C",
-      "explanation": "The creature's persistent attempts to connect with humanity, despite being continually rebuffed, reflect its deep longing for acceptance and companionship. Though its experiences with rejection could have discouraged it, the fact that it tries repeatedly indicates an unwavering desire to find belonging.",
-      "topic": "The creature’s yearning for human connection and resilience in \"Frankenstein\"",
-      "topicIndex": 7
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Medium",
-      "question": "In the passage below, the author explores how emerging financial technology (fintech) has introduced new instruments and operating methods that threaten to change longstanding banking structures. The text explains that these innovations often bypass traditional intermediaries, attracting customers who seek faster and more flexible services. It further describes how some banks are attempting to adapt by enhancing their own digital capabilities, while others are partnering with fintech firms to retain a competitive edge. Additionally, the author notes that the rapid pace of these innovations forces banks not only to upgrade their technologies but also to rethink long-established methods of customer engagement, further complicating the traditional banking model.\n\nWhich choice best states the main idea of the passage?",
-      "choices": [
-        "A) Fintech’s rapid innovations are reshaping the banking sector’s traditional practices, leading both industry disruption and cooperative partnerships.",
-        "B) Consumers will likely reject most fintech services if large banks maintain their current technological offerings.",
-        "C) Traditional banks have completely halted all collaboration with fintech companies due to fear of competition.",
-        "D) Laws surrounding digital finance are inhibiting fintech’s growth, making its impact on banking negligible."
-      ],
-      "answer": "A",
-      "explanation": "The passage emphasizes how fintech is driving meaningful changes in conventional banking practices and prompting banks to respond with adaptations or alliances. The additional sentence adds complexity by discussing how fintech forces banks to reconsider their customer engagement strategies, further illustrating the significant impact fintech has on traditional banking models. Other choices are incorrect because they either suggest widespread consumer rejection, claim that banks have halted cooperation entirely, or state that regulatory barriers make fintech’s influence negligible—none of which is supported by the passage.",
-      "topic": "The disruptive impact of fintech on traditional banking",
-      "total_score": 23
-    },
-    {
-      "skill": "Main Idea",
-      "difficulty": "Easy",
-      "question": "The following text is adapted from a historical overview of penicillin’s impact on modern medicine.\n\nPenicillin, discovered in 1928 by Alexander Fleming, revolutionized modern medicine by allowing doctors to treat bacterial infections that had previously been devastating.\nOver time, penicillin and related antibiotics drastically reduced the spread of diseases such as pneumonia and septicemia, saving many lives. However, the widespread use of these antibiotics also led to the emergence of antibiotic-resistant strains of bacteria, which have posed significant challenges for healthcare. While penicillin’s discovery fundamentally changed the treatment of bacterial infections, it also marked the beginning of a new era in medical science, wherein continuous innovation and vigilance were required to address evolving challenges.\n\nWhich choice best states the main idea of the text?",
-      "choices": [
-        "A. The development of penicillin transformed how bacterial infections are treated, greatly improving patient outcomes but also introducing new challenges.",
-        "B. Fleming’s discovery of penicillin immediately eradicated all bacterial diseases throughout the world.",
-        "C. Penicillin’s initial use was limited to treating minor infections rather than severe illnesses.",
-        "D. Other antibiotics discovered after penicillin were more important than Fleming’s original finding."
-      ],
-      "answer": "A",
-      "explanation": "The text highlights how penicillin revolutionized the treatment of bacterial infections, leading to significant improvements in health outcomes. It also introduces the associated challenge of antibiotic resistance. Option A effectively encompasses both these aspects, making it the best choice. Choice B exaggerates the impact of penicillin’s discovery by implying total eradication of bacterial diseases. Choice C contradicts the passage which mentions its role in tackling severe diseases. Choice D downplays penicillin’s significance while disregarding the implications discussed in the text.",
-      "topic": "The discovery of penicillin and its impact on medicine",
-      "total_score": 22
-    },
+    
     {
       "skill": "Transition Words",
       "difficulty": "Easy",
-      "question": "According to the Broken Windows Theory, a community that quickly addresses minor signs of disorder, such as broken windows and graffiti, can help discourage more serious crimes. ____ these strategies rely on consistent effort and resources, they can significantly improve neighborhood well-being.\n\nWhich choice provides the most logical transition to complete the sentence?",
+      "question": "Camus’s depiction of Meursault in *The Stranger* underscores the character’s detachment from conventional emotional standards. This manifestly affects his interactions, as ____ he ignores others’ expectations for how he should feel or behave, a tendency most evident at his mother’s funeral.\n\nWhich choice, if inserted in the blank, best connects the two sentences?",
       "choices": [
-        "A. Although",
-        "B. Meanwhile",
-        "C. As a result",
-        "D. In contrast"
+        "A. However",
+        "B. Consequently",
+        "C. For example",
+        "D. Instead"
+      ],
+      "answer": "B",
+      "explanation": "The revised first sentence now more clearly indicates that Meursault’s interactions are influenced by his detachment. The second sentence provides a resulting behavior: ignoring social conventions at emotionally charged moments. *Consequently* appropriately highlights this cause-and-effect relationship. The other options—*For example*, *However*, and *Instead*—do not establish this logical connection. *For example* suggests we are elaborating with a specific instance and *However* suggests contrast, neither of which fit the revised text.",
+      "topic": "Meursault’s existential indifference in *The Stranger*",
+      "total_score": 24,
+      "constructive_feedback": "This isn't good because the transition words are not used naturally in the blank, and there is no comma after the blank when there would be if the transition word 'Consequently' was properly inserted.",
+      "difficulty_feedback": "Although the question is labeled 'Easy' and follows a single-step reasoning process, its use of literary content (The Stranger) might challenge students who are less familiar with Camus’ work. To better match the easy difficulty rating, consider ensuring that the relationship between the sentences is unmistakably causal, which would enable all students (even those with less background in the text) to clearly see why 'consequently' is the best choice.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 16
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Easy",
+      "question": "During the Columbian Exchange, the introduction of new crops and livestock transformed agricultural practices across multiple continents. Civilizations in the Americas underwent significant cultural shifts due to unfamiliar animals like horses and cattle. Meanwhile, Europe experienced rapid population growth and expanded trade networks thanks to foods such as wheat and potatoes. European markets flourished with imported goods, and they refined raw materials for worldwide exchange.\n\nWhich choice best clarifies the subject referred to by the pronoun \"they\" in the final sentence?",
+      "choices": [
+        "A. European imports flourished in trade, and they refined raw materials for worldwide exchange.",
+        "B. European markets flourished with imported goods, and those markets refined raw materials for worldwide exchange.",
+        "C. Europe thrived from the influx of resources, and they ensured that raw materials were exchanged worldwide.",
+        "D. Refined by global trade, they expanded in European markets, facilitating the exchange of raw materials globally."
+      ],
+      "answer": "B",
+      "explanation": "In the final sentence, the pronoun \"they\" is ambiguous since it could incorrectly suggest Europe, the imported goods, or the markets. Choice B resolves this ambiguity by replacing \"they\" with \"those markets,\" creating a clear antecedent that links back to \"European markets.\" This eliminates confusion and ensures grammatical precision. Options A, C, and D introduce phrasing that retains or sidesteps the initial vagueness.",
+      "topic": "The impact of the Columbian Exchange on world economies and cultures",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-crafted and adheres to SAT standards by focusing on a common issue in pronoun clarity. The passage sets a realistic context, and the task of clarifying the ambiguous pronoun 'they' is clearly stated. The correct answer (B) correctly replaces the pronoun with a clear antecedent, and the distractor choices are plausible enough to prompt careful reading. To improve further, consider streamlining the historical context to reduce extraneous details that might distract from the grammatical focus. Also, minor tweaks to ensure the distractors are even more directly contrasted with the correct choice could sharpen the testing of the targeted skill.",
+      "difficulty_feedback": "For an Easy-level question, the single-step task of identifying the correct antecedent meets the criteria. However, the lengthy historical context might add unnecessary complexity for lower-scoring students. Simplifying or shortening the passage slightly would better match an 'Easy' difficulty, ensuring that students can focus on the pronoun-antecedent relationship without being sidetracked by extraneous information.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 11
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Easy",
+      "question": "Read the revised sentence about the phenomenon discussed in education:\n\n\"Some teachers, who expect their students to do well, invests additional time in personalized teaching, which causes them to succeed.\" \n\nWhich choice clarifies the roles of subjects and corrects pronoun and verb use?",
+      "choices": [
+        "A. Some teachers, in anticipating their students might excel, invests time in specialized instruction so that they succeed.",
+        "B. Some teachers, expecting more of their students, invest additional time personalizing materials to help them excel.",
+        "C. Teachers decided from view existing anticipation would outperform so began engage differently unlikely proxy subjects excel.",
+        "D Various instructors anticipating harder open anticipate learners expect assignments earn conditions external personal contexts instruk.\"],...Revision review format adjusted adjusted? }]}]}! ]];>> json adjustment BUTTON response awaiting TightCleanup}"
+      ],
+      "answer": "B",
+      "explanation": "",
+      "topic": "",
+      "total_score": 24,
+      "constructive_feedback": "The revision question is clearly written and mirrors the style of SAT grammar questions targeting pronoun-antecedent agreement and modifier clarity. Option C correctly fixes the subject‐verb agreement error and clarifies who benefits from the teachers’ actions, while the other choices contain common pitfalls. To further improve the question, consider simplifying or minimizing the ‘Rosenthal Effect’ context if it risks distracting students from the grammatical focus. You might also add a hint in the prompt that directs students to examine subject-verb consistency and modifier placement. This would ensure that students concentrate on the targeted grammar issue rather than the content of the context.",
+      "difficulty_feedback": "The question appropriately meets the Easy difficulty level criteria—it involves a single-step correction (ensuring plural subjects pair with plural verbs and modifying phrases clearly indicate the intended participants) and is set in a real-world context. However, if the mention of the ‘Rosenthal Effect’ introduces any unintended complexity, you might consider using a more generic scenario so that the focus remains solely on correcting grammatical errors.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 11
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Medium",
+      "question": "Thousands of exoplanets have been discovered by astronomers using advanced detection methods. Because it reveal diverse planetary conditions and orbits, these findings hint at the possibility of discovering environments suitable for life in regions far beyond our solar system.\n\nWhich choice most effectively revises the underlined pronoun in the preceding sentence to clarify the reference and maintain correct grammar?",
+      "choices": [
+        "A. Because they reveal diverse planetary conditions and orbits",
+        "B. Because the discovery reveals diverse planetary conditions and orbits",
+        "C. Because them reveal diverse planetary conditions and orbits",
+        "D. Because them having revealed diverse planetary conditions and orbits"
       ],
       "answer": "A",
-      "explanation": "Answer choice A is correct because it emphasizes a contrast between the challenges of consistent effort and the positive outcome of improved well-being. Choice B suggests a simultaneous event rather than a contrast, choice C suggests a direct cause-and-effect relationship, and choice D signals opposition that does not fit the context of improvement. Recognizing how transitions link sentences logically helps pinpoint where contradictions, causes, or continuations are appropriate.",
-      "topic": "The Broken Windows Theory and crime prevention strategies",
+      "explanation": "The pronoun \"they\" in choice A correctly references the plural subject \"Thousands of exoplanets.\" The other answer choices either use an incorrect pronoun form or refer to the wrong antecedent. When you see a pronoun used in a sentence, verify that it correctly matches both number (singular or plural) and the specific noun it represents. This ensures that the pronoun clearly refers to the intended subject without any ambiguity.",
+      "topic": "The discovery of exoplanets and their significance",
       "total_score": 21,
-      "topic_list_name": "socialScienceTopics",
-      "topic_index": 7
-    },
-    {
-      "skill": "Word Choice",
-      "difficulty": "Easy",
-      "question": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) has rapidly transformed the field of genetic engineering by enabling scientists’ targeted approaches to gene sequences. This revolutionary tool excels at making modifications with remarkable ______ or changes to DNA.\n\nWhich choice best completes the sentence with the most effective word?",
-      "choices": [
-        "A) hesitancy",
-        "B) unpredictability",
-        "C) precision",
-        "D) imagination"
-      ],
-      "answer": "C",
-      "explanation": "Because CRISPR technology is best known for allowing accurate and targeted changes to DNA, “precision” is the most suitable choice. The other answer choices do not convey the same level of exactness that scientists rely on in gene editing.",
-      "topic": "The development of CRISPR and its role in gene editing",
-      "total_score": 23,
-      "constructive_feedback": "The question is well-designed, clear, and aligns with SAT Word Choice expectations. It uses a relevant scientific context by introducing CRISPR, and the distractors are clearly less appropriate than the correct answer. However, a slight improvement could be to streamline the sentence structure—for example, by rephrasing it to remove any redundancy (e.g., “...making targeted changes to DNA with remarkable _____”) to make it even more accessible. Additionally, the explanation, while accurate, could be expanded to more clearly discuss why each incorrect option fails, helping students better understand the nuances between the choices.",
-      "difficulty_feedback": "The question meets the requirements for an easy-level SAT question by involving a single-step reasoning process and familiarizing students with a brief definition of CRISPR. It could be enhanced by using slightly more everyday language or clarifying the sentence structure, ensuring that less advanced students are not intimidated by the scientific context.",
+      "constructive_feedback": "The question is clear, well-structured, and aligns with SAT sentence-correction standards. Its use of an engaging context (exoplanets) makes the question appealing, and the answer choices correctly focus on testing pronoun-antecedent agreement. However, the question would benefit from explicitly indicating the underlined text (for example, through italics or underlining) so students immediately see what needs revision. Additionally, while the sentence is grammatically focused, adding an extra layer of complexity—such as a slightly longer context or involving a multi-step reasoning process—could better match the medium difficulty label.",
+      "difficulty_feedback": "Although the error being tested (number agreement) is a common SAT topic, the brevity and straightforward nature of the correction make the question lean towards the easier end of medium difficulty. Expanding the sentence context or adding a secondary grammatical trap (like a subtle shift in meaning when the antecedent is changed) would ensure that it properly challenges students expected to perform at a medium level.",
       "topic_list_name": "hardScienceTopics",
-      "topic_index": 7
+      "topic_index": 11
     },
     {
-      "skill": "Supporting Claims",
+      "skill": "Pronouns and Modifiers",
       "difficulty": "Medium",
-      "question": "John Locke’s political philosophy argues that a government’s legitimacy comes solely from its duty to protect its citizens’ natural rights to life, liberty, and property. In his writings, Locke maintained that when a government persistently fails to secure these rights, it loses its right to govern, thereby justifying the citizens in overthrowing it. Historical examples illustrate that governments which neglect this duty often face popular rebellion or revolution, as people demand a system that truly safeguards their freedoms. \n\nWhich choice, if added to the discussion, would best support Locke’s claim that government authority must rest on safeguarding these rights?",
+      "question": "Although gig economy platforms introduced more flexible work arrangements, it has led to new challenges for traditional employers in retaining talent.\n\nWhich choice best replaces \"it has led\" in the sentence to clarify the reference?",
       "choices": [
-        "A) Several nations levy taxes to fund social programs, often leading to debates about how governments should handle public finances.",
-        "B) Some political theorists question whether any government can protect every right in all circumstances.",
-        "C) Historical accounts show that citizens have ousted rulers who ignored or violated the basic rights of the people.",
-        "D) Certain philosophers hold that freedom of religion is more crucial to stability than security of property."
+        "A. introduced more flexible work arrangements, it has led",
+        "B. introduced more flexible work arrangements, which has led",
+        "C. introduced a more flexible work arrangement, that has led",
+        "D. introduced more flexible work arrangements, these changes have led"
+      ],
+      "answer": "D",
+      "explanation": "In the original sentence, the ambiguity arises because 'it' could refer to either 'gig economy platforms' or 'flexible work arrangements.' Option D correctly removes the ambiguity by specifying 'these changes,' clearly linking back to 'more flexible work arrangements,' which are responsible for the challenges. Other options fail for the following reasons:\n- Option A retains the ambiguous pronoun 'it.'\n- Option B employs a relative clause ('which has led') but still does not make the antecedent clearer.\n- Option C modifies 'work arrangements' to the singular 'work arrangement,' which is inconsistent with the prior plural form, and uses 'that.'\nTherefore, Option D is the clearest and correct choice.",
+      "topic": "Pronouns and Modifiers: Clarifying Ambiguous Referents",
+      "total_score": 21,
+      "constructive_feedback": "The question is clear in testing the concept of ambiguous pronoun reference and aligns with typical SAT sentence correction problems. The answer choices are mostly plausible and the explanation clearly outlines why Option D is correct while noting the flaws in the other choices. However, the sentence is quite short compared to many medium-difficulty SAT items. To enhance the challenge and ensure multi-step reasoning, consider expanding the context slightly or adding an additional clause that forces students to more carefully determine the antecedent. This would also help in making the distractors equally tempting.",
+      "difficulty_feedback": "Although the grammatical concept is sound, the brevity of the sentence may make the item less challenging than intended for a medium-difficulty question. Increasing the length of the passage or adding extra contextual information could create a more layered ambiguity, requiring students to engage in more in-depth analysis and aligning better with medium difficulty expectations.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 11
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Medium",
+      "question": "During a debate on the ethical dilemmas of artificial intelligence and machine learning, the moderator presented this sentence:\n\n\"Some experts highlight the unintended consequences of advanced algorithms, which frequently point out data privacy issues.\" \n\nWhich revision of the sentence best clarifies that it is the experts who are pointing out data privacy issues?",
+      "choices": [
+        "A. Some experts highlight the unintended consequences of advanced algorithms, pointing out data privacy issues.",
+        "B. Some experts, who frequently point out data privacy issues, highlight the unintended consequences of advanced algorithms.",
+        "C. Pointing out data privacy issues, unintended consequences of advanced algorithms are highlighted by some experts.",
+        "D. Some experts highlight the unintended consequences of advanced algorithms, they frequently point out data privacy issues."
+      ],
+      "answer": "B",
+      "explanation": "In the original sentence, the phrase \"which frequently point out data privacy issues\" seems to modify \"advanced algorithms.\" However, it is the experts who point out these issues. Choice B correctly makes it clear that the experts are the ones frequently pointing out data privacy concerns. Choices A, C, and D either introduce ambiguity or do not link the description to the right subject. Ensuring that the modifying phrase clearly names the intended referent is crucial for pronoun and modifier clarity.",
+      "topic": "The ethical dilemmas of artificial intelligence and machine learning",
+      "total_score": 20,
+      "constructive_feedback": "The sentence revision question is clear in its objective and aligned with SAT-style modifier problems. The context involving artificial intelligence debates adds a modern flavor, and the answer choices expose common pitfalls (misplaced modifiers, comma splices, etc.). However, the overall passage is shorter than typical medium-difficulty SAT questions, which usually present a longer contextual paragraph or involve multi-step reasoning. Additionally, while the explanation correctly identifies that the original modifier attaches to the wrong noun, it could be enhanced by further explaining in detail why each of the other answer choices is flawed (for instance, noting that choice D is a comma splice and choice C uses an awkward inversion).",
+      "difficulty_feedback": "As a medium difficulty question, the problem should ideally require more reading and involve multiple steps of reasoning. Currently, the question consists of just one sentence with a brief context, which might not fully challenge students aiming for scores in the 600–700 range. Expanding the contextual setup or adding an extra sentence that requires students to disentangle nested structures would better meet the medium-difficulty guidelines.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 11
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Hard",
+      "question": "During the Golden Age of Hollywood, major film studios dominated the industry, shaping production, promotion, and distribution. They introduced star-centered marketing campaigns and invested in cinematic innovations that refined motion pictures.\n\nYet, by strictly overseeing film production, it also curtailed the artistic freedom of many filmmakers, who were required to adhere to studio guidelines.\n\nWhich choice best replaces \"it\" in the last sentence to clarify the referent?",
+      "choices": [
+        "A. these cinematic innovations",
+        "B. this marketing approach",
+        "C. the major film studios",
+        "D. no change"
       ],
       "answer": "C",
-      "explanation": "Option C specifically illustrates an example of people acting on Locke’s principle by removing authorities who failed to protect their rights. This directly supports Locke’s argument that a government’s legitimacy depends on upholding individuals’ natural rights. The other choices do not offer clear evidence that supports Locke’s claim about the right to remove a government if it does not fulfill its fundamental duty.",
-      "topic": "Locke’s theories on natural rights and government legitimacy",
-      "total_score": 19,
-      "constructive_feedback": "The question is clearly written, follows a logical structure, and is in line with the usual SAT supporting claims style. However, the reading passage is a bit short and straightforward, which limits the level of multi-step reasoning expected of a medium-difficulty question. Additionally, while the answer choices are mostly well formulated, the correct answer (Choice C) is relatively obvious because the other options lack sufficient nuance. The explanation is clear but could benefit from a deeper analysis of why each incorrect option fails. Improving these aspects would strengthen the question and its educational value.",
-      "difficulty_feedback": "Although the question is labeled 'Medium,' the passage only contains about 78 words, falling short of the typical complexity and length (90+ words) expected at this level. To better match medium difficulty, consider expanding the passage with more complex ideas or additional context and introducing subtly more plausible distractors that require more careful reasoning.",
-      "topic_list_name": "philosophyPoliticalTopics",
-      "topic_index": 7
+      "explanation": "The underlined pronoun \"it\" in the last sentence is ambiguous because it can be unclear whether \"it\" refers to the new technologies, the marketing campaigns, or something else. By replacing \"it\" with \"the major film studios,\" the sentence directly clarifies that the studios are responsible for restricting creative control. Always ensure that a pronoun has a clear, appropriate antecedent to avoid confusion.",
+      "topic": "The Golden Age of Hollywood and its impact on cinema",
+      "total_score": 17,
+      "constructive_feedback": "The question is clearly written and aligns well with SAT questions testing pronoun clarity; the answer choices are plausible and the explanation correctly identifies why replacing 'it' with 'the major film studios' resolves the ambiguity. However, for a Hard-level question, it lacks the multi-layered complexity typically expected. To elevate its difficulty, consider expanding the passage to include additional clauses or conflicting ideas that would force students to perform deeper multi-step reasoning. You might also incorporate more advanced vocabulary or subtle linguistic traps that require distinguishing between competing interpretations.",
+      "difficulty_feedback": "While the passage is clear and contextually appropriate, it does not incorporate the depth of analysis and layered complexity expected for a 'Hard' difficulty question. Enhancing the passage with additional details or multiple ambiguous elements, and crafting sophisticated distractors that appeal to surface-level reading errors, would better align it with Hard-level test standards.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 11
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Hard",
+      "question": "Abraham Lincoln, who strove to keep the country unified, encountered significant opposition in Congress and forceful challenges to his authority, but it only strengthened his determination to preserve the Union.\n\nWhich choice best clarifies the reference of \"it\" in the sentence?",
+      "choices": [
+        "A) that action only strengthened his resolve to preserve the Union",
+        "B) which only strengthened the country’s unity",
+        "C) these obstacles only strengthened Abraham Lincoln’s determination to preserve the Union",
+        "D) this approach only strengthened the cause of preserving the Union"
+      ],
+      "answer": "C",
+      "explanation": "Because several challenges are mentioned (opposition in Congress and forceful challenges to his authority), the pronoun should refer clearly to multiple things. The phrase \"these obstacles\" is the only choice that accurately reflects the plural nature of the challenges. The other options introduce different or ambiguous references that do not clearly relate to both items.",
+      "topic": "The role of Abraham Lincoln in preserving the Union",
+      "total_score": 17,
+      "constructive_feedback": "The question is clear and the answer choices are plausible, correctly testing the need for a clear pronoun reference. However, for a question labeled 'Hard', it lacks the multi-step reasoning, complex language, and sophisticated distractors expected at this level. The sentence is brief and doesn’t force students to analyze multiple layers of structure, which makes it less challenging than intended. To improve the question, consider expanding the sentence or context to incorporate additional complexities, and refine the distractors so they more subtly mimic common errors in pronoun reference and modifier placement.",
+      "difficulty_feedback": "Although the question correctly targets pronoun clarity, its brevity and straightforward application of number agreement make it more of a moderate challenge rather than a Hard-level problem. To better align with the Hard criteria, you might introduce a more complex sentence structure or additional elements that require deeper analysis, such as distinguishing between multiple potential antecedents or recognizing implicit shifts in meaning.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 11
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Hard",
+      "question": "Praised by mental health experts, they recommend virtual pet apps and other AI companions to individuals who feel lonely.\n\nWhich choice best corrects the pronoun and modifier error in the sentence to clarify its meaning?",
+      "choices": [
+        "A. Praised by mental health experts, they recommend that people dealing with loneliness try virtual pet apps and AI companions.",
+        "B. Although mental health experts praise these innovations, it is suggested that people feeling lonely try virtual pet apps and AI companions.",
+        "C. Praised by mental health experts, virtual pet apps and other AI companions are recommended for individuals who feel lonely.",
+        "D. Virtual pet apps and other AI companions are praised, and people dealing with loneliness recommend them to others."
+      ],
+      "answer": "C",
+      "explanation": "The original sentence contains a dangling modifier because the phrase 'Praised by mental health experts' is followed by 'they,' leaving it unclear who is being praised. Option C places 'virtual pet apps and other AI companions' directly after the introductory phrase, clearly showing that these apps and companions are praised by mental health experts, fixing the modifier issue and making the sentence coherent. Option A fails to address the dangling modifier issue and retains the ambiguous pronoun 'they.' Option B changes the meaning by reducing specificity and obscuring the intent of the praise. Option D misattributes the act of recommendation to lonely individuals rather than fixing the initial grammatical issue.",
+      "topic": "The growing popularity of virtual pets and AI companions in modern life",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly written, adheres to SAT standards for testing pronoun and modifier errors, and offers plausible distractors that reveal common pitfalls. The explanation concisely identifies the dangling modifier problem and explains why option C corrects it, as well as why the other choices fail. However, because the sentence is relatively short and its structure is not very complex, it falls a bit short of the 'Hard' level’s expectation of multi-step reasoning and more sophisticated grammatical challenges. Enhancing the sentence with additional clauses or embedding a secondary nuance could make it more challenging for high-performing students.",
+      "difficulty_feedback": "While the question correctly addresses a modifier error, its simplicity in sentence construction and vocabulary does not fully meet the criteria for a 'Hard' difficulty. To better align it with hard-difficulty standards, consider extending the sentence, incorporating more complex structures, or adding elements that require more multi-step analytical reasoning.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 11
     },
     {
       "skill": "Punctuation",
-      "difficulty": "Hard",
-      "question": "Influencer marketing has become extremely popular in recent years ______ brands that collaborate with influencers often see an increase in both consumer engagement and loyalty, a phenomenon that many experts, including those who have conducted extensive research, attribute to the genuine connection influencers can create.\n\nWhich punctuation mark best fills in the blank?",
+      "difficulty": "Medium",
+      "question": "After the completion of the Human Genome Project ______ was finalized in 2003, researchers gained unprecedented insight into how genes influence human health and disease.\n\nWhich choice best completes the sentence with the correct punctuation?",
       "choices": [
-        "A) , (comma)",
-        "B) : (colon)",
-        "C) ; (semicolon)",
-        "D) . (period)"
+        "A) , the largest international collaborative biology effort in history,",
+        "B) ; the largest international collaborative biology effort in history",
+        "C) the largest, international collaborative biology effort in history",
+        "D) : the largest international collaborative biology effort in history"
       ],
-      "answer": "C",
-      "explanation": "The sentence contains two independent clauses ('Influencer marketing has become extremely popular in recent years' and 'brands that collaborate with influencers often see an increase in both consumer engagement and loyalty, a phenomenon that...'). These clauses are closely related, and the proper punctuation to separate them while maintaining this relationship is a semicolon. A comma would create a run-on sentence, a colon could work only if the second independent clause directly explains or illustrates the first clause in a specific way that it does not do here, and a period would be less effective at showing the close connection between the two ideas, making the semicolon the most appropriate choice.",
-      "topic": "The effect of influencer culture on brand loyalty and marketing strategies",
-      "total_score": 23,
-      "constructive_feedback": "The question is well constructed and presents a clear, contemporary context that is engaging for students. It tests the essential punctuation rule of separating two independent clauses, and the distractors are plausible enough to challenge test-takers. However, the sentence structure could be slightly refined to more explicitly signal the existence of two independent clauses without ambiguity. Additionally, the explanation, while clear, could further benefit from a brief comparison between why a colon might seem tempting yet is less appropriate than a semicolon in this particular context.",
-      "difficulty_feedback": "Although the use of modern language and a somewhat lengthy sentence fits a Hard-level prompt, the multi-step reasoning required is moderate rather than extremely advanced. To fully align with the Hard difficulty label, consider enhancing the sentence’s complexity (for example, by incorporating an additional modifier or clause that requires students to sift through more subtle punctuation cues).",
-      "topic_list_name": "modernTopicsAndFun",
-      "topic_index": 7
-    },
-    {
-      "skill": "Word Choice",
-      "difficulty": "Hard",
-      "question": "In 1848, amid a burgeoning period of social reform, the Seneca Falls Convention emerged as a watershed moment in the struggle for gender equality. Far from being merely one of many gatherings, this event catalyzed a transformation in women's rights discourse, establishing a robust framework that would influence not only subsequent legal reforms but also nascent feminist movements. In light of its enduring impact on the trajectory of social, legal, and political progress, the Convention became a ______ event that continues to inspire contemporary discussions on equality.  \\[\\text{Which choice best completes the sentence in a way that emphasizes the crucial role of this gathering in gender equality history?}\\]",
-      "choices": [
-        "A. obscure",
-        "B. optional",
-        "C. intermittent",
-        "D. pivotal"
-      ],
-      "answer": "D",
-      "explanation": "The question asks for a word that emphasizes the central importance of the Seneca Falls Convention in the history of gender equality. 'Pivotal' conveys an essential or crucial role, which matches the context of the passage describing the event as transformative and foundational. The other options do not fit as well: 'obscure' implies the opposite of well-known and critical, 'optional' suggests a lack of necessity or impact, and 'intermittent' inaccurately describes the nature of a singular historic moment.",
-      "topic": "The significance of the Seneca Falls Convention in women's rights history",
-      "total_score": 23,
-      "constructive_feedback": "The question successfully integrates a rich historical context with advanced language, making it align well with SAT Word Choice items. The narrative establishes a clear emphasis on the significance of the Seneca Falls Convention. However, the distractors (obscure, optional, intermittent) are too obviously mismatched with the context, making the correct answer (pivotal) somewhat transparent. To elevate the difficulty in line with the ‘Hard’ label, consider including answer choices that are more subtly flawed, thereby requiring students to engage in deeper analysis of nuanced meanings.",
-      "difficulty_feedback": "Although the context uses sophisticated language, the overall reasoning required is relatively straightforward. The question would better match a 'Hard' difficulty level if the answer choices presented subtler traps – for example, incorporating options that might seem plausible on a superficial reading but reveal inconsistencies upon closer examination. Enhancing the complexity of the distractors or extending the passage slightly could help achieve this.",
-      "topic_list_name": "historyTopics",
-      "topic_index": 8
-    },
-    {
-      "skill": "Transition Words",
-      "difficulty": "Easy",
-      "question": "One major scientific milestone at the Large Hadron Collider came in 2012, when researchers discovered the Higgs boson and solidified the Standard Model of particle physics. ______, this discovery opened new possibilities for exploring phenomena beyond the Standard Model.\n\nWhich choice best connects the description of the researchers’ discovery to the discussion of potential future studies?",
-      "choices": [
-        "A) Meanwhile",
-        "B) As a result",
-        "C) In contrast",
-        "D) Moreover"
-      ],
-      "answer": "D",
-      "explanation": "The second sentence adds an additional point about how the discovery fosters future research beyond the Standard Model. \"Meanwhile\" focuses on time rather than a new idea; \"As a result\" can imply a direct cause, which is not as seamless of a connection here; and \"In contrast\" implies opposing ideas. \"Moreover\" is the best choice because it shows how the initial discovery leads naturally to further, related research.",
-      "topic": "The Large Hadron Collider and the search for the Higgs boson",
-      "total_score": 0,
-      "constructive_feedback": "",
-      "difficulty_feedback": "",
+      "answer": "A",
+      "explanation": "The correct answer is A) ', the largest international collaborative biology effort in history,'. In this sentence, the nonessential descriptive phrase 'the largest international collaborative biology effort in history' must be set off on both sides by commas, as it provides additional information about the Human Genome Project without affecting the sentence's grammatical structure. A semicolon or colon would incorrectly create a stronger break than needed, and a single comma placement results in an incorrect sentence structure. The introductory adverbial clause ending with 'in 2003' is properly separated from the main clause, and answer A integrates the phrase smoothly.",
+      "topic": "The human genome project and its impact on genetics",
+      "total_score": 16,
+      "constructive_feedback": "The question tests an important punctuation concept—the proper setting off of a nonessential, descriptive phrase—with plausible answer choices. However, its overall construction suffers from brevity and an awkward sentence structure that may confuse students about what exactly is being modified. In addition, while the explanation states the rule correctly, it could be clearer and more detailed about why removing the nonessential phrase leaves a complete sentence. Given these issues and the fact that the sentence does not provide enough contextual complexity, the question falls short of being fully SAT‐aligned. I recommend either substantially reworking the wording and length of the sentence to create a multi-step reasoning scenario or discarding it.",
+      "difficulty_feedback": "Although the question is labeled as Medium, it comes off as too short and straightforward. Medium-level SAT questions typically offer a longer passage and require a combination of reasoning steps to evaluate punctuation choices. Expanding the sentence and introducing additional clauses that create subtle traps would better match the intended difficulty.",
       "topic_list_name": "hardScienceTopics",
-      "topic_index": 8
+      "topic_index": 12
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Medium",
+      "question": "Within the domain of algorithmic trading, some experts argue that AI-powered tools ________ have the potential to transform entire markets, others contend they are simply enhancing human capabilities.\n\nWhich choice best completes the sentence above with correct punctuation?",
+      "choices": [
+        "A) have the potential, to transform entire markets: others contend they are simply enhancing human capabilities.",
+        "B) have the potential to transform entire markets. Others contend they are simply enhancing human capabilities.",
+        "C) that AI-powered tools have the potential to transform entire markets; others contend, they are simply enhancing human capabilities.",
+        "D) have the potential to transform entire markets; others contend they are simply enhancing human capabilities."
+      ],
+      "answer": "D",
+      "explanation": "When combining two closely related independent clauses into one sentence, a semicolon is often the correct punctuation mark if the second clause doesn’t begin with a coordinating conjunction. Here, you have two complete statements that refer to related ideas. A comma would create a comma splice, and a period would disrupt the flow unnecessarily. The semicolon in choice D unites the two clauses effectively while preserving clear meaning. This usage is consistent with typical rules for connecting related sentences.",
+      "topic": "The evolution of artificial intelligence in financial markets",
+      "total_score": 17,
+      "constructive_feedback": "The question is clearly written and tests a fundamental punctuation rule—joining two independent clauses with a semicolon—but it falls short in a couple of areas. First, while the answer choices are generally plausible, one choice (C) introduces superfluous language and punctuation but isn’t explained explicitly in the explanation. Second, the overall sentence is very short (only 28 words), meaning it doesn’t fully engage the more complex, multi-step reasoning expected of a medium-difficulty SAT question. Expanding the context or adding another sentence to force students to consider the flow and syntactical relationships more deeply could elevate the complexity and provide a richer test of punctuation skills.",
+      "difficulty_feedback": "Although the question is labeled Medium, its brevity and straightforward application of a single punctuation rule make it more appropriate for an easier difficulty level. To align with the standard for medium-difficulty questions—which should involve multi-step reasoning, more extended passages (around 90 words), and subtler traps—consider adding more background context and nuanced distractors.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 12
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Medium",
+      "question": "In the sentence below, choose the option that uses punctuation most clearly to convey the role of Confucianism in shaping political thought in East Asia.\n\nConfucianism revered for its emphasis on moral virtue and respect for hierarchy influenced political institutions throughout East Asia by encouraging rulers to govern with benevolence.\n\nWhich choice best accomplishes this?",
+      "choices": [
+        "A. Confucianism revered for its emphasis on moral virtue and respect for hierarchy; influenced political institutions throughout East Asia by encouraging rulers to govern with benevolence.",
+        "B. Confucianism revered for its emphasis on moral virtue and respect for hierarchy, influenced, political institutions throughout East Asia by encouraging rulers to govern with benevolence.",
+        "C. Confucianism revered for its emphasis on moral virtue and respect for hierarchy influenced political institutions throughout East Asia, by encouraging rulers to govern, with benevolence.",
+        "D. Confucianism, revered for its emphasis on moral virtue and respect for hierarchy, influenced political institutions throughout East Asia by encouraging rulers to govern with benevolence."
+      ],
+      "answer": "D",
+      "explanation": "Choice D correctly places commas around the descriptive phrase “revered for its emphasis on moral virtue and respect for hierarchy.” This strategy acknowledges it as a nonessential element that appropriately modifies “Confucianism” without disrupting the main clause of the sentence. The other choices either introduce punctuation errors, such as unnecessary commas or semicolons in places that break the sentence flow, or omit necessary punctuation to set the descriptive phrase apart.",
+      "topic": "The role of Confucianism in shaping political thought in East Asia",
+      "total_score": 22,
+      "constructive_feedback": "The question is clearly written and follows SAT punctuation question conventions, with well-differentiated answer choices that reflect common punctuation pitfalls. However, the sentence is quite brief, reducing the opportunity for multi-step reasoning. To enhance the question and better match a Medium difficulty level, consider expanding the sentence with additional context or complexity that requires students to integrate more than one idea.",
+      "difficulty_feedback": "While the question tests a key SAT convention (the correct use of commas around a nonessential phrase), it doesn’t fully meet the Medium difficulty benchmark of requiring about 90 words and multi-step reasoning. Adding more context or a secondary clause with subtler punctuation traps would better align the question with its stated difficulty.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 12
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Medium",
+      "question": "Ballet ______ is widely seen as one foundation of modern dance movements that highlight personal expression.\\n\\nWhich choice best punctuates the sentence so that it correctly indicates nonessential information about ballet?",
+      "choices": [
+        "A. a form that emphasizes precise footwork,",
+        "B. a form that emphasizes precise footwork is,",
+        "C. a form, that emphasizes precise footwork,",
+        "D. a form that emphasizes, precise footwork,"
+      ],
+      "answer": "A",
+      "explanation": "The correct version uses commas around the phrase 'a form that emphasizes precise footwork,' indicating that this description is nonessential. Introducing commas clarifies the meaning of the sentence and separates the nonessential information from the main clause. Choices B, C, and D either fail to use commas appropriately or add extraneous punctuation, disrupting the sentence's intended meaning.",
+      "topic": "The influence of ballet on modern dance movements",
+      "total_score": 12,
+      "constructive_feedback": "The question attempts to test punctuation of a nonessential clause, but it suffers from a few issues. First, the way the blank is inserted does not clearly indicate that the inserted phrase should be set off by commas on both sides – the correct version should read something like: “Ballet, a form that emphasizes precise footwork, is widely seen as one foundation…” Additionally, the sentence is very short and does not require the multi‐step or moderately complex reasoning that a Medium SAT question typically demands. The answer choices present obvious errors, which might make the intended trap too weak. Finally, the explanation is superficial; it mentions that commas should bracket the nonessential phrase but doesn’t clearly justify why the other options are faulty. To improve, consider revising the sentence to provide more context (potentially expanding it to involve more detailed reasoning) and clarifying how the punctuation should be applied. This would ensure the question is not only clear but also appropriately challenging for a Medium difficulty level.",
+      "difficulty_feedback": "This question is labeled as Medium, yet its brevity (under 90 words) and the single-step punctuation fix do not align with the expected complexity for Medium-level SAT questions. To better target a medium difficulty, consider expanding the sentence to incorporate more complex structuring or multiple punctuation issues, which would require students to engage in multi-step reasoning.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 12
     },
     {
       "skill": "Supporting Claims",
       "difficulty": "Medium",
-      "question": "Michael Jordan's achievements on the court and his iconic brand image galvanized basketball fans around the world. Through his high-profile endorsements and expansive marketing campaigns, Jordan not only captivated new audiences but also transformed the public’s engagement with basketball. His international advertisements and global TV appearances spurred cross-cultural marketing ventures and attracted sponsorships from companies worldwide. Consequently, these efforts broadened the NBA’s visibility and contributed significantly to its expansion into diverse international markets.\n\nWhich choice most effectively supports the claim that Jordan's global popularity served as a major catalyst for the NBA's expansion internationally?",
+      "question": "Neurotransmitters are chemical messengers that help regulate mood, memory, and other cognitive processes in the brain. Research indicates that disruptions in specific neurotransmitters can lead to issues such as depression, anxiety, and attention disorders.\n\nWhich choice best supports the claim that balanced neurotransmitter function is critical for effective brain activity?",
       "choices": [
-        "A) Jordan won numerous MVP awards during his career, showing his dedication to improving his individual performance.",
-        "B) The Chicago Bulls recorded one of the NBA's best regular-season records under Jordan's leadership.",
-        "C) Television broadcasts of NBA games featuring Jordan reached millions of homes in over 200 countries, driving global interest in basketball.",
-        "D) Jordan became a culturally revered figure in the United States due to his impressive scoring averages and championship titles."
+        "A. Psychologists often measure changes in hormone levels to assess the impact of long-term stress on the body.",
+        "B. Studies have linked lowered levels of certain neurotransmitters to declines in learning ability and mood regulation.",
+        "C. Increased intake of dietary vitamins has been associated with general improvements in physical health.",
+        "D. Some cells in the nervous system transmit signals without relying on chemical messengers, instead using direct electrical impulses."
+      ],
+      "answer": "B",
+      "explanation": "Choice B directly connects imbalances in neurotransmitters to potential declines in learning and mood, which reinforces the assertion that proper levels of these chemical messengers support normal brain function. The other options do not provide direct evidence of neurotransmitters’ significance in maintaining effective cognition or emotional stability.",
+      "topic": "The role of neurotransmitters in brain function",
+      "total_score": 17,
+      "constructive_feedback": "The question is clear in its objective and the answer choices are logically structured, which aligns well with SAT-style supporting claims questions. However, for a medium-difficulty label, the passage is too short and does not require multi-step reasoning. The question would benefit from additional context or details that force students to engage in more advanced analysis. Strengthening the distractors to include more tempting, partially correct choices would also enhance the quality of the item.",
+      "difficulty_feedback": "The question does not meet the criteria for a medium-difficulty SAT question since it lacks length (fewer than 90 words) and multi-step reasoning. To align it with medium difficulty, consider expanding the passage with more detailed information on neurotransmitter functions and their impacts, including more nuanced differences among the answer choices.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 13
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Medium",
+      "question": "Lawmakers have introduced new data security measures that they claim will promote consumer trust while fostering responsible innovation in the tech sector. Some opponents believe these rules create unnecessary hurdles and limit competition.\n\nWhich choice provides the strongest support for the lawmakers' claim that these data security measures can encourage trust in tech platforms?",
+      "choices": [
+        "A. Soon after stricter data rules took effect in one region, online companies reported a measurable increase in downloads and user engagement attributed to greater customer confidence.",
+        "B. Multiple start-up owners assert that complying with these measures has delayed product releases by several months.",
+        "C. A leading cybersecurity expert insists that many users overlook even the simplest online safety features.",
+        "D. Many users have expressed satisfaction with a broader range of smartphone apps, even those not subject to the new measures."
+      ],
+      "answer": "A",
+      "explanation": "Choice A clearly supports the claim that new data security measures can boost consumer trust, as it shows evidence of increased user engagement following stricter regulations. The other choices do not demonstrate a positive relationship between regulations and user trust, focusing instead on delays in product releases, user negligence of safety features, or general user satisfaction that may not be tied to the new measures.",
+      "topic": "The role of government regulations in shaping tech companies",
+      "total_score": 17,
+      "constructive_feedback": "The question is clearly written and logically aligned with the Supporting Claims skill, and the answer choices are generally plausible with one clearly correct answer. However, the passage is very short and lacks the multi-step reasoning and depth typically expected for a medium-difficulty SAT question. This simplicity might lead to it being too easy for its stated difficulty level.",
+      "difficulty_feedback": "For a medium-difficulty question, expect a longer passage (at least 90 words) that requires the student to integrate multiple details or reasoning steps. Increasing the length of the passage and adding more nuanced or subtly tempting distractors would help align the question with medium-level expectations.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 13
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Medium",
+      "question": "In Stoicism, personal ethics revolve around focusing on what one can control and maintaining moral stability. Which choice best supports the claim that Stoic principles promote consistent ethical behavior despite external pressures?\n\nSelect the statement that provides the strongest evidence for this claim.",
+      "choices": [
+        "A. Ancient Stoics occasionally wrote letters about political strategies to influence governmental affairs.",
+        "B. Early Stoic philosophers sometimes debated with skeptics and adapted their discourses over time.",
+        "C. By stressing internal control rather than external praise or criticism, Stoics remain committed to their ethical obligations regardless of circumstances.",
+        "D. Several Stoic thinkers were also skilled orators who delivered public speeches endorsing civic virtues."
       ],
       "answer": "C",
-      "explanation": "The correct answer is C because it clearly illustrates that Michael Jordan's international broadcasts propelled the NBA's reach to a global audience. While the other choices reflect Jordan's personal successes and influence on his team, only choice C provides direct evidence of worldwide engagement. In SAT questions about supporting claims, look for the answer that connects the idea in the prompt to a measurable or observable effect. Here, the measurable outcome is the increase in televised broadcasts and viewership abroad, strongly supporting the claim about Jordan’s impact on the NBA’s worldwide expansion.",
-      "topic": "The significance of Michael Jordan’s career in globalizing the NBA",
+      "explanation": "Choice C directly shows how a focus on internal mental discipline helps a Stoic stay consistent in moral behavior. The other statements might discuss Stoic actions and methods, but they do not clearly show how Stoicism cultivates steady ethical conduct in varying conditions.",
+      "topic": "The influence of Stoicism on personal ethics and self-control",
+      "total_score": 18,
+      "constructive_feedback": "The question is clearly written and aligns with the idea of supporting claims. The answer choices are distinct and the correct answer (Choice C) directly reinforces the claim about Stoicism’s focus on internal control. However, the overall stem is too brief and lacks the complexity expected of a medium-difficulty SAT problem. Medium questions should involve multi-step reasoning and a longer passage (around 90 words or more) to challenge students. Consider expanding the context—perhaps by including additional background information about Stoic philosophy or more nuanced evidence—that requires students to sift through more details in order to identify the best supporting evidence. This would help align it more closely with medium-level requirements.",
+      "difficulty_feedback": "The current question, at roughly 43 words, is too simplistic for a medium-difficulty item. To reach the medium difficulty level, incorporate additional details that require students to integrate multiple pieces of information. Adding extra context and a longer passage would create more opportunities for subtle traps and misdirection, ensuring that the question demands more analytical reading and critical thinking.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 13
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Hard",
+      "question": "Recent advances in video game design have blurred the boundaries between entertainment and art by integrating elaborate narratives with immersive audiovisual experiences. Critics argue that such games evoke emotional responses of a depth previously reserved for classical art forms. Proponents claim that the interactive nature of these games creates unique opportunities for empathy, as players’ personal experiences resonate with the unfolding digital drama.\n\nBased on this perspective, which choice below most effectively supports the claim that video games can move players on a deep emotional level?",
+      "choices": [
+        "A. A developer explains that advanced graphics engines can simulate realistic lighting in virtual environments.",
+        "B. An academic study notes that the global popularity of video games has led to a multi-billion-dollar industry.",
+        "C. A magazine article describes how blockbuster video games are increasingly marketed as cinematic experiences.",
+        "D. A player shares an experience of weeping during a story-driven game that dealt with grief and loss."
+      ],
+      "answer": "D",
+      "explanation": "Choice D offers concrete evidence that a video game succeeded in evoking a powerful emotional response, which directly supports the claim that games can move players on a deep level. The other choices provide related information (graphics technology, gaming industry size, and cinematic experiences) but do not directly illustrate an emotional reaction from a player.",
+      "topic": "The role of video games as an artistic medium",
       "total_score": 22,
-      "constructive_feedback": "The question is clearly written, logically sound, and well aligned with SAT supporting claims questions. The passage and answer choices successfully focus on linking Michael Jordan’s global appeal to the NBA’s international expansion. One area for improvement is the depth of the passage – it is slightly shorter than the recommended 90-word minimum, which would allow for more multi-step reasoning. Adding more contextual detail or subtle distractors could heighten the complexity so that mid-level students must integrate more elements before choosing the right answer.",
-      "difficulty_feedback": "While the question is labeled Medium, its brevity and the clear connection between global exposure and NBA expansion make it somewhat easier than expected. To better fit a Medium difficulty level, consider extending the passage so that it requires combining multiple pieces of evidence or eliminating several tempting but partially correct choices. This would enforce a more multi-step thought process and align the question more closely with the Medium difficulty guidelines.",
+      "constructive_feedback": "The question is clearly written and logically structured around a typical SAT supporting claims task. The answer choices are distinct, and the correct response (Choice D) is well supported by the passage. However, to elevate it to a true 'Hard' level, the question could incorporate more multi-step reasoning and nuanced distractors. For instance, you might create answer options that require students to identify subtle differences in how evidence supports the claim, or craft a slightly longer passage that demands synthesis of several ideas rather than a direct recall of an emotional example.",
+      "difficulty_feedback": "While the vocabulary and subject matter are advanced enough for college-bound students, the reasoning process required is relatively direct. Hard-difficulty questions should push students to integrate multiple pieces of information or recognize unstated assumptions. Consider adding layers to the prompt or more sophisticated distractors that force deeper analysis to better match the 'Hard' label.",
       "topic_list_name": "artMusicFilmSportsTopics",
-      "topic_index": 8
+      "topic_index": 13
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Medium",
+      "question": "Below are two notes about recent debates on genetic engineering and CRISPR:\n\n• Note 1: A global panel of scientists has suggested that continued development of CRISPR-based gene editing could potentially eliminate certain inherited disorders but warns that modifying the human genome raises concerns about unintended effects and unequal access to treatments.\n\n• Note 2: Advocacy groups have emphasized that altering an organism’s DNA for agricultural or environmental purposes might improve food sustainability but also poses questions about possible health risks and ethical accountability.\n\nThe student wants to synthesize the central ethical concerns regarding genetic engineering and CRISPR discussed above.\n\nWhich statement best synthesizes the central ethical concerns presented in these notes?",
+      "choices": [
+        "A. While advances in gene editing may resolve illnesses and enhance sustainable agriculture, the risks of negative side effects, uneven access, and unclear ethical guidelines complicate broad adoption.",
+        "B. Governments around the world have agreed that modifying human DNA is perfectly safe, but remain uncertain about using the technique for plants and animals.",
+        "C. Researchers studying inherited disorders have concluded that CRISPR carries no threat and should become the principal approach for enhancing food production.",
+        "D. Although organizations view agricultural gene editing as beneficial, they agree that inheritable gene therapy for humans should be postponed indefinitely."
+      ],
+      "answer": "A",
+      "explanation": "Both notes mention the potential benefits of genetic engineering and CRISPR, including disease prevention and food sustainability, while highlighting ethical concerns such as unequal access and uncertain side effects. Option A captures these points by showing that the technology is promising but fraught with challenges, making it the best synthesis of the two notes.",
+      "topic": "The ethical debates surrounding genetic engineering and CRISPR",
+      "total_score": 22,
+      "constructive_feedback": "The question is clearly written, logically structured, and well-aligned with SAT synthesizing notes standards. It successfully provides two detailed notes and asks students to consolidate the ethical concerns mentioned. However, the distractor choices are too obviously incorrect compared to the correct option, reducing the complexity and challenge expected in a medium-difficulty SAT item. Enhancing the plausibility of at least one or two distractors by incorporating more nuanced language or partially correct elements could compel students to engage in deeper analysis.",
+      "difficulty_feedback": "The question meets medium difficulty requirements by requiring students to integrate information from lengthy notes and discern subtle ethical nuances. To align it more closely with medium-level challenges, consider revising the answer options so that the incorrect choices are less blatantly wrong and more tempting. This will ensure that lower-level students cannot rely solely on obvious elimination, thereby increasing the multi-step reasoning challenge expected at this level.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 14
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Hard",
+      "question": "Mother Teresa is regarded as a transformative figure in the realm of global humanitarian aid, owing to her innovative approach that combined direct engagement, simplicity, and partnership with communities.\n\nBelow are several notes about Mother Teresa’s global humanitarian contributions:\n\n• She embraced a simple lifestyle while aiding the poor in many countries.\n\n• She collaborated with local communities to establish numerous houses for the sick and needy.\n\n• Her growing network of dedicated volunteers provided global support to her mission.\n\n• She believed that profound compassion could transcend cultural and national boundaries, fostering a shared sense of global responsibility.\n\nWhich claim most effectively synthesizes these multifaceted notes to elucidate how Mother Teresa’s integrative approach fostered a far-reaching impact on global humanitarian aid?",
+      "choices": [
+        "A. She emphasized national over international service in her humanitarian efforts.",
+        "B. She combined direct engagement with local communities and an expanding global network of volunteers to alleviate suffering worldwide.",
+        "C. She maintained autonomy in her initiatives by refraining from collaboration with local partners.",
+        "D. She prioritized financial support from external donors over active collaboration with affected communities."
+      ],
+      "answer": "B",
+      "explanation": "The notes collectively accentuate Mother Teresa's integrative approach, which involved both direct engagement with local communities and the establishment of a global network of passionate volunteers. Option B best articulates this synthesis by highlighting these dual elements that were central to her widespread impact. The other options either misrepresent her methodology or fail to capture the inclusive and encompassing nature of her work.",
+      "topic": "The humanitarian work of Mother Teresa in global aid",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly written and aligns with the Synthesizing Notes format. It provides a reasonable context and clear answer choices. However, the distractors are relatively obvious and do not fully challenge students to engage in multi-step reasoning. To improve the question, consider integrating more nuanced and plausible distractors that incorporate partial elements from the notes but miss key integrative details. Expanding the complexity of the language or including an extra layer of inference might also enhance the overall depth.",
+      "difficulty_feedback": "While the vocabulary is appropriately advanced and the question requires synthesizing multiple notes, its overall challenge is diminished by the oversimplified distractors. To better match a 'Hard' difficulty level, revise the answer choices to include options that might appear correct with a superficial read, forcing students to carefully analyze and synthesize all aspects of the notes.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 14
     },
     {
       "skill": "Tenses",
       "difficulty": "Medium",
-      "question": "In recent decades, scientists have observed a dramatic shift in the behavior of bacterial populations. Bacteria that once _were being_ easily suppressed by antibiotics have developed new adaptations that allow them to survive treatments that were once effective. As a result, medical professionals now face greater challenges in treating infections. \n\nWhich choice best corrects the underlined portion?",
+      "question": "Over the past decade, the rapid expansion of e-commerce has reshaped the retail landscape, prompting businesses to adopt new strategies for online and in-store sales.\n\nWhich choice completes the sentence so that it uses the most appropriate verb tense?\n\nMany retail analysts note that consumer reliance on online platforms __________ significantly in recent years, leading physical stores to invest more heavily in digital solutions.",
       "choices": [
-        "A. are once easily suppressed",
-        "B. will once be easily suppressed",
-        "C. were once easily suppressed",
-        "D. had once easily suppressed"
-      ],
-      "answer": "C",
-      "explanation": "The underlined portion needs to reflect a past state where bacteria were susceptible to antibiotics. 'Were once easily suppressed' correctly uses simple past tense, which fits the timeline described. \n- Option A ('are once') incorrectly combines present tense with a past marker.\n- Option B ('will once be') incorrectly talks about a future event with 'once.'\n- Option D ('had once easily suppressed') changes the subject's role in the sentence, implying the bacteria suppressed something else. \nOnly option C preserves the intended meaning by properly maintaining a past state of being suppressed.",
-      "topic": "The evolution of antibiotic resistance in bacteria",
-      "total_score": 20,
-      "constructive_feedback": "The question is clearly written and aligns with the SAT-style format for testing verb tense corrections. Its answer choices are logically distinct and the explanation effectively explains why option C is correct while dismissing the others. However, the passage is somewhat brief compared to typical medium-difficulty SAT questions (which are usually closer to 90 words) and the reasoning required is largely one-step. To increase the challenge and better match the medium label, consider expanding the passage with additional context or subtler grammatical traps, and making the distractors a bit more tempting.",
-      "difficulty_feedback": "Although the question tests a valid tense correction, its brevity and straightforward reasoning make it lean toward an easier level rather than medium. Enhancing the complexity—for instance, by incorporating additional nuances or a longer passage requiring multi-step analysis—would better align it with medium difficulty standards.",
-      "topic_list_name": "hardScienceTopics",
-      "topic_index": 9
-    },
-    {
-      "skill": "Word Choice",
-      "difficulty": "Hard",
-      "question": "Many multinational corporations meticulously analyze multifarious consumer trends across diverse regions to optimize their product portfolios and strategic outreach. By so doing, they enhance their global prestige while remaining sensitive to indigenous customs. However, to sustain competitive viability across disparate cultural milieus, these enterprises must ______ their strategies to reconcile variegated socio-economic imperatives.\n\nWhich choice best completes the sentence?",
-      "choices": [
-        "A) ossify",
-        "B) adapt",
-        "C) recalibrate",
-        "D) obfuscate"
-      ],
-      "answer": "B",
-      "explanation": "The sentence emphasizes the need for corporations to revise their strategies to align with differing global contexts. Among the options, 'adapt' precisely conveys the idea of changing approaches to suit diverse circumstances. 'Ossify' means to become rigid and inflexible, making it unsuitable in this context. 'Recalibrate,' while similar, implies precise adjustments rather than a broad, flexible response. 'Obfuscate' means to obscure or confuse, which does not align with the goal of strategic realignment. Therefore, 'adapt' is the optimal answer.",
-      "topic": "The effect of globalization on multinational corporations",
-      "total_score": 23,
-      "constructive_feedback": "The question is well-crafted, featuring advanced vocabulary and stylistic complexity that aligns with high-level SAT Word Choice questions. The sentence’s context is clear and provides appropriate clues to determine the correct answer, and the answer choices include distractors that on the surface may seem plausible. However, the distractor 'recalibrate' is very close in meaning to 'adapt', and while the nuance is correctly explained, it might benefit from even more subtle differences to truly challenge top-scoring students. The explanation is clear and thorough, effectively discussing why each option is either suitable or flawed. To push both the question and explanation closer to perfection, consider adding a bit more context in the passage or refining the distractors so that the differences in meaning require more multi-step reasoning.",
-      "difficulty_feedback": "While the question employs sophisticated language and complex sentence construction typical of a Hard problem, it does not involve a multi-step reasoning process as required for truly high-difficulty SAT questions. Enhancing the complexity—perhaps by embedding an additional layer of nuance or requiring synthesis of multiple contextual clues—would better align the question with the Hard difficulty label for top-tier students.",
-      "topic_list_name": "businessTechnologyTopics",
-      "topic_index": 9
-    },
-    {
-      "skill": "Supporting Claims",
-      "difficulty": "Hard",
-      "question": "Rousseau argues that when individuals unite under a social contract, they form a collective governed by the general will; in this system, each person agrees to prioritize the common good over personal interests. According to Rousseau, the general will has authority precisely because it represents what benefits everyone, not just a select few. Although some critics argue that individual self-interest might fragment social unity, Rousseau maintains that the act of contributing one's personal perspective in a public forum cumulatively transforms these views into a singular, collective general will that transcends narrow interests. This unity is what Rousseau considers the foundational principle of a just society.\n\nWhich choice most effectively supports the claim that the general will arises from the collective interests of all members of society?",
-      "choices": [
-        "A. A statement asserting that when every citizen participates in expressing their views, the resulting decisions reflect community-wide benefits rather than favoring a few.",
-        "B. A statement noting that some individuals must force their personal viewpoints on the broader group for progress.",
-        "C. A statement mentioning how a small council of influential members can efficiently decide what is best.",
-        "D. A statement urging citizens to remain silent to avoid disagreements about political matters."
-      ],
-      "answer": "A",
-      "explanation": "Choice A supports the idea that the general will reflects shared interests by noting how each person's participation contributes to decisions serving the common good. Choice B is incorrect because it conflicts with the collective nature of the general will by suggesting dominance by individual viewpoints. Choice C narrows authority to a limited group, while choice D dismisses public input, neither of which align with Rousseau's idea of forming a general will through collective participation.",
-      "topic": "Rousseau’s idea of the general will and the social contract",
-      "total_score": 23,
-      "constructive_feedback": "The question is clearly written, well-aligned with SAT reading standards, and uses a solid passage with advanced vocabulary to support a claim-analysis prompt. The answer choices are logical and mostly plausible, with the correct answer clearly reflecting Rousseau’s argument about collective interests. However, to push the difficulty closer to the 'Hard' level, consider deepening the complexity of the distractors. For example, rephrase some choices to incorporate more nuanced elements or require students to synthesize multiple parts of the passage. Slightly rewording the correct support statement may also force a more careful analysis of the text.",
-      "difficulty_feedback": "While the passage includes complex language and advanced ideas, the answer choices—especially the distractors—are somewhat straightforward once the passage is carefully read. To better match a 'Hard' difficulty rating, the distractors could be made more sophisticated by introducing subtler traps or elements that require multi-step reasoning and deeper integration of the passage’s details.",
-      "topic_list_name": "philosophyPoliticalTopics",
-      "topic_index": 9
-    },
-    {
-      "skill": "Word Choice",
-      "difficulty": "Hard",
-      "question": "In numerous suspense films, Alfred Hitchcock strategically foregrounded mundane settings, interweaving conventional character archetypes with unforeseen narrative perturbations that cultivated an enduring atmosphere of disquiet. \n\nHe deftly juxtaposed somnolent interludes with abrupt, dramatic revelations, ensuring that audiences were rendered perpetually uneasy. \n\nWhich choice most effectively replaces \"perpetually uneasy\" in the sentence so that the idea of anxious tension remains clear?",
-      "choices": [
-        "A. utterly confused",
-        "B. slightly rattled",
-        "C. momentarily hesitant",
-        "D. perpetually uneasy"
+        "A. grow",
+        "B. grew",
+        "C. grows",
+        "D. has grown"
       ],
       "answer": "D",
-      "explanation": "The correct answer is \"perpetually uneasy\" because it best reflects the enduring anxious tension that Hitchcock's scenes are described to evoke. The other options fail to sustain the same level of ongoing disquiet: \"utterly confused\" suggests disorientation rather than tension, \"slightly rattled\" implies a milder effect, and \"momentarily hesitant\" denotes a temporary state lacking the longevity implied by the context.",
-      "topic": "The storytelling techniques of Alfred Hitchcock in suspense films",
+      "explanation": "The sentence describes a trend that began in the past and continues into the present, which calls for the present perfect tense. Therefore, \"has grown\" is the most appropriate choice. \"Grow\" (simple present) would imply a general current fact, \"grew\" (simple past) would imply the trend finished in the past, and \"grows\" (simple present) would not capture the ongoing nature of the change.",
+      "topic": "The growth of e-commerce and its impact on retail stores",
       "total_score": 20,
-      "constructive_feedback": "The question is written in clear, advanced language and uses a format typical of SAT Word Choice items (including a ‘no change’ option). However, the distractors are not very subtle; they are relatively obvious in how they fail to capture the enduring quality of the anxious tension, which reduces the multi-step reasoning element expected in a hard-difficulty question. To improve, consider incorporating alternatives that are closer in nuance so that test-takers must scrutinize subtle differences in meaning, and perhaps expand the context slightly to require synthesis of more ideas.",
-      "difficulty_feedback": "While the language is suitably complex, the question falls short of the multi-step reasoning and sophisticated distractors required for a truly hard-level item. Enhancing the answer choices to include traps that could seem correct on a superficial reading and integrating clues that demand deeper analysis would align the item better with a hard difficulty rating.",
+      "constructive_feedback": "The question is clearly written, and the choices are logically presented, fitting the style of an SAT verb tense question. It effectively tests the student's ability to understand verb tenses in context. However, the passage is shorter than what is typically expected for a medium-difficulty SAT question; it lacks the multi-step reasoning and length (at least 90 words) that would require more in-depth analysis. Enhancing the context—perhaps by incorporating additional sentences that integrate multiple ideas—could raise the complexity and align it better with medium difficulty.",
+      "difficulty_feedback": "While the tense analysis is clear, the overall reading passage is quite brief and straightforward, making it more typical of an easier question. Medium-difficulty SAT questions generally include more detailed text and require students to combine ideas from multiple parts of the passage. To better attain medium difficulty, consider expanding the passage and introducing a secondary clause or additional detail that forces multi-step reasoning.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 15
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Hard",
+      "question": "The emergence of electronic music reshaped popular culture throughout the late twentieth century, influencing not only how music was produced but also how it was consumed. While some traditionalists initially resisted the unfamiliar sounds of synthesizers and drum machines, younger audiences embraced the new musical possibilities.\n\nWhich choice best maintains consistent verb tense in the following sentence about early electronic music?\n\n\"Although early electronic music ___ by some, it quickly ___ a devoted following and ___ subsequent musical styles.\"",
+      "choices": [
+        "A. was criticized ... gained ... influenced",
+        "B. is criticized ... gains ... will influence",
+        "C. was criticizing ... is gaining ... had influenced",
+        "D. had been criticized ... were gaining ... influences"
+      ],
+      "answer": "A",
+      "explanation": "Choice A uses the past tense consistently: \"was criticized,\" \"gained,\" and \"influenced.\" The verbs in choices B, C, and D shift between tenses, creating inconsistency. Sticking to a single tense (past tense, in this case) helps the sentence flow naturally and clearly describes the historical sequence of events and their impact.",
+      "topic": "The evolution of electronic music and its cultural impact",
+      "total_score": 22,
+      "constructive_feedback": "The question is clear and logically structured, and it aligns well with SAT standards in testing the consistency of verb tense. The context on electronic music adds a real-world flavor, making the exercise engaging. However, for a 'Hard' level question, it could benefit from adding additional complexity—perhaps by incorporating an extra clause or two that forces students to track multiple parts of the sentence simultaneously. The distractors are generally plausible, but they could be tweaked so that each one represents a more subtle trap (e.g., by blending correct and nearly-correct tense usage) to challenge advanced students further.",
+      "difficulty_feedback": "While the question accurately tests tense consistency, the level of reasoning required is relatively straightforward. Hard-difficulty questions should involve multi-step reasoning or a more complex interplay of verb forms across clauses. Enhancing the sentence structure with additional subordinate clauses or nuances would help meet the 'Hard' criteria more fully.",
       "topic_list_name": "artMusicFilmSportsTopics",
-      "topic_index": 9
+      "topic_index": 15
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Hard",
+      "question": "During his early years in the United States,\nNikola Tesla is showcasing his inventions at various exhibitions and soon attracted the interest of potential investors.\n\nWhich choice best maintains consistent verb tenses in this sentence?",
+      "choices": [
+        "A. Nikola Tesla was showcasing his inventions at various exhibitions and soon attracts",
+        "B. Nikola Tesla is showcasing his inventions at various exhibitions and soon attracts",
+        "C. Nikola Tesla has showcased his inventions at various exhibitions and soon attracts",
+        "D. Nikola Tesla showcased his inventions at various exhibitions and soon attracted"
+      ],
+      "answer": "D",
+      "explanation": "To maintain a consistent verb tense in the sentence, the entire description should be expressed in the past tense. Since the sentence refers to Tesla’s early work that has already happened, “showcased” and “soon attracted” correctly align in the past tense. Therefore, choice D is the only option that avoids mixing present and past tenses.",
+      "topic": "The engineering and innovation of Nikola Tesla",
+      "total_score": 18,
+      "constructive_feedback": "The question is clear and correctly tests the concept of tense consistency by requiring students to select the option that uses a uniform past tense appropriate to Tesla’s early years. However, for a question labeled as 'Hard,' it does not involve the multi-step reasoning or the advanced nuances seen in high-difficulty items. The distractors are straightforward and could be more subtly flawed to truly challenge students. Additionally, while the explanation is correct, it would be more instructive if it elaborated why each of the other options fails to maintain consistent tenses.",
+      "difficulty_feedback": "The question is misaligned with the 'Hard' difficulty label. Hard questions should incorporate complex vocabulary, multi-array tense considerations, and subtle traps that require deeper analysis. To elevate the difficulty, consider rewriting the sentence to include multiple clauses or nuanced tense shifts, and design distractors that are plausible under closer scrutiny.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 15
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Hard",
+      "question": "Researchers studying the psychology of binge-watching have noted that it has become a popular habit among viewers who use streaming platforms. Originally, audiences watched episodes weekly, but now many completed entire seasons in a matter of days.\n\nWhich choice best corrects the error in verb tense in the preceding sentence?",
+      "choices": [
+        "A. Originally, audiences watch episodes weekly, but now many complete entire seasons in a matter of days.",
+        "B. Originally, audiences watched episodes weekly, but now many will complete entire seasons in a matter of days.",
+        "C. Originally, audiences will watch episodes weekly, but now many completed entire seasons in a matter of days.",
+        "D. Originally, audiences watched episodes weekly, but now many complete entire seasons in a matter of days."
+      ],
+      "answer": "D",
+      "explanation": "In order to maintain the correct sequence of tenses, the clause about the past uses the past tense (\"audiences watched\"), while the clause about the present uses the present tense (\"many complete\"). Choice D correctly retains both the past tense for the earlier era and the present tense for current binge-watching behavior. The other options use tenses that are not consistent with these time frames.",
+      "topic": "The psychology of binge-watching and how streaming changed storytelling",
+      "total_score": 18,
+      "constructive_feedback": "The sentence correction task is clear and follows a familiar SAT format, with the options directly addressing verb tense consistency. However, the question’s context and distractors are rather straightforward and lack the multi-step reasoning or subtle traps expected in a Hard-level SAT question. The explanation correctly identifies the error in tense but could be improved by discussing why each of the alternative options fails, thereby deepening students’ understanding. To improve the question, consider adding more nuanced details in the sentence or incorporating additional layers of complexity so that the error isn’t immediately obvious, and refine distractors to include more subtle mistakes.",
+      "difficulty_feedback": "The question is labeled as Hard, yet it primarily tests a basic tense consistency rule without requiring synthesis of multiple concepts or a multi-layered analysis. To better align it with a Hard difficulty level, you could extend the passage, include additional clauses that require students to discern nuanced differences in tense usage, or incorporate subtle distractors that might appear correct with superficial reading.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 15
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Medium",
+      "question": "Dark matter, which does not interact with electromagnetic radiation, helps explain various gravitational effects observed across galaxies; ____ scientists remain uncertain about its composition as well as the role of dark energy, often represented by $\\Omega_{\\Lambda}$, in accelerating the expansion of the universe.\n\nWhich choice best completes the text with a transition that underscores the contrast between what researchers can observe and what they do not yet fully comprehend?",
+      "choices": [
+        "A) As a result",
+        "B) Nevertheless",
+        "C) However",
+        "D) In other words"
+      ],
+      "answer": "C",
+      "explanation": "Answer choice C (\"However\") is the most appropriate transition to signal a contrast between what can be explained by the gravitational effects of dark matter and what is not yet fully understood regarding both dark matter’s composition and dark energy’s role in the universe. \"As a result\" (A) implies a consequence, not a contrast; \"Nevertheless\" (B) can introduce a counterpoint but less directly matches the shift in focus; and \"In other words\" (D) is used to restate or clarify a previous idea rather than mark opposition or uncertainty. Using \"However\" emphasizes that although there is an observable influence of dark matter, critical aspects remain mysterious.",
+      "topic": "The study of dark matter and dark energy in cosmology",
+      "total_score": 20,
+      "constructive_feedback": "The question is clearly written and aligns with SAT-style transition questions by using a scientific context to test the student’s ability to identify a contrast. However, the passage is quite short compared to typical medium-difficulty SAT texts, which usually require more extensive reading and multi-step reasoning. In addition, the close similarity between choices 'However' and 'Nevertheless' might cause unnecessary ambiguity. To improve the question, consider expanding the passage with an additional sentence or two to provide more context, and revise the answer choices slightly to sharpen the distinctions between them.",
+      "difficulty_feedback": "Although the scientific terminology helps elevate the challenge, the total word count (around 43 words) is below the guideline for medium-difficulty questions (which generally require 90+ words). Enlarging the passage to include more detail or multiple steps of reasoning would better align the question with the medium difficulty level expected on the SAT.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 16
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Medium",
+      "question": "Many philosophers who emphasize determinism maintain that every experience follows a chain of events leading back to prior causes. ________ those who champion free will assert that individuals can act independently of external circumstances.\n\nWhich choice best completes the sentence with a logical transition?",
+      "choices": [
+        "A. However",
+        "B. Likewise",
+        "C. Consequently",
+        "D. For instance"
+      ],
+      "answer": "A",
+      "explanation": "Answer choice A is correct because it clarifies the contrast between the determinist position and the free will argument. Options B, C, and D suggest similarity, result, or an example, which do not fit the opposing views in the sentence. When using transition words, it is important to show the correct logical connection between ideas.",
+      "topic": "The concept of free will and determinism in philosophical thought",
+      "total_score": 18,
+      "constructive_feedback": "The question is clear, logically sound, and correctly uses the transition to signal contrast, making the correct answer obvious for someone who understands the concept. However, for a medium-difficulty SAT question, the passage is too short and lacks the multi-step or extended context typically seen in medium-level items. To improve it, consider expanding the passage with additional sentences that require deeper analysis and bring in subtle traps or multiple reasoning steps. This would ensure the question truly challenges students at the intended level.",
+      "difficulty_feedback": "While the logical operation is correct, the text is only 33 words long and does not incorporate the multi-step reasoning or extended passage typical of medium-difficulty questions. Increasing the length and complexity of the passage, perhaps by presenting more detailed contrasting views or additional context, would better align the question with its labeled difficulty.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 16
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Hard",
+      "question": "Alexander the Great’s success is frequently attributed to the discipline of his Macedonian phalanx. ________, his ability to adapt to unpredictable battle conditions contributed significantly to his conquests.\n\nWhich choice best completes the text with the most logical transition?",
+      "choices": [
+        "A. Additionally,",
+        "B. On the contrary,",
+        "C. Consequently,",
+        "D. Meanwhile,"
+      ],
+      "answer": "A",
+      "explanation": "Choice A is correct because it introduces an added idea about Alexander’s ability to adjust his tactics. The sentence points out that he had notable discipline in his phalanx, and we want to show that he also had another advantage. “Additionally” effectively connects these two positive attributes. “On the contrary” incorrectly introduces contrast rather than supplementation, “Consequently” would imply a direct result, and “Meanwhile” would suggest a simultaneous event rather than an additional factor.",
+      "topic": "The military strategy and conquests of Alexander the Great",
+      "total_score": 22,
+      "constructive_feedback": "The question is clearly written, offers a logical incomplete sentence that mirrors SAT transition word questions, and provides plausible answer choices. The context is historical and engages the student with reasoning about additional factors in Alexander the Great's conquests. However, to better justify its 'Hard' label, consider expanding the context or adding nuance so that students must perform a bit more multi-step reasoning rather than simply selecting an addition word. Also, while the explanation is succinct and accurate, it could further break down why each distractor is flawed in a multi-step fashion to guide students more completely.",
+      "difficulty_feedback": "Although the question functions well as a transition word item, it falls somewhat short of the depth expected for a 'Hard' level question. Hard questions should involve more complex vocabulary or a longer, multi-layered context. Enhancing the passage with additional sentences or more sophisticated language would better align it with the intended difficulty and challenge even high-performing students.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 16
     },
     {
       "skill": "Word Choice",
-      "difficulty": "Easy",
-      "question": "Increasing numbers of pioneering entrepreneurs are designing innovative spacecraft to cater to paying customers who wish to orbit the Earth. These companies must ensure that space tourists are adequately prepared to face zero-gravity conditions and to adapt to extended periods in confined quarters.\n\nIn the following sentence, select the word that most precisely and logically completes the statement.\n\n\"As space tourism becomes more prevalent, participants will need to ________ the challenges posed by microgravity.\"",
+      "difficulty": "Medium",
+      "question": "Marine species, including coral reefs, are ________ at an alarming rate as temperatures rise across the world’s oceans.\n\nWhich choice best completes the sentence in a way that highlights the threat climate change poses to marine ecosystems?",
       "choices": [
-        "withstand",
-        "embrace",
-        "anticipate",
-        "overcome"
+        "A. deteriorating",
+        "B. ornamenting",
+        "C. stabilizing",
+        "D. complicating"
       ],
       "answer": "A",
-      "explanation": "In this context, the word 'withstand' most adequately captures the necessity for participants to endure and cope with the challenges posed by microgravity. 'Embrace' may suggest a welcoming attitude, which does not address dealing with physical difficulties. 'Anticipate' means to predict, rather than to deal with, and 'overcome' could be close but implies completely defeating the challenges rather than persisting through them. Therefore, 'withstand' is the most precise and fitting choice.",
-      "topic": "The rise of space tourism and the demands it places on participants",
-      "total_score": 25,
-      "constructive_feedback": "This question is good in its context, but it doesn't list out A, B, C, and D for answer choices. Additionally, the first and last choices are too similar so that it's not a good question because they could both be correct.",
-      "difficulty_feedback": "The question matches the easy difficulty level as it requires only a single-step reasoning process. It uses a familiar scenario and straightforward reasoning, ensuring that students aiming for the lower end of the SAT scoring range can confidently approach it. For further refinement, consider crafting distractors that require a bit more careful consideration without overcomplicating the task.",
-      "topic_list_name": "modernTopicsAndFun",
-      "topic_index": 8
-    }
+      "explanation": "In this sentence, the focus is on how coral reefs and other marine species are being harmed by rising ocean temperatures. \"Deteriorating\" correctly conveys the idea of worsening conditions, whereas \"ornamenting\" means decorating, \"stabilizing\" implies maintaining or restoring balance, and \"complicating\" suggests adding complexity rather than decline. Because coral reefs are negatively affected by climate change, \"deteriorating\" most appropriately fits the sentence.",
+      "topic": "The effects of climate change on marine ecosystems",
+      "total_score": 16,
+      "constructive_feedback": "The question is clear and its context is aligned with word choice practice, but it falls short of medium-difficulty standards. While the sentence and answer choices are logically constructed and the explanation correctly identifies why 'deteriorating' is the best fit, the overall design lacks the complexity required for a medium-level SAT question. Specifically, medium questions should include a longer passage (at least 90 words) and require multi-step reasoning, whereas this question is very brief and straightforward. To improve, expand the passage with additional context about the impact of climate change on marine ecosystems and craft distractors that look more plausible, forcing deeper analysis.",
+      "difficulty_feedback": "The labeled medium difficulty isn’t fully met here. Medium questions should require students to synthesize information from a longer text and resolve subtler differences among answer choices. Adding a more elaborate passage that introduces background information and subtle traps in the answer choices would elevate the difficulty to the intended level.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 18
+    },
     {
-      "skill": "Synthesizing Notes",
-      "difficulty": "Easy",
-      "question": "Passage 1:\nMany employees who engage in 'quiet quitting' describe it as limiting work responsibilities to the exact requirements of their positions, aiming to preserve personal time and mental well-being. Some experts argue that this trend encourages individuals to maintain healthier boundaries, especially as companies adapt to hybrid or remote setups.\n\nPassage 2:\nIn other analyses, 'quiet quitting' highlights deeper organizational issues, including unclear communication and uncertainty around job expectations. During the pandemic era, these challenges became pronounced, prompting leaders to focus on improving transparency and goal clarity.\n\nWhich choice best synthesizes how these two passages characterize 'quiet quitting' in a post-pandemic workplace?",
+      "skill": "Word Choice",
+      "difficulty": "Medium",
+      "question": "Decentralized finance (DeFi) has grown rapidly among investors seeking an alternative to traditional financial systems. Because DeFi transactions often occur on public blockchains, participants can borrow, lend, and trade without the oversight of centralized banks.\n\nWhich choice best completes the following sentence?\n\nDeFi aims to ________ the reliance on traditional central authorities, giving users more direct control over their assets.",
       "choices": [
-        "A) It consistently leads to a decline in employees' professional standards, forcing management to re-evaluate hiring practices.",
-        "B) It indicates that workers, regardless of their roles, have universally embraced minimal effort as the post-pandemic norm.",
-        "C) It symbolizes both a protective approach to work-life balance and a signal for companies to address areas needing clearer responsibilities.",
-        "D) It demonstrates that most employees are temporarily stepping back from career plans due to prevailing health and safety concerns."
+        "A. summarize",
+        "B. prolong",
+        "C. compare",
+        "D. eliminate"
+      ],
+      "answer": "D",
+      "explanation": "The word eliminate captures the idea of removing or reducing the need for traditional authorities, which aligns with how DeFi operates. The other choices do not convey an end or reduction of reliance in the same way: summarize means to condense information, prolong indicates making reliance last longer, and compare suggests drawing a likeness rather than removing an element.",
+      "topic": "The development and rise of decentralized finance (DeFi)",
+      "total_score": 16,
+      "constructive_feedback": "The question uses an interesting, contemporary topic (DeFi) and clearly presents a word-choice completion that aligns with typical SAT format. However, the overall passage is too short and the problem requires only a single-step vocabulary substitution rather than the multi-step, nuanced reasoning expected of a medium-difficulty SAT question. The alternatives, while broadly plausible, are not all closely competitive, making the correct answer somewhat too obvious. Additionally, the explanation, though accurate, could go into greater detail by explicitly highlighting why each incorrect option fails in context. To improve, consider expanding the passage to at least 90 words, integrating additional context that forces students to synthesize multiple details before selecting an answer.",
+      "difficulty_feedback": "The question is labeled as medium difficulty, but its brevity and straightforward nature make it more akin to an easier problem. Medium-level questions should require multi-step reasoning and include subtle, tempting distractors. Lengthening the text and adding layers of contextual complexity would better match the intended difficulty level.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Medium",
+      "question": "In analyzing the ethics of war, some scholars reference just war theory. This philosophical framework lays out specific moral criteria for engaging in conflict.\n\nIn these debates, critics often  ________  that political pressures overshadow moral duties.\n\nWhich choice best completes the sentence in the context of this discussion?",
+      "choices": [
+        "A. reveal",
+        "B. contend",
+        "C. calculate",
+        "D. illustrate"
+      ],
+      "answer": "B",
+      "explanation": "The word 'contend' means to assert or argue a position, which fits the notion that critics are putting forward a claim about political pressures overshadowing moral obligations. 'Reveal' suggests uncovering new information, 'calculate' refers to determining something numerically, and 'illustrate' means to provide an example. Only 'contend' captures the idea of critics making a strong argument.",
+      "topic": "The ethics of war and the just war theory",
+      "total_score": 19,
+      "constructive_feedback": "The question is clear, logically structured, and aligned with SAT word choice standards. The choices are unambiguous and the explanation correctly distinguishes why 'contend' is the best fit. However, the passage is too brief and lacks the multi-step reasoning and depth found in a typical medium-difficulty SAT question. To improve, consider expanding the context to at least 90 words and incorporating more nuanced, tempting distractors that require students to integrate multiple ideas before arriving at the correct answer.",
+      "difficulty_feedback": "The labeled Medium difficulty expects a longer passage with multi-step reasoning and subtler traps. This question, as written, is too short and direct. Enhancing the reading passage with additional details that force students to weigh subtle differences among choices would better match the intended difficulty level.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "Broadway musicals have long been recognized as a ________ force behind countless innovations in theatrical productions worldwide, prompting many international productions to adopt elaborate staging, dynamic choreography, and powerful musical scores.\n\nWhich choice best completes the sentence?",
+      "choices": [
+        "A) sporadic",
+        "B) galvanizing",
+        "C) uncertain",
+        "D) inconsequential"
+      ],
+      "answer": "B",
+      "explanation": "The sentence emphasizes Broadway musicals’ role in inspiring new developments in global theater, so the correct word should convey that they actively drive and energize creative changes. “Galvanizing” means to spark action or bring something to life, which fits the context. “Sporadic,” “uncertain,” and “inconsequential” do not capture the influential, momentum-building quality of Broadway musicals’ global effect.",
+      "topic": "The influence of Broadway musicals on global theater trends",
+      "total_score": 19,
+      "constructive_feedback": "The question is clearly written and follows the standard SAT word-choice format with a coherent sentence and plausible answer choices. The explanation effectively clarifies why 'galvanizing' is the best fit by linking its meaning to the context. However, since the question is labeled as 'Hard' it falls short of the complexity expected at that level. Hard-level prompts typically require multi-step reasoning or the analysis of more subtle nuances and include sophisticated distractors. To improve this question, consider expanding the context to introduce additional layers of information or nuance, and refine the distractors so they appear more plausible on a superficial reading but reveal errors upon deeper analysis.",
+      "difficulty_feedback": "Although the vocabulary is not simplistic, the sentence structure and context do not demand the kind of multi-step reasoning or subtle discrimination among sophisticated alternatives expected of a 'Hard' level question. Enhancing the passage with additional relevant details and crafting distractors that are closer in meaning to the correct answer would better align the question with its labeled difficulty.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "During the Great Depression, Franklin D. Roosevelt sought to address widespread unemployment and poverty through a series of political reforms. These measures not only created government programs to manage economic recovery but also expanded federal oversight to protect citizens from future crises.\n\nIn the sentence \"Roosevelt further solidified the role of federal agencies by ________ their authority to regulate banking and labor,\" which choice best preserves the idea that Roosevelt was aiming to strengthen government power?",
+      "choices": [
+        "A) diminishing",
+        "B) overlooking",
+        "C) reinforcing",
+        "D) discarding"
       ],
       "answer": "C",
-      "explanation": "Passage 1 focuses on the idea of preserving personal time and work-life balance by fulfilling just the core expectations of one's job. Passage 2 discusses how 'quiet quitting' highlights organizational shortcomings like lack of transparency and clear goals. Option C synthesizes these perspectives by addressing both the personal boundaries aspect and the organizational critique. To eliminate other options: A misinterprets the themes by suggesting declining standards, B exaggerates the trend as universal, and D incorrectly cites health and safety as a reason. Thus, C is the best choice.",
-      "topic": "The impact of 'quiet quitting' and workplace culture shifts post-pandemic",
-      "total_score": 24,
-      "constructive_feedback": "This question is written in the style of Two Passages but is miscategorized as Synthesizing Notes.",
-      "difficulty_feedback": "Although the question is labeled 'Easy' and does involve synthesizing two passages, the passages are brief and the reasoning required is fairly straightforward. This matches the expectations of an easy SAT question where students should be able to identify the central ideas quickly. To ensure it remains accessible, consider slightly simplifying any complex phrasing or offering minor contextual clues for terms like 'quiet quitting' if deemed necessary.",
-      "topic_list_name": "modernTopicsAndFun",
-      "topic_index": 9
+      "explanation": "To reinforce something means to strengthen it or give it greater support. In this sentence, Roosevelt is portrayed as strengthening the authority of federal agencies, so \"reinforcing\" is the most accurate term. \"Diminishing,\" \"overlooking,\" and \"discarding\" all suggest reducing or removing authority, which does not fit the context of strengthening the power of government oversight.",
+      "topic": "The political reforms of Franklin D. Roosevelt during the Great Depression",
+      "total_score": 18,
+      "constructive_feedback": "The question is clear, logically coherent, and its structure aligns with basic SAT Word Choice items. The sentence is easy to follow and the correct answer is unmistakably the best fit for the context, which is a strength. However, as a 'Hard' difficulty item, it lacks the additional layers of complexity expected at this level. The distractors are too obvious and do not force students to engage in multi-step reasoning or subtle differentiation between nearly synonymous terms. For improvement, consider expanding the passage or introducing answer choices that are more subtly nuanced, so that the student must carefully distinguish between options. This could include using words that are intellectually similar to 'reinforcing' but introduce a minor unfaithfulness to the historical nuance.",
+      "difficulty_feedback": "While the question is sound in its logic and clarity, it does not meet Hard-level expectations. Hard questions should feature complex vocabulary, require multi-step reasoning, and include sophisticated distractors. To elevate this item, add additional context or layers that force students to synthesize multiple details, and design answer choices that include subtle traps or require a deeper analysis of nuance.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 18
     },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "AI-generated social media influencers, often called virtual personalities, have experienced a swift rise in popularity. Marketers predict that these digital figures will ________ , overshadowing many human creators’ online presence.\n\nWhich choice best completes the sentence with the most precise and emphatic word choice that conveys a sense of unstoppable growth?",
+      "choices": [
+        "A) surge",
+        "B) sustain",
+        "C) pause",
+        "D) meander"
+      ],
+      "answer": "A",
+      "explanation": "“Surge” is the most specific and forceful term, conveying the idea of rapid and overwhelming growth. “Sustain” suggests maintaining a current level, “pause” implies a brief stop, and “meander” indicates a slow or indirect path. Therefore, “surge” best fits the context of rapid expansion.",
+      "topic": "The rise of AI-generated social media influencers and digital personalities",
+      "total_score": 18,
+      "constructive_feedback": "The question is clear and uses a contemporary topic, which is a plus. The sentence provides sufficient context for selecting the correct answer, and the explanation accurately distinguishes the nuances of each answer choice. However, as a Hard difficulty SAT word choice question, the challenge level is lacking. The distractors are too obvious, and the task requires only a single-step reasoning process. To improve the question, consider revising the sentence to include additional clauses or subtle competing ideas that require more synthesis. Also, consider replacing one or more of the distractors with choices that are more closely related in meaning to force a deeper analysis.",
+      "difficulty_feedback": "While the prompt labels the question as Hard, it does not fully meet the criteria expected at this level. Hard-difficulty questions should involve complex vocabulary, multi-step reasoning, and sophisticated distractors. In its current form, the question is too straightforward. Enhancing the contextual complexity or integrating closer, subtler distractors would help better align the question with a Hard difficulty rating.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 18
+    }
   ]
 }

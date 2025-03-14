@@ -1,5 +1,670 @@
 {
   "questions": [
     
+    {
+      "skill": "Punctuation",
+      "difficulty": "Easy",
+      "question": "Consider the following sentence describing a character in a literary work:\n\n\"He preaches humility ironically he brags about his holy relics in front of everyone.\"\n\nWhich choice best corrects the punctuation in the sentence?",
+      "choices": [
+        "A) He preaches humility ironically, he brags about his holy relics in front of everyone.",
+        "B) He preaches humility; ironically, he brags about his holy relics in front of everyone.",
+        "C) He preaches humility ironically. He brags about his holy relics, in front of everyone.",
+        "D) He preaches humility ironically, he brags, about his holy relics in front of everyone."
+      ],
+      "answer": "B",
+      "explanation": "Choice B is correct because it properly uses a semicolon to separate two independent clauses and includes a comma after 'ironically' to introduce the contrast. Semicolons are used to join two independent clauses that are closely related, especially when no conjunction is present. Here, 'He preaches humility' and 'he brags about his holy relics' are both independent clauses, and the adverb 'ironically' signifies a contrast, requiring a comma after it. \n\nChoice A is incorrect because it creates a comma splice, improperly connecting two full sentences with just a comma. Choice C incorrectly places a period inappropriately separating the clauses, and the extra comma after 'holy relics' is unnecessary. Choice D introduces a superfluous comma after 'brags,' disrupting the flow and clarity of the sentence.",
+      "topic": "Correcting punctuation in sentences with contrasting ideas.",
+      "total_score": 24,
+      "constructive_feedback": "The question is clear and logically structured, fitting well within the SAT punctuation theme. It provides a literary context that is authentic to SAT passages and presents plausible answer choices with only one correct punctuation fix. However, the introductory context about Chaucer and The Canterbury Tales, while interesting, might distract some students from the core punctuation issue. Consider streamlining the context or ensuring that it more directly ties into the punctuation error. Additionally, expanding the explanation to briefly detail why each incorrect choice fails (for example, explaining why a period in option C results in improper internal punctuation) could help reinforce understanding for students.",
+      "difficulty_feedback": "The question matches the 'Easy' difficulty label by requiring a single-step reasoning fix—recognizing and correctly punctuating two independent clauses. The context is familiar and straightforward, though slightly more literary than typical easy passages. If needed, simplifying the context to focus solely on the punctuation error would ensure it remains accessible for students targeting lower SAT scores.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 12
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Easy",
+      "question": "During the decline of the Roman Empire economic instability soared and trade networks deteriorated.\n\nWhich choice most effectively corrects the punctuation in this sentence?",
+      "choices": [
+        "A. During the decline of the Roman Empire economic instability soared: and trade networks deteriorated.",
+        "B. During the decline of the Roman Empire, economic instability soared, and trade networks deteriorated.",
+        "C. During the decline, of the Roman Empire economic instability soared and trade networks deteriorated.",
+        "D. During the decline of the Roman Empire economic instability soared, and, trade networks deteriorated."
+      ],
+      "answer": "B",
+      "explanation": "The correct answer is B because it properly introduces a comma after 'Roman Empire' to separate the introductory phrase from the main clause. Additionally, it uses another comma before 'and' to connect the two independent clauses ('economic instability soared' and 'trade networks deteriorated'). Choices A, C, and D fail to use proper punctuation: A introduces a colon incorrectly, C places a comma inappropriately after 'decline,' and D adds an unnecessary comma after 'and' which disrupts sentence flow.",
+      "topic": "The causes and effects of economic instability in history",
+      "total_score": 25,
+      "constructive_feedback": "The question is clear, logically structured, and adheres well to SAT punctuation standards. It uses a historical context that can engage students while testing two punctuation rules: the use of a comma after an introductory phrase and before the coordinating conjunction joining two independent clauses. However, to further enhance clarity and align with the 'Easy' label, consider simplifying the sentence so that only one punctuation correction is needed or slightly clarifying the introductory segment. Additionally, the explanation, while accurate, could elaborate a bit more on the punctuation rules for students who might be less familiar with compound sentences and introductory phrases.",
+      "difficulty_feedback": "The question fits the criteria for an Easy-difficulty problem by involving straightforward, single-step reasoning about comma placement. It requires students to identify and correct two punctuation errors, which is acceptable at this level. To make it even more clearly aligned with Easy difficulty, you might reduce the number of punctuation fixes or add a brief contextual cue that highlights the rule being tested.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 12
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Easy",
+      "question": "In the following discussion of cognitive dissonance — the tension that arises from simultaneously holding two conflicting beliefs — which choice best revises the following sentence to clarify the relationship between its ideas?\n\nPeople who experience contradictory beliefs might feel uneasy indeed they often adjust their interpretations of events to reduce that discomfort.",
+      "choices": [
+        "A. People who experience contradictory beliefs might feel uneasy indeed; they often adjust their interpretations of events to reduce that discomfort.",
+        "B. People who experience contradictory beliefs might feel uneasy, indeed; they often adjust their interpretations of events to reduce that discomfort.",
+        "C. People who experience contradictory beliefs might feel uneasy; indeed, they often adjust their interpretations of events to reduce that discomfort.",
+        "D. People who experience contradictory beliefs might feel uneasy indeed, they often adjust their interpretations of events to reduce that discomfort."
+      ],
+      "answer": "C",
+      "explanation": "Choice C separates the two independent clauses with a semicolon and correctly places a comma after the transitional word 'indeed,' ensuring the sentence flows clearly and aligns with standard punctuation rules. Choices A, B, and D misuse punctuation, either failing to separate the clauses properly or mishandling the transitional phrase.",
+      "topic": "Cognitive dissonance and its impact on people's interpretation of conflicting beliefs",
+      "total_score": 25,
+      "constructive_feedback": "The question is well-designed and closely mirrors SAT punctuation tasks. It clearly presents a sentence revision problem where students need to apply standard punctuation rules, and it offers plausible distractors. The context of cognitive dissonance adds interest, though it could be slightly streamlined to focus more sharply on the punctuation issue. Additionally, ensuring consistent visual formatting among the answer choices (such as uniform punctuation around the transitional word) could further boost clarity.",
+      "difficulty_feedback": "For an Easy-level question, this item is appropriate because it requires a single-step punctuation revision (using a semicolon to separate two independent clauses and a comma to correctly set off a transitional adverb). The context and structure are familiar for SAT practice, but reducing extraneous context might make it even more accessible to students aiming for the lower end of the scoring range.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 12
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Easy",
+      "question": "Read the excerpt below from Franz Kafka's *The Metamorphosis*:\n\n> \"At the very beginning of Gregor's metamorphosis, his family expressed concern and even tried to help him adapt. But as time went on, their patience waned. His parents and sister began to avoid him more and more, barely stepping into his room except to hurriedly leave some food. Eventually, they dismissed his contributions entirely, focusing instead on their own renewed activities.\"\n\nWhich choice best supports the claim that Gregor's increasing sense of alienation stems primarily from his family's attitudes toward him rather than just his physical form?",
+      "choices": [
+        "A. Gregor notes that his vision is now different from before, enabling him to see each detail on the walls with greater clarity.",
+        "B. After Gregor's condition becomes apparent, his parents and sister avoid interacting with him and gradually dismiss the help he once provided.",
+        "C. Gregor notices that his new legs make it difficult for him to move fluidly around the bedroom, causing him to stay in one cramped space.",
+        "D. Although Gregor longs to return to work, he realizes he cannot communicate with his employer about his situation in any meaningful way."
+      ],
+      "answer": "B",
+      "explanation": "Choice B offers direct evidence that Gregor’s alienation grows because the family’s avoidance and dismissal push him further from normal relationships. By contrast, the other choices focus on Gregor’s physical changes or his workplace situation rather than illustrating the family’s role in deepening his isolation in the household.",
+      "topic": "Gregor Samsa’s alienation in The Metamorphosis",
+      "total_score": 25,
+      "constructive_feedback": "The question is well-constructed and aligns with SAT reading comprehension norms. It clearly presents a claim about alienation and offers distractors that mirror common misinterpretations (focusing on physical changes or workplace issues instead of family behavior). The explanation logically breaks down why choice B is correct while discounting the other options. However, to further improve the question, consider adding a short excerpt or more explicit reference to the text so that the task is more self-contained for students who might not be fully familiar with The Metamorphosis.",
+      "difficulty_feedback": "The question appropriately fits an 'Easy' difficulty rating because it involves a straightforward, single-step inference based on family attitudes versus physical transformation. The distractors are clearly off-target when compared with the central claim, making it broadly accessible. Enhancing clarity by integrating a brief textual excerpt would solidify its accessibility without raising the difficulty level.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 13
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Easy",
+      "question": "Historians have argued that the Black Death was a catalyst for enduring changes in the social and economic frameworks of medieval European society. Particularly, it is noted that the plague's devastating impact led to a permanent redistribution of power among different social classes.\n\nWhich choice most effectively substantiates this claim that the plague caused a long-term alteration in the power dynamics of medieval society?",
+      "choices": [
+        "A. Contemporary sources suggest that some rural regions remained relatively unaffected by the epidemic, preserving their traditional hierarchies.",
+        "B. Historical accounts describe how the reduced population enabled peasants and laborers to negotiate for higher wages and better working conditions, altering economic relationships.",
+        "C. Documents indicate that nobility continued their luxurious expenditures, such as constructing elaborate palaces, despite widespread losses within their ranks.",
+        "D. Clerical writings emphasized the importance of adhering to traditional ceremonies to curb the epidemic's spread."
+      ],
+      "answer": "B",
+      "explanation": "Choice B directly supports the claim by illustrating how the labor shortage created by the Black Death led to increased bargaining power for peasants and laborers. This shift not only had immediate economic repercussions but also marked a significant, lasting change in the power dynamics of medieval society. The other options fail to demonstrate a long-term systemic change: A describes unaffected areas without addressing shifts in society, C focuses on court extravagance rather than class balance, and D discusses religious practices which are not tied to social power changes.",
+      "topic": "The effects of the Black Death on medieval Europe",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly structured, well-aligned with the SAT’s Supporting Claims style, and the choices are plausible distractors with only one that directly supports the claim. It effectively tests the ability to link evidence to a historical claim. However, it could be improved by adding a bit more contextual framing to mirror the style of SAT reading passages, so that students get the feel of a supported excerpt rather than a stand‐alone claim. Additionally, slight rewording in the answer options to underscore the idea of a permanent shift (for example, emphasizing long-term institutional change) could enhance the nuance of the correct choice. The explanation is concise and clearly outlines why option B is best, though a mention of the significance of the word “permanent” in the claim would further solidify the rationale.",
+      "difficulty_feedback": "The question meets the criteria for an 'Easy' difficulty rating as it asks for single-step reasoning using a familiar historical scenario. The distractors are reasonable and are eliminated upon closer reading, while only one choice directly supports the claim. To further ensure alignment with an easy difficulty level, consider slightly simplifying the language or providing a brief background context to mimic the SAT passage environment.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 13
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Easy",
+      "question": "In a recent experiment exploring the Social Learning Theory, researchers had children watch an adult engage in a simple act of kindness, such as offering to share a snack, and then measured how frequently the children performed similar acts in subsequent play sessions. The adult was praised by the experimenters whenever generosity was displayed, reflecting positive reinforcement. Researchers concluded that children who observed an adult consistently rewarded for prosocial behavior tended to imitate those actions at higher rates than children who did not witness any rewards.\n\nWhich choice best supports the claim that children are likely to replicate behaviors modeled and rewarded by adults?",
+      "choices": [
+        "A) When children are told that sharing is optional, they may hesitate to offer their snacks",
+        "B) Some children in the study reported feeling nervous about participating in the experiment",
+        "C) A separate study found that even mild criticism from adults can deter children from repeating a behavior",
+        "D) In the experimental group, 80% of children who saw an adult receive praise for sharing later copied the same behavior"
+      ],
+      "answer": "D",
+      "explanation": "Choice D directly supports the claim because it provides specific statistical evidence that a significant majority (80%) of children in the experimental group imitated the modeled prosocial behavior after observing an adult be rewarded for it. The other choices are either unrelated to the connection between adult rewards and child mimicry (e.g., choice A addresses hesitation when sharing is optional, choice B describes children’s feelings, and choice C discusses criticism deterring behavior) and thus do not support the stated claim.",
+      "topic": "The Social Learning Theory and the role of modeling in behavior",
+      "total_score": 25,
+      "constructive_feedback": "The question is well-constructed and clearly aligned with typical SAT supporting claims questions. It provides a coherent context regarding Social Learning Theory, and the answer choices are crafted so that the correct choice (D) is clearly supported by the text. To enhance it further, consider minor refinements such as adding a bit more detail in the explanation about why each distractor is not valid. Additionally, ensure that the experimental context is as clear as possible to eliminate any minimal potential ambiguities.",
+      "difficulty_feedback": "The question matches its 'Easy' label well. The required reasoning is straightforward—students need to identify the key evidence (80% of children imitating behavior) that directly supports the claim. This aligns with a simple extraction of information from the passage. To maintain this level of ease, the language should remain concise and the context directly tied to the answer choices.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 13
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Hard",
+      "question": "Historians often credit Theodore Roosevelt with redefining the presidency by emphasizing progressive reforms that deeply influenced modern American governance. These reforms are evident in his administration's antitrust actions, establishing legal precedents that curtailed monopolistic practices. Additionally, Roosevelt championed labor rights, spearheading regulatory measures that sought to ensure fair wages and working conditions. His conservation efforts led to the establishment of numerous national parks and wildlife refuges, solidifying a framework for environmental preservation. Finally, his belief in a proactive government paved the way for expanded social welfare policies that addressed emerging societal needs in the 20th century and beyond.\n\nWhich choice best supports the claim that Roosevelt's reform policies established enduring principles in U.S. governance that continued to influence later administrations?",
+      "choices": [
+        "A) Roosevelt's upbringing in a prominent family provided him unique access to political circles, facilitating his reform initiatives.",
+        "B) Roosevelt's rhetoric of a 'square deal' resonated with many Americans, emphasizing fairness and balance in resolving disputes.",
+        "C) Roosevelt's regulatory actions served as models for subsequent reforms, such as the New Deal's focus on economic stability and consumer protections.",
+        "D) Roosevelt's foreign policy initiatives, including his negotiation of the Russo-Japanese War, earned him accolades such as the Nobel Peace Prize."
+      ],
+      "answer": "C",
+      "explanation": "Option C directly addresses the enduring impact of Roosevelt’s reforms, connecting his regulatory actions to later defining policies like the New Deal. It solidifies the idea of lasting influence in domestic governance. While option B mentions the 'square deal,' its focus on rhetoric lacks evidence of direct, enduring impact on governance. Option A, though related to Roosevelt's political foundation, does not substantiate his influence on future policies. Option D highlights achievements in foreign policy, which don't reinforce the claim about his domestic reforms.",
+      "topic": "The political legacy of Theodore Roosevelt in American history",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-structured, clearly written, and aligns with the SAT’s emphasis on sourcing evidence from a passage to support a claim. The contextual passage provides enough background and advanced vocabulary to challenge students. However, the distractors, while plausible, could be made more nuanced. For example, option B’s reference to Roosevelt’s ‘square deal’ might benefit from a slight rewording to make it sound relevant yet ultimately flawed upon closer analysis. In addition, expanding the passage slightly to incorporate more details could require a deeper multi-step analysis, which is a key element for Hard-level questions.",
+      "difficulty_feedback": "The question meets many of the criteria for a Hard difficulty item by involving advanced vocabulary and requiring the student to synthesize information from the passage with historical implications. However, the overall reading passage is a bit brief compared to other Hard-level SAT items, and the distractors could be more subtly crafted. To further align with the Hard level, consider lengthening the passage to force a more multi-layered analysis and revising distractors to incorporate traps that match surface-level details but collapse under deeper scrutiny.",
+      "topic_list_name": "famousBiographies",
+      "topic_index": 13
+    },
+    {
+      "skill": "Supporting Claims",
+      "difficulty": "Hard",
+      "question": "Concert organizers have increasingly integrated cutting-edge virtual reality headsets and state-of-the-art holographic displays into their performances to create immersive, interactive experiences accessible from any location. Recent market surveys further suggest that these digital formats not only enhance audience engagement but also have the potential to bypass the geographical limitations of traditional concerts. For instance, one VR concert series reported over one million attendees globally, from over 50 countries across five continents. Furthermore, interviews with tech-savvy musicians revealed optimism about these technologies making performances more inclusive and accessible. Analysts have noted that as the costs of VR technology decrease and its adoption broadens, such innovations may fundamentally reshape the music industry from a local to a global scale. These advancements signal a nuanced shift in how audiences might experience and consume live performances moving forward.\n\nWhich choice best supports the claim that immersive virtual concerts can draw a wider, worldwide fan base?",
+      "choices": [
+        "A) During a specific virtual music event, detailed attendance records showed participation from audiences across five continents, greatly surpassing attendance levels for prior conventional concerts.",
+        "B) Interviews conducted with emerging musical artists suggest they value virtual platforms for their ability to bypass traditional performance barriers, including geographical ones.",
+        "C) Polls conducted during early tests of virtual concert technology highlighted that cost concerns could limit participation among some demographics.",
+        "D) Analysts predict that the global adoption of virtual concert technology will increase due to younger audiences' preference for technological integration and companies’ investments in immersive platforms."
+      ],
+      "answer": "A",
+      "explanation": "Choice A provides a concrete example showing detailed evidence of global attendance, directly supporting the claim that VR concerts can reach a broader audience. The other options focus on perspectives, constraints, or speculative trends, rather than directly reinforcing the evidence for global reach.",
+      "topic": "The future of immersive concerts using virtual reality and holograms",
+      "total_score": 23,
+      "constructive_feedback": "The question is clear, uses advanced vocabulary, and is structured in a way that aligns with SAT reading standards for supporting claims. The distractors are generally plausible and force students to discern between directly relevant evidence and peripheral details. However, the correct answer (Choice A) is almost a direct replication of a detail from the passage, which reduces the need for layered, multi-step reasoning. To further enhance the question, consider adding a twist where students must synthesize two parts of the passage or more subtly differentiate between similar options. Also, slightly polishing the distractor language to make each option more evenly competitive will deepen the challenge.",
+      "difficulty_feedback": "Although the question meets many criteria for a hard-level SAT question—such as using complex language and plausible distractors—it might not fully require the deep synthesis expected at this level. The supporting evidence in Choice A is almost directly lifted from the passage, which may make the reasoning process more straightforward than intended. Incorporating additional elements that require multi-step reasoning or cross-referencing different parts of the passage would better justify its 'Hard' label.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 13
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Easy",
+      "question": "Below are two sets of notes about Sophocles' *Antigone*:\n\n- Antigone believes that honoring her brother with a proper burial is a moral imperative.\n\n- She openly defies Creon’s decree, demonstrating her devotion to her family’s legacy.\n\n- Creon, committed to upholding state laws, believes placing individual desires above civic order weakens society.\n\n- He insists that bending the rules for anyone could undermine his authority and the rule of law.\n\nWhich choice best synthesizes these notes to illustrate how Antigone’s individual conscience and Creon’s commitment to social order come into conflict?",
+      "choices": [
+        "A. One set of notes highlights Antigone’s reckless defiance, while the other suggests Creon is willing to allow societal rules to be broken for personal reasons.",
+        "B. One set of notes paints Antigone’s actions as motivated solely by a desire to undermine Creon, while the other claims she prioritizes ambition over morality.",
+        "C. One set of notes examines Antigone’s internal doubts about loyalty and morality, and the other portrays Creon as a ruler focused on individual freedoms.",
+        "D. One set of notes underscores Antigone’s deep-seated moral duty to her family, and the other underscores Creon’s firm insistence on preserving social order, revealing a wider conflict between personal ethics and public authority."
+      ],
+      "answer": "D",
+      "explanation": "Choice D accurately synthesizes the notes by emphasizing Antigone’s moral commitment to her family and Creon’s dedication to maintaining civic stability. Both elements highlight the core thematic clash between personal ethics and public rules. The other options introduce elements that are not represented in the notes: (A) misrepresents Creon's motives, (B) incorrectly attributes Antigone's motives as ambition rather than duty, and (C) introduces an idea about individual freedoms that is not supported by the notes.",
+      "topic": "The struggle between individual conscience and societal expectations in Antigone",
+      "total_score": 24,
+      "constructive_feedback": "The question is well aligned with the SAT's Synthesizing Notes format. It clearly presents two sets of notes about Antigone and requires students to integrate them to show a conflict between personal morality and civic duty. Answer choices are mostly plausible, with only one clearly synthesizing the intended ideas. To improve, consider refining the language in a couple of the distractors so that they are unambiguously incorrect and add a bit more nuance in the correct answer. Additionally, expanding the explanation to briefly detail why the other choices fail (such as misrepresenting the notes or introducing extraneous ideas) would help students learn from their mistakes.",
+      "difficulty_feedback": "The question appropriately matches the Easy difficulty for Synthesizing Notes: it requires a single-step synthesis of clearly delineated notes and involves familiar ideas from a classic text. The straightforward nature of the notes and the clear contrast between the views should allow students in the targeted performance range to succeed with minimal confusion.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 14
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Easy",
+      "question": "Use the following notes from a historian's research:\n\n• Martin Luther's 95 Theses circulated widely thanks to mass-produced pamphlets\n\n• Printers across Europe published translations of Luther's writings\n\n• Falling printing costs increased the availability of religious texts\n\nWhich choice most effectively uses the relevant details from the notes to explain how the printing press influenced the Protestant Reformation?\n",
+      "choices": [
+        "A. It caused a decline in literacy because people relied on church officials to interpret texts.",
+        "B. It made secular literature more influential than religious treatises during the Reformation.",
+        "C. It encouraged the Catholic Church to establish strict censorship policies to uphold traditional practices.",
+        "D. It accelerated the Reformation by quickly distributing reformers' ideas to a wider audience, thereby fueling support for change."
+      ],
+      "answer": "D",
+      "explanation": "The notes emphasize how Martin Luther's ideas were distributed widely through cheaper, mass-produced writings. While other choices propose effects that are either not directly supported or contradict the notes, choice D captures the essential point: the printing press allowed reformers' writings to spread more easily, which encouraged continued support for new religious practices.",
+      "topic": "The influence of the printing press on the Protestant Reformation",
+      "total_score": 28,
+      "constructive_feedback": "The question is clearly written, logically structured, and closely aligned with SAT standards, particularly for a synthesizing notes task at an easy level. The notes provided are succinct and directly point to the correct answer. The answer choices are all plausible distractors that a student might confuse if not synthesizing the information correctly. To further improve the question, consider briefly emphasizing the idea of rapid dissemination and its impact on public opinion, which could help students link the notes to choice D more intuitively.",
+      "difficulty_feedback": "The question perfectly matches an easy difficulty level. It requires single-step reasoning by synthesizing a few straightforward details from the notes. The answer is clear and accessible for students performing around the 400–600 range on the SAT. No significant changes are needed to align with the intended difficulty.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 14
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Easy",
+      "question": "• A psychology study found that reminding students of a negative stereotype about their group led many to experience increased stress and anxiety during exams.\n\n• Certain interventions, such as reassuring students about their ability or explaining that intelligence can be developed, helped reduce the harmful effects of these doubts.\n\n• Over time, researchers noted that the students most affected by stereotype threat often improved their performance when instructors offered feedback focused on effort and specific strategies for learning.\n\nThe student wants to identify the claim best supported by the notes. Which claim is it?",
+      "choices": [
+        "A. Providing additional course materials to students ensures improvements in their academic outcomes, regardless of stereotype-related concerns.",
+        "B. Techniques that address the psychological effects of stereotypes, such as effort-focused feedback and affirmations, can improve academic performance.",
+        "C. Ineffective strategies, rather than stereotype concerns, are the leading issue affecting the performance of students negatively impacted by such stereotypes.",
+        "D. Students most affected by stereotype threats often do not benefit from targeted feedback and interventions."
+      ],
+      "answer": "B",
+      "explanation": "From the notes, we understand that heightened stress and anxiety associated with stereotype threats can diminish academic performance, but certain interventions mitigate this negative effect. The second bullet explicitly mentions interventions such as reassurance and promoting a growth mindset helping to reduce these harmful effects. The third bullet adds that targeted feedback focused on effort and strategies for learning led to improved performance. This strongly supports option B, indicating that addressing the psychological impact of stereotypes is beneficial. The incorrect options either provide conclusions not supported by the notes or directly contradict the evidence.",
+      "topic": "The impact of stereotype threat on academic performance",
+      "total_score": 25,
+      "constructive_feedback": "The question is clearly written and aligns well with the SAT's synthesizing notes format. It presents relevant notes and plausible answer choices that differentiate between claims, making it suitable for an easy-difficulty level. To improve further, consider rephrasing some of the distractors for greater clarity and to reduce any ambiguity. For example, ensure that the incorrect answers are clearly off-target rather than potentially confusing the student with plausible partial truths. Additionally, including a bit more explicit connection between the interventions and improved performance in both the question stem and explanation could strengthen the synthesis.",
+      "difficulty_feedback": "The question matches its labeled easy difficulty. It relies on single-step reasoning where students combine three straightforward pieces of information to support a claim. This aligns well with the intended difficulty, though slight adjustments in the wording of the distractors might make the elimination process even more transparent for students with lower scores.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 14
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Hard",
+      "question": "A student took notes about Maxwell's equations from a physics textbook:\n\n• Maxwell’s equations unify electricity and magnetism, showing that electric fields are influenced by magnetic fields and vice versa.\n\n• A key insight is that changing electric fields induce changing magnetic fields, essential for understanding electromagnetic phenomena.\n\n• Maxwell extended Ampère’s law by introducing the displacement current term, resolving inconsistencies in the equations when applied to capacitors.\n\n• The displacement current demonstrates how time-varying electric and magnetic fields can sustain each other, forming electromagnetic waves that travel through space.\n\nThe student analyzes these notes to determine how the displacement current term leads to the understanding of electromagnetic wave propagation.\n\nWhich statement best synthesizes this concept?",
+      "choices": [
+        "A. Maxwell's equations show electric and magnetic fields operate independently of one another.",
+        "B. The displacement current is crucial for explaining how electromagnetic waves propagate through a vacuum.",
+        "C. Electromagnetic waves propagate because of an inconsistency in classical Ampère's law, unrelated to Maxwell's displacement current.",
+        "D. Maxwell's equations explain static electric phenomena but not dynamic electromagnetic interactions."
+      ],
+      "answer": "B",
+      "explanation": "The synthesis of the notes reveals that Maxwell's introduction of the displacement current term was integral to understanding electromagnetic wave propagation. It not only corrected theoretical inconsistencies in Ampère's law but also explained how time-varying electric fields produce magnetic fields and vice versa. This mutual propagation is the basis of electromagnetic waves, which can travel even in a vacuum. Choice B correctly captures these ideas, while A, C, and D misrepresent key aspects of the reasoning.",
+      "topic": "The principles of electromagnetism and Maxwell's equations",
+      "total_score": 23,
+      "constructive_feedback": "The question is clear, logically structured, and aligns well with the SAT style for synthesizing notes. It effectively provides two sets of physics-related notes that must be integrated to answer the question, and the distractors reflect common misinterpretations. However, while the content is accurate, the overall text is somewhat brief for a medium-difficulty problem. Expanding the notes slightly or including more nuanced distractors could help add depth and nuance, making the question even more challenging for students.",
+      "difficulty_feedback": "This question meets the basic criteria for a hard-level difficulty problem by requiring multi-step synthesis and offering plausible incorrect choices. That said, its overall word count and complexity could be increased to better match guidelines for medium-difficulty items — for instance, by providing more detailed notes or context and by slightly refining the distractors to be more subtly wrong.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 14
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Medium",
+      "question": "In recent years, the rapid integration of automation into various sectors has sparked debate over its effects on both job elimination and the creation of new technological roles. For an upcoming study, a researcher compiles the following notes about the impact of automation on the workforce:\n\n• In manufacturing, specialized robots take on repetitive tasks, reducing the number of staff needed for assembly lines. However, companies often need technicians and supervisors trained to operate and maintain these autonomous systems.\n\n• In service industries, advanced software streamlines administrative work, prompting businesses to encourage employees to acquire new digital skills. Some workers experience immediate displacement, but others transition into emerging roles, such as data analysts and digital strategists.\n\n• Across sectors, companies implementing automation frequently report alternative forms of workforce growth, citing initiatives like retraining programs and the development of entirely new job categories in response to technological advancements.\n\nWhich statement best synthesizes these notes on the impact of automation?",
+      "choices": [
+        "A. Automation reduces certain jobs but fosters alternative employment opportunities requiring modern skills.",
+        "B. Automation primarily reduces jobs in manufacturing, but it has limited influence on other sectors.",
+        "C. Automation has no significant effects on job markets outside the service sector, where it mostly encourages reskilling.",
+        "D. Automation eliminates more jobs than it creates, predominantly in administrative and clerical roles."
+      ],
+      "answer": "A",
+      "explanation": "The notes describe how automation reduces some positions while enabling the growth of roles that demand new, modern skills or retraining. For instance, in manufacturing, automation reduces repetitive task positions but creates a demand for technicians and supervisors. Similarly, in service industries, administrative automation displaces some roles but supports the emergence of data analysts and digital strategists. Additionally, companies across sectors often establish retraining programs, indicating an effort to cultivate new opportunities. Option A encapsulates the overall relationship between automation, job displacement, and job creation. Incorrect options fail to integrate both aspects. For example, option B overemphasizes manufacturing, and option C erroneously claims limited effects outside the service sector. Option D misrepresents the overall relationship between job elimination and creation.",
+      "topic": "The impact of automation on the job market",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-designed, clear, and aligned with SAT synthesizing-notes tasks. It presents two sets of notes that require students to integrate ideas about both job elimination and job creation, and the answer choices include plausible distractors. To further improve the question, consider adding a touch more nuance or detail in the notes to enrich the synthesis task and potentially complicate the distractor choices. In the explanation, while the reasoning is clear, elaborating briefly on why each of the incorrect answers fails to capture the full synthesis would help students better understand the decision process.",
+      "difficulty_feedback": "The question meets medium-difficulty benchmarks by requiring multi-step reasoning and offering several tempting incorrect options. It appropriately challenges students aiming at a 600–700 SAT score level. For further improvement, slightly increasing the complexity of the note passages or refining the distractors to be even more subtly misleading could boost the overall challenge while still aligning with medium-difficulty expectations.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 14
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Easy",
+      "question": "Below are notes from two different sources discussing the multifaceted global influence of anime and manga in entertainment and culture.\n\nSource 1 Notes:\n\n• Streaming services have significantly increased their portfolios of exclusive anime titles, broadening the genre's accessibility globally.\n\n• Major international conventions, such as San Diego Comic-Con, often dedicate entire exhibit halls to celebrating manga and anime culture.\n\n• The merchandising of anime and manga franchises has become an integral revenue stream for global retailers.\n\n• Anime's storytelling techniques are increasingly mirrored in American animated series watched by diverse global audiences.\n\n• Manga's visually dynamic storytelling has inspired a new wave of Western graphic novel creators to experiment with non-linear narratives and symbolism.\n\n• E-sports teams based around anime-themed video games have established worldwide fan followings, competing in tournaments attracting millions of online viewers.\n\nWhich statement best synthesizes the diverse aspects of anime and manga’s global impact as presented across both sources?",
+      "choices": [
+        "A. Anime and manga have become a dominant force in entertainment by reshaping digital storytelling, fostering global fan cultures, and influencing creative industries across borders.",
+        "B. Anime and manga's appeal is primarily rooted in conventions and their influence on Western visual arts, without significant expansion into other forms of media.",
+        "C. Streaming platforms exclusively promote anime series because they cater to niche regional audiences rather than a global viewership.",
+        "D. The rise of anime-themed e-sports and manga creators within graphic novel spaces has overshadowed traditional anime series and manga publications."
+      ],
+      "answer": "A",
+      "explanation": "To synthesize the notes effectively, the correct option should reflect the expansion of anime and manga across various mediums and communities. Source 1 highlights anime's accessibility via streaming platforms, conventions dedicated to manga and anime culture, and their merchandising success globally. Source 2 notes their influence on animation and Western graphic novels and connections to e-sports scenes. Option A captures these multifaceted impacts by addressing digital storytelling, global communities, and cross-border artistic influence. The other options, however, misrepresent or narrow the scope of the sources’ key ideas. Options B and D oversimplify or overly limit the global impact, and Option C contradicts the evidence showing broad rather than niche appeal.",
+      "topic": "The global cultural and entertainment influence of anime and manga",
+      "total_score": 23,
+      "constructive_feedback": "The question is clearly written and logically structured, fitting well within the SAT synthesizing notes format. It presents two distinct sets of bullet point notes and asks students to combine these ideas, with plausible distractors that misrepresent or oversimplify the source material. However, to align more closely with a Hard-level question, consider adding additional nuanced details or expanding the wording of the notes to force more multi-step reasoning. Also, refining the distractors to include subtler but significant differences between the options would further challenge students. In the explanation, while the correct answer is clearly justified, including brief reasoning about why each distractor fails would provide deeper instructional value.",
+      "difficulty_feedback": "The question involves synthesizing multiple ideas, which is appropriate for Hard difficulty, but the overall brevity of the notes and simplicity of the synthesis mean it might not sufficiently challenge top-tier students. To enhance its difficulty, you could introduce more complex vocabulary, additional details, or subtle distinctions in the notes that require deeper analysis. This would better align the question with Hard-difficulty expectations in the SAT.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 14
+    },
+    {
+      "skill": "Synthesizing Notes",
+      "difficulty": "Medium",
+      "question": "A student is investigating whether video games should be recognized as an art form. In their research, they compiled the following points:\n\n• A group of art critics affirms that video games achieve artistic status by combining advanced visual design and compelling narratives akin to film.\n\n• Critics with a contrasting view argue that the industry's prioritization of market demands undermines its potential to qualify as art.\n\n• Another perspective highlights that the interactive component of video games, where player agency and emotional responses create unique experiences, constitutes a novel form of artistic expression.\n\nBased on these points, the student intends to craft a statement that thoroughly engages with both the artistic qualities emphasized by proponents and the commercial-based critiques, effectively reflecting the complexities of the discussion surrounding video games as art.\n\nWhich of the following statements best achieves this goal?",
+      "choices": [
+        "A) Video games are first and foremost products designed for entertainment, with no evidence that they could rise to the level of recognized art.",
+        "B) By incorporating artistic visuals, narratives, and player engagement, video games match conventional definitions of art, including those of painting and sculpture.",
+        "C) Discussion of artistic merit in video games often excludes their commercial attributes, which demonstrate their profit-oriented nature above all else.",
+        "D) While video games are undeniably shaped by commercial forces, the interplay of visual art, storytelling, and the player's active involvement lends credence to the claim they can be considered art."
+      ],
+      "answer": "D",
+      "explanation": "Statement D provides a nuanced synthesis, balancing the intricacies of the debate. It acknowledges the role of commercial motivations in video game development while also emphasizing how visual design, narrative elements, and interactivity contribute to their artistic value. Choices A and C fail to recognize the artistic components described in the research, while choice B incorrectly equates video games with traditional forms of art without addressing their distinct features or commercial aspects.",
+      "topic": "The nuanced argument on video games as legitimate art",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-structured and clearly asks students to synthesize multiple perspectives on a nuanced debate, which is in line with SAT standards. The answer choices are realistic and the correct answer (D) effectively integrates both the artistic merits and commercial critiques. However, the distractors could be made even more subtle. For example, one option might nearly synthesize the arguments while overlooking a key nuance, thereby challenging students to think more deeply about the synthesis process. Additionally, minor tweaks to language could increase the advanced vocabulary expected at a Hard level.",
+      "difficulty_feedback": "The question meets many of the criteria for a Hard-level item by requiring the integration of multiple pieces of information and dealing with a contested issue using advanced language. To further align with Hard-difficulty standards, consider incorporating even more complex phrasing or a slightly longer prompt that demands additional multi-step reasoning. This would ensure that the question challenges even high-performing students.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 14
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Easy",
+      "question": "In Joseph Conrad’s *Heart of Darkness,* Marlow journeys through the Congo, where he discovered signs of oppression and exploitation that still influences how we perceive colonialism today.\n\nWhich revision of the sentence best ensures consistent tense throughout?",
+      "choices": [
+        "A. In Joseph Conrad’s *Heart of Darkness,* Marlow journeys through the Congo, where he discover signs of oppression and exploitation that still influences how we perceive colonialism today.",
+        "B. In Joseph Conrad’s *Heart of Darkness,* Marlow journeyed through the Congo, where he discovered signs of oppression and exploitation that still influence how we perceive colonialism today.",
+        "C. In Joseph Conrad’s *Heart of Darkness,* Marlow journeyed through the Congo, where he discovered signs of oppression and exploitation that still influenced how we perceived colonialism at the time.",
+        "D. In Joseph Conrad’s *Heart of Darkness,* Marlow is journeying through the Congo, where he discovered signs of oppression and exploitation that still influenced how we perceive colonialism today."
+      ],
+      "answer": "B",
+      "explanation": "Choice B ensures consistent tense usage appropriate for the context: 'journeyed' and 'discovered' in the past to describe Marlow's actions during the story, while 'influence' in the present indicates ongoing relevance of these discoveries to modern perceptions. The other answers break tense consistency. For example, Choice A uses 'discover,' which mismatches with the past narrative, and 'influences,' suggesting a singular subject mismatched with 'signs.' Choice C shifts all elements to the past, which is inaccurate as the influence on today's perception remains active. Choice D mixes present progressive 'is journeying' with past 'discovered,' leading to an inconsistent timeline.",
+      "topic": "The impact of colonialism in Heart of Darkness",
+      "total_score": 24,
+      "constructive_feedback": "The question is well constructed and clearly targets consistent verb tense—a common SAT skill. The sentence and answer choices provide a realistic context by referencing a well-known literary work. However, the explanation could be improved by more explicitly differentiating why each incorrect option fails (for instance, detailing the subtle shift in Option B from past to present). A minor suggestion would be to refine the prompt to emphasize that all verb forms must be consistently set in one time frame. This would ensure that students focus exclusively on the tense consistency issue.",
+      "difficulty_feedback": "For an Easy-level problem, the question meets the criteria: it involves a single-step review of verb tenses and uses a familiar literary reference. The answer choices appropriately include one clearly correct answer and several distractors with common errors. To further assure that the difficulty remains on target, consider ensuring that the differences between the distractors are even more evident so that students aiming for around 400–600 on the SAT can confidently identify the subtle tense inconsistencies.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 15
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Easy",
+      "question": "By 1870, Giuseppe Garibaldi ____ many campaigns, though the final steps toward unifying Italy continued into that decade.\n\nWhich choice best completes the sentence with the correct verb tense?",
+      "choices": [
+        "A. finishes",
+        "B. has finished",
+        "C. will finish",
+        "D. had finished"
+      ],
+      "answer": "D",
+      "explanation": "The correct answer is D because the sentence describes two events in the past: the completion of Garibaldi's campaigns and the continuation of Italian unification in the 1870s. The past perfect tense ('had finished') is used to indicate that the campaigns were completed prior to the ongoing events of unification. Other options fail to reflect this sequence properly. 'Finishes' (A) and 'has finished' (B) describe present or recent past events, and 'will finish' (C) refers to the future.",
+      "topic": "The role of nationalism in the unification of Italy",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-structured and clearly aligned with SAT standards. The historical context provides a realistic scenario, and the answer choices logically test the understanding of verb tenses, especially the use of the past perfect tense. However, the introductory clause regarding nationalist fervor, while interesting, is a bit extraneous to the tense focus. Streamlining the context to more directly emphasize the temporal sequence could improve clarity. Additionally, the explanation is clear but could be enhanced by further contrasting why the other tenses fail in indicating that an action was completed before another past event.",
+      "difficulty_feedback": "The question is labeled as Easy and correctly requires a straightforward application of single-step reasoning once the timeline is understood. However, the detailed historical background might distract some students from the primary grammatical concept. Reducing minor contextual details or more tightly linking them to the verb tense usage would ensure that it more clearly meets the minimal reasoning criteria for an Easy question.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 15
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Easy",
+      "question": "Sociologists often highlight that individuals who regularly engage with various cultural activities ______ stronger ties that enable them to access better opportunities.\n\nWhich choice completes the sentence with the correct verb tense?",
+      "choices": [
+        "A. build",
+        "B. built",
+        "C. had built",
+        "D. have been building"
+      ],
+      "answer": "A",
+      "explanation": "The sentence discusses a general observation or fact about habitual behavior, which calls for the simple present tense (build). The past tense (built) would refer to a completed action set in the past, which is not intended here. The past perfect (had built) implies an action finished before another past action and is unnecessary, while the present perfect progressive (have been building) suggests a prolonged activity starting in the past and continuing to the present, which doesn't fit the context. Simple present is the precise choice since it indicates an ongoing habitual action.",
+      "topic": "Sociologists' observations on cultural activities",
+      "total_score": 24,
+      "constructive_feedback": "The question is clear, tests an essential aspect of verb tense usage, and is largely aligned with SAT standards. It presents a complete context and feels like a typical tense question. However, the opening context—referencing concepts like cultural capital and social mobility—might be more advanced in vocabulary than what is usually expected for an 'Easy' grammar question. Clarifying that the focus is on the habitual nature of the action (which calls for the simple present) and emphasizing subject-verb agreement explicitly in the explanation would make it even stronger.",
+      "difficulty_feedback": "The question involves a straightforward decision regarding the appropriate verb tense, fitting the criteria for an Easy-level question. However, the use of academic or sociological terminology may slightly elevate the reading complexity. To better match the labeled difficulty, consider simplifying the context or ensuring that the advanced vocabulary does not distract from the primary grammar concept.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 15
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Medium",
+      "question": "Ribosomes, which help guide the assembly of polypeptides, play a crucial role in protein synthesis. As our biology teacher pointed out last week, the role of ribosomes (were playing / are playing / had been playing / have played) in synthesizing proteins is consistent across various species and persists in modern organisms.\n\nWhich choice best maintains the logical meaning of the sentence and uses consistent verb tenses?",
+      "choices": [
+        "A. are playing",
+        "B. were playing",
+        "C. had been playing",
+        "D. have played"
+      ],
+      "answer": "A",
+      "explanation": "This question requires an understanding of logical and tense consistency. The statement hinges on a scientific truth—the role of ribosomes in modern organisms. Despite the context of reported speech ('last week, the teacher pointed out'), the fact itself remains true. Therefore, the present tense ('are playing') correctly reflects this universal and ongoing truth. The other verb forms either imply a completed action (past perfect and present perfect) or inappropriately situate the action solely in the past, counter to the stated facts.",
+      "topic": "The structure and function of ribosomes in protein synthesis",
+      "total_score": 23,
+      "constructive_feedback": "The question is logically well-structured and clearly aligned with SAT grammar standards, requiring students to reconcile the reported speech context with the universal truth of a scientific fact. The answer choices are plausible distractions that force careful consideration. However, the stem is somewhat brief compared to the typical medium-level SAT passages. Adding a bit more context or a second sentence that deepens the temporal complexity could better ensure multi-step reasoning and alignment with the medium difficulty label.",
+      "difficulty_feedback": "While the tense issue tested is appropriate for medium difficulty, the overall length of the question falls short of the expected 90 words for a medium-level problem. Expanding the context or adding an additional clause that compounds the temporal reasoning would better match the medium difficulty criteria.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 15
+    },
+    {
+      "skill": "Tenses",
+      "difficulty": "Medium",
+      "question": "David Hume (1711–1776) was well-known for emphasizing that no amount of repeated experiences can logically guarantee future occurrences. He also introduced ideas that challenge the reliability of inductive reasoning, a method often used to infer general conclusions from specific observations. Skeptics who followed him often highlight that we cannot be certain the future will resemble the past, no matter how many observations we gather.\n\nWhich choice best corrects the errors in verb tense in the following sentence so that it consistently describes Hume's position and its ongoing influence?\n\n\"Hume’s writings persuaded many philosophers that inductive reasoning are unreliable, and contemporary debates still reflected his argument.\"\n",
+      "choices": [
+        "A. Hume’s writings persuaded many philosophers that inductive reasoning was unreliable, and contemporary debates still reflect his argument.",
+        "B. Hume’s writings persuade many philosophers that inductive reasoning were unreliable, and contemporary debates still reflect his argument.",
+        "C. Hume’s writings persuades many philosophers that inductive reasoning were unreliable, and contemporary debates still reflected his argument.",
+        "D. Hume’s writings persuaded many philosophers that inductive reasoning is unreliable, and contemporary debates will reflect his argument."
+      ],
+      "answer": "A",
+      "explanation": "The sentence must describe Hume's historical influence in the past tense while accurately conveying that the effect continues in the present. Choice A uses 'persuaded' and 'was' to discuss a past event, and 'still reflect' to show an ongoing impact. The other choices mix tense forms incorrectly or shift to future tense at the end, causing inconsistencies: (B) uses 'persuade' and 'were', which creates an ungrammatical mix of present and past tense, (C) uses 'persuades' and 'were', which introduces a mismatch between singular/plural in 'persuades' and an incorrect past tense 'were', and (D) uses 'is' and 'will reflect', inappropriately introducing a future tense that contradicts the interpretation of Hume's influence as ongoing.",
+      "topic": "Hume's problem of induction and skepticism about empirical knowledge",
+      "total_score": 23,
+      "constructive_feedback": "The question is clear and well-aligned with SAT standards for testing verb tenses, particularly in ensuring consistency between the historical event and its ongoing influence. The answer choices offer realistic traps (mixing present, past, and future tenses) and the correct answer (Choice A) stands out once the student carefully considers the context. However, the overall reading passage is a bit shorter than typical medium-difficulty SAT questions which often require a bit more multi‐step reasoning. To improve the question, consider adding an additional sentence or two to the introductory context to require slightly more analytical processing and to fully meet the length expectations for a medium-difficulty question. Additionally, the explanation, while clear and concise, could include a brief discussion of each incorrect option to further deepen the student’s understanding.",
+      "difficulty_feedback": "The question does a good job at requiring students to manage two separate temporal contexts (past influence versus ongoing effects) and includes tempting, plausible alternatives. However, medium-difficulty SAT questions are ideally longer (around 90 words of context) and involve multi-step reasoning. Expanding the passage slightly would force students to integrate more information and better reflect the medium difficulty level.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 15
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "Historians often note that the Monroe Doctrine signaled the United States’ intent to shield newly independent nations in the Western Hemisphere from European interference. ________, other scholars claim that this policy simultaneously opened the door to more assertive U.S. interventions throughout Latin America.\n\nWhich choice best completes the sentence by providing a clear transition between these ideas?",
+      "choices": [
+        "A. Nevertheless,",
+        "B. Furthermore,",
+        "C. For example,",
+        "D. Consequently,"
+      ],
+      "answer": "A",
+      "explanation": "The first sentence presents the Monroe Doctrine as a protective policy, while the second highlights its unintended interventionist implications. These ideas contrast with each other, and the transitional word 'Nevertheless' makes this opposition clear. 'Furthermore' (choice B) implies continuation, 'For example' (choice C) introduces specific instances, and 'Consequently' (choice D) suggests a cause-and-effect relationship, none of which establish the needed contrast as effectively as 'Nevertheless.' Recognizing how transitional words function is critical to connecting ideas. Stating 'other scholars claim' gives a clue that the second idea is different from the first, reinforcing the necessity of choosing a word that indicates contrast.",
+      "topic": "The significance of the Monroe Doctrine in U.S. foreign policy",
+      "total_score": 27,
+      "constructive_feedback": "The question is clear, logically sound, and well aligned with SAT-style transition word questions. It provides a historical context that is authentic and requires students to recognize a contrast between two ideas. The answer choices are plausible, with only one indicating the required contrast. The explanation is thorough, clearly describing why 'Nevertheless' is the best fit and why the other options do not work. One potential improvement would be to briefly reinforce the idea of contrast in the explanation to help students solidify their understanding of transitional functions.",
+      "difficulty_feedback": "The question is appropriately labeled as Easy. It requires a single-step reasoning process based on recognizing the contrast between protection and intervention, which is suitable for students aiming at a lower-to-mid SAT score range. The historical context is accessible, though ensuring that all students are familiar with the basic concept of the Monroe Doctrine might further help those who struggle with background knowledge. Overall, it matches the labeled difficulty well.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 16
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "In large group settings, individuals often experience a phenomenon known as the diffusion of responsibility, where the presence of others leads to a diminished sense of personal accountability. In emergencies, for instance, people might assume that if no one else is taking action, there is no real need to intervene. _______, this assumption can result in collective inaction, as everyone waits for someone else to step in.\n\nWhich choice completes the text with the most appropriate transition?",
+      "choices": [
+        "A) Meanwhile",
+        "B) On the other hand",
+        "C) Instead",
+        "D) As a result"
+      ],
+      "answer": "D",
+      "explanation": "The sentence focuses on the consequence of assuming there is no need to act when others do not. It describes how this leads to collective inaction. To show this cause-and-effect relationship, the correct transition is 'As a result.' This choice clearly indicates the logical outcome. Other options, like 'Meanwhile,' 'On the other hand,' or 'Instead,' do not properly express this logical connection.",
+      "topic": "The diffusion of responsibility in group settings",
+      "total_score": 26,
+      "constructive_feedback": "The question is well-constructed and clearly aligned with the SAT transition words prompts. The context provided is familiar, and the answer choices are all plausible, forcing students to identify the logical cause-and-effect relationship that the blank requires. One minor suggestion is to enrich the context ever so slightly to fully tie in the idea of diffusion of responsibility, which might help students understand the broader theme even better. Overall, the design is clear though small refinements in wording could improve clarity further.",
+      "difficulty_feedback": "The question matches its labeled 'Easy' difficulty quite well. It requires a single-step, straightforward reasoning focusing on cause-and-effect with familiar language. To maintain its ease, ensure that the context remains clear and that the transition word needed is unambiguously linked to the outcome described. If one wanted to push the difficulty slightly, additional context or a more complex relationship could be introduced, but for an easy-level item, it is appropriately calibrated.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 16
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "Behavioral economics reveals that consumers can be influenced not only by product quality but also by subtle signals in pricing and presentation. For instance, a retailer might present a luxury item alongside an overpriced alternative, making the luxury item seem reasonably priced. \\n\\n_______, the psychological phenomenon of \\\"anchoring\\\" demonstrates that shoppers often rely too heavily on the first price they see, shaping their perceptions of value and influencing spending choices. \\n\\nWhich choice best completes the sentence in a way that illustrates how anchoring influences spending behavior?",
+      "choices": [
+        "A. Nevertheless",
+        "B. Meanwhile",
+        "C. For example",
+        "D. Conversely"
+      ],
+      "answer": "C",
+      "explanation": "The expanded paragraph sets the stage by describing factors influencing consumer behavior, such as pricing strategies. The blank is part of a sentence that introduces a specific psychological phenomenon related to consumer behavior, and a specific example of \\\"anchoring\\\" follows. \\\"For example\\\" is the clearest choice, as it indicates that an upcoming illustration of the concept will be provided. The other transition choices do not fit logically or contextually.",
+      "topic": "The influence of behavioral economics in consumer decision-making",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-structured and clearly aligned with the SAT transition words style. The answer choices are plausible, and the explanation effectively clarifies why 'For example' is the correct answer by highlighting its role in providing an illustration of the anchoring concept. However, the passage is rather brief and could be expanded to include more context and additional sentences to encourage multi-step reasoning. Enhancing the complexity and length would make the question more consistent with medium-level difficulty expectations.",
+      "difficulty_feedback": "Although the transition requirement is clear, the question’s overall length and complexity are below the typical standards for medium difficulty. Medium questions should prompt moderate multi-step reasoning and contain more context. Adding further descriptive details or a more nuanced scenario would raise the challenge level appropriately.",
+      "topic_list_name": "businessTechnologyTopics",
+      "topic_index": 16
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Easy",
+      "question": "During the Renaissance era, artists experimented with fresh techniques and ideas that transformed Europe’s visual culture. Many painters adopted mathematical principles to create lifelike depth and dimension on a two-dimensional canvas. Wide use of linear perspective by Renaissance masters not only redefined spatial representation but also set a lasting precedent for innovation in art.\n\n______ this fundamental shift in artistic methods influenced painting styles for centuries by establishing a new visual paradigm.\n\nWhich choice most effectively completes the text with an appropriate transition?",
+      "choices": [
+        "A. Consequently",
+        "B. On the contrary",
+        "C. As such",
+        "D. To illustrate"
+      ],
+      "answer": "A",
+      "explanation": "The correct answer is 'A. Consequently' because it accurately connects the ideas of the wide use of linear perspective and its long-term influence on painting styles, indicating causation. Option 'B. On the contrary' suggests a contrast, which is not present in the context. Option 'C. As such' is close but slightly less precise in emphasizing the cause-effect relationship. Option 'D. To illustrate' implies an example follows, which does not fit as the sentence makes a generalization about influence rather than providing an example.",
+      "topic": "The historical significance of The Renaissance in visual arts",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-crafted with a clear context, sophisticated vocabulary, and answer choices that test the student’s understanding of transitional connections. The passage sets up a clear cause‐and‐effect relationship, making 'Consequently' a logical choice. To make the question more challenging for a 'Hard' difficulty label, consider introducing more nuanced distractors that require students to engage in multi-step reasoning or to differentiate among subtle causal versus contrastive signals. Additionally, the explanation is clear but could be enhanced by elaborating on why each distractor fails in the context, which would provide deeper guidance to students.",
+      "difficulty_feedback": "While the language and context are advanced, the reasoning needed to identify the causal relationship is relatively straightforward. For a truly 'Hard' question, you might include elements that require synthesizing multiple pieces of information or identifying more complex rhetorical strategies. Strengthening the subtlety of the distractors would better align the question with the higher difficulty criteria.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 16
+    },
+    {
+      "skill": "Transition Words",
+      "difficulty": "Medium",
+      "question": "The widespread fascination with true crime stories can sometimes simplify the complexity of legal proceedings, painting individuals as mere heroes or villains rather than as complex parties in multifaceted cases. ________, these narratives can shed light on courtroom procedures and evidence, prompting people to engage more critically with real-life legal systems.\n\nWhich choice best completes the text?",
+      "choices": [
+        "A. For example",
+        "B. On the contrary",
+        "C. Consequently",
+        "D. Nevertheless"
+      ],
+      "answer": "D",
+      "explanation": "The context presents a juxtaposition: true crime's potential simplification of legal realities is contrasted with its role in fostering public engagement with legal systems. \"Nevertheless\" conveys this nuanced contrast effectively. The distractors fail to serve this function: \"For example\" implies elaboration rather than contrast, \"On the contrary\" suggests full negation of the first claim rather than a paradoxical advantage arising from the same phenomenon, and \"Consequently\" implies causation, which is contextually inaccurate here.",
+      "topic": "The impact of true crime depictions on societal views on justice",
+      "total_score": 23,
+      "constructive_feedback": "The question is clear, logically structured, and uses an engaging, contemporary context that aligns well with SAT standards. The distractors are plausible and force the student to think about the subtle shift in tone required for a contrast transition. To improve the question for a true 'Hard' difficulty, consider expanding the passage to require a more multi-step analysis or incorporating additional nuanced distractor choices that more subtly mirror partial ideas. Also, the explanation, while clear, could benefit from a more detailed discussion of why each distractor fails, which would aid in deeper understanding.",
+      "difficulty_feedback": "While the question does test the identification of a contrast transition—an element of advanced reasoning—it doesn’t fully utilize the multi-step reasoning process or complex vocabulary expected of a hard difficulty label. Enhancing the passage with additional context or more sophisticated distractors could better align it with the criteria for 'Hard' questions.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 16
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Medium",
+      "question": "**Passage 1**:\n\nIn a reflective section of *The Grapes of Wrath*, a farmer laments how he and his neighbors are forced off their land by banks they never see. He notes how families pack their entire lives onto battered trucks and travel west, hoping for new opportunities in California. The farmer observes that each small eviction feels like a personal tragedy, one that erodes people’s connection to their roots.\n\n**Passage 2**:\n\nLater in the novel, a former preacher describes how the migrant workers gather in sprawling camps. He recounts how entire communities spring up in dusty fields: families bind together to share food, form makeshift schools for children, and nurse one another back to health. Though poverty remains, a spirit of collective hope emerges.\n\nBased on both passages, which statement best describes the contrast between the two views of the migrant workers’ experience?",
+      "choices": [
+        "A. Passage 1 portrays heartbreak over displacement, while Passage 2 reveals an emerging sense of community.",
+        "B. Passage 1 illustrates anger towards the banks, while Passage 2 points out apathy among the workers.",
+        "C. Passage 1 suggests a positive perspective on leaving the land, while Passage 2 critiques this optimism.",
+        "D. Passage 1 conveys a focus on the migrants’ material struggles, while Passage 2 dismisses these struggles entirely."
+      ],
+      "answer": "A",
+      "explanation": "Passage 1 details the sorrow and heartbreak that families feel as they lose their connection to the land, emphasizing their sense of displacement. In contrast, Passage 2 highlights the new communities that form in the camps, revealing a hopeful tone centered on shared resources and unity. The other options are incorrect because they either misrepresent the tone or fail to address the focus on unity and sorrow.",
+      "topic": "The plight of migrant workers in *The Grapes of Wrath*",
+      "total_score": 23,
+      "constructive_feedback": "The question is well-structured and clearly presents two passages from The Grapes of Wrath, asking students to identify the main contrast in tone and perspective between them. The answer choices are mostly plausible, with only one reflecting the accurate contrast. However, the distractors in some choices (e.g., option D) are too obviously out-of-place, which could make the question a bit easier than intended. The explanation succinctly identifies that Passage 1 emphasizes the sorrow of displacement while Passage 2 highlights community unity, but it could be improved by discussing why the other choices are incorrect to further guide the student’s reasoning.",
+      "difficulty_feedback": "The question is labeled as Easy and meets many of the criteria for an Easy SAT reading question, using straightforward reasoning and familiar content. The passages provide clear emotional and thematic contrasts, and the required analysis is primarily single-step. To reinforce the easy categorization, consider refining or softening the distractors so that they remain plausible yet clearly incorrect upon closer reading, helping students avoid unnecessary confusion.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 17
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Easy",
+      "question": "**Passage 1:**\n\nA state official extolls the Indian Removal Act by asserting that it primarily served the objectives of acquiring fertile farmland crucial for incoming settlers and fostering a stronger, more robust economy for the nation. Highlighting the Act's political and economic significance, the official contends that the rapid territorial expansion would swiftly help new states integrate commercially and thrive.\n\n**Passage 2:**\n\nA Cherokee leader lamented the immeasurable hardship and irreversible cultural losses endured by their people due to enforced migration policies. Under harsh conditions, entire communities were uprooted from ancestral lands, leading to resource deprivation and lasting resentment against governments that promised protection but fostered despair.\n\nWhich choice best describes a fundamental difference between how Passage 1 and Passage 2 interpret the consequences of the Indian Removal Act?",
+      "choices": [
+        "A. Passage 1 portrays the Act as motivated by economic and political benefits, while Passage 2 underscores the suffering and cultural losses it caused for Native communities.",
+        "B. Passage 1 depicts the Act as a charitable measure meant to stabilize territorial disputes, while Passage 2 critiques it as a betrayal faced by Native communities.",
+        "C. Passage 1 suggests harmonious relations were achieved between settlers and Native groups, while Passage 2 argues the policy destroyed potential for any shared prosperity.",
+        "D. Passage 1 downplays the social tensions sparked by the Removal Act, unlike Passage 2, which critiques the economic turmoil it failed fixing."
+      ],
+      "answer": "A",
+      "explanation": "Passage 1 focuses on the perceived political and economic benefits of the Indian Removal Act, emphasizing the motivations of securing farmland and fostering economic integration in newly formed territories. Conversely, Passage 2 highlights the negative consequences of the policy, including displacement, cultural disruption, and resentment among Native communities. Thus, the extra details in both distinguish support gap bridging terms",
+      "topic": "The causes and consequences of the Indian Removal Act",
+      "total_score": 25,
+      "constructive_feedback": "The question is clear, logically structured, and aligns with SAT standards for a Two Passages interpretation question. Passage 1 and Passage 2 are well differentiated, and option A accurately captures the fundamental difference between the perspectives. The distractors are plausible, though slight rewording to further parallel the sentence structures in each option could enhance clarity even more. Additionally, consider adding a bit more textual detail or emphasis in the passages to strengthen the evidence for the correct answer.",
+      "difficulty_feedback": "The question is appropriately labeled as Easy. It requires a single-step comparison based on clearly stated perspectives, which fits well within the expectations for students in the 400–600 SAT score range. The overall complexity is low, making it an accessible but still thought-provoking question. Minor adjustments to ensure all answer choices are equally constructed would maintain its ease and reinforce its alignment with the targeted difficulty.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 17
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Easy",
+      "question": "**Passage 1:**\n\nRecent studies on the placebo effect reveal that patients' expectations can trigger measurable physiological changes. These studies suggest that believing one is being treated can sometimes prompt the body to release its own healing responses, thus reducing symptoms or discomfort.\n\n**Passage 2:**\n\nIn clinical research, placebo control groups are used as baselines to better evaluate experimental treatments. Some researchers argue that patients' belief in the treatment's power can strengthen the perceived benefits, making it essential to rule out improvements due to the placebo effect rather than the treatment itself.\n\n**Question:**\nHow would the authors of Passage 1 and Passage 2 most likely respond to the claim that a patient's perception can lead to discernable improvements in health outcomes?",
+      "choices": [
+        "A. They would both argue that perceptions are misleading and unrelated to actual recovery.",
+        "B. Passage 1 would largely agree that perceptions can cause biological changes, whereas Passage 2 views perception as a confounding variable that must be accounted for in clinical studies.",
+        "C. Passage 1 would assert that belief has no impact on recovery, while Passage 2 would endorse perception as the sole factor leading to positive outcomes.",
+        "D. Both passages would claim that patients' perceptions invalidate scientific findings, making placebo-controlled studies unreliable."
+      ],
+      "answer": "B",
+      "explanation": "Passage 1 highlights research indicating that patients’ expectations and beliefs can lead to tangible physiological responses, suggesting agreement with the claim that perception influences health outcomes. Passage 2, in contrast, discusses the need to control for the placebo effect in clinical studies, treating perception as a variable that can confound results rather than as a standalone explanation for positive results. Therefore, the best choice is B, which captures how Passage 1 views perception as causative of biological changes, while Passage 2 treats it as a factor to isolate from treatment effects.",
+      "topic": "The placebo effect and its implications for psychology and medicine",
+      "total_score": 25,
+      "constructive_feedback": "The question is well-structured and clearly reflects the SAT two-passage format. It presents two passages with distinct viewpoints regarding the placebo effect and asks students to compare how each author would respond to a specific claim. The answer choices are plausible and mutually exclusive, requiring students to carefully weigh evidence from each passage. One minor area for improvement is to more explicitly tie the claim to the content of the passages—this could help ensure that even students less familiar with the topic can clearly see the connection. Additionally, consider a slight rewording of the question prompt for enhanced clarity.",
+      "difficulty_feedback": "The question fits the Easy difficulty level well: it involves a single, straightforward comparison between two passages based on an easily identifiable claim. The passages are brief and use familiar language, and the necessary reasoning is direct. To reinforce its ease, maintain the brevity of the passages and clarity in answer options. A slight expansion on the context of the claim in the prompt might further reduce potential ambiguity for students aiming for the lower scoring range.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 17
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Medium",
+      "question": "**Passage 1:**\n\nQuantum entanglement causes particles to become interconnected, so that the state of one reveals information about the other—regardless of the distance separating them. Researchers argue that despite these peculiar links, merely having entangled particles is insufficient for reliably conveying quantum information, as additional mechanisms are required to transmit a particle's full quantum state.\n\n**Passage 2:**\n\nAdvocates of quantum teleportation note that while entanglement forms a correlated channel, teleportation also demands conventional signals sent at the speed of light. These signals specify how to alter local states to consummate the teleportation. This highlights that entanglement complements, rather than replaces, classical communication, ensuring no information transfer breaches the light-speed limit.\n\n**Question:**\nWhat best summarizes how Passage 2 addresses a point introduced in Passage 1?",
+      "choices": [
+        "A) It argues against the existence of quantum entanglement, claiming the process is entirely classical.",
+        "B) It expands on the limitations of entanglement, illustrating how classical communication helps surmount them.",
+        "C) It denies that information can be moved faster than the speed of light, attributing restrictions solely to classical channels.",
+        "D) It points out flaws in the methodology used to infer connections between entangled particles."
+      ],
+      "answer": "B",
+      "explanation": "Passage 1 introduces the limitation of quantum entanglement in transmitting full quantum states and suggests the necessity of additional components for communication. Passage 2 elaborates by explaining the need for classical communication to work alongside entanglement to achieve teleportation. Thus, the correct choice is B, as it captures the continuation of ideas between the passages.\n\nOption A is incorrect because Passage 2 confirms rather than refutes quantum entanglement.\nOption C is incorrect because the passages express that the speed-of-light restriction applies to combined methods, not just classical ones.\nOption D is incorrect because Passage 2 supports, rather than criticizes, the methodology from Passage 1.",
+      "topic": "The interplay between classical and quantum communication in quantum physics",
+      "total_score": 25,
+      "constructive_feedback": "The question is clearly written, logically structured, and closely mirrors the kind of two‐passage analysis found on the SAT. It effectively requires students to compare the treatment of quantum concepts in both passages and select the best answer from plausible distractors. However, the passages are somewhat short and use technical language which might be intimidating for some students. To improve clarity and challenge, consider slightly expanding the passages with additional contextual clues or rephrasing some technical terms to ensure accessibility for a range of reading abilities.",
+      "difficulty_feedback": "This question meets the medium difficulty requirements by involving multi-step reasoning and offering tempting, yet incorrect, answer choices. While the scientific content is authentic, to fully align with typical SAT medium-level questions, lengthening the passages or providing brief contextual hints on complex terms could help ensure that the reasoning challenge stays focused on analysis rather than on parsing unfamiliar scientific jargon.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 17
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Medium",
+      "question": "**Passage 1:**\n\nA classic formulation of the trolley problem asks whether a bystander should pull a lever to divert a trolley headed toward five unsuspecting workers, redirecting it to a track where only one person stands. This perspective argues that pulling the lever is an ethical choice because it results in the saving of more lives. The focus is on the numerical outcome of lives spared.\n\n**Passage 2:**\n\nAnother perspective critiques the idea of relying solely on outcomes to assess morality. It posits that actively causing harm changes the moral responsibility of the intervener, comparing this with situations where harm is passively allowed to occur. This perspective implies that the morality of an action involves factors beyond just the net outcome of lives.\n\nWhich choice best describes how the authors of the passages differ in their views on the moral assessment of actions?",
+      "choices": [
+        "A. Passage 1 views the number of lives saved as the primary criterion for moral decision-making, while Passage 2 points to the moral weight of action versus inaction.",
+        "B. Passage 1 endorses action under all circumstances, while Passage 2 considers the morality of actions to be entirely independent of their outcomes.",
+        "C. Passage 1 assumes intervention should always aim to minimize casualties, while Passage 2 prioritizes adherence to rules over minimizing harm.",
+        "D. Passage 1 presents intervention as morally neutral if it maximizes the number of lives saved, while Passage 2 asserts that intervention invariably leads to moral blame."
+      ],
+      "answer": "A",
+      "explanation": "Passage 1 emphasizes outcomes, arguing that pulling the lever saves the greatest number of lives and is therefore ethical. Passage 2 challenges this view, suggesting that moral evaluations must also consider the nature of intervention, such as whether the action directly causes harm to an individual. Therefore, Choice A best reflects the distinction between an outcome-based and a more nuanced approach to morality.",
+      "topic": "The trolley problem and moral philosophy",
+      "total_score": 24,
+      "constructive_feedback": "The question is clear, logically organized, and adheres closely to SAT two-passage standards by presenting two brief but contrasting perspectives on a moral dilemma. The correct answer is supported by the passages, and the explanation is concise and accurate. However, the distractor choices could be slightly refined to be a bit more nuanced and plausible, ensuring that students must carefully weigh subtle differences rather than dismissing options outright. Adding slight rewording to make the incorrect options closer in tone to the passages would enhance the challenge further.",
+      "difficulty_feedback": "The question meets the medium-difficulty label by requiring multi-step reasoning; students must compare the distinct moral perspectives and differentiate between consequence-based and action-based evaluations. To further align with medium difficulty, consider extending the passages or subtly increasing the complexity of the language, ensuring that even high-achieving students must engage in careful analysis rather than quickly dismiss alternatives.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 17
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Hard",
+      "question": "**Passage 1:**\n\nIn the whirlwind of the online age, direct fan engagement has emerged as a cardinal strategy for aspiring musicians. Proponents assert that social media has shattered longstanding barriers, allowing artists to promote their work independent of traditional gatekeepers. Additionally, they highlight the vibrant communities formed as fans interact with artists and among themselves, responding to releases, tours, and candid posts in real time.\n\n**Passage 2:**\n\nCritics of social media’s grip on the music industry argue that the inexorable demand to curate a continual stream of content stifles an artist's ability to hone their craft. While acknowledging the platform's potential to elevate fledgling artists, they warn that the necessity of incessant self-marketing compromises the spontaneity and authenticity that underpins true creativity.\n\nWhich statement best describes the relationship between the perspectives presented in Passage 1 and Passage 2?",
+      "choices": [
+        "A. Passage 2 wholeheartedly agrees with Passage 1, celebrating social media’s transformative effects on musicians’ careers.",
+        "B. Passage 2 elaborates on Passage 1 by proposing specific strategies to mitigate potential challenges in leveraging social media.",
+        "C. Passage 2 critiques Passage 1’s optimism about social media by highlighting potential negative consequences of over-reliance.",
+        "D. Passage 2 rejects all the claims made in Passage 1, suggesting that social media provides no advantage to musicians."
+      ],
+      "answer": "C",
+      "explanation": "Passage 1 takes an optimistic view of how social media enables artists to connect with fans and bypass traditional intermediaries, focusing on its empowering and community-building effects. Passage 2, though not discounting these benefits, provides a counterbalance by discussing the downsides, specifically how the constant demand for online presence can detract from artistic creativity. Therefore, the correct answer is C because Passage 2 critiques the untempered optimism of Passage 1 by introducing critical challenges.",
+      "topic": "The impact of social media on contemporary music artists",
+      "total_score": 23,
+      "constructive_feedback": "The question is clear, well-structured, and aligns with SAT two-passage questions. The answer choices are plausible and the correct answer (D) is clearly supported by the passages. However, the language and complexity of the passages are somewhat straightforward for a Hard-level question. To further enhance the question, consider incorporating denser vocabulary, additional layers of nuance, or more complex reasoning steps to deepen the challenge. Additionally, ensuring that the subtle differences among the distractors are even more refined can help high-performing students demonstrate deeper analytical skills.",
+      "difficulty_feedback": "While the question does involve comparing two perspectives and requires synthesis, it could be more challenging for a 'Hard' label. Hard questions typically include more advanced vocabulary and multi-step reasoning processes. Expanding the passages slightly and adding subtler traps in the answer choices would better align this question with the expectations for Hard-difficulty SAT questions.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 17
+    },
+    {
+      "skill": "Two Passages",
+      "difficulty": "Hard",
+      "question": "**Passage 1:**\n\nFans of long-standing franchises such as Star Wars and Marvel often discuss the emotional connection evoked by nostalgic elements, claiming that key characters, timeless settings, and recurring story arcs ignite enthusiasm in both dedicated followers and new audiences. Advocates argue that these familiar themes create a bridge to past installments, validating their legacy and attracting a broad viewership.\n\n**Passage 2:**\n\nOthers, however, contend that while nostalgia can attract a wider audience, an overemphasis on it risks creating stagnation and diminishing future creative endeavors. They propose that franchises thrive most when they combine revered components with pioneering content, creating not only a gesture to the past but also an invitation to forward-thinking storytelling.\n\nWhich of the following best captures how Passage 2 critiques the approach described in Passage 1?",
+      "choices": [
+        "A. Passage 2 asserts that the sentimental attachment highlighted in Passage 1 primarily engages long-time fans, often ignoring the importance of attracting first-time viewers.",
+        "B. Passage 2 emphasizes how excessive reliance on nostalgia, as suggested in Passage 1, could limit creative expansion and marginalize the importance of innovative storytelling.",
+        "C. Passage 2 encourages devoting equal screen time to nostalgic elements and new narratives to satisfy the expectations highlighted by Passage 1.",
+        "D. Passage 2 rejects the nostalgia-focused model outlined in Passage 1, advocating instead for a complete departure from franchise pasts in favor of original concepts entirely."
+      ],
+      "answer": "B",
+      "explanation": "Passage 2 does not dismiss the idea presented in Passage 1 outright but critiques its limitations, warning that a heavy reliance on nostalgic elements may impede significant creative growth. Option B most accurately reflects this progression, as Passage 2 does not propose abandoning nostalgia (ruling out D) but instead underscores the need for balance (not equal time, as in C). Choice A misinterprets the audience focus of the arguments.",
+      "topic": "The influence of nostalgia on audience engagement with established franchises",
+      "total_score": 25,
+      "constructive_feedback": "The question is well structured and clearly aligns with SAT two‐passage tasks. It provides a balanced presentation of the two differing viewpoints and offers sophisticated, plausible distractors that require careful reading. To make it even stronger, consider adding a slightly deeper layer of nuance—for example, embedding subtler cues or requiring identification of an implicit assumption in Passage 2—in order to challenge even high-performing students. Additionally, while the explanation is accurate and concise, elaborating briefly on why the other answer options are incorrect would help learners identify common pitfalls.",
+      "difficulty_feedback": "The question is appropriately labeled as Hard because it requires students to integrate perspectives and interpret nuanced differences between the passages. However, to fully meet the criteria for a hard-level question, you might incorporate even more advanced language or an extra layer of implicit reasoning, such as identifying unstated assumptions or highlighting subtle rhetorical strategies. This would help ensure that the question challenges college-bound students at the higher end of the scoring spectrum.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 17
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Easy",
+      "question": "In Charles Dickens’s novel *Great Expectations*, Miss Havisham’s once-elegant wedding dress lingers in a dimly lit room, as if frozen in time. Yet, the passage of time takes its inevitable toll—its fabric frays, the color fades, and dust cloaks it. In this context, the dress seems to ________ over time, symbolizing her emotional desolation and the gradual crumbling of her unfulfilled aspirations.\n\nWhich choice most effectively conveys the idea of progressive physical decay for Miss Havisham’s wedding dress, reinforcing its symbolic connection to her emotional decline?",
+      "choices": [
+        "A. survive",
+        "B. persist",
+        "C. deteriorate",
+        "D. endure"
+      ],
+      "answer": "C",
+      "explanation": "Choice C, 'deteriorate,' captures the notion of gradual decay in a physical sense, perfectly reflecting the condition of the wedding dress. The options 'survive' and 'endure' imply resilience, which contrasts with the intended depiction of decline. 'Persist' indicates continued existence but lacks the connotation of physical degradation. Therefore, 'deteriorate' conveys the progressive decay described in the context and aligns with the symbolic representation of Miss Havisham's emotional state.",
+      "topic": "The symbolism of Miss Havisham’s decayed wedding dress in *Great Expectations*",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-crafted with a clear context drawn from Great Expectations, and the answer choices are all plausible, making the correct answer stand out when one considers the nuance of progressive decay. The phrasing and structure align with SAT word-choice questions, and the explanation succinctly differentiates between the subtle meanings of each option. To improve, consider slightly refining the stem or context to further emphasize the notion of physical decay, which might help students distinguish even more clearly between choices such as 'persist' and 'deteriorate'. Additionally, ensuring that the language remains accessible for the lower scores without compromising the literary context can enhance clarity.",
+      "difficulty_feedback": "The question is appropriately labeled as Easy because it requires a single, straightforward reasoning step to link the concept of decay with the correct vocabulary choice. Although the literary context might seem a bit advanced, the reasoning needed to choose 'deteriorate' is clear. To better match the easy difficulty level, you might simplify or clarify some of the sentence structure so that students with lower scores can more quickly identify the key cue—progressive decay—as the essential detail.",
+      "topic_list_name": "literatureTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Easy",
+      "question": "During the Harlem Renaissance, a surge of creativity ________ the cultural identity of African Americans, leading to widespread admiration for new musical rhythms, improvisational poetry, and vibrant art forms that profoundly shaped American culture.\n\nWhich word best completes the sentence?",
+      "choices": [
+        "A) restrained",
+        "B) eclipsed",
+        "C) invigorated",
+        "D) minimized"
+      ],
+      "answer": "C",
+      "explanation": "The correct answer is 'invigorated' (C), as it accurately conveys the energizing and inspiring impact of the Harlem Renaissance on African American culture. The term 'restrained' (A) suggests limitation or suppression, which is the opposite of the growth and creativity shown. 'Eclipsed' (B) implies overshadowing or diminishing, which does not fit the sentence's context of increasing admiration and vitality. Finally, 'minimized' (D) means reducing in importance or impact, which also directly contradicts the depicted influence and admiration during this era.",
+      "topic": "The importance of the Harlem Renaissance in shaping American culture",
+      "total_score": 24,
+      "constructive_feedback": "The question is clearly written and effectively uses a historical context from the Harlem Renaissance to prompt a word choice selection. It aligns well with SAT standards for an Easy question, providing a clear, one-step reasoning process. However, the explanation could benefit from a more detailed discussion of why the other options are unsuitable. Expanding on why 'restrained', 'eclipsed', and 'minimized' do not logically fit in the context would help guide students in eliminating distractors more confidently.",
+      "difficulty_feedback": "The question appropriately matches the labeled Easy difficulty. It involves a straightforward fill-in-the-blank using a well-known historical subject, which should be accessible to students in the targeted score range. To further fine-tune its difficulty, you might consider subtle tweaks to the distractors to slightly challenge students who might otherwise choose an answer based solely on familiarity.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 18
+    },
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "Under Prospect Theory, many individuals weigh a potential loss of $x$ more significantly than a potential gain of equal size.\n\nWhich choice best completes the sentence?\n\nDuring risky decisions, this tendency is commonly referred to as ________.",
+      "choices": [
+        "A. risk neutrality",
+        "B. probability discounting",
+        "C. loss aversion",
+        "D. certitude shift"
+      ],
+      "answer": "C",
+      "explanation": "The term that best describes the idea that people give more weight to possible losses than to equivalent gains is loss aversion. Risk neutrality implies indifference to risk, probability discounting involves devaluing probabilistic outcomes compared to certain outcomes, and certitude shift refers to changes in preferences when outcomes become certain. Loss aversion, as described by Prospect Theory, illustrates how potential losses loom larger than equivalent gains, making it the appropriate term for this scenario.",
+      "topic": "Prospect Theory and decision-making under risk",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-designed and clearly aligns with SAT Word Choice style, requiring students to use the provided context to identify the concept of loss aversion. The answer choices are plausible distractors, and the explanation is detailed and accurate. However, the notation of a potential loss as ‘-x’ might be slightly confusing for some students; consider rewording it to simply refer to a loss of x to avoid any misinterpretation. Additionally, since the question involves a term from behavioral economics, it may help to soften the academic tone slightly or provide a tiny bit more context so that all students feel comfortable with the concept.",
+      "difficulty_feedback": "The question adheres to the ‘Easy’ label as it requires only a single-step connection between the phrase describing unequal treatment of losses and gains and the term 'loss aversion.' The reasoning is straightforward, and the distractors are clearly less appropriate. To further cement its easy difficulty, consider ensuring that the term ‘Prospect Theory’ is presented in an accessible manner—perhaps by briefly hinting in the context that it deals with decision-making under risk. This would make the passage even more approachable for students scoring in the 400–600 range.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 18
+    }
   ]
 }

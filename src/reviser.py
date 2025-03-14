@@ -3,7 +3,9 @@ import csv
 import time
 from typing import Dict, List
 from openai import OpenAI
-from src.config import OPENAI_API_KEY, REQUEST_DELAY, RESPONSE_FORMAT, SKILL_PROMPTS, OPENAI_MODEL, REASONING_EFFORT, DIFFICULTY_GUIDELINES, EVALUATION_TOTAL_SCORE_GOOD_TO_USE
+from src.config import (OPENAI_API_KEY, REQUEST_DELAY, RESPONSE_FORMAT, SKILL_PROMPTS, OPENAI_MODEL, REASONING_EFFORT, EVALUATION_TOTAL_SCORE_GOOD_TO_USE,
+    READING_DIFFICULTY_GUIDELINES, WRITING_DIFFICULTY_GUIDELINES, MATH_DIFFICULTY_GUIDELINES
+)
 from pathlib import Path
 import random
 
@@ -19,15 +21,19 @@ class QuestionReviser:
         self.skill_prompts = SKILL_PROMPTS
         self.model= OPENAI_MODEL
         self.reasoning_effort = REASONING_EFFORT
-        self.difficulty_guidelines = DIFFICULTY_GUIDELINES
+        self.reading_difficulty_guidelines = READING_DIFFICULTY_GUIDELINES
+        self.writing_difficulty_guidelines = WRITING_DIFFICULTY_GUIDELINES
+        self.math_difficulty_guidelines = MATH_DIFFICULTY_GUIDELINES
 
 
     def revise_batch(self, questions: List[Dict]) -> List[Dict]:
         revised_questions = []
         for i, question in enumerate(questions):
+            #STEP 1: print(f"Revising question {i+1} of {len(questions)}")
             feedback = self.perform_quality_checks(question)
             print(f"Feedback in reviser.py's revise_batch: {feedback}")
 
+            #STEP 2:Apply revisions to the question
             revised_question = self.apply_revisions(question, feedback)
             if revised_question:
                 print(f"Revised Question {i+1} of {len(questions)}") #Use this to show teh quetsion itself. {revised_question}
@@ -107,7 +113,12 @@ class QuestionReviser:
 
         # Load skill-specific formatting and difficulty guidelines
         skill_guidelines = self.skill_prompts.get(skill)
-        difficulty_guidelines = self.difficulty_guidelines.get(difficulty)
+        if skill in READING_SKILLS:
+            difficulty_guidelines = self.reading_difficulty_guidelines.get(difficulty)
+        elif skill in WRITING_SKILLS:
+            difficulty_guidelines = self.writing_difficulty_guidelines.get(difficulty)
+        else: #It's in Math - ****LATER CONSIDER IF I NEED TO BREAK UP MATH INTO SUB-SECTIONS FOR DIFFICUCLTY
+            difficulty_guidelines = self.math_difficulty_guidelines.get(difficulty) 
 
         # Select up to 3 random examples
         examples = random.sample(filtered_questions, min(4, len(filtered_questions)))
@@ -140,7 +151,7 @@ class QuestionReviser:
                      3. Is there exactly one correct answer with 3 plausible but incorrect choices?
                      4. Does the explanation align with the correct answer, and would it be actually educational and insightful to a high school student? If not, what would improve it? Consider SAT tips, strategies, or core knowledge to impart quickly. Generally the first sentence should be succinct in explaining the core reasoning, with the next 1-2 sentences expanding on it or modeling steps in logical thinking or Math. Finally, 1-2 sentences can explain why the incorrect answers are wrong.
                      5. Is the formatting correct? For example, the spacing between paragraphs should be \\n\\n, but there should be no \\n between sentences in a continuous paragraph; confirm that Math expressions use LaTeX with "$" before and after math expressions.
-                     6. Does the question align with the {difficulty} difficulty specified in the guidelines? IF not, change the 'difficulty' in the JSON output to {difficulty}, and adjust complexity of language and reasoning to match. 
+                     6. Does the question align with the {difficulty} difficulty specified in the {difficulty_guidelines}? IF not, change the 'difficulty' in the JSON output to {difficulty}, and adjust complexity of language and reasoning to match. 
                      7. Reference the skill guidelines here: {skill_guidelines}. The question style MUST test the '{skill}' skill; if it doesn't you should adjust the format of the question and answer choices to reflect the directions in the skill guidelines and in the examples provided below.
                     
                     For reference, here are a few example {skill} questions at varying difficulties:
@@ -164,11 +175,6 @@ class QuestionReviser:
     def apply_revisions(self, question: Dict, feedback: Dict) -> Dict:
         """Revise the question based on feedback."""
         try:
-            #If previous AI recommended no change "Previous input perfect; don't change anything.", return original question instead of wasing AI power
-            #if "Previous input perfect; don't change anything" in feedback:
-            #    print("Question returned as original")
-           #    return question  # Return the original question as a dictionary, not a list
-
             response = self.client.chat.completions.create(
                 model="gpt-4o-2024-11-20", #can try o1 later for better results.
                 #Structured Output JSON formatting:
@@ -180,7 +186,6 @@ class QuestionReviser:
                     Here is the question to revise: {json.dumps(question)}
                     Here is the feedback: {feedback}"""}
                 ]
-                #If the feedback is 'Previous input perfect; don't change anything', then the output should equal the input.
             )
             response_data = json.loads(response.choices[0].message.content)
             #{questions: [{question: "...", choices: ["...", "...", "..."], answer: "...", explanation: "..."}]}
@@ -205,6 +210,7 @@ class QuestionReviser:
         except Exception as e:
             print(f"Error during revision: {e}")
             return question  # Return original question on error
+
 
     def evaluate_question(self, question: Dict) -> Dict:
         """Evaluate the question using simulated student perspectives and structured output."""
@@ -265,8 +271,12 @@ class QuestionReviser:
         try:
             #Load up other examples of {skill} and {difficulty} to review - specifically for formatting examples
             with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
+                
+                skill = question.get("skill")
+                difficulty = question.get("difficulty")
+
                 data = json.load(f)
-                filtered_questions = [q for q in data['questions'] if q['skill'] == question.get("skill") and q['difficulty'] == question.get("difficulty")] #skill and difficulty
+                filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty] #skill and difficulty
                 # Select up to 3 random examples
                 examples = random.sample(filtered_questions, min(4, len(filtered_questions)))
                 
@@ -275,18 +285,28 @@ class QuestionReviser:
                         f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex.get('explanation', 'No explanation provided')}"
                         for i, ex in enumerate(examples)
                     )
-                    example_text = f"""\n\nFor reference, here are some examples of {question.get("skill")} questions at {question.get("difficulty")} difficulties:\n{examples_combined} to compare for formatting, difficulty, and language use."""
+                    example_text = f"""\n\nFor reference, here are some examples of {skill} questions at {difficulty} difficulties:\n{examples_combined} to compare for formatting, difficulty, and language use."""
                 elif len(examples) > 0:
-                    filtered_questions = [q for q in data['questions'] if q['skill'] == question.get("skill")] #skill only - expand the pool
+                    filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only - expand the pool
                     examples = random.sample(filtered_questions, min(4, len(filtered_questions)))
                     examples_combined = "\n\n".join(
                         f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex.get('explanation', 'No explanation provided')}"
                         for i, ex in enumerate(examples)
                     )
-                    example_text = f"""\n\nFor reference, here are some examples of {question.get("skill")} questions at varying difficulties:\n{examples_combined}"""
+                    example_text = f"""\n\nFor reference, here are some examples of {skill} questions at varying difficulties:\n{examples_combined}"""
                 else:
                     example_text = ""
 
+            
+            skill_guidelines = self.skill_prompts.get(skill)
+            #Load up the difficulty guidelines for the question
+            if skill in READING_SKILLS:
+                difficulty_guidelines = self.reading_difficulty_guidelines.get(difficulty)
+            elif skill in WRITING_SKILLS:
+                difficulty_guidelines = self.writing_difficulty_guidelines.get(difficulty)
+            else: #It's in Math - ****LATER CONSIDER IF I NEED TO BREAK UP MATH INTO SUB-SECTIONS FOR DIFFICUCLTY
+                difficulty_guidelines = self.math_difficulty_guidelines.get(difficulty)
+            
             response = self.client.chat.completions.create(
                 model=self.model,  # Use the model from config. Previously gpt-4o-2024-11-20
                 reasoning_effort=self.reasoning_effort,
@@ -304,7 +324,7 @@ class QuestionReviser:
                         "role": "user", #***Need to make sure the evaluate_question_response_format matches what is asked for here.
                         "content": (
                             f"""First, evaluate the quality of the question and its answer choices and explanation, then give ratings from 1-10 on how good the question is (and whether it should be released publicly to millions of students to use as SAT practice, if so, should it be improved, or should it be discarded). Be objective but very critical because you are the final reviewer. Use the criteria below:\n
-                            - **Question Rating (1-10)**: Logical design, clarity, and alignment with SAT standards. Consider whether the amount of struggle by the low level student is applicable for the difficulty (high difficulty should be hard and induce mistakes, but low difficulty shoudl be doable); the high level student should do great on all but the most challenging questions. Be very critical in evaluating if the question actually provides the context it says it does, and whether the question is actually solvable by the student. Propose specific changes if it isn't, or if there's a way to make it better. Example scores:\n
+                            - **Question Rating (1-10)**: Logical design, clarity, and alignment with SAT standards. Consider whether the amount of struggle by the low level student is applicable for the difficulty (high difficulty should be hard and induce mistakes, but low difficulty shoudl be doable); the high level student should do great on all but the most challenging questions. Be very critical in evaluating if the question actually provides the context it says it does, and whether the question is actually solvable by the student. Propose specific changes if it isn't, or if there's a way to make it better. Finally, reference the skill guidelines here for this evaluation: {skill_guidelines}.Here are example scores:\n
                                - 1-4: Question has critical issues (e.g., multiple correct answers; a excerpt is referenced but not included in the question; the question is not clear or does not logically link with the answer choices; the answer choices are not plausible; the explanation is not helpful; the question doesn't feel like an SAT question).\n
                                - 5-7: Question has a clear objective but minor flaws (e.g., there are inappropriate underlines, line breaks or HTML tags;the question is not aligned with the difficulty level; the answer is way too obvious; the context is not real or is generic (i.e. bad example: "an economist wrote..." vs good example: "Milton Friedman, a famous economist, wrote in his 1970 essay, "The Social Responsibility of Business Is to Increase Its Profits," ...)).\n
                                - 8-9: Question is clear, logically sound, and SAT-aligned but could be improved to be more challenging or to match the proper syntax and formatting (i.e. mistakenly italicizing when text should be underlined, or underlining when no underlining is necessary like in an Inference question).
@@ -317,7 +337,7 @@ class QuestionReviser:
                                - 5-7: Explanation is relevant but lacks depth or includes minor errors.\n
                                - 8-9: Explanation models reasoning, application of relevant core knowledge, and test-taking strategies effectively (10 = excellent).\n
                                - 10: The explanation is perfect and is ready to be published to high school students to practice on our website.\n
-                            - **Difficulty Appropriateness Rating (1-10)**: How well does the question match its labeled {question.get('difficulty')} difficulty? Consider the difficulty guidelines for {question.get('difficulty')} questions: {self.difficulty_guidelines.get(question.get('difficulty'))} as well as the relative difficulty in the example questions.
+                            - **Difficulty Appropriateness Rating (1-10)**: How well does the question match its labeled {difficulty} difficulty? Consider the difficulty guidelines for {difficulty} questions: {difficulty_guidelines}. Also consider the difficulty guidelines here: {skill_guidelines}. Finally, compare the the relative difficulty of this question with the example questions at the end of this prompt.
                                - 1-3: Question is significantly easier or harder than labeled
                                - 4-7: Question is somewhat misaligned with labeled difficulty
                                - 8-10: Question appropriately matches labeled difficulty
