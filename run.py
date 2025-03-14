@@ -56,11 +56,12 @@ def main():
                         current_topic_list_name = topic_names[topicChoice] #3/12: Added this to display the topic list name in console
                         current_topic = current_topic_list[topicIndex % len(current_topic_list)]
                         print(f"Generating {difficulty} {skill} question on topic {topicIndex} of {len(current_topic_list)} in list {current_topic_list_name}: {current_topic}")
-
+                        # Generate with topic
+                        questions = generator.generate_batch(skill, difficulty, 1, current_topic)
                     else: #math
                         print(f"Generating {difficulty} {skill} question")
-                    
-                    questions = generator.generate_batch(skill, difficulty, 1, current_topic)
+                        # Generate without topic
+                        questions = generator.generate_batch(skill, difficulty, 1)
                     
                     #Saving to CSV is handled internally in the revise_questions function
                     revised_questions = reviser.revise_batch(questions)
