@@ -10,7 +10,7 @@ import time
 from typing import Dict, List
 from openai import OpenAI
 from src.config import (OPENAI_API_KEY, DEFAULT_NUM_QUESTIONS, RESPONSE_FORMAT, SKILL_PROMPTS, REASONING_EFFORT, REQUEST_DELAY, OPENAI_MODEL, OVERUSED_TOPICS, 
-    READING_DIFFICULTY_GUIDELINES, WRITING_DIFFICULTY_GUIDELINES, MATH_DIFFICULTY_GUIDELINES, READING_SKILLS, WRITING_SKILLS
+    READING_DIFFICULTY_GUIDELINES, WRITING_DIFFICULTY_GUIDELINES, MATH_DIFFICULTY_GUIDELINES, READING_SKILLS, WRITING_SKILLS, MATH_SKILLS
 )
 from pathlib import Path
 import random
@@ -49,21 +49,18 @@ class QuestionGenerator:
     
     def generate_question(self, skill: str, difficulty: str, topic: str = None) -> Dict:
         """Generate a single SAT question using OpenAI."""
-        #print(f"Inside generate_question, using topic: {topic}")
         try:
-            #print(f"Generating {difficulty} {skill} question...")
-
             # Load and filter questions from JSON file
             with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty] #skill and difficulty
+                filtered_questions = [q for q in data['questions'] if q['skill'] == skill and q['difficulty'] == difficulty]
                 print(f"Added {len(filtered_questions)} filtered questions to generate question prompt.")
                 if len(filtered_questions) < 2: #Temporarily lowered because Two Passages questions don't have many examples.
                 #return to 4 examples requried after 3/13/2025. 
                     filtered_questions = [q for q in data['questions'] if q['skill'] == skill] #skill only - expand the pool
                     print(f"Not enough questions for {difficulty} {skill}. Expanded to all skills and got{len(filtered_questions)} questions.")
 
-            # Select up to 5 random examples
+            # Select up to 6 random examples
             examples = random.sample(filtered_questions, min(6, len(filtered_questions)))
 
             # Format examples for inclusion in the prompt
@@ -71,61 +68,72 @@ class QuestionGenerator:
                 f"Question {i+1}. {ex['question']}\nChoices: {ex['choices']}\nAnswer: {ex['answer']}\nExplanation: {ex.get('explanation', 'No explanation provided')}"
                 for i, ex in enumerate(examples)
             )
-                
 
-            #Load skill-specific formatting and difficulty guidelines
+            # Load skill-specific formatting and difficulty guidelines
             skill_guidelines = self.skill_prompts.get(skill)
             if skill in READING_SKILLS:
                 difficulty_guidelines = self.reading_difficulty_guidelines.get(difficulty)
             elif skill in WRITING_SKILLS:
                 difficulty_guidelines = self.writing_difficulty_guidelines.get(difficulty)
-            else: #It's in Math - ****LATER CONSIDER IF I NEED TO BREAK UP MATH INTO SUB-SECTIONS FOR DIFFICUCLTY
-                difficulty_guidelines = self.math_difficulty_guidelines.get(difficulty) # Default to reading guidelines
+            else:  # It's in Math
+                difficulty_guidelines = self.math_difficulty_guidelines.get(difficulty)
 
             #3/12: To address the uneven distribution of correct answer choices, I'm incorporating this:
             #Rotates the correct answer to make it more evenly distributed since the AI favors B and C most of the time.
             correct_answer = random.choice(['A', 'B', 'C', 'D'])
-            #I imagine the AI will ignore this a decent portion of the time, but hopefully this'll be at least closer.
 
-            #Removed this because I want the AI to be creative; examples are compared in the evaluation phase for formatting and difficulty alignment. print(f"Examples included in prompt: {examples_text}")
+            # Check if this is a math skill
+            is_math_skill = skill in MATH_SKILLS
 
-            # Dynamic structured output with enforced difficulty - CONSIDER THIS at 5:55 pm on 3/7 if manually changing didn't work below. This is slightly more hardcore.
-            #dynamic_response_format = json.loads(json.dumps(self.response_format).replace('"{requested_difficulty}"', f'"{difficulty}"'))
-            
+            # Create developer content based on question type
+            if is_math_skill:
+                developer_content = f"""You are an expert Digital SAT question writer. Create an original, high-quality math question that follows proper formatting specified:
+                    - Design the answers so that {correct_answer} is the correct answer choice, and make the other three answer choices be plausible but incorrect answer choices. Write answer choices as "A. [answer]", "B. [answer]", "C. [answer]", "D. [answer]" each on their own lines.
+                    - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
+                    - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
+                    - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
+                    - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)
+                    - CRITICAL: The question MUST test the '{skill}' skill. Do not create a question for any other skill."""
+            else:
+                developer_content = f"""You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
+                    - Design the answers so that {correct_answer} is the correct answer choice, and make the other three answer choices be plausible but incorrect answer choices. Write answer choices as "A. [answer]", "B. [answer]", "C. [answer]", "D. [answer]" each on their own lines.
+                    - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
+                    - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
+                    - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
+                    - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)
+                    - VERY IMPORTANT REQUIREMENT: The question MUST be about the exact topic provided: {topic}. Do not substitute a different topic.
+                    - CRITICAL: The question MUST test the '{skill}' skill. Do not create a question for any other skill."""
+
+            # Create user content based on question type
+            if is_math_skill:
+                user_content = f"""Generate a Digital SAT question testing the ***{skill}*** skill at ***{difficulty}*** difficulty in the specified JSON format, with 4 answer choices: "A) [answer choice]", "B) [answer choice]", "C) [answer choice]", "D) [answer choice]".
+                    1. There must always be a clear question, separated with a double line break from any preceding text (\\n\\n).
+                    2. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question, learn underlying concepts, and apply SAT test-taking strategies.
+                    3. Don't use unnecessary underlining, italics, or bold.
+                    4. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
+                    5. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
+                    6. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***, and the 'skill' value MUST BE 'skill': '{skill}'***
+                    7. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
+            else:
+                user_content = f"""Generate a Digital SAT question testing the ***{skill}*** skill at ***{difficulty}*** difficulty in the specified JSON format, with 4 answer choices: "A) [answer choice]", "B) [answer choice]", "C) [answer choice]", "D) [answer choice]".
+                    1. THE QUESTION MUST BE ABOUT THIS EXACT TOPIC: "{topic}". Do not substitute a different topic.
+                    2. Write the question and answer choices based on this topic: {topic}.     
+                    3. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
+                    4. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question, learn underlying concepts, and apply SAT test-taking strategies.
+                    5. Don't use unnecessary underlining, italics, or bold.
+                    6. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
+                    7. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
+                    8. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***, and the 'skill' value MUST BE 'skill': '{skill}'***
+                    9. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
+
+            # Make the API call with the appropriate content
             response = self.client.chat.completions.create(
-                model = 'o1-2024-12-17', #self.model (o1/03)
-                response_format = self.response_format,
-                #response_format = dynamic_response_format, #Use this if I usue dynamic_response_format above.
-
-                reasoning_effort = "medium",
+                model='o1-2024-12-17',  # self.model (o1/03)
+                response_format=self.response_format,
+                reasoning_effort="medium",
                 messages=[
-                    {"role": "developer", #use "developer" when using o3 and o1 models and "system" when using gpt-4o-2024-11-20
-
-                    "content": 
-                        f"""You are an expert Digital SAT question writer. Create an original, high-quality question based on the topic provided in the prompt that follows proper formatting specified:
-                        - Design the answers so that {correct_answer} is the correct answer choice, and make the other three answer choices be plausible but incorrect answer choices. Write answer choices as "A. [answer]", "B. [answer]", "C. [answer]", "D. [answer]" each on their own lines.
-                        - Use \n\n for paragraph breaks with single backslashes before the n (DO NOT use HTML elements like <br> or <p> tags)
-                        - Follow the formatting rules: LaTeX with "$...$" for math expressions, unicode, "_underlined text_" for underlining, *italicized text* for italics, **bold text** for bold.
-                        - Use unicode for symbols (i.e. \\u2022 for bullet points, \\u2019 for apostrophe, etc.)
-                        - Follow the exact JSON schema provided (i.e. ONLY WRITE questions in "question", and do NOT write the answer choices or explanation here!)
-                        - VERY IMPORTANT REQUIREMENT: The question MUST be about the exact topic provided: {topic}. Do not substitute a different topic.
-                        - CRITICAL: The question MUST test the '{skill}' skill. Do not create a question for any other skill."""},
-                    {"role": "user", 
-                    "content": 
-                        """Generate a Digital SAT question testing the ***{skill}*** skill at ***{difficulty}*** difficulty in the specified JSON format, with 4 answer choices: "A) [answer choice]", "B) [answer choice]", "C) [answer choice]", "D) [answer choice]".
-                        1. THE QUESTION MUST BE ABOUT THIS EXACT TOPIC: "{topic}". Do not substitute a different topic.
-                        2. Write the question and answer choices based on this topic: {topic}.     
-                        3. There must always be a clear question afterwards, separated with a double line break from the previous text (\\n\\n).
-                        4. Include an explanation that clearly articulates reasoning an expert SAT test-taker would use, but write in a helpful, very simple and straightforward language that a high school student could use to understand how to solve the question, learn underlying concepts, and apply SAT test-taking strategies.
-                        5. Don't use unnecessary underlining, italics, or bold.
-                        6. Use the {skill} skill guidelines to understand how to write a question that tests the {skill} skill: {skill_guidelines}. 
-                        7. Use the {difficulty} difficulty guidelines to write a question that is at the {difficulty} difficulty: {difficulty_guidelines}. 
-                        8. ***The output JSON's 'difficulty' value MUST BE 'difficulty': '{difficulty}'***, and the 'skill' value MUST BE 'skill': '{skill}'***
-                        10. Finally, extrapolate patterns from the SAT example questions below while creatively varying the sentence and paragraph structure, language, and style so that the question is distinct from the examples provided but still academic and SAT-like: \n{examples_text}"""
-                    }
-                        #*********************IN THE FUTURE, try without #9 (providing any questions) because reasoning models are supposed to be better at this****************
-                        # --> I tried without it, but it was obsessed with writing about Harriet Tubman, literally 50% of questions were about her despite no examples provided about harriet tubman. So weird.
-                        #3/11/2025 at 11:29 pm removed "Include diverse real-world context in questions to create a valid question testing the {skill} skill."
+                    {"role": "developer", "content": developer_content},
+                    {"role": "user", "content": user_content}
                 ]
             )
             
