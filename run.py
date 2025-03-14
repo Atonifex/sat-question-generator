@@ -80,7 +80,10 @@ def main():
                             topicIndex += 1   # Move to next index within all topic lists
 
                 except Exception as e:
-                    print(f"Error during generation or revision of {difficulty} {skill} on topic: {current_topic}: {e}")
+                    if skill not in MATH_SKILLS:
+                        print(f"Error during generation or revision of {difficulty} {skill} on topic: {current_topic}: {e}")
+                    else: #math
+                        print(f"Error during generation or revision of {difficulty} {skill}: {e}")
                     #No need to update topic indices on error because they don't end up getting saved.
 
 
