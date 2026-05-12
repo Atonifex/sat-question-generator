@@ -22,8 +22,8 @@ def output_to_json(revised_questions: List[Dict]) -> str:
     timestamp = datetime.now().strftime("%Y%m%d")
     
     # Use a consistent filename that doesn't change between runs
-    good_filename = f"GOOD_SAT_questions_{timestamp}_InitialTrialFor_Pronouns_Punctuation_Supporting Claims_Synthesizing_Notes_Tenses_Transition Words_Two_Passages_Word_Choice.json"
-    bad_filename = "BAD_SAT_examples.json"
+    good_filename = f"GOOD_QUESTIONS_first_full_length_test_questions_generated_{timestamp}.json"
+    bad_filename = f"BAD_QUESTIONS_first_full_length_test_questions_generated_{timestamp}.json"
     
     good_file_path = Path(OUTPUT_DIR) / good_filename
     bad_file_path = Path(OUTPUT_DIR) / bad_filename

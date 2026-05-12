@@ -27,14 +27,61 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Question Generation Settings
 DEFAULT_NUM_QUESTIONS = 2
+TOTAL_TEST_QUESTIONS = 120  # Target number of questions for a full practice test
+
+# Skill frequency distribution (percentage of total test)
+SKILL_FREQUENCY = {
+    'Function of Sentence': 0.02,
+    'Inferences': 0.05,
+    'Main Idea': 0.054,
+    'Pronouns and Modifiers': 0.023,
+    'Punctuation': 0.084,
+    'Referencing Data': 0.027,
+    'Supporting Claims': 0.047,
+    'Synthesizing Notes': 0.068,
+    'Tenses': 0.036,
+    'Transition Words': 0.061,
+    'Two Passages': 0.009,
+    'Word Choice': 0.099,
+    'Absolute Value': 0.002,
+    'Algebra': 0.027,
+    'Circles': 0.011,
+    'Exponential Equations': 0.009,
+    'Exponential Word Problems': 0.014,
+    'Geometry': 0.059,
+    'Interpreting Graphs': 0.029,
+    'Linear Equations': 0.045,
+    'Linear Word Problems': 0.059,
+    'Inequality Word Problems': 0.011,
+    'Percent': 0.018,
+    'Polynomial Expressions': 0.016,
+    'Probability': 0.009,
+    'Quadratic Equations': 0.047,
+    'Statistics': 0.014,
+    'Systems of Equations': 0.029,
+    'Trigonometry': 0.014,
+    'Unit Conversions': 0.009
+}
+
+# Calculate questions per skill based on frequency
+def get_questions_per_skill(skill):
+    """Calculate the number of questions to generate for a given skill."""
+    if skill not in SKILL_FREQUENCY:
+        return DEFAULT_NUM_QUESTIONS
+    
+    # Calculate raw number based on frequency
+    raw_count = SKILL_FREQUENCY[skill] * TOTAL_TEST_QUESTIONS
+    # Ensure at least 1 questions per skill
+    return max(1, round(raw_count))
+
 VALID_DIFFICULTIES = ["Easy", "Medium", "Hard"] #"Easy", 
-VALID_SKILLS = [
-    'Pronouns and Modifiers', 'Punctuation', 'Tenses', 'Transition Words', 'Two Passages', 'Word Choice', #The last 3 work VERY well, though double check Punctuation & Pronouns on 3/14
-    #Reading ones will use READING_DIFFICULTY_GUIDELINES: 'Function of Sentence', 'Inferences', 'Main Idea', 'Supporting Claims', "Synthesizing Notes" #as of 3/12 at 3:22, THIS PROGRAM FUCKING WORKS! THESE QUESTIONS ARE GREAT! GENERATE AWAY BABY!!!
-    #'Referencing Data', 'Interpreting Graphs', #no clue how I'm going to do these two...I'll need generated tables, graphs, or pictures.
-    'Absolute Value', 'Algebra', 'Circles', 'Exponential Equations', 'Exponential Word Problems', 'Geometry', 'Linear Equations', 'Linear Word Problems', 'Inequality Word Problems', 'Percent', 'Polynomial Expressions', 'Probability', 'Quadratic Equations', 'Statistics', 'Systems of Equations', 'Trigonometry', 'Unit Conversions'
-    #honestly maybe I shoudl combine all of the linear equations together because it's basically like 6 of them that are similar, although different question types...idk let's leave for now.
-]
+VALID_SKILLS = list(SKILL_FREQUENCY.keys())
+
+#After first round of Math Generation Look into these:
+#No hard Inequality Word Problems generated
+#No hard Trigonometry
+#The questions generated on 3/14 were added at line 2,450 in the consolidated prompts, doubling our questions generated!!!
+# on 3/14 I added those consolidated prompts to the all-sat-tests-final.json!!
 
 READING_SKILLS = ['Function of Sentence', 'Inferences', 'Main Idea', 'Supporting Claims', "Synthesizing Notes", 'Two Passages', 'Referencing Data'] #also Referencing Data???
 

@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Easy",
+      "question": "During World War II, American women took on work that had traditionally been done by men, who were now serving in the military. Factories around the country began hiring female workers to fill various positions, from assembling aircraft to welding ships. _Some of these women, known collectively as \"Rosie the Riveters,\" became symbols of patriotic dedication on the home front._ Nevertheless, these employment changes were not without challenges, as women had to balance work and family responsibilities in a new social environment.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        "A. It points out that women entered factory jobs reluctantly, only after other measures failed.",
+        "B. It signals that women wanted to continue in traditional roles instead of stepping into men's positions.",
+        "C. It clarifies that women's wartime roles were intended to remain limited and unchanged.",
+        "D. It emphasizes how some women came to symbolize patriotic dedication on the home front."
+      ],
+      "answer": "D",
+      "explanation": "Choice D is correct because the underlined sentence specifically mentions that these women became symbols of patriotic dedication, showing the larger significance of their work during the war. This aligns with the sentence's purpose in portraying the symbolic impact of such women during World War II. Choices A, B, and C misrepresent the information in the text or neglect the symbolic role highlighted in the sentence.",
+      "topic": "The role of women in the workforce during World War II",
+      "total_score": 24,
+      "constructive_feedback": "The question is clear, well-formatted, and follows SAT standards by providing a concise historical context and an underlined sentence that students can analyze. The answer choices serve as plausible distractors with one clear correct option. However, option D’s phrasing (“represent the major collaborative efforts on the home front”) could be adjusted to more closely mirror the passage’s language about 'symbols of patriotic dedication'. Revising this choice to emphasize patriotic symbolism rather than 'collaborative efforts' would improve clarity.",
+      "difficulty_feedback": "The question is appropriately labeled as Easy. It requires a single, straightforward step of identifying how the underlined sentence functions within the passage. The context is familiar and accessible, and the task is in line with easy SAT reading comprehension questions. A slight rewording of answer option D to use terms directly from the passage would better anchor it at an Easy difficulty level.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 25
+    },
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Medium",
+      "question": "Marketing experts frequently cite social proof as a powerful driver of consumer decision-making, noting that individuals often look to peers for signals of a product's credibility. While large-scale endorsements can be effective, smaller, more passionate communities also have the power to sway buyers. _These niche groups can showcase authentic enthusiasm, effectively convincing onlookers that a brand commands genuine trust._ By highlighting such endorsements in promotional materials, companies can cultivate a sense of reliability that draws new customers and strengthens overall brand reputation. Furthermore, this targeted influence can often lead to highly engaged consumer communities that drive brand loyalty in ways that mass endorsements may not.\n\nWhich choice best describes the function of the underlined sentence in the context of the paragraph?",
+      "choices": [
+        "A. It suggests that niche groups entirely replace the need for large-scale endorsements.",
+        "B. It highlights how smaller communities can provide authentic support that influences perceptions of trust.",
+        "C. It argues that niche groups are more effective than larger campaigns in building consumer loyalty.",
+        "D. It explains that targeted endorsements eliminate the reliance on traditional marketing methods."
+      ],
+      "answer": "B",
+      "explanation": "Choice B is correct because the underlined sentence emphasizes that smaller, enthusiastic groups can contribute authentic trust signals that influence consumer perception, tying in with the idea of social proof. Choice A is incorrect because the sentence doesn't advocate for replacing large-scale endorsements. Choice C is incorrect because it doesn't directly compare the efficacy of niche groups versus broad campaigns in fostering loyalty. Choice D is incorrect because it doesn't suggest an abandonment of traditional marketing methods.",
+      "topic": "The concept of social proof in marketing and influence",
+      "total_score": 24,
+      "constructive_feedback": "The question is well-constructed and aligned with SAT standards for a medium function-of-sentence item. It includes a sufficiently long paragraph with an underlined sentence that students must analyze in the context of the passage. The prompt is clear, and the answer choices, although somewhat obviously dismissible on careful reading (especially A and B), still allow for an effective evaluation of students’ ability to discern subtle differences in reasoning. To further improve the challenge, consider revising one or two distractors to incorporate language that is partially correct but contains key inaccuracies. A slight deepening of the context or more nuanced wording in the distractors would raise the difficulty and better target the medium-level audience.",
+      "difficulty_feedback": "The question meets medium-difficulty criteria by requiring multi-step reasoning over a nuanced paragraph (it is long enough and requires careful reading to pick the correct function of the underlined sentence). However, some of the distractor options are more obviously incorrect than might be expected at this level. Revising them to include more subtle, tempting incorrect choices will further align the question with its intended difficulty level.",
+      "topic_list_name": "socialScienceTopics",
+      "topic_index": 25
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "skill": "Function of Sentence",
+      "difficulty": "Medium",
+      "question": "Recent research indicates that prions—misfolded proteins—can trigger fatal neurodegenerative diseases by converting healthy proteins into abnormal forms. These misfolded proteins pile up in the brain, damaging neurons and leading to conditions such as Creutzfeldt–Jakob disease.\n\n_By forming large aggregates that tangibly disrupt normal neuronal activity, prions severely impair brain function._\n\nBecause prions resist common decontamination methods, they represent a significant challenge for biomedical research and public health, forcing scientists to develop more rigorous laboratory protocols.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        "A. It acknowledges that prions can be neutralized if properly sterilized.",
+        "B. It illustrates the specific toxic effect prions have on brain cells, supporting the idea that prions play a direct role in causing neurodegeneration.",
+        "C. It highlights a historical context for prion discovery, contradicting an earlier claim in the text.",
+        "D. It provides evidence that prions, unlike most proteins, do not rely on host cells for replication."
+      ],
+      "answer": "B",
+      "explanation": "Choice B is correct because the underlined sentence shows exactly how prion aggregates interfere with normal neurological function: they disrupt neuronal activity so severely that the resulting damage contributes to serious neurodegeneration. The rest of the paragraph describes prions’ resistance to decontamination and the difficulties they pose for research and public health. Thus, the underlined portion underscores prions’ role in harming neurons. A is incorrect because the sentence does not discuss techniques for neutralizing prions. C is incorrect because it does not offer historical context that contradicts any claim. D is incorrect because the sentence does not address prion replication methods but instead focuses on how aggregates impair neurons.",
+      "topic": "The role of prions in neurodegenerative diseases",
+      "total_score": 22,
+      "constructive_feedback": "The question is clear and aligns with SAT standards for a function-of-sentence prompt, with a good set of answer choices and a correct explanation that distinguishes why each option is either correct or incorrect. However, the passage is somewhat short and largely straightforward, which may not fully require the multi-step analysis expected for a medium-difficulty SAT question. To improve, consider expanding the passage with additional contextual details and more nuanced language. This could require students to engage in deeper reasoning and discern subtle differences in answer choices.",
+      "difficulty_feedback": "While the question is labeled as Medium, its length (approximately 74 words) and straightforward connection between the underlined sentence and the passage make it easier than typical medium-difficulty questions. To better match medium-level expectations, the passage should be lengthened (at least 90 words) and develop a more complex context. Additionally, incorporating slightly more subtle or partly correct distractors would enhance the multi-step reasoning required.",
+      "topic_list_name": "hardScienceTopics",
+      "topic_index": 25
+    }
+  ]
+}

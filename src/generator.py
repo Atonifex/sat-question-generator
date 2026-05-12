@@ -50,6 +50,10 @@ class QuestionGenerator:
     def generate_question(self, skill: str, difficulty: str, topic: str = None) -> Dict:
         """Generate a single SAT question using OpenAI."""
         try:
+            # If it's a math skill and topic is provided, ignore it
+            if skill in MATH_SKILLS:
+                topic = None  # Explicitly set to None for math skills
+
             # Load and filter questions from JSON file
             with open('all-sat-tests-final.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)

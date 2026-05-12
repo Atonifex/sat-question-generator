@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from src.generator import QuestionGenerator
 from src.reviser import QuestionReviser
 from src.output_to_json import output_to_json
-from src.config import DEFAULT_NUM_QUESTIONS, OUTPUT_DIR, VALID_SKILLS, VALID_DIFFICULTIES, MATH_SKILLS
+from src.config import DEFAULT_NUM_QUESTIONS, OUTPUT_DIR, VALID_SKILLS, VALID_DIFFICULTIES, MATH_SKILLS, get_questions_per_skill
 from datetime import datetime
 from pathlib import Path
 import csv
@@ -19,7 +19,7 @@ def main():
     load_dotenv()
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    csv_file_path = Path(OUTPUT_DIR) / f"questions_{timestamp}.csv"
+    csv_file_path = Path(OUTPUT_DIR) / f"first_full_length_test_questions_generated_{timestamp}.csv"
     columns = ["timestamp", "raw_json", "skill", "difficulty", "question", "choices", "answer", "explanation",
             "Initial Feedback", "P2-Revised JSON", "Revised Question", "Revised Choices", "Revised Answer", "Revised Explanation",
             "Low Level Student Simulation", "High Level Student Simulation", "Question Rating", "Explanation Rating", "Constructive Feedback", "Difficulty Rating", "Total Score", "Final JSON SAT Question"]
@@ -44,11 +44,16 @@ def main():
                   "famousBiographies", "modernTopicsAndFun"]
     
     topicChoice = 1  # Index for which topic list to use 
-    topicIndex = 21   # Index within the chosen topic list - went up to line 1375 in CONSOLIDATED "In Mary Shelley's \"Frankenstein,\" by 3:00 am on 3/12.
+    topicIndex = 25   # Index within the chosen topic list - went up to line 1375 in CONSOLIDATED "In Mary Shelley's \"Frankenstein,\" by 3:00 am on 3/12.
+    #25 was the last topic list that was generated on 3/12 - Pangloss and Candide.
 
     for skill in VALID_SKILLS:
         for difficulty in VALID_DIFFICULTIES:
-            for q in range(DEFAULT_NUM_QUESTIONS):
+            # Get the number of questions to generate for this skill
+            num_questions = get_questions_per_skill(skill)
+            print(f"Generating {num_questions} {difficulty} {skill} questions")
+            
+            for q in range(num_questions):
                 try:
                     if skill not in MATH_SKILLS: #Generate topic for Reading or Writing question but not Math. Double check this works on 3/15, but I think it's conservative and safe.
                         # Get the current topic

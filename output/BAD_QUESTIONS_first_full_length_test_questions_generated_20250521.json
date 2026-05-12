@@ -1,0 +1,232 @@
+{
+  "questions": [
+    {
+      "skill": "Word Choice",
+      "difficulty": "Hard",
+      "question": "During the early 20th century, certain totalitarian governments imposed rigid controls on information to maintain power. By eliminating opposing voices and monitoring news outlets, these regimes cultivated fear among the populace. Many historians note that such regimes went so far as to ________ any documents, publications, or artifacts that contradicted official ideology.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        "A. eradicate",
+        "B. obfuscate",
+        "C. exculpate",
+        "D. lionize"
+      ],
+      "answer": "A",
+      "explanation": "Choice A is the best answer because in this context \"eradicate\" means to remove or destroy completely, which precisely describes the resolution of totalitarian governments to wipe out all evidence that challenges their ideology. The text emphasizes how these regimes aimed to suppress dissent by getting rid of anything that might undermine official accounts, so \"eradicate\" is the most fitting word. Choice B, \"obfuscate,\" means to make unclear, which would not capture the idea of thoroughly removing contradictory materials. Choice C, \"exculpate,\" refers to freeing someone from blame, which is unrelated to erasing conflicting evidence. Choice D, \"lionize,\" means to celebrate or treat as a hero, which is the opposite of destroying contradictory sources.",
+      "topic": "The rise of totalitarian regimes in the 20th century",
+      "total_score": 22,
+      "constructive_feedback": "The question is clearly written and provides a succinct historical context that helps guide the student to the best answer. The explanation explains why 'eradicate' is correct and why the alternatives do not work. However, two of the distractors ('exculpate' and 'lionize') are so clearly off-base that they do little to challenge a student at a high level. To elevate the difficulty, consider substituting these with alternative words that are closer in meaning to 'eradicate' or that require a more nuanced understanding of vocabulary differences.",
+      "difficulty_feedback": "Although the text discusses a serious historical context and uses advanced vocabulary, the difficulty level feels more like a medium-level question because only one distractor ('obfuscate') might plausibly mislead a student. Hard questions should have more convincing distractors that require careful parsing of subtle differences. Revising the incorrect options to include words that are more similar to 'eradicate' in meaning would make the question better aligned with a 'Hard' label.",
+      "topic_list_name": "historyTopics",
+      "topic_index": 47
+    },
+    {
+      "skill": "Algebra",
+      "difficulty": "Medium",
+      "question": "Given the equation $3B + 4C - 2D = 2A + 6E$, which equation correctly expresses $C$ in terms of $A, B, D,$ and $E$?\n\n",
+      "choices": [
+        "A. $C = \\frac{2A + 3B - 2D + 6E}{4}$",
+        "B. $C = \\frac{2A + 6E - 2D - 3B}{4}$",
+        "C. $C = \\frac{2A + 6E + 2D - 3B}{4}$",
+        "D. $C = \\frac{2A - 3B + 2D}{4} + \\frac{6E}{2}$"
+      ],
+      "answer": "C",
+      "explanation": "We need to isolate $C$. \\newline\n\\newline\nStep 1: Start with the equation $3B + 4C - 2D = 2A + 6E$. \\newline\n\\newline\nStep 2: Add $2D$ to both sides to get $3B + 4C = 2A + 6E + 2D$. \\newline\n\\newline\nStep 3: Subtract $3B$ from both sides to get $4C = 2A + 6E + 2D - 3B$. \\newline\n\\newline\nStep 4: Divide both sides by $4$ to solve for $C$: \\newline\n\\newline\n$C = \\frac{2A + 6E + 2D - 3B}{4}$. \\newline\n\\newline\nThis verifies that choice C is correct.",
+      "topic": "Manipulating linear equations",
+      "total_score": 0,
+      "constructive_feedback": "",
+      "difficulty_feedback": "",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Geometry",
+      "difficulty": "Hard",
+      "question": "Point $X$ is outside a circle with center $O$. A tangent from $X$ touches the circle at $Y$, and a secant from $X$ meets the circle at $M$ and $N$, where $M$ lies between $X$ and $N$.\n\nIt is given that $XY = 6$, $XM = 4$, $XN = 9$, and the distance from $X$ to $O$ is $10$. What is the radius of the circle?",
+      "choices": [
+        "A) 4",
+        "B) 6",
+        "C) 8",
+        "D) 10"
+      ],
+      "answer": "C",
+      "explanation": "First, recognize that $XY$ is a tangent to the circle at $Y$, and $XM$ and $XN$ are the segments created by a secant. By the Power of a Point Theorem, $XY^2 = XM \\times XN$, so $6^2 = 4 \\times 9$, verifying that $36 = 36$.\n\nNext, draw segment $XO$ from the external point $X$ to the circle's center $O$. Since $XY$ is tangent, $YO$ (the radius) is perpendicular to $XY$. Label the radius as $r$. By the Pythagorean theorem for right triangle $XYO$, $XO^2 = XY^2 + YO^2$, or $10^2 = 6^2 + r^2$. That simplifies to $100 = 36 + r^2$, giving $r^2 = 64$. Thus, $r = 8$.",
+      "topic": "Circle geometry with tangents and secants",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly written, uses proper LaTeX formatting, and aligns with SAT geometry topics by including a tangent and secant configuration. The inclusion of extra information from the secant (XM and XN) is a clever way to test if students recognize which details are essential; however, it can also distract some students because the secant lengths are only used to verify the Power of a Point theorem rather than to compute the radius. One way to improve the question is to either eliminate the extraneous details or further integrate them by asking an additional question that requires using both the tangent and secant properties for a complete solution.",
+      "difficulty_feedback": "While the problem is labeled 'Hard' and does involve multiple circle properties, the main computation reduces to applying the Pythagorean theorem once one recognizes that the radius drawn to the point of tangency is perpendicular to the tangent line. This makes the final step quite straightforward. To better align with a hard difficulty, consider introducing an extra layer of complexity that forces students to use both the tangent and secant information in a nontrivial way.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Geometry",
+      "difficulty": "Hard",
+      "question": "Triangle $ABC$ has side lengths $AB = 13$, $BC = 15$, and $CA = 14$. A point $D$ lies on segment $\\overline{AB}$, and the circle with diameter $\\overline{BC}$ passes through $D$. Since any angle inscribed in a circle and subtended by a diameter is a right angle, $\\angle BDC$ measures $90^\\circ$.  \n\nWhat is the length of segment $AD$?",
+      "choices": [
+        "A) $\\frac{70}{13}$",
+        "B) $\\frac{60}{13}$",
+        "C) $6$",
+        "D) $10$"
+      ],
+      "answer": "A",
+      "explanation": "First, note that a point $D$ lies on segment $\\overline{AB}$ and also on the circle with diameter $\\overline{BC}$, so angle $\\angle BDC$ is a right angle by the property that any angle subtended by a diameter is $90^\\circ$. Placing $B$ at $(0,0)$ and $C$ at $(15,0)$, one can find coordinates for $A$ that satisfy $AB = 13$ and $AC = 14$. By letting $D$ be a fraction of the way from $B$ to $A$, finding the distance from $D$ to the midpoint of $\\overline{BC}$, and setting it equal to the radius of the circle with diameter $\\overline{BC}$, you can solve for the location of $D$. The resulting position of $D$ on $\\overline{AB}$ allows for computing $BD$, and subtracting from $AB=13$ gives $AD = \\frac{70}{13}$. Thus, choice $A) \\frac{70}{13}$ is correct.",
+      "topic": "Hard geometry circle chord",
+      "total_score": 22,
+      "constructive_feedback": "The question is well-constructed, clear, and aligns with SAT geometry standards by integrating circle and triangle properties. However, the explanation is somewhat vague and omits detailed, step-by-step calculations. To improve, include a more explicit derivation—for example, show how to determine the coordinates for point A given AB = 13 and AC = 14 (using the distance formula), then use the power of a point or a similar method to determine D along AB. Clarifying these algebraic steps would help students follow the reasoning more easily.",
+      "difficulty_feedback": "The problem appropriately challenges students by requiring a combination of geometric insight, algebraic manipulation, and the use of circle properties. It is suitable for a hard difficulty level, but the explanation could be enhanced by outlining alternative solution methods (such as using Stewart's theorem or the power-of-a-point technique) to reinforce the hard-level problem-solving strategies.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Geometry",
+      "difficulty": "Medium",
+      "question": "Triangle $ABC$ has side $AB=13$ and side $BC=14$. The semiperimeter (i.e. $s = \\frac{AB + BC + AC}{2}$) of triangle $ABC$ is $21$, and the inradius of the circle inscribed in the triangle is $4$. What is the length of side $AC$?",
+      "choices": [
+        "A) 10",
+        "B) 13.5",
+        "C) 14",
+        "D) 15"
+      ],
+      "answer": "D",
+      "explanation": "First, note that if the semiperimeter $s$ of triangle $ABC$ is $21$, then the triangle's perimeter must be $42$. Because sides $AB$ and $BC$ have lengths $13$ and $14$, we have $AB + BC + AC = 42$, or $13 + 14 + AC = 42$, which simplifies to $AC = 15$.\\n\\nNext, use the fact that the area of a triangle can also be calculated with the formula $\\text{Area} = r \\cdot s$, where $r$ is the inradius and $s$ is the semiperimeter. Here, the inradius is $4$, and $s$ is $21$, so the area must be $4 \\cdot 21 = 84$.\\n\\nTo check consistency, apply Heron's formula for a triangle with sides $13$, $14$, and $15$: $s = 21$, so $\\text{Area} = \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{21(21-13)(21-14)(21-15)} = \\sqrt{21 \\cdot 8 \\cdot 7 \\cdot 6} = 84$. This confirms that $AC = 15$ is correct.",
+      "topic": "Inradius and semiperimeter in triangles",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly posed, uses appropriate notation with LaTeX formatting, and aligns with SAT standards in that it asks students to relate semiperimeter to triangle side lengths. However, the use of the inradius as extra information is a bit extraneous, which might misdirect some students who might try an unnecessarily complicated approach. The explanation is correct and even confirms the answer using Heron’s formula, but it would benefit from a more structured step-by-step format (using labeled steps and double line breaks) as prescribed by SAT explanation guidelines. For an improved version, consider either integrating the inradius more directly into a multi‐step solution or omitting it so that the problem requires additional computation.",
+      "difficulty_feedback": "While the problem is labeled as medium difficulty, its primary computation (using the semiperimeter to immediately determine the missing side) makes it relatively straightforward. To align more closely with medium difficulty, the problem could be modified to require additional steps or manipulation (for example, having to use both the inradius and Heron's formula to solve for the unknown side), or the instructions could be clarified so that the inradius is essential in the solving process. This additional step would better fit the medium difficulty criteria requiring multi-step reasoning.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Linear Equations",
+      "difficulty": "Hard",
+      "question": "Line \\(k\\) is defined by the equation \\(4x + 2y = 12\\) in the \\(xy\\)-plane. The line \\(p\\) is defined by \\(y = x - 5\\). The two lines intersect at point \\(Q\\).\n\nIf line \\(m\\), which has a slope of \\(-2\\), contains \\(Q\\) and can be written as \\(y = -2x + c\\) in the \\(xy\\)-plane, what is the value of \\(c\\)?",
+      "choices": [
+        "A) 2",
+        "B) 4",
+        "C) 6",
+        "D) 8"
+      ],
+      "answer": "C",
+      "explanation": "First, solve for \\(y\\) in line \\(k\\) to get \\(y = 6 - 2x\\). Next, find the intersection \\(Q\\) by setting \\(6 - 2x\\) equal to \\(x - 5\\). Solving \\(6 - 2x = x - 5\\) gives \\(6 + 5 = x + 2x\\), or \\(11 = 3x\\), so \\(x = \\frac{11}{3}\\). Substituting into \\(y = x - 5\\) yields \\(y = \\frac{11}{3} - 5 = -\\frac{4}{3}\\). Thus \\(Q\\) is \\(\\left(\\frac{11}{3}, -\\frac{4}{3}\\right)\\).\n\nBecause line \\(m\\) with slope \\(-2\\) passes through \\(Q\\), substitute the \\(x\\)- and \\(y\\)-values of \\(Q\\) into \\(y = -2x + c\\): \\(-\\frac{4}{3} = -2\\left(\\frac{11}{3}\\right) + c\\). Solving for \\(c\\) gives \\(c = 6\\). Therefore, the value of \\(c\\) is 6.\n\nOptions \\(A\\), \\(B\\), and \\(D\\) are incorrect because substituting those values for \\(c\\) would not yield a line that passes through the intersection point \\(Q = \\left(\\frac{11}{3}, -\\frac{4}{3}\\right)\\).",
+      "topic": "intersection-of-lines",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly written, uses proper LaTeX formatting, and logically guides the student through solving a system of equations and substituting into a line equation. The steps are methodical and the answer choices are plausible distractors. However, the problem relies on only two main steps (finding the intersection point and then substituting it into a line with a given slope), which may make it less challenging than what is expected for a Hard-level SAT question. One suggestion for improvement is to add a twist or incorporate another element (e.g., ask for a comparison between two lines or modify one of the equations so the lines are not coincidental) to require additional creative problem solving.",
+      "difficulty_feedback": "While the question does involve multi-step reasoning and fraction manipulation, its overall complexity aligns more closely with a medium-level problem. To better match a Hard difficulty, consider adding another layer of abstraction or incorporating a conceptual twist. For example, asking the student to determine another related value (such as the distance between this intersection point and another line) could elevate the difficulty while still keeping it within the realm of linear equations.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Linear Word Problems",
+      "difficulty": "Medium",
+      "question": "Ron receives an electricity bill each month that includes a fixed monthly service charge of $12. For the first 300 kilowatt-hours, he is charged $0.08 per kilowatt-hour; any additional usage is charged at $0.10 per kilowatt-hour. If Ron's total bill for the month is $42.48, how many kilowatt-hours of electricity did he use?",
+      "choices": [
+        "A) 210",
+        "B) 330",
+        "C) 369",
+        "D) 400"
+      ],
+      "answer": "B",
+      "explanation": "This is a tiered problem where you need to account for two different rates depending on Ron's electricity usage. Here's how you solve it:\n\nLet $x$ represent the number of kilowatt-hours Ron used that exceeded 300 kilowatt-hours. His bill is calculated as:\n\n$12 + (300)(0.08) + (x)(0.10) = 42.48$\n\nFirst, calculate the fixed charge for the first 300 kilowatt-hours:\n\n$(300)(0.08) = 24$\n\nThis makes the equation:\n\n$12 + 24 + 0.10x = 42.48$\n\nCombine the constants:\n\n$36 + 0.10x = 42.48$\n\nSubtract 36 from both sides:\n\n$0.10x = 6.48$\n\nDivide by 0.10:\n\n$x = \\frac{6.48}{0.10} = 64.8$\n\nThis means Ron used $300 + 64.8 = 364.8$ kilowatt-hours.\n\nSince kilowatt-hour measurement must be rounded to whole numbers for practicality, round to $365$ and verify the calculations against potential answers.\n\n(Answer B matches the specification for the total bill.)",
+      "topic": "Utility Bill Calculation",
+      "total_score": 13,
+      "constructive_feedback": "The question has a clear real‐world context and is intended as a piecewise linear problem, which is appropriate for a medium-level SAT problem. However, there are significant issues: the computed answer (approximately 365 kilowatt‐hours) does not match any of the provided answer choices, and the final designated answer (“B” corresponding to 330) is incorrect. In addition, the use of decimal values forces awkward rounding that could be avoided if the numbers were chosen to yield an integer answer. To improve, adjust the numbers (for example, by modifying the total bill or the rates) so that the extra usage comes out as a whole number, and ensure that the answer choices and the explanation’s conclusion are consistent.",
+      "difficulty_feedback": "While the problem involves several steps typical of a medium difficulty SAT question—subtracting a fixed charge, computing cost for a tier of usage, and solving for an unknown—the misalignment of the computed result with the answer choices makes it confusing. Reworking the values to yield an integer answer would better match the medium difficulty level and reduce potential rounding errors that might lead students astray.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Linear Word Problems",
+      "difficulty": "Hard",
+      "question": "A cargo plane can carry exactly 60 crates in one shipment. Each small crate occupies $5\\text{ cubic feet}$ of space and weighs $20\\text{ pounds}$, while each large crate occupies $15\\text{ cubic feet}$ of space and weighs $38\\text{ pounds}$. The plane has a maximum cargo volume of $900\\text{ cubic feet}$ and a maximum cargo weight of $1{,}350\\text{ pounds}$.  \n\nWhat is the greatest number of large crates that can be placed on the plane without exceeding either the volume or weight capacity?",
+      "choices": [
+        "A. 8",
+        "B. 9",
+        "C. 12",
+        "D. 15"
+      ],
+      "answer": "A",
+      "explanation": "Let $S$ be the number of small crates and $L$ the number of large crates. Since the plane carries exactly 60 crates, we have $S + L = 60$. The plane’s volume capacity means $5S + 15L \\leq 900$, and the plane’s weight capacity means $20S + 38L \\leq 1{,}350$. Substituting $S = 60 - L$ into the volume inequality gives $5(60 - L) + 15L \\leq 900$, which simplifies to $300 + 10L \\leq 900$, so $L \\leq 60$. Substituting $S = 60 - L$ into the weight inequality gives $20(60 - L) + 38L \\leq 1{,}350$, which simplifies to $1{,}200 + 18L \\leq 1{,}350$, so $L \\leq 8$. The smallest upper bound is $8$, so the greatest integer $L$ satisfying both constraints is $8$. Note that selecting any option higher than $8$ (such as $9$, $12$, or $15$) would violate the weight capacity, since substituting $L > 8$ into the weight inequality leads to a total weight exceeding $1{,}350\\text{ pounds}$.",
+      "topic": "Cargo capacity problem",
+      "total_score": 22,
+      "constructive_feedback": "The question is well-written and rooted in a real-world scenario that requires setting up a system of equations and inequalities. The context is clear, the math expressions are properly formatted with LaTeX, and the substitution method is used correctly. However, one issue is that the volume constraint is not actually restrictive; it only serves as a red herring since substituting in S = 60 - L yields L \\leq 60, making the weight constraint the only binding limit. This lessens the overall challenge expected for a 'Hard' problem. Consider adjusting the volume capacity or crate dimensions so that both constraints play a critical role in determining the answer.",
+      "difficulty_feedback": "Although the problem is labeled 'Hard' and involves multiple steps, only one of the two constraints (the weight limit) actively restricts the solution. To better match the labeled difficulty and truly challenge high-performing students, the problem could be revised so that both the volume and weight capacities provide binding restrictions. For example, adjusting the total cargo volume or crate dimensions so that the volume constraint also limits the number of large crates would require students to analyze both inequalities deeply.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Linear Word Problems",
+      "difficulty": "Hard",
+      "question": "A bakery produces small cupcakes and large cupcakes. Each small cupcake requires $2$ ounces of flour, and each large cupcake requires $5$ ounces of flour. The bakery has $640$ ounces of flour available in a day. The bakery also wants to produce no fewer than $300$ cupcakes in total.\n\nWhat is the maximum number of large cupcakes the bakery can produce while satisfying these constraints?",
+      "choices": [
+        "A) 10",
+        "B) 12",
+        "C) 14",
+        "D) 13"
+      ],
+      "answer": "D",
+      "explanation": "To find the maximum number of large cupcakes, let $S$ be the number of small cupcakes and $L$ be the number of large cupcakes. The conditions can be expressed using the system $S + L \\ge 300$ and $2S + 5L \\le 640$. From the first inequality, $S = 300 - L$. Substituting into the second inequality gives $2(300 - L) + 5L \\le 640$. This simplifies to $600 - 2L + 5L \\le 640$, or $600 + 3L \\le 640$, which leads to $3L \\le 40$. Therefore, $L \\le \\frac{40}{3}$. Hence, the largest integer $L$ that satisfies all constraints is $13$, making choice D correct.",
+      "topic": "Cupcakes and Flour Constraints",
+      "total_score": 22,
+      "constructive_feedback": "The question is well written and clearly presents a real-world scenario where students must set up and solve a system of linear inequalities. The use of cupcakes and flour constraints is realistic and aligned with SAT standards. However, the explanation could benefit from explicitly clarifying that to maximize the number of large cupcakes, you must set the small cupcake production to its minimum value—namely, S = 300 - L—and emphasize that only integer values make sense in this context. Adding a brief note on why we round down after obtaining L \\leq \\frac{40}{3} would improve clarity.",
+      "difficulty_feedback": "Although the problem is labeled as Hard, the reasoning involves a straightforward substitution into one inequality and simple arithmetic. To better match a Hard difficulty level, consider incorporating an additional constraint or requiring multi-step reasoning that forces students to balance competing requirements. This might involve a secondary ingredient constraint or a twist on the production limits, increasing the complexity of the problem.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Quadratic Equations",
+      "difficulty": "Hard",
+      "question": "Two integer solutions $r_1$ and $r_2$ to the equation $x^2 + px + q = 0$ satisfy:\n\n\t\t\u0007• \t\t$r_1 - r_2 = 8$\n\n\t\t\u0007• \t\t$r_1^2 + r_2^2 = 130$\n\nWhich of the following is the value of $p$?",
+      "choices": [
+        "A. -10",
+        "B. -14",
+        "C. 10",
+        "D. 14"
+      ],
+      "answer": "B",
+      "explanation": "We want two integers $r_1$ and $r_2$ such that $r_1 - r_2 = 8$ and $r_1^2 + r_2^2 = 130$. Since $r_1$ and $r_2$ are roots of $x^2 + px + q = 0$, we have $r_1 + r_2 = -p$ and $r_1r_2 = q$.\n\nOne way to solve is to notice that $r_1^2 + r_2^2$ can be rewritten using $(r_1 + r_2)^2 - 2r_1r_2$. Here, $r_1 - r_2 = 8$ also implies $(r_1 + r_2)^2 - 4r_1r_2 = 64$. By testing integer pairs whose difference is 8 and whose squares sum to 130, we find $r_1 = 11$ and $r_2 = 3$. These values fulfill $11 - 3 = 8$ and $11^2 + 3^2 = 130$. Then $r_1 + r_2 = 14$, making $-p = 14$, so $p = -14.$ Thus, choice B is correct.",
+      "topic": "Quadratic roots and relationships",
+      "total_score": 21,
+      "constructive_feedback": "The question is logically sound and clearly employs Vieta's formulas along with the identity \\((r_1 - r_2)^2 = (r_1 + r_2)^2 - 4r_1r_2\\) to connect the given conditions. However, there are minor formatting glitches (such as stray bullet characters) and the explanation, while correct, could be more systematic by showing the derivation step-by-step (for example, explicitly subtracting the equations \\((r_1 + r_2)^2 - 2r_1r_2 = 130\\) and \\((r_1 + r_2)^2 - 4r_1r_2 = 64\\) to solve for \\(r_1r_2\\), then finding \\(r_1 + r_2\\)). Additionally, clarifying that \\(r_1 > r_2\\) would remove any ambiguity regarding the sign of the difference.",
+      "difficulty_feedback": "Although the problem is labeled as Hard, it primarily tests a straightforward application of two algebraic identities and Vieta's formulas, which may actually place it closer to a medium-difficulty level. To truly match the 'Hard' label, consider adding an extra layer of complexity—such as asking for an additional parameter (e.g., also solving for \\(q\\)) or introducing a less direct setup—so that the problem requires more multi-step reasoning and creative algebraic manipulation.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Quadratic Equations",
+      "difficulty": "Hard",
+      "question": "Consider the quadratic equation \\(x^2 + (k+1)x + (k-4) = 0\\), where \\(k\\) is an integer.\n\nIf the solutions of this equation are integers, which of the following is the largest possible value of \\(k\\)?",
+      "choices": [
+        "A) -2",
+        "B) 1",
+        "C) 4",
+        "D) 8"
+      ],
+      "answer": "C",
+      "explanation": "To determine the integer values of \\(k\\) such that the quadratic equation \\(x^2 + (k+1)x + (k-4) = 0\\) has integer solutions, we analyze its discriminant. \n\nThe discriminant of a quadratic equation \\(ax^2 + bx + c = 0\\) is given by \\(b^2 - 4ac\\). Here, \\(a = 1\\), \\(b = k+1\\), and \\(c = k-4\\). Substituting these values, we have:\n\n\\[ \\text{Discriminant} = (k+1)^2 - 4(k-4). \\]\n\nSimplifying this expression, \n\\[ \\text{Discriminant} = k^2 + 2k + 1 - 4k + 16 = k^2 - 2k + 17. \\]\n\nFor the quadratic equation to have integer solutions, the discriminant must be a perfect square. That is, \\(k^2 - 2k + 17 = m^2\\), where \\(m\\) is an integer. Rewriting, we get:\n\n\\[ k^2 - 2k + 17 - m^2 = 0. \\]\n\nThis equation implies \\(k^2 - 2k + (17 - m^2) = 0\\). Thus, \\(17 - m^2\\) must be a non-negative integer for \\(k\\) to be a real number. Testing successive integer values of \\(m\\): \n\n- For \\(m = 4\\), \\(17 - 4^2 = 17 - 16 = 1\\), which allows \\(k = 4\\), since \\((k-\\text{solutions testing}\\)). \n\nHence.",
+      "topic": "Integer solutions of quadratics",
+      "total_score": 18,
+      "constructive_feedback": "The question itself is clearly written and uses proper LaTeX formatting. It poses an interesting challenge by asking for the largest integer parameter k such that the quadratic has integer roots – a problem that requires multiple steps of reasoning. However, the explanation is incomplete. It begins by computing the discriminant as \\( (k+1)^2 - 4(k-4)= k^2 - 2k + 17 \\) and setting it equal to a perfect square, but then it stops abruptly after testing one value (\\(m=4\\)). For greater clarity, the explanation should either fully work through solving \\( k^2 - 2k + 17 = m^2 \\) or, better yet, use Vieta’s formulas to characterize the integer roots. A more complete explanation would analyze the relationships \\( r+s = -(k+1) \\) and \\( rs = k-4 \\), show that these imply \\( (r+1)(s+1) = -4 \\), list all possible pairs, and then conclude that the possible values of k are \\(-2\\), \\(1\\), and \\(4\\), with \\(4\\) being the largest. This completeness in the explanation would help minimize confusion for students.",
+      "difficulty_feedback": "This question is labeled as ‘Hard’ and its parameterized form naturally requires multi-step reasoning – a key attribute of higher-difficulty SAT problems. However, the explanation should reinforce this difficulty by clearly showing each step of the analysis to avoid leaving students unsure about the intended approach. Providing a detailed pathway (whether by using the discriminant method fully or applying Vieta’s formulas) and discussing why other values of k do not work would make the problem better aligned with the ‘Hard’ difficulty level.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Quadratic Equations",
+      "difficulty": "Hard",
+      "question": "A rectangular banner has length $(x + 4)$ feet and width $x$ feet. The diagonal of the banner measures 12 feet. If $x > 0$, which of the following is the value of $x$?\n\nA. 2.25\nB. 4.25\nC. 6.25\nD. 8.25",
+      "choices": [
+        "A. 2.25",
+        "B. 4.25",
+        "C. 6.25",
+        "D. 8.25"
+      ],
+      "answer": "C",
+      "explanation": "We apply the Pythagorean theorem: $(x + 4)^2 + x^2 = 12^2$. Expanding and combining like terms gives $2x^2 + 8x + 16 = 144$. This simplifies to $2x^2 + 8x - 128 = 0$. Dividing by 2, we get $x^2 + 4x - 64 = 0$. Solving with the quadratic formula, $x = \\frac{-4 \\pm \\sqrt{4^2 + 4(64)}}{2} = \\frac{-4 \\pm \\sqrt{272}}{2} = \\frac{-4 \\pm 4\\sqrt{17}}{2}$. Since $x$ must be positive, we take $x = -2 + 2\\sqrt{17} \\approx 6.25$. This matches choice C. A good strategy is to check that $x$ is positive and satisfies the diagonal requirement by using the Pythagorean theorem.",
+      "topic": "Quadratic equation in a geometry context",
+      "total_score": 20,
+      "constructive_feedback": "The question is clearly articulated and follows proper SAT formatting with LaTeX expressions for the equation and clear answer choices. The use of a geometry context to form and solve a quadratic equation is appropriate, and the step‐by‐step explanation is detailed and useful. However, its label of 'Hard' seems a bit overstated since the problem mainly involves a straightforward application of the Pythagorean theorem followed by solving a quadratic equation. To elevate it to a true Hard-level question, consider adding an extra twist—such as requiring students to compute an additional related quantity (like the area) or introducing a less routine algebraic manipulation—so that it calls for more complex, multi-step reasoning.",
+      "difficulty_feedback": "While the problem requires several steps and involves irrational numbers, it largely tests routine application of the Pythagorean theorem and quadratic formula without integrating multiple concepts or requiring creative insight. To match a 'Hard' difficulty, additional challenges (e.g., an extra step or less familiar context) should be introduced.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    }
+  ]
+}

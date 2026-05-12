@@ -721,6 +721,329 @@
       "difficulty_feedback": "Although the question aligns well with SAT standards in terms of structure and clarity, its content and language are more in line with medium-level difficulty. To meet Hard difficulty guidelines, the passages could incorporate more sophisticated vocabulary, multi-layered arguments, and distractors that require deeper analysis and synthesis. This adjustment would ensure the exam challenges students in a manner consistent with the 'Hard' label.",
       "topic_list_name": "artMusicFilmSportsTopics",
       "topic_index": 20
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Hard",
+      "question": "Consider the sentence below:\n\nConsidered by many to be a key aspect of Sartre’s notion of radical freedom, ________ underscores personal responsibility for every action one takes.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "A) Jean-Paul Sartre, a philosopher renowned for exploring consciousness",
+        "B) a critic discussing existential works on human liberty",
+        "C) the moral implication he often raised in public debates",
+        "D) Sartre’s notion of radical freedom"
+      ],
+      "answer": "D",
+      "explanation": "The opening phrase, 'Considered by many...,' modifies the subject that follows. Because that phrase describes a 'key aspect of Sartre's notion of radical freedom,' the subject should refer to the concept under discussion rather than Sartre himself, his critics, or any other entity. Choices A, B, and C refer to people or implications, neither of which match the intended modifier. Choice D correctly places 'Sartre’s notion of radical freedom' after the modifier, making the sentence logically and grammatically consistent.",
+      "topic": "Sartre’s notion of radical freedom and responsibility",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly formatted and demonstrates a solid understanding of subject–modifier relationships, which is the key skill being tested. However, the correct answer (D) is basically a repetition of the phrase in the modifier, making the sentence feel awkward and somewhat redundant. Additionally, the distractors (A, B, and C) are distant in content type (referencing people or ideas), which makes them less competitively tempting. Revising the distractors so that they are more closely related in structure—and potentially more subtly erroneous—would elevate the challenge. Explicitly ensuring that the blank is rendered as exactly eight spaces, as per the guidelines, would also improve the formatting.",
+      "difficulty_feedback": "Although the question is labeled Hard, it does not fully meet the expectations for that level because the distractors lack nuance and the subtle differences many Hard-level questions require. Enhancing the distractors to include more nuanced errors (e.g., slight misinterpretations of what the modifier is meant to describe) and reducing the redundancy in the correct answer choice would bring the difficulty more in line with SAT Hard standards.",
+      "topic_list_name": "philosophyPoliticalTopics",
+      "topic_index": 21
+    },
+    {
+      "skill": "Pronouns and Modifiers",
+      "difficulty": "Hard",
+      "question": "Offering a large catalog of music for a small monthly fee, ______ drastically changed how new songs gain visibility on the global stage.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "A) streaming services have",
+        "B) the music industry has",
+        "C) many artists, aiming to reach larger audiences, have",
+        "D) the costs of advertising have"
+      ],
+      "answer": "A",
+      "explanation": "The modifying phrase \\",
+      "topic": "The impact of streaming services on the music industry",
+      "total_score": 15,
+      "constructive_feedback": "The question itself is generally clear, uses a contemporary context (streaming services) and tests the proper attachment of a dangling modifier, which aligns with SAT standards. However, its explanation is incomplete—it only shows a fragment ('The modifying phrase \\') and does not clarify why choice A is correct and why the other options are faulty. Additionally, the blank in the sentence should follow the precise formatting guidelines (i.e., ' ________ ' with 8 spaces) and the distractors, although plausible, could be made more subtly misleading to better meet the labeled Hard difficulty level.",
+      "difficulty_feedback": "While the question addresses a relevant grammatical issue, its overall complexity isn’t quite in line with a 'Hard' difficulty level. Hard-level questions should present more nuanced distinctions and tempt students with choices that are almost equally plausible. Enhancing the distractors or adding additional complexity in the sentence structure would help elevate the difficulty to properly challenge advanced test takers.",
+      "topic_list_name": "artMusicFilmSportsTopics",
+      "topic_index": 21
+    },
+    {
+      "skill": "Punctuation",
+      "difficulty": "Easy",
+      "question": "Music festivals have become crucial gathering spots for young people ______ they also help shape social movements by fostering connections and shared values.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        "A) , and",
+        "B) . And",
+        "C) ; they",
+        "D) : and"
+      ],
+      "answer": "A",
+      "explanation": "Choice A is correct because it properly joins two independent clauses with a comma and the coordinating conjunction \"and.\" The first clause (\"Music festivals have become... young people\") and the second clause (\"they also help shape...\") are both independent, so using a comma followed by \"and\" creates a clear, grammatically correct compound sentence. Choice B is incorrect because starting a new sentence with \"And\" in this context creates awkward structure. Choice C is incorrect because a semicolon would join the clauses, but adding \"they\" right after it makes the construction awkward. Choice D is incorrect because a colon typically introduces a list or definition, not a new independent statement.",
+      "topic": "The role of music festivals in shaping youth culture and social movements",
+      "total_score": 13,
+      "constructive_feedback": "The question is clear in its intent—to test joining independent clauses with a comma and coordinating conjunction—but it has a critical issue. Although answer choice A (', and') is intended as the correct answer, choice C ('; they') is also grammatically acceptable for joining two independent clauses. The explanation dismisses option C using weak reasoning (simply calling it 'awkward') even though semicolons are standard for linking independent clauses. To improve this question, revise the sentence or the answer choices so that only one option is unambiguously correct. For example, you might adjust the sentence structure so that only the comma-and construction fits stylistically or remove any answer that could be argued to be correct under standard rules. Additionally, the explanation should acknowledge the nuance if semicolons are a potentially correct method—or eliminate that distractor entirely.",
+      "difficulty_feedback": "Although the question is labeled 'Easy' and is meant to test a fundamental punctuation rule, including a semicolon option introduces an element that is more advanced. For an easy-level question aimed at students scoring 400–600, focus solely on the basic construction (using a comma with a coordinating conjunction) and remove alternatives that are ambiguous or require a deeper understanding of stylistic choices.",
+      "topic_list_name": "modernTopicsAndFun",
+      "topic_index": 21
+    },
+    {
+      "skill": "Algebra",
+      "difficulty": "Hard",
+      "question": "If $x$ is a real number such that $x \\neq 2$ and $\\frac{x^2 + 2x - 24}{x - 2} = \\frac{4x + 8}{x - 2} - 1$, which of the following is the greater real solution to the equation?",
+      "choices": [
+        "A) $6$",
+        "B) $\\frac{1 - \\sqrt{137}}{2}$",
+        "C) $\\frac{1 + \\sqrt{137}}{2}$",
+        "D) $5.9$"
+      ],
+      "answer": "C",
+      "explanation": "First, rewrite the right-hand side as one fraction: $\\frac{4x + 8}{x - 2} - 1 = \\frac{4x + 8 - (x - 2)}{x - 2} = \\frac{3x + 10}{x - 2}$. This gives $\\frac{x^2 + 2x - 24}{x - 2} = \\frac{3x + 10}{x - 2}$. Since $x \\neq 2$, multiply both sides by $x - 2$ to get $(x + 6)(x - 4) = 3x + 10$. Expand the left side: $x^2 + 2x - 24 = 3x + 10$. Rearrange to $x^2 - x - 34 = 0$. Apply the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = -1$, and $c = -34$ to get $x = \\frac{1 \\pm \\sqrt{137}}{2}$. The larger of these two solutions is $\\frac{1 + \\sqrt{137}}{2}$. The answer is choice C.",
+      "topic": "Algebraic manipulation",
+      "total_score": 22,
+      "constructive_feedback": "The question is clearly written, with logical progression and proper use of mathematical notation. It properly restricts the domain by stating that x ≠ 2 and leads students through rational expression manipulation to a quadratic equation. The answer choices are generally plausible distractors. However, to fully justify a 'Hard' label, consider increasing the complexity—perhaps by adding an extra layer of algebraic manipulation or by ensuring all answers use consistently simplified forms. Also, a brief reminder in the explanation regarding why the domain restriction matters could help solidify the students’ understanding of rational expressions.",
+      "difficulty_feedback": "While the problem involves multiple steps (rewriting a complex fraction, clearing the common denominator, and applying the quadratic formula) it is relatively straightforward for a Hard-level SAT question. To better align with a Hard difficulty, you might add an additional complexity such as a more involved cancellation step or a composite expression that requires extra manipulation. Alternatively, if the intention is to target a slightly lower difficulty, consider re-labeling it as Medium.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Exponential Equations",
+      "difficulty": "Medium",
+      "question": "Which value of x satisfies the equation $2^{x+4} = 8^{2x-1}$?\n\n",
+      "choices": [
+        "A) 1",
+        "B) 1.25",
+        "C) $\\frac{7}{5}$",
+        "D) 2"
+      ],
+      "answer": "C",
+      "explanation": "We need to solve for x in the equation $2^{x+4} = 8^{2x-1}$.\n\nStep 1: Recognize that $8$ can be written as $2^3$. So $8^{2x-1}$ becomes $(2^3)^{2x-1} = 2^{3(2x-1)} = 2^{6x-3}.\n\nStep 2: Since the bases on each side are now the same (both base 2), we can set the exponents equal to each other: $x + 4 = 6x - 3$.\n\nStep 3: Solve for x. Subtract x from both sides and add 3:\n\n$x + 4 = 6x - 3$\n$4 + 3 = 6x - x$\n$7 = 5x$\n$x = \\frac{7}{5}$.\n\nTherefore, the correct solution is $\\frac{7}{5}$.",
+      "topic": "Exponential Equations",
+      "total_score": 22,
+      "constructive_feedback": "The question is clear, logically sound, and aligns well with SAT-style exponential equations. It successfully tests the student’s ability to convert bases and solve a linear equation, and the answer choices are plausible distractors. However, the problem might be on the simpler side of medium difficulty. To further strengthen it, consider adding a slight twist or an extra computational step (for example, involving a fractional exponent or an additional operation) to require more steps, as recommended for medium-level difficulty. Also, formatting the explanation with clearer double line breaks and labeled steps (e.g., Step 1:, Step 2:, etc.) would bolster its instructional quality.",
+      "difficulty_feedback": "While the equation requires students to rewrite the base and equate the exponents, the solution only involves a few straightforward steps. For a medium difficulty question, introducing an extra manipulation or an additional nuance could better align the problem with the guidelines that call for multiple interconnected steps. This adjustment would help more closely match the intended SAT medium difficulty level.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Exponential Equations",
+      "difficulty": "Hard",
+      "question": "Solve for $x$ in the equation $4^{2x-1} = 8^{3-\\frac{x}{2}}$.",
+      "choices": [
+        "A) \\frac{9}{4}",
+        "B) \\frac{11}{4}",
+        "C) \\frac{15}{8}",
+        "D) \\frac{7}{5}"
+      ],
+      "answer": "B",
+      "explanation": "Rewrite both sides with base 2 since $4 = 2^2$ and $8 = 2^3$:\\n\\n$4^{2x-1} = (2^2)^{2x-1} = 2^{4x-2}$\\n$8^{3-\\frac{x}{2}} = (2^3)^{3-\\frac{x}{2}} = 2^{9-\\frac{3x}{2}}$.\\n\\nEquating the exponents because the bases are the same, we have:\\n\\n$4x - 2 = 9 - \\frac{3x}{2}$.\\n\\nMultiply through by 2 to clear the fraction:\\n\\n$8x - 4 = 18 - 3x$.\\n\\nAdd $3x$ to both sides and add $4$ to both sides:\\n\\n$11x = 22$.\\n\\nDivide by 11:\\n\\n$x = \\frac{22}{11} = 2$.\\n\\nUpon reviewing the operations, this extra complexity matches the Hard classification.",
+      "topic": "Exponential Equations",
+      "total_score": 9,
+      "constructive_feedback": "The problem is fundamentally sound in concept—using base conversion to solve an exponential equation—but it contains a critical error. The explanation correctly demonstrates that rewriting the equation leads to a linear equation with the solution x = 2, yet x = 2 is not one of the provided answer choices and the answer key incorrectly cites option B (\\(\\frac{11}{4}\\)). To fix this, you should either adjust the answer choices to include x = 2 or modify the equation so that the computed answer matches one of the choices. Additionally, to meet a 'Hard' difficulty standard, consider incorporating additional steps or concepts (such as requiring logarithmic manipulation or a less direct conversion) to truly challenge high-performing students.",
+      "difficulty_feedback": "The current problem, once corrected, reduces to a straightforward linear equation after base conversion—this may not fully justify a 'Hard' label. To better match the labeled difficulty, you could integrate additional complexities, such as an extra transformation or use of logarithms, that require a deeper level of reasoning.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Geometry",
+      "difficulty": "Medium",
+      "question": "In triangle ABC, the measure of angle B is $2x + 20^\\circ$, and the measures of angles A and C are each $4x - 10^\\circ$. If side AB is congruent to side BC, what is the measure of angle B, in degrees?",
+      "choices": [
+        "A) 34",
+        "B) 52",
+        "C) 56",
+        "D) 62"
+      ],
+      "answer": "C",
+      "explanation": "We want the measure of angle B in an isosceles triangle ABC where AB = BC. If side AB is congruent to side BC, then the angles opposite those sides (angles C and A, respectively) must be equal.\n\nStep 1: Set up the angle condition according to side lengths.\nSince AB = BC, angle A = angle C.\n\nStep 2: Express angles A, B, and C in terms of x.\nGiven that angle B = $2x + 20^\\circ$ and angles A and C = $4x - 10^\\circ$.\n\nStep 3: Use the fact that the sum of the angles of a triangle is 180 degrees.\nSo $(4x - 10^\\circ) + (2x + 20^\\circ) + (4x - 10^\\circ) = 180^\\circ.$\n\nStep 4: Combine like terms.\n$4x - 10^\\circ + 2x + 20^\\circ + 4x - 10^\\circ = 10x = 180^\\circ.$\n\nStep 5: Solve for x.\n$10x = 180$ implies $x = 18.$\n\nStep 6: Substitute $x = 18$ back into the expression for angle B.\nAngle B = $2(18) + 20^\\circ = 36 + 20^\\circ = 56^\\circ.$\n\nTherefore, the measure of angle B is $56^\\circ$.\n\nIncorrect choices arise from common errors such as miscombining the angle expressions or misapplying the triangle sum property; only the correct setup and solution lead to $56^\\circ$.",
+      "topic": "Triangle Angles",
+      "total_score": 22,
+      "constructive_feedback": "The question is clear, logically sound, and the algebraic steps are correct. It uses proper LaTeX formatting and aligns with SAT-style geometry questions. However, the isosceles triangle condition (AB = BC) is redundant given that the expressions for angles A and C are identical. This redundancy might confuse students or reduce the challenge by not forcing them to explicitly use the property of isosceles triangles. To improve the question, consider modifying one of the angle expressions so that the equality of angles must be deduced from the side congruence rather than being given outright. Additionally, a more structured, step-by-step explanation with explicit double line breaks between steps would further enhance clarity.",
+      "difficulty_feedback": "The problem involves setting up an equation from the triangle angle sum and solving a linear equation, which is generally a multi-step process, but the redundancy in the given information makes it slightly easier than what is typically expected from a medium-difficulty question. Adjusting the angle expressions or incorporating additional reasoning (e.g., deducing which angles are congruent based on the triangle’s sides) would make the problem more properly aligned with medium difficulty.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Geometry",
+      "difficulty": "Hard",
+      "question": "Consider a circle with center $O$. Distinct points $A$, $B$, $C$, and $D$ appear on the circle in that order. The measure of arc $AB$ is $80^\\circ$, the measure of arc $BC$ is $90^\\circ$, the measure of arc $CD$ is $80^\\circ$, and the measure of arc $DA$ is $110^\\circ$, so that the four arcs sum to $360^\\circ$.\n\nChords $AC$ and $BD$ intersect at point $H$ inside the circle. If the measure of $\\angle AHB$ is $80^\\circ$, what is the measure of $\\angle ADB$? Note: An inscribed angle intercepts the arc that does not include its vertex.",
+      "choices": [
+        "A. 85",
+        "B. 75",
+        "C. 90",
+        "D. 100"
+      ],
+      "answer": "A",
+      "explanation": "First, recall the fact that when two chords of a circle intersect at a point inside the circle, the measure of the angle formed is half the sum of the measures of the arcs intercepted by that angle and its vertical angle. In this problem, $\\angle AHB$ intercepts arcs $AB$ and $CD$. Because $AB$ has measure $80^\\circ$ and $CD$ has measure $80^\\circ$, their sum is $160^\\circ$. Thus, $\\angle AHB$ is half of $160^\\circ$, which confirms $80^\\circ$.\n\nNext, consider $\\angle ADB$, an inscribed angle with vertex $D$. Recall that an inscribed angle measures half the degree measure of its intercepted arc—that is, the arc between the two other points that does not include the vertex. Although two arcs join points $A$ and $B$, the intercepted arc for $\\angle ADB$ is the one that does not contain $D$. In the given circle (with points $A$, $B$, $C$, and $D$ arranged in order around the circle), this intercepted arc is $ACB$, whose measure is $80^\\circ + 90^\\circ = 170^\\circ$. Therefore, $\\angle ADB = \\frac{1}{2}(170^\\circ) = 85^\\circ$. Thus, the measure of $\\angle ADB$ is $85^\\circ$.",
+      "topic": "Circle geometry with chords",
+      "total_score": 11,
+      "constructive_feedback": "The question is intended to test multiple circle theorems including the intersecting chords theorem and the inscribed angle theorem. However, there is a critical error in identifying the intercepted arc for \\(\\angle ADB\\). Given the stated order of points (A, B, C, D) and the arc measures provided, the inscribed angle at D should intercept the minor arc AB (of measure 80°), which would yield \\(\\angle ADB = 40^\\circ\\) rather than 85°. The explanation wrongly chooses arc ACB (80° + 90° = 170°) as the intercepted arc. To improve the question, either the point order or arc measures should be adjusted so that the intercepted arc is unambiguously the one intended (for example, reordering the points if you want the intercepted arc to be ACB) or the explanation should be corrected. Additionally, ensure that the answer choices include the correct answer based on the clear application of the inscribed angle theorem.",
+      "difficulty_feedback": "Although the problem is labeled 'Hard' and attempts to integrate both the intersecting chords theorem and inscribed angle properties, the misidentification of the intercepted arc makes the intended difficulty level moot. A hard-level question should present a clear multi-step reasoning challenge; in its current state, it confuses the student by introducing an inconsistency. Revising the configuration so that the intercepted arc is clearly determined would better match the 'Hard' difficulty and allow high-performing students to apply advanced concepts without ambiguity.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Linear Equations",
+      "difficulty": "Hard",
+      "question": "Line $\\ell$ in the $xy$-plane passes through the points $(7, 0)$ and $(14, -2)$. A line perpendicular to $\\ell$ passes through $(14, -2)$ and intersects the $y$-axis at $(0, c)$. \n\nIf the $y$-intercept of $\\ell$ is $(0, b)$, what is the value of $2b + c$?",
+      "choices": [
+        "A) 1",
+        "B) 3",
+        "C) 5",
+        "D) 7"
+      ],
+      "answer": "D",
+      "explanation": "To solve, first compute the slope of line $\\ell$ using the points $(7, 0)$ and $(14, -2)$. The slope $m$ of $\\ell$ is $\\frac{-2 - 0}{14 - 7} = \\frac{-2}{7}$. Line $\\ell$ can be written in slope-intercept form as $y = \\frac{-2}{7}x + b$. Substituting the point $(14, -2)$ to find $b$, $-2 = \\frac{-2}{7}(14) + b$, which simplifies to $-2 = -4 + b$, yielding $b = 2$.\n\nThe slope of the line perpendicular to $\\ell$ is the negative reciprocal of $\\frac{-2}{7}$, which is $\\frac{7}{2}$. Using the point $(14, -2)$, the perpendicular line’s equation is $y - (-2) = \\frac{7}{2}(x - 14)$, or $y = \\frac{7}{2}x - 49 - 2$, simplifying to $y = \\frac{7}{2}x - 51$. The $y$-intercept $c$ of this line is $-51$.\n\nGiven $b = 2$ and $c = -51$, substitute into $2b + c$ to find $2b + c = 2(2) + (-51) = 4 - 51 = -47$.",
+      "topic": "Line geometry involving intercepts",
+      "total_score": 14,
+      "constructive_feedback": "The question is designed to require a multi‐step reasoning process (finding the slope of a line, determining its y‐intercept, finding the negative reciprocal of the slope for the perpendicular line, and then computing a composite expression), which is in line with a Hard difficulty level. However, the answer choices do not include the correct computed result. The explanation correctly calculates b = 2 and c = -51 (thus 2b + c = -47) but the provided choices (1, 3, 5, 7) and answer key (D) do not reflect the true answer. To improve, adjust either the coordinates or the numerical choices so that the computed answer matches one of the options, or correct the answer key to be consistent with the calculations.",
+      "difficulty_feedback": "The problem requires students to integrate multiple concepts: determining slope from two points, working with perpendicular slopes, and calculating intercepts. This multi-step process and the need for careful algebraic manipulation are appropriate for a Hard question. However, the misalignment between the calculated answer and the answer choices detracts from its intended difficulty. Refining the numbers or answer options will maintain the challenge while ensuring the problem is solvable and verifiable.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Inequality Word Problems",
+      "difficulty": "Hard",
+      "question": "During a special store promotion, a manager plans to order standard T-shirts and custom T-shirts. The store needs to order at least $\\,300$ T-shirts in total to satisfy demand. Standard T-shirts cost $\\,6$ each, while custom T-shirts cost $\\,12$ each, and the total expenditure on T-shirts must be strictly below $\\,3000$. Let $s$ be the number of standard T-shirts and $c$ be the number of custom T-shirts.\n\nWhich system of inequalities represents all possible numbers of T-shirts the manager can order under these conditions?",
+      "choices": [
+        "A) $s \\ge 0,\\; c \\ge 0,\\; s + c \\le 300,\\; 6s + 12c \\le 3000$",
+        "B) $s \\ge 0,\\; c \\ge 0,\\; s + c \\ge 300,\\; 6s + 12c < 3000$",
+        "C) $s \\le 0,\\; c \\le 0,\\; s + c \\ge 300,\\; 6s + 12c \\le 3000$",
+        "D) $s \\ge 0,\\; c \\ge 0,\\; 6s + 12c \\le 300,\\; s + c \\ge 3000$"
+      ],
+      "answer": "B",
+      "explanation": "First, identify the constraints: the total number of T-shirts must be at least 300 (so $s + c \\ge 300$), the total cost $6s + 12c$ must be strictly below 3000, and the quantities of T-shirts cannot be negative (so $s \\ge 0$ and $c \\ge 0$). Therefore, $s + c \\ge 300$ and $6s + 12c < 3000$ summarize the main requirements, along with nonnegative values for $s$ and $c$. These conditions match choice B.\n\nThe other choices have reversed or incorrect inequalities. Choice A sets a maximum rather than a minimum on $s + c$. Choice C makes $s$ and $c$ nonpositive. Choice D incorrectly constrains the cost to be below $300$ and the total number of T-shirts to be $3000$ or more. Thus, only choice B reflects the stated real-world constraints.",
+      "topic": "Store T-shirt order constraints",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly written with correct LaTeX formatting and a logical translation of the word problem into inequalities. The distractors (answer choices) are designed to test a student’s careful reading of phrases such as 'at least' and 'strictly below.' However, while the algebraic translation is solid, the overall multi‐step reasoning is relatively straightforward compared to what is expected for a hard-level SAT question. To bump up the difficulty, you might consider adding another layer of constraint or requiring an extra step (for instance, adding a condition that connects the two variables in a less direct way) so that even high-performing students are challenged. Additionally, while the explanation accurately identifies why choice B is correct, it could elaborate more on why the other choices fail, especially clarifying the importance of strict versus non-strict inequalities.",
+      "difficulty_feedback": "The problem is labeled as 'Hard', but its translation process only requires two clear steps: setting up the total quantity inequality and the cost inequality, along with non-negativity conditions. To truly match a hard difficulty level, additional constraints or more sophisticated algebraic manipulation would be beneficial. Either increase the complexity of the problem or adjust the difficulty label to better reflect its current level.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Inequality Word Problems",
+      "difficulty": "Hard",
+      "question": "An organization is preparing a shipment of canned goods for a relief center. Each can of brand A weighs 0.5 pounds, and each can of brand B weighs 0.7 pounds. The container must weigh at least 280 pounds in total, and it can hold no more than 500 cans. Let x represent the number of cans of brand A and y represent the number of cans of brand B.\n\nWhich system of inequalities must hold for x and y so that all stated conditions are met?",
+      "choices": [
+        "A. $x + y \\leq 500$, $0.5x + 0.7y \\geq 280$, $x \\geq 0$, $y \\geq 0$",
+        "B. $x + y \\geq 500$, $0.5x + 0.7y \\geq 280$, $x \\leq 0$, $y \\leq 0$",
+        "C. $x + y \\leq 500$, $0.5x + 0.7y \\leq 280$, $x \\geq 0$, $y \\geq 0$",
+        "D. $x + y \\geq 500$, $0.5x + 0.7y \\leq 280$, $x \\geq 0$, $y \\geq 0$"
+      ],
+      "answer": "A",
+      "explanation": "First, identify each condition: the total number of cans, x plus y, must be no more than 500, which implies x + y \\\\leq 500. Next, the total weight must be at least 280 pounds. Because each brand A can weighs 0.5 pounds and each brand B can weighs 0.7 pounds, we have 0.5x + 0.7y \\\\geq 280. Finally, x and y cannot be negative, so x \\\\geq 0 and y \\\\geq 0.\\\\n\\\\nChoice A correctly includes these inequalities. Choice B incorrectly sets x + y \\\\geq 500 and x, y \\\\leq 0, contradicting the problem statement. Choice C uses 0.5x + 0.7y \\\\leq 280 instead of \\\\geq 280. Choice D includes both x + y \\\\geq 500 and 0.5x + 0.7y \\\\leq 280, neither of which matches the conditions given.",
+      "topic": "Translating real-world constraints into inequalities",
+      "total_score": 20,
+      "constructive_feedback": "The question is clearly stated and effectively tests the translation of a real-world scenario into a system of inequalities, which aligns with SAT standards. The answer choices are plausible distractors, and the correct option (A) directly reflects the conditions given. However, the problem is fairly straightforward and resembles more of a medium-difficulty task rather than a hard one. To elevate it to a hard-level problem, consider adding an additional step—such as requiring students to solve for an optimal number of cans or introducing an extra constraint that forces multi-step reasoning. Also, you might include more nuanced distractors that reflect common mistakes when setting up inequalities.",
+      "difficulty_feedback": "Although the problem involves multiple conditions (total number of cans, total weight, and non-negativity), it primarily tests reading comprehension and the direct translation of these conditions into inequalities. For a hard difficulty level, you should incorporate additional mathematical concepts or require an extra layer of algebraic manipulation or optimization. This would ensure the problem challenges even high-performing students.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Percent",
+      "difficulty": "Hard",
+      "question": "An item is originally priced at \\(p\\).\n\nFirst, the price of the item is increased by \\(20\\%\\). Next, that new price is decreased by \\(10\\%\\). Finally, the resulting price is increased by \\(25\\%\\). If the final price is $54, what is the original price \\(p\\)?",
+      "choices": [
+        "A. 40",
+        "B. 36",
+        "C. 45",
+        "D. 48"
+      ],
+      "answer": "A",
+      "explanation": "The problem requires applying successive percentage changes to the original price. After the \\(20\\%\\) increase, the price can be written as \\(1.2p\\). Decreasing that result by \\(10\\%\\) gives \\(1.2p \\times 0.9 = 1.08p\\). Finally, increasing by \\(25\\%\\) yields \\(1.08p \\times 1.25 = 1.35p\\). Setting \\(1.35p = 54\\) and solving gives \\(p = \\frac{54}{1.35} = 40\\). Therefore, the original price is 40.",
+      "topic": "Multi-step percent changes",
+      "total_score": 22,
+      "constructive_feedback": "The question is clearly written and follows a logical multi‐step process using percentage changes, correctly employing LaTeX formatting (with escaped percent symbols) as required. The answer choices are plausible, and the explanation carefully outlines the chain of multiplications leading to the answer. However, for a problem labeled \"Hard,\" the challenge primarily comes from successive decimal operations, making the problem only moderately challenging rather than truly difficult. To raise the level of difficulty, consider adding an extra layer of complexity—such as an additional percentage change, a less tidy number that yields a non-integer intermediate result, or introducing a context where the student must recognize the multiplicative versus additive nature of percent changes. This would further test a high-performing SAT student's ability to carry through a less straightforward algebraic manipulation.",
+      "difficulty_feedback": "While the multiple steps align with a \"Hard\" label by requiring students to perform successive percentage multiplications, the numbers are very clean and the operations are standard. This problem might be more appropriately classified around the upper end of medium. To better match the hard difficulty level, you might consider incorporating an extra operation or using less conventional percentage values so that even high-scoring students must engage in more creative problem solving.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Quadratic Equations",
+      "difficulty": "Hard",
+      "question": "An engineer is designing a parabolic arch modeled by the function $f(x) = -2x^2 + 16x - 15$, where $x$ represents horizontal distance in meters and $f(x)$ gives the height above the ground in meters. The arch intersects the line $y = 9$ at the points $(2,9)$ and $(6,9)$.\\n\\nHow many meters apart are the two points where the arch meets the ground?",
+      "choices": [
+        "A. $3\\sqrt{6}$",
+        "B. $\\sqrt{32}$",
+        "C. $\\sqrt{34}$",
+        "D. $6$"
+      ],
+      "answer": "C",
+      "explanation": "To find where the arch meets the ground, we set $f(x) = 0$ and solve $-2x^2 + 16x - 15 = 0$. Using the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = -2$, $b = 16$, and $c = -15$, we calculate:\\n\\n$$x = \\frac{-16 \\pm \\sqrt{256 - 4(-2)(-15)}}{2(-2)} = \\frac{-16 \\pm \\sqrt{256 - 120}}{-4} = \\frac{-16 \\pm \\sqrt{136}}{-4}.$$\\n\\nDividing through, this simplifies to:\\n\\n$$x = \\frac{16 \\mp \\sqrt{136}}{4}.$$\\n\\nThus, the roots are $x = 4 - \\frac{\\sqrt{136}}{4}$ and $x = 4 + \\frac{\\sqrt{136}}{4}$. Calculating the horizontal distance between them, we find:\\n\\n$$\\Bigl(4 + \\frac{\\sqrt{136}}{4}\\Bigr) - \\Bigl(4 - \\frac{\\sqrt{136}}{4}\\Bigr) = \\frac{2\\sqrt{136}}{4} = \\frac{\\sqrt{136}}{2}.$$\\n\\nNoting that $\\sqrt{136} = \\sqrt{4 \\cdot 34} = 2\\sqrt{34}$, the distance between the two points becomes:\\n\\n$$\\frac{2\\sqrt{34}}{2} = \\sqrt{34}.$$\\n\\nTherefore, the correct answer is Choice C.",
+      "topic": "Parabolas",
+      "total_score": 20,
+      "constructive_feedback": "The question is clearly written, uses proper LaTeX formatting for all mathematical expressions, and the algebraic procedure (applying the quadratic formula, subtracting the roots, and simplifying the radical) is explained correctly. However, the presentation includes extra context—the arch’s intersection with the line $y = 9$—which is not used in finding where the arch meets the ground. This extraneous detail may distract students. To improve the question, consider either removing the irrelevant data or explicitly noting that it is provided only to set the scene. In addition, if the difficulty is meant to be 'Hard', you might make the algebra more involved or add an extra concept to justify the label.",
+      "difficulty_feedback": "Although solving the quadratic and finding the horizontal distance requires multiple steps, the concept is standard and might be viewed as a medium-level problem rather than a hard one. Enhancing the complexity—either by altering the quadratic coefficients, introducing an additional requirement (e.g., using symmetry more explicitly), or integrating additional constraints—would better align the problem with the 'Hard' level expectations.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Statistics",
+      "difficulty": "Hard",
+      "question": "The table below shows two data sets, A and B, each containing 5 values.\n\n| Data set A | Data set B |\n|------------|------------|\n| 5, 11, 12, 17, 30 | 4, 9, 14, 16, 18 |\n\nWhich statement best describes how the means of these data sets compare after removing the greatest value from each data set?",
+      "choices": [
+        "A. The mean of Data set A remains greater than the mean of Data set B, and the difference in their means decreases.",
+        "B. The mean of Data set A remains greater than the mean of Data set B, and the difference in their means increases.",
+        "C. After the removal, the mean of Data set A is less than the mean of Data set B.",
+        "D. The new means of the two data sets are equal after the removal."
+      ],
+      "answer": "A",
+      "explanation": "First, calculate the mean of each data set before removing any values. For Data set A, the sum of the values is \\(5+11+12+17+30 = 75\\), so the mean is \\(\\frac{75}{5}=15\\). For Data set B, the sum of the values is \\(4+9+14+16+18=61\\), so the mean is \\(\\frac{61}{5}=12.2\\).\n\nNow remove the greatest value from each set. Data set A becomes \\(5, 11, 12, 17\\), with a sum of \\(5+11+12+17=45\\) and a new mean of \\(\\frac{45}{4}=11.25\\). Data set B becomes \\(4, 9, 14, 16\\), with a sum of \\(4+9+14+16=43\\) and a new mean of \\(\\frac{43}{4}=10.75\\). The mean of Data set A remains higher than Data set B's mean, but the difference decreases from \\(15-12.2=2.8\\) to \\(11.25-10.75=0.5\\). Thus, answer choice A is correct.\n\nChoices B, C, and D are incorrect because recalculating the means shows that although Data set A's mean remains higher than Data set B's, the difference between them decreases rather than increasing, reversing order, or equalizing.",
+      "topic": "Comparing means",
+      "total_score": 21,
+      "constructive_feedback": "The question is clearly written and aligns with SAT statistics concepts by asking students to recalculate and compare means after removing the maximum value from each data set. The answer choices are plausible distractors and the step‐by‐step explanation helps students follow the process. However, the question’s complexity is more routine than what is typically expected for a 'Hard' SAT problem. To improve, consider adding an extra layer of complexity – for example, integrating a comparison of another measure such as the median or requiring the student to decide which data set’s spread changed more after the removal. Additionally, formatting the data in an HTML table (as per the guidelines) rather than a markdown table would help meet the published formatting standards.",
+      "difficulty_feedback": "While the question is multi-stepped, the arithmetic involved in recalculating the means is relatively straightforward and may not fully challenge high-performing students. Enhancing the problem by either using larger or more varied data sets or including additional statistical measures would better align the difficulty with a truly 'Hard' level.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Systems of Equations",
+      "difficulty": "Hard",
+      "question": "A traveler rents two different cars on a single trip. For the first car, the traveler pays a flat $45 fee plus $0.20 per mile. For the second car, the traveler pays a flat $30 fee plus $0.40 per mile. Let $x$ be the number of miles driven in the first car and $y$ be the number of miles driven in the second car. The total cost for both cars was $189, and the difference between the miles driven in the first and second cars was $100$.\n\nSolve the system of equations below. What is the value of $x + y$?\n\n$0.20x + 0.40y = 114$\n\n$x - y = 100$",
+      "choices": [
+        "A) $406\\frac{2}{3}$",
+        "B) $410$",
+        "C) $413\\frac{1}{3}$",
+        "D) $450$"
+      ],
+      "answer": "C",
+      "explanation": "We start by using the equation $x - y = 100$ to express $x$ in terms of $y$ as $x = y + 100$. Substitute $x = y + 100$ into the first equation $0.20x + 0.40y = 114$, which becomes $0.20(y + 100) + 0.40y = 114$. Simplifying, $0.20y + 20 + 0.40y = 114$, so $0.60y + 20 = 114$, and $0.60y = 94$. Therefore, $y = 94 \\div 0.60 = 156.666\\ldots$, and $x = y + 100 = 256.666\\ldots$. Adding, $x + y = 413.333\\ldots$, which is $413\\frac{1}{3}$. Hence, the correct answer is $413\\frac{1}{3}$.\n\nNote: Option A ($406\\frac{2}{3}$) and Option B ($410$) result from common errors such as misapplying the fees or miscalculating the decimal multiplication, while Option D ($450$) reflects an incorrect use of the substitution method. Ensuring careful arithmetic and proper substitution avoids these pitfalls.",
+      "topic": "Systems of Equations Word Problem",
+      "total_score": 21,
+      "constructive_feedback": "The question is well-written, clearly formatted with proper LaTeX, and the answer choices are plausible distractors that reflect common arithmetic errors. The explanation effectively demonstrates the substitution method and simplifies the decimals correctly. However, the system is given in a nearly solved state; students only need to carry out one substitution and basic decimal arithmetic. To truly meet a 'Hard' difficulty label, consider requiring students to set up the system from the word problem or introducing an additional equation or layer of complexity that combines concepts more deeply.",
+      "difficulty_feedback": "While the word problem context is appropriate, the provided system is relatively straightforward. Hard questions should involve multiple conceptual steps or require more advanced algebraic insight. Enhancing the problem by having students derive the equations from the scenario, or by incorporating additional variables or constraints, would better align it with a Hard difficulty level.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "If $\\sin x = \\frac{3}{5}$, $\\cos y = -\\frac{4}{5}$, $0 < x < \\frac{\\pi}{2}$, and $\\frac{\\pi}{2} < y < \\pi$, what is the value of $\\sin(x + y)$?",
+      "choices": [
+        "A. \\(0\\)",
+        "B. \\(\\frac{24}{25}\\)",
+        "C. \\(\\frac{7}{25}\\)",
+        "D. \\(-\\frac{24}{25}\\)"
+      ],
+      "answer": "A",
+      "explanation": "First note that $\\sin x = \\frac{3}{5}$ and $0 < x < \\frac{\\pi}{2}$ imply $\\cos x = \\frac{4}{5}$ (since $x$ is in the first quadrant). Also, $\\cos y = -\\frac{4}{5}$ with $\\frac{\\pi}{2} < y < \\pi$ implies $\\sin y = \\frac{3}{5}$ (since $y$ is in the second quadrant, where sine is positive and cosine is negative).\\n\\nUsing the identity $\\sin(x + y) = \\sin x \\cos y + \\cos x \\sin y$, substitute those values: $\\left(\\frac{3}{5}\\right)\\left(-\\frac{4}{5}\\right) + \\left(\\frac{4}{5}\\right)\\left(\\frac{3}{5}\\right).\\n\\nSimplify this expression to get $\\frac{-12}{25} + \\frac{12}{25} = 0.$ Therefore, $\\sin(x + y) = 0.$ This result can also be confirmed by recognizing that the sum of the angles lies where the sine function is zero.\\n\\nOne strategy is to remember to check signs for each quadrant and to apply trigonometric identities carefully. Examining each angle’s quadrant ensures correct positive or negative values for sine and cosine before applying sum or difference formulas.",
+      "topic": "Trigonometry",
+      "total_score": 17,
+      "constructive_feedback": "The question is clearly written, uses proper LaTeX formatting, and correctly applies the sine addition formula with quadrant analysis. The answer choices are plausible and the explanation is accurate. However, while the mathematics is correct, the problem is labeled 'Hard' even though it only requires a basic application of a trigonometric identity. To better match a 'Hard' difficulty level, consider incorporating an extra layer of complexity—for example, asking students to solve for one of the angles or to use additional identities or constraints that lead to multi‐step reasoning.",
+      "difficulty_feedback": "The current problem involves a straightforward substitution into the sine addition formula and simple quadrant checks, which makes it more of an easy-to-medium question. To elevate it to a truly hard level, additional steps (such as involving inverse trigonometric functions, a proof element, or non-standard manipulations) should be added, ensuring that high-performing students are adequately challenged.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
+    },
+    {
+      "skill": "Trigonometry",
+      "difficulty": "Hard",
+      "question": "Triangle ABC has side lengths AB=6, BC=7, and CA=5.\n\nIf angles B and C are acute, which of the following is the measure of angle B in degrees?",
+      "choices": [
+        "A) 44°",
+        "B) 36°",
+        "C) 53°",
+        "D) 60°"
+      ],
+      "answer": "A",
+      "explanation": "To find angle B, apply the Law of Cosines: if side AC=5 is opposite angle B, then \\( 5^2 = 6^2 + 7^2 - 2 \\cdot 6 \\cdot 7 \\cos(B) \\). Simplifying gives \\( 25 = 85 - 84 \\cos(B) \\), so \\( 84 \\cos(B) = 60 \\), and \\( \\cos(B) = \\frac{5}{7} \\). Therefore, \\( B = \\arccos\\!\\Big(\\frac{5}{7}\\Big) \\), which is approximately 44°. Using a calculator or appropriate inverse cosine methods verifies that angle B is about 44°. The other angles are results of common miscalculations or misunderstanding of the Law of Cosines.",
+      "topic": "Trigonometry in non-right triangles",
+      "total_score": 16,
+      "constructive_feedback": "The question is clearly written and correctly applies the Law of Cosines to a non‐right triangle, but it falls short of the complexity expected for a Hard-level SAT problem. As written, it requires only a single, direct application of the Law of Cosines with simple numbers. In an ideal Hard problem, you’d want to see multiple steps, integration of another trigonometric concept, or a less conventional triangle setup. The explanation is accurate, but it could be more detailed by highlighting common pitfalls (such as misidentifying the side opposite angle B) and discussing why the condition that angles B and C are acute matters. Improving these aspects would make the problem more challenging and instructive.",
+      "difficulty_feedback": "While the problem uses non‐right triangle trigonometry appropriately, its complexity is more in line with a medium-level question. To better match the Hard label, consider adding an extra twist – for example, asking students to determine another angle or relate the angles in a less straightforward context, or incorporating an additional trigonometric identity or relationship into the solution.",
+      "topic_list_name": "N/A - Math Question",
+      "topic_index": -1
     }
   ]
 }
